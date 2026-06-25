@@ -107,8 +107,8 @@
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: rgba(217, 119, 6, 0.1);
-  color: var(--color-accent);
+  background-color: rgba(180, 83, 9, 0.12);
+  color: #78350f;
   padding: 4px 10px;
   border-radius: var(--radius-sm);
   letter-spacing: 0.5px;
@@ -120,7 +120,7 @@
   gap: 4px;
   font-weight: 700;
   font-size: 0.9rem;
-  color: var(--color-accent);
+  color: #78350f;
 }
 
 .listingTitle {

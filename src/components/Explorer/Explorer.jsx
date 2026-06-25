@@ -61,6 +61,7 @@ export default function Explorer({ onSelectCity }) {
                 src={city.image} 
                 alt={`${city.name} - ${city.tagline}`} 
                 className="placeholderSvg"
+                loading="lazy"
                 onError={(e) => {
                   // Fallback if image doesn't load
                   e.target.src = 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80';
@@ -69,7 +70,7 @@ export default function Explorer({ onSelectCity }) {
               <div className="cityColorOverlay"></div>
               <div className="cityNameTag">
                 <h3>{city.name}</h3>
-                <p style={{ fontSize: '0.85rem', fontWeight: 400, color: 'var(--color-primary)' }}>
+                <p style={{ fontSize: '0.85rem', fontWeight: 400, color: '#fcd34d' }}>
                   {city.tagline}
                 </p>
               </div>
