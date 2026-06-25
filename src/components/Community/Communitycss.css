@@ -1,0 +1,191 @@
+.communitySection {
+  padding: 80px 4%;
+  background-color: #ffffff;
+  border-top: 1px solid var(--color-border);
+}
+
+.communityContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 50px;
+}
+
+.formCard {
+  background-color: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  box-shadow: var(--shadow-md);
+}
+
+.formSubtitle {
+  font-size: 0.95rem;
+  color: var(--color-primary);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.formTitle {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  color: var(--color-secondary);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.formDesc {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  margin-bottom: 30px;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.inputLabel {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text-dark);
+  margin-bottom: 8px;
+}
+
+.formInput, .formSelect, .formTextarea {
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+  font-size: 0.95rem;
+  color: var(--color-text-dark);
+  transition: all var(--transition-fast);
+}
+
+.formInput:focus, .formSelect:focus, .formTextarea:focus {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-sm), var(--shadow-glow);
+}
+
+.formSubmitBtn {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border: none;
+  width: 100%;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
+}
+
+.formSubmitBtn:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-1px);
+}
+
+.successAlert {
+  background-color: rgba(37, 211, 102, 0.1);
+  border: 1px solid rgba(37, 211, 102, 0.3);
+  color: #128c7e;
+  padding: 15px;
+  border-radius: var(--radius-md);
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-align: center;
+  animation: fadeIn 0.4s ease-out;
+}
+
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.infoBlock {
+  background-color: var(--color-bg-light);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  border: 1px solid var(--color-border);
+}
+
+.blockTitle {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  color: var(--color-secondary);
+  font-weight: 700;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.faqItem {
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 15px;
+}
+
+.faqItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.faqQuestion {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--color-text-dark);
+  margin-bottom: 5px;
+}
+
+.faqAnswer {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.festivalItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--color-border);
+}
+
+.festivalItem:last-child {
+  border-bottom: none;
+}
+
+.festName {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.festDate {
+  font-size: 0.8rem;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+}
+
+@media (max-width: 968px) {
+  .communityContainer {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .formCard {
+    padding: 25px;
+  }
+}

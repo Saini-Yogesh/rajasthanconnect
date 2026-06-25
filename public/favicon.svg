@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="desertSunset" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e05a10" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Outer circle with golden sand border -->
+  <circle cx="50" cy="50" r="46" fill="#0f172a" stroke="url(#desertSunset)" stroke-width="4" />
+  <circle cx="50" cy="50" r="40" fill="none" stroke="#fafaf9" stroke-width="1.5" stroke-dasharray="3, 3" />
+  
+  <!-- Stylized Compass / Desert Star Symbol -->
+  <!-- North Arrow -->
+  <polygon points="50,18 55,45 50,50" fill="url(#desertSunset)" />
+  <polygon points="50,18 45,45 50,50" fill="#f97316" opacity="0.8" />
+  <!-- South Arrow -->
+  <polygon points="50,82 45,55 50,50" fill="url(#desertSunset)" />
+  <polygon points="50,82 55,55 50,50" fill="#f97316" opacity="0.8" />
+  <!-- East Arrow -->
+  <polygon points="82,50 55,45 50,50" fill="url(#desertSunset)" />
+  <polygon points="82,50 55,55 50,50" fill="#f97316" opacity="0.8" />
+  <!-- West Arrow -->
+  <polygon points="18,50 45,55 50,50" fill="url(#desertSunset)" />
+  <polygon points="18,50 45,45 50,50" fill="#f97316" opacity="0.8" />
+
+  <!-- Center golden gem/hub -->
+  <circle cx="50" cy="50" r="5" fill="#d97706" stroke="#fafaf9" stroke-width="1.5" />
+</svg>

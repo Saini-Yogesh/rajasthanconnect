@@ -1,0 +1,105 @@
+.craftsSection {
+  padding: 80px 4%;
+  background-color: #ffffff;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.craftsGrid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.craftItem {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.craftItem:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.craftImageContainer {
+  flex: 1;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--color-border);
+  height: 320px;
+  position: relative;
+}
+
+.craftImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.craftItem:hover .craftImage {
+  transform: scale(1.05);
+}
+
+.craftInfo {
+  flex: 1.2;
+}
+
+.craftCategory {
+  font-size: 0.85rem;
+  color: var(--color-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.craftTitle {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  color: var(--color-secondary);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.craftText {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.craftTags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.craftTag {
+  background-color: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-dark);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 50px;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .craftItem, .craftItem:nth-child(even) {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .craftImageContainer {
+    width: 100%;
+    height: 250px;
+  }
+  .craftTitle {
+    font-size: 1.8rem;
+  }
+}
