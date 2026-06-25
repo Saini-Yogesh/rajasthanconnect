@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
-
 :root {
   /* Color Palette - Royal Desert Modern */
-  --color-primary: #e05a10;      /* Rich Saffron */
-  --color-primary-hover: #c24609;/* Saffron Hover */
+  --color-primary: #c2410c;      /* Rich High-Contrast Saffron */
+  --color-primary-hover: #9a3412;/* Saffron Hover */
   --color-secondary: #0f172a;    /* Deep Slate/Charcoal */
-  --color-accent: #d97706;       /* Warm Gold */
-  --color-accent-hover: #b45309;  /* Deep Gold */
+  --color-accent: #b45309;       /* Warm High-Contrast Gold */
+  --color-accent-hover: #92400e;  /* Deep Gold */
   --color-bg-light: #fafaf9;     /* Cream/Stone White */
   --color-bg-card: #ffffff;      /* Pure White */
   --color-text-dark: #1c1917;    /* Charcoal/Almost Black */
-  --color-text-muted: #78716c;   /* Warm Gray */
+  --color-text-muted: #52525b;   /* High-Contrast Zinc Gray */
   --color-border: #e7e5e4;       /* Soft Sand Border */
   --color-glass: rgba(255, 255, 255, 0.75);
   

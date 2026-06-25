@@ -8,7 +8,7 @@ const CITIES = [
     name: 'Jaipur',
     tagline: 'The Pink City',
     description: 'Home to the magnificent Hawa Mahal, Amer Fort, and bustling traditional bazaars filled with textiles and gems.',
-    image: '/images/jaipur.png',
+    image: '/images/jaipur.webp',
     bestTime: 'Oct - Mar',
     attraction: 'Amer Fort'
   },
@@ -17,7 +17,7 @@ const CITIES = [
     name: 'Udaipur',
     tagline: 'The City of Lakes',
     description: 'Often called the Venice of the East, famed for its floating Lake Palace, romantic boat rides, and the majestic Aravalli hills.',
-    image: '/images/udaipur.png',
+    image: '/images/udaipur.webp',
     bestTime: 'Sep - Mar',
     attraction: 'City Palace'
   },
@@ -26,7 +26,7 @@ const CITIES = [
     name: 'Jodhpur',
     tagline: 'The Blue City',
     description: 'Dominated by the grand Mehrangarh Fort, featuring stunning blue-painted alleys and the majestic Umaid Bhawan Palace.',
-    image: '/images/jodhpur.png',
+    image: '/images/jodhpur.webp',
     bestTime: 'Oct - Mar',
     attraction: 'Mehrangarh Fort'
   },
@@ -35,7 +35,7 @@ const CITIES = [
     name: 'Jaisalmer',
     tagline: 'The Golden City',
     description: 'A breathtaking sandstone fortress rising from the Thar Desert. Famed for its camel safaris, starlit camps, and havelis.',
-    image: '/images/jaisalmer.png',
+    image: '/images/jaisalmer.webp',
     bestTime: 'Nov - Feb',
     attraction: 'Jaisalmer Fort'
   }

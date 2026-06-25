@@ -80,15 +80,15 @@ export default function Footer({ onNavigate }) {
         </div>
 
         <div className="socialRow">
-          <div className="socialBtn" aria-label="Twitter">
+          <a href="#" className="socialBtn" aria-label="Twitter">
             <Twitter size={16} />
-          </div>
-          <div className="socialBtn" aria-label="Facebook">
+          </a>
+          <a href="#" className="socialBtn" aria-label="Facebook">
             <Facebook size={16} />
-          </div>
-          <div className="socialBtn" aria-label="Instagram">
+          </a>
+          <a href="#" className="socialBtn" aria-label="Instagram">
             <Instagram size={16} />
-          </div>
+          </a>
         </div>
       </div>
     </footer>
