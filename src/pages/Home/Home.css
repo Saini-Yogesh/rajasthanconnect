@@ -12,7 +12,7 @@
 ═══════════════════════════════════════════════ */
 .heroBanner {
   position: relative;
-  background-image: url('https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1600&q=80');
+  background-image: url("https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1600&q=80");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -28,7 +28,11 @@
 .heroOverlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(30, 27, 75, 0.55) 0%, rgba(120, 30, 10, 0.92) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(30, 27, 75, 0.55) 0%,
+    rgba(120, 30, 10, 0.92) 100%
+  );
   z-index: 1;
 }
 
@@ -60,7 +64,9 @@
   letter-spacing: 1px;
 }
 
-.heroContent h1 span { color: #fcd34d; }
+.heroContent h1 span {
+  color: #fcd34d;
+}
 
 .heroDivider {
   width: 140px;
@@ -75,7 +81,7 @@
   line-height: 1.7;
   color: #cbd5e1;
   margin-bottom: 40px;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .heroActions {
@@ -102,7 +108,7 @@
 }
 
 .btnSecondary {
-  background-color: rgba(255,255,255,0.12);
+  background-color: rgba(255, 255, 255, 0.12);
   border: 2px solid #fff;
   color: #fff;
   padding: 12px 32px;
@@ -129,14 +135,14 @@
   z-index: 10;
   background: rgba(30, 27, 75, 0.75);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: var(--radius-lg);
   padding: 14px 18px;
   display: flex;
   align-items: center;
   gap: 16px;
   color: #fff;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   max-width: 310px;
   transition: all 0.4s ease;
 }
@@ -144,22 +150,42 @@
   border-color: var(--color-primary);
   box-shadow: 0 0 20px rgba(194, 65, 12, 0.5);
 }
-.audioInfo { display: flex; align-items: center; gap: 12px; }
-.audioIcon { color: var(--color-primary); }
-.audioInfo h5 { margin: 0; font-size: 0.9rem; font-weight: 600; }
-.audioInfo p  { margin: 2px 0 0; font-size: 0.72rem; color: #94a3b8; }
+.audioInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.audioIcon {
+  color: var(--color-primary);
+}
+.audioInfo h5 {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.audioInfo p {
+  margin: 2px 0 0;
+  font-size: 0.72rem;
+  color: #94a3b8;
+}
 .btnAudioPlay {
   background-color: var(--color-primary);
   border: none;
   color: #fff;
-  width: 36px; height: 36px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   transition: all var(--transition-fast);
   flex-shrink: 0;
 }
-.btnAudioPlay:hover { transform: scale(1.1); background-color: var(--color-primary-hover); }
+.btnAudioPlay:hover {
+  transform: scale(1.1);
+  background-color: var(--color-primary-hover);
+}
 
 /* ═══════════════════════════════════════════════
    WOW FACTS TICKER BAR
@@ -199,7 +225,10 @@
   animation: fadeInUp 0.4s ease-out;
 }
 
-.tickerEmoji { font-size: 1.5rem; flex-shrink: 0; }
+.tickerEmoji {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
 
 .tickerText {
   font-size: 0.95rem;
@@ -217,9 +246,10 @@
   flex-shrink: 0;
 }
 .tickerDot {
-  width: 6px; height: 6px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.3);
+  background: rgba(255, 255, 255, 0.3);
   border: none;
   cursor: pointer;
   padding: 0;
@@ -231,8 +261,12 @@
 }
 
 @media (max-width: 640px) {
-  .tickerDots { display: none; }
-  .tickerText { white-space: normal; }
+  .tickerDots {
+    display: none;
+  }
+  .tickerText {
+    white-space: normal;
+  }
 }
 
 /* ═══════════════════════════════════════════════
@@ -251,7 +285,9 @@
   margin: 0 auto;
 }
 @media (min-width: 992px) {
-  .hubGrid { grid-template-columns: 1.3fr 1fr; }
+  .hubGrid {
+    grid-template-columns: 1.3fr 1fr;
+  }
 }
 
 .hubCard {
@@ -276,15 +312,26 @@
   margin-bottom: 25px;
   flex-wrap: wrap;
 }
-.headerIcon { color: var(--color-primary); width: 28px; height: 28px; }
-.headerIcon.gold { color: #fbbf24; }
+.headerIcon {
+  color: var(--color-primary);
+  width: 28px;
+  height: 28px;
+}
+.headerIcon.gold {
+  color: #fbbf24;
+}
 .cardHeader h3 {
   font-family: var(--font-serif);
   font-size: 1.5rem;
   margin: 0;
   color: var(--color-secondary);
 }
-.cardHeader p { width: 100%; margin: 5px 0 0; color: var(--color-text-muted); font-size: 0.9rem; }
+.cardHeader p {
+  width: 100%;
+  margin: 5px 0 0;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
 
 /* Map Canvas */
 .rajasthanMapCanvas {
@@ -294,12 +341,15 @@
   background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
   border-radius: var(--radius-md);
   overflow: hidden;
-  box-shadow: inset 0 0 40px rgba(0,0,0,0.4);
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.4);
 }
 .mapBackground {
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(rgba(194, 65, 12, 0.15) 1.5px, transparent 1.5px);
+  background-image: radial-gradient(
+    rgba(194, 65, 12, 0.15) 1.5px,
+    transparent 1.5px
+  );
   background-size: 24px 24px;
   opacity: 0.4;
 }
@@ -311,27 +361,43 @@
   transform: translate(-50%, -50%);
   transition: all 0.3s ease;
 }
-.pinIcon { filter: drop-shadow(0 2px 5px rgba(0,0,0,0.5)); }
-.mapPin:hover { color: #fff; transform: translate(-50%, -50%) scale(1.2); }
+.pinIcon {
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.5));
+}
+.mapPin:hover {
+  color: #fff;
+  transform: translate(-50%, -50%) scale(1.2);
+}
 .pinPulse {
   position: absolute;
-  top: 50%; left: 50%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  width: 16px; height: 16px;
+  width: 16px;
+  height: 16px;
   background-color: var(--color-primary);
   border-radius: 50%;
   z-index: -1;
   animation: pinPulse 2s infinite ease-out;
 }
 @keyframes pinPulse {
-  0%   { width: 10px; height: 10px; opacity: 0.8; }
-  100% { width: 45px; height: 45px; opacity: 0; }
+  0% {
+    width: 10px;
+    height: 10px;
+    opacity: 0.8;
+  }
+  100% {
+    width: 45px;
+    height: 45px;
+    opacity: 0;
+  }
 }
 .pinLabel {
   position: absolute;
-  top: 100%; left: 50%;
+  top: 100%;
+  left: 50%;
   transform: translateX(-50%);
-  background: rgba(30,27,75,0.9);
+  background: rgba(30, 27, 75, 0.9);
   color: #fff;
   padding: 3px 8px;
   border-radius: var(--radius-sm);
@@ -343,26 +409,52 @@
 }
 .mapPopup {
   position: absolute;
-  bottom: 20px; left: 50%;
+  bottom: 20px;
+  left: 50%;
   transform: translateX(-50%);
-  background: rgba(30,27,75,0.95);
+  background: rgba(30, 27, 75, 0.95);
   backdrop-filter: blur(10px);
   border: 1px solid var(--color-primary);
   border-radius: var(--radius-md);
   padding: 16px;
-  width: 90%; max-width: 280px;
+  width: 90%;
+  max-width: 280px;
   color: #fff;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
   z-index: 10;
   animation: slideUp 0.3s ease-out;
 }
-.mapPopup h4 { margin: 0; font-family: var(--font-serif); font-size: 1.1rem; color: var(--color-primary); }
-.popupTagline { font-size: 0.72rem; color: #fbbf24; font-weight: 600; display: block; margin: 4px 0 8px; }
-.mapPopup p  { margin: 0 0 10px; font-size: 0.8rem; line-height: 1.4; color: #cbd5e1; }
-.popupLink   { font-size: 0.78rem; font-weight: 700; color: var(--color-primary); }
+.mapPopup h4 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: var(--color-primary);
+}
+.popupTagline {
+  font-size: 0.72rem;
+  color: #fbbf24;
+  font-weight: 600;
+  display: block;
+  margin: 4px 0 8px;
+}
+.mapPopup p {
+  margin: 0 0 10px;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+}
+.popupLink {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
 
 /* Hub Column */
-.hubColumn { display: flex; flex-direction: column; gap: 30px; }
+.hubColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
 /* Trivia Card */
 .triviaCard {
@@ -371,11 +463,13 @@
   border: none;
   min-height: 180px;
 }
-.triviaCard .cardHeader h3 { color: #fff; }
+.triviaCard .cardHeader h3 {
+  color: #fff;
+}
 .factCounter {
   margin-left: auto;
   font-size: 0.72rem;
-  background: rgba(255,255,255,0.15);
+  background: rgba(255, 255, 255, 0.15);
   padding: 4px 8px;
   border-radius: var(--radius-sm);
   color: #fca5a5;
@@ -396,20 +490,43 @@
   color: #ffedd5;
   margin: 0;
 }
-.triviaControls { display: flex; justify-content: center; gap: 8px; margin-top: 15px; }
+.triviaControls {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 15px;
+}
 .triviaDot {
-  width: 8px; height: 8px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.3);
-  border: none; cursor: pointer; padding: 0;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  cursor: pointer;
+  padding: 0;
   transition: all 0.3s ease;
 }
-.triviaDot.active { background: var(--color-primary); transform: scale(1.25); }
+.triviaDot.active {
+  background: var(--color-primary);
+  transform: scale(1.25);
+}
 
 /* Quiz Card */
-.quizCard { border-left: 4px solid var(--color-primary); }
-.quizQuestion { font-size: 0.98rem; line-height: 1.5; color: var(--color-secondary); font-weight: 600; margin-bottom: 18px; }
-.quizOptionsList { display: flex; flex-direction: column; gap: 10px; }
+.quizCard {
+  border-left: 4px solid var(--color-primary);
+}
+.quizQuestion {
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: var(--color-secondary);
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.quizOptionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .btnQuizOption {
   background: #fff;
   border: 1px solid var(--color-border);
@@ -428,20 +545,52 @@
   color: var(--color-primary);
   transform: translateX(4px);
 }
-.resultBox { padding: 18px; border-radius: var(--radius-md); margin-bottom: 12px; animation: fadeInUp 0.4s ease-out; }
-.resultBox.correct  { background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; }
-.resultBox.incorrect{ background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; }
-.resultIcon { margin-bottom: 8px; }
-.resultBox h4 { margin: 0 0 5px; font-size: 1rem; font-weight: 700; }
-.resultBox p  { margin: 0; font-size: 0.83rem; line-height: 1.5; }
-.btnQuizReset {
-  background: transparent; border: none;
-  color: var(--color-primary);
-  cursor: pointer; font-weight: 700; font-size: 0.83rem;
-  display: flex; align-items: center; gap: 5px;
-  padding: 5px 0; margin-top: 10px;
+.resultBox {
+  padding: 18px;
+  border-radius: var(--radius-md);
+  margin-bottom: 12px;
+  animation: fadeInUp 0.4s ease-out;
 }
-.btnQuizReset:hover { color: var(--color-primary-hover); text-decoration: underline; }
+.resultBox.correct {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  color: #166534;
+}
+.resultBox.incorrect {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+.resultIcon {
+  margin-bottom: 8px;
+}
+.resultBox h4 {
+  margin: 0 0 5px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.resultBox p {
+  margin: 0;
+  font-size: 0.83rem;
+  line-height: 1.5;
+}
+.btnQuizReset {
+  background: transparent;
+  border: none;
+  color: var(--color-primary);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.83rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 0;
+  margin-top: 10px;
+}
+.btnQuizReset:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}
 
 /* ═══════════════════════════════════════════════
    PORTAL GRID
@@ -450,14 +599,24 @@
   padding: 70px 4% 80px;
   background-color: #fff;
 }
-.portalGridInner { max-width: 1200px; margin: 0 auto; }
-.sectionHeader { text-align: center; margin-bottom: 50px; }
+.portalGridInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 50px;
+}
 .sectionHeader h2 {
   font-family: var(--font-serif);
   font-size: clamp(1.8rem, 4vw, 2.4rem);
   color: var(--color-secondary);
 }
-.sectionHeader p { color: var(--color-text-muted); margin-top: 10px; font-size: 1rem; }
+.sectionHeader p {
+  color: var(--color-text-muted);
+  margin-top: 10px;
+  font-size: 1rem;
+}
 
 .portalGrid {
   display: grid;
@@ -465,7 +624,9 @@
   gap: 28px;
 }
 @media (min-width: 768px) {
-  .portalGrid { grid-template-columns: repeat(2, 1fr); }
+  .portalGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .portalCard {
@@ -488,22 +649,47 @@
   color: #fff;
   border: none;
 }
-.portalCard.highlightCard .cardIcon { background: rgba(194,65,12,0.2); color: var(--color-primary); }
-.portalCard.highlightCard h3 { color: #fff; }
-.portalCard.highlightCard p  { color: #cbd5e1; }
-.portalCard.highlightCard .cardLink { color: var(--color-primary); }
+.portalCard.highlightCard .cardIcon {
+  background: rgba(194, 65, 12, 0.2);
+  color: var(--color-primary);
+}
+.portalCard.highlightCard h3 {
+  color: #fff;
+}
+.portalCard.highlightCard p {
+  color: #cbd5e1;
+}
+.portalCard.highlightCard .cardLink {
+  color: var(--color-primary);
+}
 
 .cardIcon {
-  width: 58px; height: 58px;
+  width: 58px;
+  height: 58px;
   border-radius: var(--radius-md);
   background: var(--color-bg-light);
   color: var(--color-primary);
-  display: flex; align-items: center; justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 22px;
 }
-.portalCard h3 { font-family: var(--font-serif); font-size: 1.35rem; color: var(--color-secondary); margin-bottom: 10px; }
-.portalCard p  { line-height: 1.6; color: var(--color-text-dark); margin-bottom: 18px; flex-grow: 1; }
-.cardLink { font-weight: 700; color: var(--color-primary); }
+.portalCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  color: var(--color-secondary);
+  margin-bottom: 10px;
+}
+.portalCard p {
+  line-height: 1.6;
+  color: var(--color-text-dark);
+  margin-bottom: 18px;
+  flex-grow: 1;
+}
+.cardLink {
+  font-weight: 700;
+  color: var(--color-primary);
+}
 
 /* ═══════════════════════════════════════════════
    HIGHLIGHT BANNERS (FOOD + FESTIVALS)
@@ -512,10 +698,19 @@
   padding: 0 4% 80px;
   background-color: #fff;
 }
-.highlightInner { max-width: 1200px; margin: 0 auto; }
-.highlightGrid { display: grid; grid-template-columns: 1fr; gap: 28px; }
+.highlightInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.highlightGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
 @media (min-width: 768px) {
-  .highlightGrid { grid-template-columns: repeat(2, 1fr); }
+  .highlightGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .highlightBanner {
@@ -529,19 +724,39 @@
   color: #fff;
 }
 .foodBanner {
-  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.85)),
-    url('https://images.unsplash.com/photo-1585938338392-50a59970d8ee?auto=format&fit=crop&w=800&q=80');
-  background-size: cover; background-position: center;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85)),
+    url("https://dt4l9bx31tioh.cloudfront.net/eazymedia/eazytrendz/2787/trend20200401133123.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .festivalBanner {
-  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.85)),
-    url('https://images.unsplash.com/photo-1605647540924-852290f6b0d5?auto=format&fit=crop&w=800&q=80');
-  background-size: cover; background-position: center;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85)),
+    url("https://atithicabs.com/wp-content/uploads/2025/02/Festivals-of-Rajasthan.webp");
+  background-size: cover;
+  background-position: center;
 }
-.bannerContent { position: relative; z-index: 2; width: 100%; }
-.bannerIcon { color: var(--color-primary); margin-bottom: 12px; }
-.highlightBanner h3 { font-family: var(--font-serif); font-size: 1.55rem; margin-bottom: 8px; }
-.highlightBanner p  { color: #e2e8f0; font-size: 0.92rem; line-height: 1.5; margin-bottom: 18px; }
+.bannerContent {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+.bannerIcon {
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+.highlightBanner h3 {
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  margin-bottom: 8px;
+}
+.highlightBanner p {
+  color: #e2e8f0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
 .bannerLink {
   background: var(--color-primary);
   color: #fff;
@@ -552,7 +767,10 @@
   display: inline-block;
   transition: all var(--transition-fast);
 }
-.bannerLink:hover { background: var(--color-primary-hover); box-shadow: var(--shadow-glow); }
+.bannerLink:hover {
+  background: var(--color-primary-hover);
+  box-shadow: var(--shadow-glow);
+}
 
 /* ═══════════════════════════════════════════════
    CULTURAL SPOTLIGHTS
@@ -561,7 +779,10 @@
   padding: 80px 4%;
   background: linear-gradient(135deg, #fafaf9 0%, #fff7ed 100%);
 }
-.culturalInner { max-width: 1200px; margin: 0 auto; }
+.culturalInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 .culturalGrid {
   display: grid;
@@ -570,17 +791,21 @@
   margin-top: 0;
 }
 @media (min-width: 640px) {
-  .culturalGrid { grid-template-columns: repeat(2, 1fr); }
+  .culturalGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (min-width: 1024px) {
-  .culturalGrid { grid-template-columns: repeat(4, 1fr); }
+  .culturalGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .culturalCard {
   background: #fff;
   border-radius: var(--radius-lg);
   padding: 28px 24px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   border: 1px solid var(--color-border);
   border-top: 4px solid var(--card-accent, #c2410c);
   transition: all var(--transition-normal);
@@ -590,12 +815,15 @@
 }
 .culturalCard:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
 }
 .culturalIconBox {
-  width: 52px; height: 52px;
+  width: 52px;
+  height: 52px;
   border-radius: var(--radius-md);
-  display: flex; align-items: center; justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 4px;
 }
 .culturalBadge {
@@ -638,9 +866,16 @@
   padding: 80px 4%;
   background-color: var(--color-secondary);
 }
-.festivalsInner { max-width: 1200px; margin: 0 auto; }
-.festivalHeader h2 { color: #ffffff !important; }
-.festivalHeader p  { color: #94a3b8 !important; }
+.festivalsInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.festivalHeader h2 {
+  color: #ffffff !important;
+}
+.festivalHeader p {
+  color: #94a3b8 !important;
+}
 
 .festivalsGrid {
   display: grid;
@@ -648,15 +883,19 @@
   gap: 20px;
 }
 @media (min-width: 640px) {
-  .festivalsGrid { grid-template-columns: repeat(2, 1fr); }
+  .festivalsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (min-width: 1024px) {
-  .festivalsGrid { grid-template-columns: repeat(3, 1fr); }
+  .festivalsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .festivalCard {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-lg);
   overflow: hidden;
   transition: all var(--transition-normal);
@@ -664,10 +903,10 @@
   flex-direction: column;
 }
 .festivalCard:hover {
-  background: rgba(255,255,255,0.11);
+  background: rgba(255, 255, 255, 0.11);
   transform: translateY(-5px);
   border-color: var(--fest-color, #c2410c);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.3);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
 }
 
 .festMonthBadge {
@@ -737,9 +976,20 @@
   text-align: center;
   padding: 70px 20px;
 }
-.chatCalloutContent { max-width: 650px; margin: 0 auto; }
-.chatCalloutContent h2 { font-family: var(--font-serif); font-size: clamp(1.6rem, 3vw, 2rem); margin-bottom: 15px; }
-.chatCalloutContent p  { color: #ffedd5; line-height: 1.6; margin-bottom: 30px; }
+.chatCalloutContent {
+  max-width: 650px;
+  margin: 0 auto;
+}
+.chatCalloutContent h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 3vw, 2rem);
+  margin-bottom: 15px;
+}
+.chatCalloutContent p {
+  color: #ffedd5;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
 .btnChat {
   background: #fff;
   color: var(--color-secondary);
@@ -761,11 +1011,23 @@
    KEYFRAME ANIMATIONS
 ═══════════════════════════════════════════════ */
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(16px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes slideUp {
-  from { opacity: 0; transform: translate(-50%, 10px); }
-  to   { opacity: 1; transform: translate(-50%, 0); }
+  from {
+    opacity: 0;
+    transform: translate(-50%, 10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
 }

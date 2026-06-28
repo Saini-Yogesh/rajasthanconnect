@@ -35,6 +35,12 @@ export default function Navbar() {
           <Link to="/cities" className={`navLink ${isActive('/cities') ? 'active' : ''}`}>
             Cities
           </Link>
+          <Link to="/festivals" className={`navLink ${isActive('/festivals') ? 'active' : ''}`}>
+            Festivals
+          </Link>
+          <Link to="/foods" className={`navLink ${isActive('/foods') ? 'active' : ''}`}>
+            Cuisine
+          </Link>
           <Link to="/history-culture" className={`navLink ${isActive('/history-culture') ? 'active' : ''}`}>
             History & Culture
           </Link>
@@ -67,6 +73,12 @@ export default function Navbar() {
       <div className={`mobileMenu ${mobileMenuOpen ? 'mobileMenuOpen' : ''}`}>
         <Link to="/cities" className="mobileMenuLink" onClick={() => setMobileMenuOpen(false)}>
           Cities
+        </Link>
+        <Link to="/festivals" className="mobileMenuLink" onClick={() => setMobileMenuOpen(false)}>
+          Festivals
+        </Link>
+        <Link to="/foods" className="mobileMenuLink" onClick={() => setMobileMenuOpen(false)}>
+          Cuisine
         </Link>
         <Link to="/history-culture" className="mobileMenuLink" onClick={() => setMobileMenuOpen(false)}>
           History & Culture

@@ -1,0 +1,150 @@
+.notFoundPage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 88vh;
+  padding: 4rem 2rem 0 2rem;
+  background: linear-gradient(180deg, #fffcf9 0%, #fed7aa 65%, #ffedd5 100%);
+  color: var(--color-text-dark);
+  font-family: var(--font-sans);
+  text-align: center;
+  overflow: hidden;
+}
+
+.notFoundContent {
+  margin: auto;
+  max-width: 750px;
+  z-index: 10;
+  animation: fadeIn var(--transition-slow) ease-out;
+  pointer-events: auto;
+}
+
+.errorTitle {
+  font-family: var(--font-serif);
+  font-size: 7.5rem;
+  margin: 0;
+  background: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    var(--color-accent) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+.rajasthaniTitle {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  color: var(--color-primary);
+  margin: 1.5rem 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.englishTitle {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--color-text-muted);
+  margin: 0 0 2.5rem 0;
+  font-weight: 500;
+}
+
+.rajasthaniText {
+  color: var(--color-text-dark);
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.englishText {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+
+.actionWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.btnGoHome {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1rem 2.5rem;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-normal);
+  box-shadow: 0 4px 15px rgba(194, 65, 12, 0.25);
+  border: none;
+  cursor: pointer;
+}
+
+.btnGoHome:hover {
+  background: var(--color-primary-hover);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(194, 65, 12, 0.4);
+}
+
+/* Background Desert Landscape */
+.desertLandscape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none; /* Let all clicks pass through to content */
+}
+
+.dune {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+}
+
+.duneBack {
+  z-index: 1;
+}
+
+.duneFront {
+  z-index: 3;
+}
+
+/* Watermark Resting Camel in background */
+.bgCamel {
+  position: absolute;
+  bottom: 90px; /* Sits on back dunes, behind the text */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 340px;
+  height: 240px;
+  background-image: url("/images/resting_camel.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  mix-blend-mode: multiply; /* Blends solid white out */
+  opacity: 0.15; /* Soft watermark opacity */
+  z-index: 2;
+  animation: breathing 4s ease-in-out infinite;
+}
+
+@keyframes breathing {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-6px);
+  }
+}

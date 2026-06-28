@@ -83,6 +83,7 @@ const CULTURAL_HIGHLIGHTS = [
 // Festivals & Sacred Fasting data
 const FESTIVALS_DATA = [
   {
+    id: "desert-festival",
     month: "JAN–FEB",
     name: "Desert Festival",
     city: "Jaisalmer",
@@ -91,6 +92,7 @@ const FESTIVALS_DATA = [
     tags: ["Camel Race", "Folk Dance", "3 Days"],
   },
   {
+    id: "gangaur",
     month: "MAR–APR",
     name: "Gangaur Festival",
     city: "Jaipur · Udaipur",
@@ -99,6 +101,7 @@ const FESTIVALS_DATA = [
     tags: ["18-Day Fast", "Procession", "Goddess Gauri"],
   },
   {
+    id: "teej",
     month: "AUG",
     name: "Teej Festival",
     city: "Statewide",
@@ -107,6 +110,7 @@ const FESTIVALS_DATA = [
     tags: ["Monsoon", "Sacred Fast", "Swings & Songs"],
   },
   {
+    id: "pushkar-fair",
     month: "OCT–NOV",
     name: "Pushkar Camel Fair",
     city: "Pushkar",
@@ -115,6 +119,7 @@ const FESTIVALS_DATA = [
     tags: ["World's Largest", "Camel Trade", "Holy Dip"],
   },
   {
+    id: "diwali",
     month: "OCT–NOV",
     name: "Diwali in Udaipur",
     city: "Udaipur",
@@ -123,6 +128,7 @@ const FESTIVALS_DATA = [
     tags: ["10,000 Diyas", "Lake Reflection", "Fireworks"],
   },
   {
+    id: "lathmar-holi",
     month: "MAR",
     name: "Holi at Barsana",
     city: "Bharatpur region",
@@ -408,7 +414,7 @@ export default function Home() {
                 <Utensils size={36} className="bannerIcon" />
                 <h3>Rajasthani Gourmet</h3>
                 <p>Discover historical recipes like Dal Baati Churma and fiery Laal Maas directly from Mewar royal kitchens.</p>
-                <Link to="/foods/dal-baati-churma" className="bannerLink">Learn Recipes</Link>
+                <Link to="/foods" className="bannerLink">Learn Recipes</Link>
               </div>
             </div>
             <div className="highlightBanner festivalBanner">
@@ -416,7 +422,7 @@ export default function Home() {
                 <Calendar size={36} className="bannerIcon" />
                 <h3>Cultural Festivals</h3>
                 <p>Check the calendar dates, locations, travel tips, and dress codes for the Pushkar Fair and Gangaur Festival.</p>
-                <Link to="/festivals/gangaur" className="bannerLink">View Festivals</Link>
+                <Link to="/festivals" className="bannerLink">View Festivals</Link>
               </div>
             </div>
           </div>
@@ -458,7 +464,7 @@ export default function Home() {
           </div>
           <div className="festivalsGrid">
             {FESTIVALS_DATA.map((f, i) => (
-              <div className="festivalCard" key={i} style={{ '--fest-color': f.color }}>
+              <Link to={`/festivals/${f.id}`} className="festivalCard" key={i} style={{ '--fest-color': f.color, textDecoration: 'none' }}>
                 <div className="festMonthBadge" style={{ background: f.color }}>{f.month}</div>
                 <div className="festCardBody">
                   <h4>{f.name}</h4>
@@ -470,7 +476,7 @@ export default function Home() {
                     ))}
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

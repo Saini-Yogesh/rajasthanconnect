@@ -42,7 +42,7 @@
 
 .footerColTitle {
   font-family: var(--font-serif);
-  color: #ffffff;
+  /* color: #ffffff; */
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 20px;
@@ -73,7 +73,6 @@
 }
 
 .footerLinkItem:hover {
-  color: #ffffff;
   transform: translateX(4px);
 }
 
@@ -92,7 +91,7 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 10px 14px;
   border-radius: var(--radius-sm);
-  color: #ffffff;
+  /* color: #ffffff; */
   font-size: 0.9rem;
   flex: 1;
 }

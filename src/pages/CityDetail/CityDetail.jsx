@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { MapPin, Compass, ShieldAlert, Award, Star, Search } from 'lucide-react';
+import { MapPin, Compass, ShieldAlert, Award, Star } from 'lucide-react';
 import { API_BASE_URL } from '../../config/api.js';
 import './CityDetail.css';
 
@@ -69,7 +69,7 @@ export default function CityDetail() {
       {/* Banner */}
       <div 
         className="cityBanner" 
-        style={{ backgroundImage: `url(${city.imageUrl || 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=80'})` }}
+        style={{ backgroundImage: `url(${city.imageUrl || city.image_url || 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=80'})` }}
       >
         <div className="bannerOverlay"></div>
         <div className="bannerContent">
@@ -77,7 +77,7 @@ export default function CityDetail() {
           <h1>{city.name}</h1>
           <div className="bannerDivider"></div>
           <p className="bestVisitTime">
-            <MapPin size={16} /> <strong>Best Season:</strong> {city.bestTime}
+            <MapPin size={16} /> <strong>Best Season:</strong> {city.bestTime || city.best_time}
           </p>
         </div>
       </div>
@@ -127,15 +127,15 @@ export default function CityDetail() {
                 <div className="weatherGrid">
                   <div className="weatherItem">
                     <span>☀️ Summer</span>
-                    <strong>{city.weatherInfo?.summer || 'N/A'}</strong>
+                    <strong>{(city.weatherInfo || city.weather_info)?.summer || 'N/A'}</strong>
                   </div>
                   <div className="weatherItem">
                     <span>🌧️ Monsoon</span>
-                    <strong>{city.weatherInfo?.monsoon || 'N/A'}</strong>
+                    <strong>{(city.weatherInfo || city.weather_info)?.monsoon || 'N/A'}</strong>
                   </div>
                   <div className="weatherItem">
                     <span>❄️ Winter</span>
-                    <strong>{city.weatherInfo?.winter || 'N/A'}</strong>
+                    <strong>{(city.weatherInfo || city.weather_info)?.winter || 'N/A'}</strong>
                   </div>
                 </div>
               </div>
@@ -144,9 +144,9 @@ export default function CityDetail() {
             <div className="overviewRight">
               <div className="transportCard">
                 <h3>Getting Around {city.name}</h3>
-                {city.transportInfo ? (
+                {(city.transportInfo || city.transport_info) ? (
                   <div className="transportList">
-                    {Object.entries(city.transportInfo).map(([type, info]) => (
+                    {Object.entries(city.transportInfo || city.transport_info).map(([type, info]) => (
                       <div className="transportItem" key={type}>
                         <span className="transportType">{type.toUpperCase()}</span>
                         <p>{info}</p>
@@ -310,10 +310,10 @@ export default function CityDetail() {
                 </div>
               </div>
 
-              {city.emergency_contacts && (
+              {(city.emergency_contacts || city.emergencyContacts) && (
                 <div className="contactListCard">
                   <h3>Local {city.name} Helpline Numbers</h3>
-                  {Object.entries(city.emergency_contacts).map(([role, num]) => (
+                  {Object.entries(city.emergency_contacts || city.emergencyContacts).map(([role, num]) => (
                     <div className="contactRow" key={role}>
                       <span className="contactRole">{role.toUpperCase()}</span>
                       <strong>{num}</strong>
