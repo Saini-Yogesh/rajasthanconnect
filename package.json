@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "dev": "vite",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "client": "vite",
+    "server": "npm run dev --prefix backend",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"
@@ -14,13 +16,16 @@
     "@vercel/analytics": "^2.0.1",
     "lucide-react": "^0.468.0",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.0"
   },
   "devDependencies": {
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.2",
+    "concurrently": "^10.0.3",
     "oxlint": "^1.69.0",
+    "puppeteer": "^25.2.1",
     "vite": "^8.1.0"
   }
 }

@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Compass, Menu, X } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
+import { Compass, Menu, X, Sparkles, MessageCircle } from 'lucide-react';
 import './Navbarcss.css';
 
-export default function Navbar({ onNavigate, activeTab }) {
+export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,47 +21,37 @@ export default function Navbar({ onNavigate, activeTab }) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleNavLinkClick = (tabId) => {
-    onNavigate(tabId);
-    setMobileMenuOpen(false);
-  };
+  const isActive = (path) => location.pathname === path;
 
   return (
     <>
       <nav className={`navbar ${scrolled ? 'navbarScrolled' : ''}`}>
-        <div className="logo" onClick={() => handleNavLinkClick('hero')} style={{ cursor: 'pointer' }}>
+        <Link to="/" className="logo" onClick={() => setMobileMenuOpen(false)}>
           <Compass className="logoIcon" size={32} color="var(--color-primary)" />
           <span>Rajasthan<span className="logoSpan">Connect</span></span>
-        </div>
+        </Link>
 
         <div className="navLinks">
-          <span 
-            className={`navLink ${activeTab === 'explore' ? 'active' : ''}`} 
-            onClick={() => handleNavLinkClick('explore')}
-          >
-            Explore Cities
-          </span>
-          <span 
-            className={`navLink ${activeTab === 'crafts' ? 'active' : ''}`} 
-            onClick={() => handleNavLinkClick('crafts')}
-          >
-            Heritage & Crafts
-          </span>
-          <span 
-            className={`navLink ${activeTab === 'directory' ? 'active' : ''}`} 
-            onClick={() => handleNavLinkClick('directory')}
-          >
-            Business Directory
-          </span>
-          <span 
-            className={`navLink ${activeTab === 'community' ? 'active' : ''}`} 
-            onClick={() => handleNavLinkClick('community')}
-          >
-            Community Hub
-          </span>
-          <button className="ctaButton" onClick={() => handleNavLinkClick('community')}>
-            Join Network
-          </button>
+          <Link to="/cities" className={`navLink ${isActive('/cities') ? 'active' : ''}`}>
+            Cities
+          </Link>
+          <Link to="/history-culture" className={`navLink ${isActive('/history-culture') ? 'active' : ''}`}>
+            History & Culture
+          </Link>
+          <Link to="/directory" className={`navLink ${isActive('/directory') ? 'active' : ''}`}>
+            Directory
+          </Link>
+          <Link to="/planner" className={`navLink ${isActive('/planner') ? 'active' : ''} navLinkHighlight`}>
+            <Sparkles size={14} style={{ display: 'inline-block', marginRight: '4px', verticalAlign: 'middle' }} />
+            AI Trip Planner
+          </Link>
+          <Link to="/ai-assistant" className={`navLink ${isActive('/ai-assistant') ? 'active' : ''} navLinkHighlight`}>
+            <MessageCircle size={14} style={{ display: 'inline-block', marginRight: '4px', verticalAlign: 'middle' }} />
+            Ask AI
+          </Link>
+          <Link to="/directory?register=true" className="ctaButton">
+            Register Business
+          </Link>
         </div>
 
         <button 
@@ -73,37 +65,24 @@ export default function Navbar({ onNavigate, activeTab }) {
 
       {/* Mobile Menu Dropdown */}
       <div className={`mobileMenu ${mobileMenuOpen ? 'mobileMenuOpen' : ''}`}>
-        <span 
-          className="mobileMenuLink" 
-          onClick={() => handleNavLinkClick('explore')}
-        >
-          Explore Cities
-        </span>
-        <span 
-          className="mobileMenuLink" 
-          onClick={() => handleNavLinkClick('crafts')}
-        >
-          Heritage & Crafts
-        </span>
-        <span 
-          className="mobileMenuLink" 
-          onClick={() => handleNavLinkClick('directory')}
-        >
-          Business Directory
-        </span>
-        <span 
-          className="mobileMenuLink" 
-          onClick={() => handleNavLinkClick('community')}
-        >
-          Community Hub
-        </span>
-        <button 
-          className="ctaButton" 
-          onClick={() => handleNavLinkClick('community')}
-          style={{ width: '100%', marginTop: '10px' }}
-        >
-          Join Network
-        </button>
+        <Link to="/cities" className="mobileMenuLink" onClick={() => setMobileMenuOpen(false)}>
+          Cities
+        </Link>
+        <Link to="/history-culture" className="mobileMenuLink" onClick={() => setMobileMenuOpen(false)}>
+          History & Culture
+        </Link>
+        <Link to="/directory" className="mobileMenuLink" onClick={() => setMobileMenuOpen(false)}>
+          Directory
+        </Link>
+        <Link to="/planner" className="mobileMenuLink" onClick={() => setMobileMenuOpen(false)}>
+          AI Trip Planner
+        </Link>
+        <Link to="/ai-assistant" className="mobileMenuLink" onClick={() => setMobileMenuOpen(false)}>
+          Ask AI
+        </Link>
+        <Link to="/directory?register=true" className="ctaButton" style={{ width: '100%', marginTop: '10px' }} onClick={() => setMobileMenuOpen(false)}>
+          Register Business
+        </Link>
       </div>
     </>
   );

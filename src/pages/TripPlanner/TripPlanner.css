@@ -1,0 +1,459 @@
+.plannerPage {
+  background-color: var(--color-bg-light);
+  min-height: 100vh;
+}
+
+.plannerHeader {
+  background: linear-gradient(135deg, #1e1b4b 0%, #7c2d12 100%);
+  color: #ffffff;
+  padding: 60px 4% 50px 4%;
+  text-align: center;
+}
+
+.headerIcon {
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.plannerHeader h1 {
+  font-family: var(--font-serif);
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+
+.plannerHeader p {
+  color: #d1d5db;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Body Grid */
+.plannerBody {
+  padding: 40px 4% 80px 4%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.plannerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media (min-width: 992px) {
+  .plannerGrid {
+    grid-template-columns: 1fr 1.8fr;
+  }
+}
+
+.wizardCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 30px;
+}
+
+.wizardForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formGroup label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.wizardForm select, .wizardForm input {
+  background-color: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  color: var(--color-text-dark);
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.checkboxGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.interestSelectBtn {
+  background-color: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  padding: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.interestSelectBtn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.interestSelectBtn.active {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border-color: var(--color-primary);
+}
+
+.btnGenerate {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all var(--transition-fast);
+  margin-top: 10px;
+}
+
+.btnGenerate:hover {
+  background-color: var(--color-primary-hover);
+  box-shadow: var(--shadow-glow);
+}
+
+.spinnerIcon {
+  animation: spin 1s linear infinite;
+}
+
+/* Saved plans list */
+.savedPlansCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: var(--shadow-sm);
+}
+
+.savedPlansCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--color-secondary);
+  margin-bottom: 15px;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 8px;
+}
+
+.savedList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.savedPlanItem {
+  background-color: var(--color-bg-light);
+  padding: 12px 15px;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--color-secondary);
+  transition: all var(--transition-fast);
+}
+
+.savedPlanItem:hover {
+  border-left-color: var(--color-primary);
+  background-color: #f1f5f9;
+}
+
+.savedPlanItem h4 {
+  font-size: 0.9rem;
+  color: var(--color-secondary);
+  margin-bottom: 4px;
+}
+
+.savedPlanItem p {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+/* Results Display */
+.itineraryDisplay {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 35px;
+  box-shadow: var(--shadow-sm);
+}
+
+.itineraryHeader {
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.itineraryHeader h2 {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  color: var(--color-secondary);
+}
+
+.itineraryHeader p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.itineraryHeader strong {
+  color: var(--color-secondary);
+}
+
+.btnSavePlan {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all var(--transition-fast);
+  align-self: flex-start;
+}
+
+.btnSavePlan:hover {
+  background-color: var(--color-primary);
+  box-shadow: var(--shadow-glow);
+}
+
+.saveMessage {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #10b981;
+}
+
+/* Timeline */
+.timelineContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.timelineDaySection {
+  border-left: 3px solid var(--color-border);
+  padding-left: 25px;
+  position: relative;
+}
+
+.dayHeader {
+  margin-bottom: 25px;
+}
+
+.dayHeader h3 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--color-primary);
+  margin-bottom: 4px;
+}
+
+.dayHeader p {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+}
+
+.activitiesTimelineList {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.timelineActivityRow {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeBullet {
+  position: absolute;
+  left: -42px;
+  top: 15px;
+  background-color: var(--color-secondary);
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: var(--shadow-sm);
+}
+
+.activityCard {
+  background-color: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+}
+
+.travelTimeText {
+  float: right;
+  font-size: 0.72rem;
+  background-color: rgba(30, 27, 75, 0.08);
+  color: var(--color-secondary);
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.activityCard h4 {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: var(--color-secondary);
+  margin-bottom: 4px;
+}
+
+.activityLoc {
+  font-size: 0.82rem;
+  color: var(--color-primary);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.activityDetails {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--color-text-dark);
+  margin-bottom: 12px;
+}
+
+.activityCost {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+}
+
+.travelTipsBox {
+  margin-top: 40px;
+  background-color: rgba(249, 115, 22, 0.05);
+  border: 1px solid rgba(249, 115, 22, 0.2);
+  border-radius: var(--radius-lg);
+  padding: 25px;
+}
+
+.travelTipsBox h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--color-secondary);
+  margin-bottom: 15px;
+}
+
+.travelTipsBox ul {
+  padding-left: 20px;
+}
+
+.travelTipsBox li {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--color-text-dark);
+  padding-bottom: 8px;
+}
+
+.travelTipsBox li:last-child {
+  padding-bottom: 0;
+}
+
+/* Loading & Idle states */
+.loadingTimeline {
+  text-align: center;
+  padding: 100px 20px;
+  color: var(--color-text-muted);
+}
+
+.spinIcon {
+  animation: spin 3s linear infinite;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+
+.timelineIdleState {
+  text-align: center;
+  padding: 120px 20px;
+  color: var(--color-text-muted);
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: #ffffff;
+}
+
+.idleIcon {
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+.timelineIdleState h3 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  color: var(--color-secondary);
+  margin-bottom: 10px;
+}
+
+.timelineIdleState p {
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .formRow {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .checkboxGrid {
+    grid-template-columns: 1fr;
+  }
+  .timelineDaySection {
+    border-left: none;
+    padding-left: 0;
+  }
+  .timeBullet {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 12px;
+    display: inline-block;
+  }
+  .travelTimeText {
+    float: none;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .itineraryDisplay {
+    padding: 20px;
+  }
+}
+

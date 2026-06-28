@@ -1,0 +1,460 @@
+.foodDetailPage {
+  background-color: var(--color-bg-light);
+  min-height: 100vh;
+}
+
+.foodHeader {
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--color-border);
+  padding: 30px 4%;
+}
+
+.headerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.homeBreadcrumb {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.foodHeader h1 {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  color: var(--color-secondary);
+}
+
+.originLabel {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* Body Grid */
+.foodBodySection {
+  padding: 40px 4% 80px 4%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.foodGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media (min-width: 992px) {
+  .foodGrid {
+    grid-template-columns: 2.2fr 1.2fr;
+  }
+}
+
+.foodHeroImg {
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--radius-lg);
+  margin-bottom: 30px;
+  box-shadow: var(--shadow-sm);
+}
+
+.cardBlock {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: var(--shadow-sm);
+}
+
+.cardBlock h2 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--color-secondary);
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: 8px;
+}
+
+.historyText {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text-dark);
+}
+
+/* Recipe cards */
+.recipeBlock {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .recipeBlock {
+    grid-template-columns: 1fr 1.5fr;
+  }
+}
+
+.ingredientsCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  box-shadow: var(--shadow-sm);
+}
+
+.ingredientsCard h3, .instructionsCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+
+.ingredientsCard ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ingredientsCard li {
+  font-size: 0.9rem;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--color-bg-light);
+  color: var(--color-text-dark);
+}
+
+.ingredientsCard li::before {
+  content: "•";
+  color: var(--color-primary);
+  font-weight: 700;
+  display: inline-block;
+  width: 15px;
+}
+
+.instructionsCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  box-shadow: var(--shadow-sm);
+}
+
+.instructionsCard ol {
+  padding-left: 20px;
+}
+
+.instructionsCard li {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  padding-bottom: 12px;
+  color: var(--color-text-dark);
+}
+
+/* Sidebar cards */
+.stickySidebar {
+  position: sticky;
+  top: 99px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.nutritionalCard {
+  background: linear-gradient(135deg, #7c2d12 0%, #9a3412 100%);
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: var(--shadow-sm);
+}
+
+.nutritionalCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  padding-bottom: 8px;
+}
+
+.nutritionalCard p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #ffedd5;
+}
+
+.festivalsServed {
+  margin-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  padding-top: 15px;
+}
+
+.festivalsServed strong {
+  display: block;
+  font-size: 0.8rem;
+  color: #cbd5e1;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.badgeList {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.festBadge {
+  background-color: rgba(255,255,255,0.15);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.restaurantsCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: var(--shadow-sm);
+}
+
+.restaurantsCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 8px;
+}
+
+.restItem {
+  margin-bottom: 15px;
+}
+
+.restItem:last-child {
+  margin-bottom: 0;
+}
+
+.restItem h4 {
+  font-size: 0.95rem;
+  color: var(--color-secondary);
+  margin-bottom: 2px;
+}
+
+.restItem p {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+
+/* Reviews Card */
+.reviewsCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: var(--shadow-sm);
+}
+
+.reviewsCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 8px;
+}
+
+.foodReviewForm {
+  background-color: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  padding: 15px;
+  border-radius: var(--radius-md);
+  margin-bottom: 20px;
+}
+
+.successAlert {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #047857;
+  font-size: 0.75rem;
+  padding: 6px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.foodReviewForm .formRow {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.foodReviewForm input, .foodReviewForm select {
+  padding: 6px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background-color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.foodReviewForm textarea {
+  width: 100%;
+  height: 60px;
+  padding: 8px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  resize: vertical;
+  margin-bottom: 8px;
+}
+
+.btnSubmit {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border: none;
+  width: 100%;
+  padding: 8px;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.foodReviewsList {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.foodRevCard {
+  border-bottom: 1px solid var(--color-border);
+  padding: 10px 0;
+}
+
+.foodRevCard:last-child {
+  border-bottom: none;
+}
+
+.revHeader {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+}
+
+.revHeader strong {
+  color: var(--color-secondary);
+}
+
+.revHeader span {
+  color: #f59e0b;
+  font-weight: 700;
+}
+
+.foodRevCard p {
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: var(--color-text-dark);
+}
+
+.noReviews {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.foodLoading {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.foodLoading .spinner {
+  animation: spin 3s linear infinite;
+  color: var(--color-primary);
+  margin-bottom: 15px;
+}
+
+.foodNotFound {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.btnHome {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+/* Food Connections CSS */
+.foodConnectionsCard {
+  margin-top: 30px;
+}
+
+.foodConnectionsLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.foodConnRow {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-bottom: 1px dashed var(--color-border);
+  padding-bottom: 12px;
+}
+
+@media (min-width: 576px) {
+  .foodConnRow {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.foodConnRow:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.foodConnLabel {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  min-width: 220px;
+}
+
+.foodConnList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.foodConnLink {
+  background-color: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  color: var(--color-primary);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.foodConnLink:hover {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border-color: var(--color-primary);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+

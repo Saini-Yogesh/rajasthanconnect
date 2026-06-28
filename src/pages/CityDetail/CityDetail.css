@@ -1,0 +1,598 @@
+.cityDetailPage {
+  background-color: var(--color-bg-light);
+  min-height: 100vh;
+}
+
+/* Banner */
+.cityBanner {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  padding: 0 6%;
+  color: #ffffff;
+}
+
+.bannerOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, rgba(30, 27, 75, 0.8) 0%, rgba(124, 45, 18, 0.4) 100%);
+  z-index: 1;
+}
+
+.bannerContent {
+  position: relative;
+  z-index: 2;
+  max-width: 650px;
+}
+
+.bannerSubtitle {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  letter-spacing: 3px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.cityBanner h1 {
+  font-family: var(--font-serif);
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+.bannerDivider {
+  width: 80px;
+  height: 3px;
+  background-color: var(--color-primary);
+  margin: 15px 0;
+}
+
+.bestVisitTime {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.05rem;
+  color: #e2e8f0;
+}
+
+/* Tabs Bar */
+.tabsBarContainer {
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 79px;
+  z-index: 10;
+}
+
+.tabsBar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4%;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tabsBar::-webkit-scrollbar {
+  display: none;
+}
+
+.tabBtn {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--color-text-muted);
+  padding: 20px 10px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+}
+
+.tabBtn:hover {
+  color: var(--color-primary);
+}
+
+.tabBtn.active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+/* Tab Panel Content */
+.tabContentPanel {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 4% 80px 4%;
+}
+
+/* Panel: Overview */
+.panelOverview {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .panelOverview {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.overviewLeft h3 {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+
+.cityDescriptionLarge {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--color-text-dark);
+  margin-bottom: 35px;
+}
+
+.weatherCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: var(--shadow-sm);
+}
+
+.weatherCard h4 {
+  font-family: var(--font-serif);
+  color: var(--color-secondary);
+  font-size: 1.15rem;
+  margin-bottom: 20px;
+}
+
+.weatherGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.weatherItem {
+  text-align: center;
+  border-right: 1px solid var(--color-border);
+  padding: 5px;
+}
+
+.weatherItem:last-child {
+  border-right: none;
+}
+
+.weatherItem span {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.weatherItem strong {
+  font-size: 1rem;
+  color: var(--color-secondary);
+}
+
+.transportCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: var(--shadow-sm);
+}
+
+.transportCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+
+.transportItem {
+  margin-bottom: 18px;
+}
+
+.transportItem:last-child {
+  margin-bottom: 0;
+}
+
+.transportType {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  background-color: rgba(249, 115, 22, 0.1);
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.transportItem p {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--color-text-dark);
+}
+
+/* Panel: Places Grid */
+.placesDisplayGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .placesDisplayGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.placeItemCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+}
+
+.placeCardImg {
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.placeCategoryBadge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: var(--color-secondary);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.placeCardDetails {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.ratingHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 12px;
+}
+
+.ratingHeader h3 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  color: var(--color-secondary);
+  margin: 0;
+}
+
+.ratingLabel {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #f59e0b;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.placeCardDesc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--color-text-dark);
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.placeMetaDetails {
+  border-top: 1px dashed var(--color-border);
+  padding: 15px 0;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.placeMetaDetails strong {
+  color: var(--color-secondary);
+}
+
+.btnExplorePlace {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.btnExplorePlace:hover {
+  background-color: var(--color-primary-hover);
+  box-shadow: var(--shadow-glow);
+}
+
+/* Panel Stays & Guides */
+.guidesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+
+@media (min-width: 768px) {
+  .guidesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.listingCompactCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: var(--shadow-sm);
+}
+
+.badgeRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.listCat {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.verifiedBadge {
+  color: #10b981;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.listingCompactCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: var(--color-secondary);
+  margin-bottom: 4px;
+}
+
+.listSubcat {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.listDesc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--color-text-dark);
+  margin-bottom: 15px;
+}
+
+.listPrice {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  margin-bottom: 15px;
+}
+
+.listingContact {
+  border-top: 1px dashed var(--color-border);
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+/* Panel: Emergency */
+.emergencyAlertCard {
+  background-color: rgba(239, 68, 68, 0.08);
+  border: 1px solid #f87171;
+  border-radius: var(--radius-md);
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.alertIcon {
+  color: #ef4444;
+  flex-shrink: 0;
+}
+
+.emergencyAlertCard h3 {
+  font-size: 1.1rem;
+  color: #991b1b;
+  margin-bottom: 4px;
+}
+
+.emergencyAlertCard p {
+  font-size: 0.9rem;
+  color: #7f1d1d;
+}
+
+.contactsContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .contactsContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contactListCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: var(--shadow-sm);
+}
+
+.contactListCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 10px;
+}
+
+.contactRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px dashed var(--color-border);
+}
+
+.contactRow:last-child {
+  border-bottom: none;
+}
+
+.contactRow span {
+  font-size: 0.9rem;
+  color: var(--color-text-dark);
+}
+
+.contactRow strong {
+  font-size: 0.95rem;
+  color: #ef4444;
+}
+
+.contactRole {
+  font-weight: 700;
+}
+
+/* Loading state */
+.cityLoadingPage {
+  text-align: center;
+  padding: 120px 20px;
+  color: var(--color-text-muted);
+}
+
+.cityLoadingPage .spinner {
+  animation: spin 3s linear infinite;
+  color: var(--color-primary);
+  margin-bottom: 15px;
+}
+
+.cityNotFound {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.btnBack {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+/* Connections Section */
+.cityConnectionsSection {
+  margin-top: 40px;
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  grid-column: 1 / -1;
+}
+
+.connectionsTitle {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+.connectionsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+
+@media (min-width: 768px) {
+  .connectionsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.connectionBlock h4 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+  font-weight: 700;
+  border-bottom: 1px dashed var(--color-border);
+  padding-bottom: 6px;
+}
+
+.connectionLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.connectionLink {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all var(--transition-fast);
+  display: block;
+}
+
+.connectionLink:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+  padding-left: 2px;
+}
+

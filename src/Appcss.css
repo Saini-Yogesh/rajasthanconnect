@@ -6,6 +6,13 @@
 
 .mainContent {
   flex-grow: 1;
+  /* padding-top handled per-page; Home uses negative margin on hero */
+  padding-top: 0;
+}
+
+/* All inner pages (non-Home) need 80px clearance for the fixed navbar */
+.pageWithNav {
+  padding-top: 80px;
 }
 
 /* Floating Back to Top Button */

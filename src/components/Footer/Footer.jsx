@@ -1,25 +1,25 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Compass, Mail, Heart, Twitter, Facebook, Instagram } from 'lucide-react';
 import './Footercss.css';
 
-export default function Footer({ onNavigate }) {
+export default function Footer() {
   const [email, setEmail] = useState('');
 
   const handleSubscribe = (e) => {
     e.preventDefault();
-    if (!email) return;
     alert(`Thank you for subscribing with: ${email}!\nWe will send you monthly Rajasthan travel updates.`);
     setEmail('');
   };
 
   return (
-    <footer className="footer">
+    <footer className="footerContainer">
       <div className="footerGrid">
         
         {/* Brand Info */}
         <div className="footerBrand">
           <div className="footerLogo">
-            <Compass size={24} color="var(--color-primary)" />
+            <Compass className="logoIcon" size={28} color="var(--color-primary)" />
             <span>Rajasthan<span className="footerLogoSpan">Connect</span></span>
           </div>
           <p className="footerDesc">
@@ -28,25 +28,25 @@ export default function Footer({ onNavigate }) {
           </p>
         </div>
 
-        {/* Explore Links */}
+        {/* Quick Links */}
         <div>
           <h4 className="footerColTitle">Quick Links</h4>
           <ul className="footerLinks">
-            <li className="footerLinkItem" onClick={() => onNavigate('explore')}>Explore Cities</li>
-            <li className="footerLinkItem" onClick={() => onNavigate('crafts')}>Heritage & Crafts</li>
-            <li className="footerLinkItem" onClick={() => onNavigate('directory')}>Local Providers</li>
-            <li className="footerLinkItem" onClick={() => onNavigate('community')}>Register Listing</li>
+            <li className="footerLinkItem"><Link to="/cities">Explore Cities</Link></li>
+            <li className="footerLinkItem"><Link to="/history-culture">History & Culture</Link></li>
+            <li className="footerLinkItem"><Link to="/directory">Local Providers</Link></li>
+            <li className="footerLinkItem"><Link to="/directory?register=true">Register Listing</Link></li>
           </ul>
         </div>
 
-        {/* Help & Contact */}
+        {/* Help & Resources */}
         <div>
           <h4 className="footerColTitle">Help & Resources</h4>
           <ul className="footerLinks">
-            <li className="footerLinkItem" onClick={() => onNavigate('community')}>Cultural Etiquette</li>
-            <li className="footerLinkItem" onClick={() => onNavigate('community')}>Festival Calendar</li>
-            <li className="footerLinkItem">Tourism Guidelines</li>
-            <li className="footerLinkItem">Support Desk</li>
+            <li className="footerLinkItem"><Link to="/history-culture">Cultural Etiquette</Link></li>
+            <li className="footerLinkItem"><Link to="/history-culture">Festival Calendar</Link></li>
+            <li className="footerLinkItem"><Link to="/ai-assistant">Ask AI Assistant</Link></li>
+            <li className="footerLinkItem"><Link to="/planner">AI Trip Planner</Link></li>
           </ul>
         </div>
 
@@ -80,15 +80,9 @@ export default function Footer({ onNavigate }) {
         </div>
 
         <div className="socialRow">
-          <a href="#" className="socialBtn" aria-label="Twitter">
-            <Twitter size={16} />
-          </a>
-          <a href="#" className="socialBtn" aria-label="Facebook">
-            <Facebook size={16} />
-          </a>
-          <a href="#" className="socialBtn" aria-label="Instagram">
-            <Instagram size={16} />
-          </a>
+          <a href="https://twitter.com" className="socialIcon" aria-label="Twitter"><Twitter size={18} /></a>
+          <a href="https://facebook.com" className="socialIcon" aria-label="Facebook"><Facebook size={18} /></a>
+          <a href="https://instagram.com" className="socialIcon" aria-label="Instagram"><Instagram size={18} /></a>
         </div>
       </div>
     </footer>
