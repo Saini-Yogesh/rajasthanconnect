@@ -1,0 +1,15 @@
+# Rajasthan Connect
+
+> Central digital encyclopedia of Rajasthan tourism, connecting global travelers with local heritage, verified tour guides, and traditional service providers.
+
+Rajasthan Connect is an interactive, search-engine-optimized web application showcasing the heritage, landmarks, cuisine, and festivals of Rajasthan, with direct access to local business providers and AI-powered trip planning.
+
+## Main Navigation Pages
+
+- [Explore Cities](https://www.rajasthanconnect.in/cities) - Historical profiles, transport guides, weather charts, and emergency helplines for Jaipur, Udaipur, Jodhpur, Jaisalmer, and Pushkar.
+- [Traditional Cuisine](https://www.rajasthanconnect.in/foods) - Curated recipes, history, local ingredients, and best restaurants for Dal Baati Churma, Mewari Laal Maas, Ker Sangri, and Rajasthani sweets.
+- [Cultural Festivals](https://www.rajasthanconnect.in/festivals) - Comprehensive guide to Rajasthani celebrations, including Pushkar Camel Fair, Gangaur, Teej, and Jaisalmer Desert Festival.
+- [Local Provider Directory](https://www.rajasthanconnect.in/directory) - Verified local tour guides, heritage havelis, camel safaris, and souvenir shops with direct WhatsApp connections.
+- [History & Royal Dynasties](https://www.rajasthanconnect.in/history-culture) - Deep dive into Mewar, Marwar, and Jaipur rulers, traditional attire (Pagdi, Bandhani), and folk arts (Ghoomar).
+- [AI Trip Planner](https://www.rajasthanconnect.in/planner) - Custom, budget-optimized day-by-day itinerary generator.
+- [Ask AI Assistant](https://www.rajasthanconnect.in/ai-assistant) - Chat interface answering queries about historical wars, dress codes, and local travel advice.

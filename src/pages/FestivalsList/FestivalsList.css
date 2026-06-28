@@ -174,7 +174,7 @@
   flex-grow: 1;
 }
 
-.festCardBody h3 {
+.festCardBody h2 {
   font-family: var(--font-serif);
   font-size: 1.35rem;
   color: var(--color-secondary);

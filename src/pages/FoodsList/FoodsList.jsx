@@ -80,7 +80,7 @@ export default function FoodsList() {
                     </div>
                   </div>
                   <div className="foodCardBody">
-                    <h3>{f.title}</h3>
+                    <h2>{f.title}</h2>
                     {f.origin && (
                       <p className="foodOrigin">
                         <MapPin size={14} /> {f.origin}

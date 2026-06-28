@@ -162,7 +162,7 @@
   flex-grow: 1;
 }
 
-.foodCardBody h3 {
+.foodCardBody h2 {
   font-family: var(--font-serif);
   font-size: 1.35rem;
   color: var(--color-secondary);

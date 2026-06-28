@@ -82,7 +82,7 @@ export default function FestivalsList() {
                     </div>
                   </div>
                   <div className="festCardBody">
-                    <h3>{f.title}</h3>
+                    <h2>{f.title}</h2>
                     <p className="festLocation">
                       <MapPin size={14} /> {f.location}
                     </p>

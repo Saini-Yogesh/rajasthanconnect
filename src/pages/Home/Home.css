@@ -127,65 +127,6 @@
   transform: translateY(-3px);
 }
 
-/* Audio Card */
-.ambientAudioCard {
-  position: absolute;
-  bottom: 25px;
-  right: 25px;
-  z-index: 10;
-  background: rgba(30, 27, 75, 0.75);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: var(--radius-lg);
-  padding: 14px 18px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  color: #fff;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  max-width: 310px;
-  transition: all 0.4s ease;
-}
-.ambientAudioCard.pulseSound {
-  border-color: var(--color-primary);
-  box-shadow: 0 0 20px rgba(194, 65, 12, 0.5);
-}
-.audioInfo {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-.audioIcon {
-  color: var(--color-primary);
-}
-.audioInfo h5 {
-  margin: 0;
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-.audioInfo p {
-  margin: 2px 0 0;
-  font-size: 0.72rem;
-  color: #94a3b8;
-}
-.btnAudioPlay {
-  background-color: var(--color-primary);
-  border: none;
-  color: #fff;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all var(--transition-fast);
-  flex-shrink: 0;
-}
-.btnAudioPlay:hover {
-  transform: scale(1.1);
-  background-color: var(--color-primary-hover);
-}
 
 /* ═══════════════════════════════════════════════
    WOW FACTS TICKER BAR
@@ -864,17 +805,18 @@
 ═══════════════════════════════════════════════ */
 .festivalsSection {
   padding: 80px 4%;
-  background-color: var(--color-secondary);
+  background: #ffffff;
+  border-top: 1px solid var(--color-border);
 }
 .festivalsInner {
   max-width: 1200px;
   margin: 0 auto;
 }
-.festivalHeader h2 {
-  color: #ffffff !important;
+.homeFestivalsHeader h2 {
+  color: var(--color-secondary);
 }
-.festivalHeader p {
-  color: #94a3b8 !important;
+.homeFestivalsHeader p {
+  color: var(--color-text-muted);
 }
 
 .festivalsGrid {
@@ -894,33 +836,51 @@
 }
 
 .festivalCard {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #ffffff;
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   overflow: hidden;
-  transition: all var(--transition-normal);
+  transition: all var(--transition-normal) ease;
   display: flex;
   flex-direction: column;
+  box-shadow: var(--shadow-sm);
 }
 .festivalCard:hover {
-  background: rgba(255, 255, 255, 0.11);
-  transform: translateY(-5px);
+  background: #ffffff;
+  transform: translateY(-6px);
   border-color: var(--fest-color, #c2410c);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--shadow-lg);
+}
+
+.festivalCardImage {
+  height: 185px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.festivalCard:hover .festivalCardImage {
+  transform: scale(1.03);
 }
 
 .festMonthBadge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
   color: #fff;
-  font-size: 0.72rem;
+  font-size: 0.65rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  padding: 10px 20px;
-  display: block;
+  padding: 5px 12px;
+  border-radius: var(--radius-sm);
+  z-index: 2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .festCardBody {
-  padding: 20px 22px 24px;
+  padding: 22px 24px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -930,7 +890,7 @@
 .festCardBody h4 {
   font-family: var(--font-serif);
   font-size: 1.25rem;
-  color: #fff;
+  color: var(--color-secondary);
   margin: 0;
   font-weight: 700;
 }
@@ -940,7 +900,7 @@
   align-items: center;
   gap: 5px;
   font-size: 0.78rem;
-  color: #94a3b8;
+  color: var(--color-text-muted);
   margin: 0;
   font-weight: 500;
 }
@@ -948,7 +908,7 @@
 .festDesc {
   font-size: 0.88rem;
   line-height: 1.6;
-  color: #cbd5e1;
+  color: var(--color-text-muted);
   margin: 4px 0 10px;
   flex-grow: 1;
 }
@@ -965,6 +925,20 @@
   border-radius: 20px;
   border: 1px solid;
   letter-spacing: 0.3px;
+}
+.festExploreLink {
+  margin-top: auto;
+  padding-top: 14px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: all var(--transition-fast) ease;
+}
+.festivalCard:hover .festExploreLink {
+  transform: translateX(5px);
+  text-shadow: 0 0 10px currentColor;
 }
 
 /* ═══════════════════════════════════════════════

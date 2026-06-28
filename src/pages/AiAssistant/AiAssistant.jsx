@@ -139,7 +139,7 @@ What can I help you explore today?`
                 onChange={(e) => setInputMessage(e.target.value)}
                 disabled={loading}
               />
-              <button type="submit" className="btnSend" disabled={loading || !inputMessage.trim()}>
+              <button type="submit" className="btnSend" disabled={loading || !inputMessage.trim()} aria-label="Send message">
                 <Send size={16} />
               </button>
             </form>
