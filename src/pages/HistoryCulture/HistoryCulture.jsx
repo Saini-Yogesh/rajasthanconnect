@@ -3,8 +3,15 @@ import { useParams, Link } from 'react-router-dom';
 import { Compass, BookOpen, ShieldAlert, Award, ArrowUpRight } from 'lucide-react';
 import { API_BASE_URL } from '../../config/api.js';
 import './HistoryCulture.css';
+import useSEO from '../../hooks/useSEO';
 
 export default function HistoryCulture() {
+  useSEO({
+    title: "History, Royal Dynasties & Culture",
+    description: "Delve into the royal heritage of Rajasthan — historical dynasties (Mewar, Marwar), traditional clothing (Pagdi), music (Ghoomar), local art, and architectural marvels.",
+    keywords: "Rajasthan history, royal dynasties, Mewar, Marwar, Ghoomar dance, Rajput architecture, traditional clothing"
+  });
+
   const [cultureTopics, setCultureTopics] = useState([]);
   const [rulers, setRulers] = useState([]);
   const [loading, setLoading] = useState(true);

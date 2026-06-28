@@ -3,10 +3,19 @@ import { useParams, Link } from 'react-router-dom';
 import { Compass, BookOpen, Utensils, Star, Send } from 'lucide-react';
 import { API_BASE_URL } from '../../config/api.js';
 import './FoodDetail.css';
+import useSEO from '../../hooks/useSEO';
 
 export default function FoodDetail() {
   const { id } = useParams();
   const [food, setFood] = useState(null);
+  
+  useSEO({
+    title: food ? `${food.title} Recipe & History` : "Cuisine Details",
+    description: food ? food.description : "Learn the recipe, ingredients, history, and where to eat traditional Rajasthani dishes.",
+    keywords: food ? `${food.title} recipe, how to make ${food.title}, ${food.title} origin, traditional food` : "Rajasthani food",
+    image: food?.imageUrl || food?.image_url
+  });
+
   const [reviews, setReviews] = useState([]);
   const [allCities, setAllCities] = useState([]);
   const [allFestivals, setAllFestivals] = useState([]);

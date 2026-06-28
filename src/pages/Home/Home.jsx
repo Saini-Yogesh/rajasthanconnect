@@ -148,6 +148,12 @@ const MAP_CITIES = [
 ];
 
 export default function Home() {
+  useSEO({
+    title: "Gateway to Land of Kings",
+    description: "Discover Rajasthan's rich culture, book local verified tour guides, reserve heritage stays, and explore majestic sand dunes. Your direct gateway to the land of kings.",
+    keywords: "Rajasthan connect, Rajasthan tour guides, Jaisalmer camel safari, Udaipur heritage hotels, Jaipur local guide, Rajasthan artisans, Blue pottery Jaipur, Dal Baati Churma, Rajasthan tourism portal"
+  });
+
   const [greeting, setGreeting] = useState('');
   const [activeTrivia, setActiveTrivia] = useState(0);
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);

@@ -2,8 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { Compass, Sparkles, MapPin, Calendar, CircleDollarSign, Loader2, ArrowRight } from 'lucide-react';
 import { API_BASE_URL } from '../../config/api.js';
 import './TripPlanner.css';
+import useSEO from '../../hooks/useSEO';
 
 export default function TripPlanner() {
+  useSEO({
+    title: "AI Custom Trip Planner",
+    description: "Generate a custom, day-by-day travel itinerary for Rajasthan using our smart AI planner. Filter by starting city, days, budget, and interests.",
+    keywords: "Rajasthan trip planner, AI travel itinerary, Jaipur itinerary, Udaipur holiday package, custom routes Rajasthan"
+  });
+
   // Wizard states
   const [startingCity, setStartingCity] = useState('Jaipur');
   const [days, setDays] = useState(3);

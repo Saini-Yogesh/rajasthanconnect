@@ -3,10 +3,17 @@ import { useSearchParams } from 'react-router-dom';
 import { Search, Compass, MapPin, Award, CheckCircle, Store, AlertCircle } from 'lucide-react';
 import { API_BASE_URL } from '../../config/api.js';
 import './DirectoryListings.css';
+import useSEO from '../../hooks/useSEO';
 
 export default function DirectoryListings() {
   const [searchParams] = useSearchParams();
   const registerQuery = searchParams.get('register');
+
+  useSEO({
+    title: registerQuery ? "Register Local Business & Services" : "Local Services & Guides Directory",
+    description: "Search for verified tour guides, hotel stays, restaurants, and shops, or register your own travel business listing on Rajasthan Connect.",
+    keywords: "Rajasthan directory, registered guides, heritage hotels list, local shops, register travel agency"
+  });
 
   // Listings state
   const [listings, setListings] = useState([]);

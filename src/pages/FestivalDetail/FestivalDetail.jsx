@@ -3,10 +3,19 @@ import { useParams, Link } from "react-router-dom";
 import { Compass, Calendar, MapPin, Search } from "lucide-react";
 import { API_BASE_URL } from "../../config/api.js";
 import "./FestivalDetail.css";
+import useSEO from "../../hooks/useSEO";
 
 export default function FestivalDetail() {
   const { id } = useParams();
   const [festival, setFestival] = useState(null);
+  
+  useSEO({
+    title: festival ? `${festival.title} - Guide & Dates` : "Festival Details",
+    description: festival ? festival.importance : "Discover significance, history, travel tips, and dress codes for cultural festivals in Rajasthan.",
+    keywords: festival ? `${festival.title}, ${festival.title} dates, travel tips ${festival.title}, dress code ${festival.title}` : "Rajasthan festivals",
+    image: festival?.imageUrls?.[0] || festival?.image_urls?.[0]
+  });
+
   const [allCities, setAllCities] = useState([]);
   const [allFoods, setAllFoods] = useState([]);
   const [allCulture, setAllCulture] = useState([]);

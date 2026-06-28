@@ -2,8 +2,15 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Compass, Send, Sparkles, MessageSquare, AlertCircle } from 'lucide-react';
 import { API_BASE_URL } from '../../config/api.js';
 import './AiAssistant.css';
+import useSEO from '../../hooks/useSEO';
 
 export default function AiAssistant() {
+  useSEO({
+    title: "AI Travel Assistant - Chat Live",
+    description: "Ask anything about Rajasthan's heritage, food recipes, hotel stays, local transportation, or emergency helplines to our virtual travel companion.",
+    keywords: "Ask AI Rajasthan, travel assistant chat, digital local guide, chat with travel AI"
+  });
+
   const [messages, setMessages] = useState([
     {
       role: 'assistant',

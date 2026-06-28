@@ -3,10 +3,19 @@ import { useParams, Link } from 'react-router-dom';
 import { Clock, MapPin, Compass, AlertCircle, Sparkles, Send } from 'lucide-react';
 import { API_BASE_URL } from '../../config/api.js';
 import './PlaceDetail.css';
+import useSEO from '../../hooks/useSEO';
 
 export default function PlaceDetail() {
   const { id } = useParams();
   const [place, setPlace] = useState(null);
+  
+  useSEO({
+    title: place ? `${place.title} - Sights & Guides` : "Attraction Details",
+    description: place ? place.description : "Get details, timing, history, and verified guides for historic monuments in Rajasthan.",
+    keywords: place ? `${place.title}, ${place.category}, visit ${place.title}, timings, entry fee` : "Rajasthan places to visit",
+    image: place?.imageUrls?.[0] || place?.image_urls?.[0]
+  });
+
   const [reviews, setReviews] = useState([]);
   const [loading, setLoading] = useState(true);
   const [allRulers, setAllRulers] = useState([]);

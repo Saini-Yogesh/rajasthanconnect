@@ -3,8 +3,15 @@ import { Link } from "react-router-dom";
 import { Search, MapPin, Compass, Utensils } from "lucide-react";
 import { API_BASE_URL } from "../../config/api.js";
 import "./FoodsList.css";
+import useSEO from "../../hooks/useSEO";
 
 export default function FoodsList() {
+  useSEO({
+    title: "Rajasthani Royal Cuisine",
+    description: "Discover the rich culinary heritage of Rajasthan — from wood-fired Dal Baati Churma to royal Mewari Laal Maas and festive sweets.",
+    keywords: "Rajasthani recipes, Dal Baati Churma, Mewari Laal Maas, Indian sweets, Ker Sangri recipe, traditional foods"
+  });
+
   const [foods, setFoods] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");

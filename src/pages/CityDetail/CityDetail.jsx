@@ -3,10 +3,19 @@ import { useParams, Link } from 'react-router-dom';
 import { MapPin, Compass, ShieldAlert, Award, Star } from 'lucide-react';
 import { API_BASE_URL } from '../../config/api.js';
 import './CityDetail.css';
+import useSEO from '../../hooks/useSEO';
 
 export default function CityDetail() {
   const { id } = useParams();
   const [city, setCity] = useState(null);
+  
+  useSEO({
+    title: city ? `${city.name} Travel Guide` : "City Details",
+    description: city ? city.description : "Explore historical attractions, local foods, verified guides, and places to visit in Rajasthan.",
+    keywords: city ? `${city.name} tourism, ${city.name} sights, ${city.name} local guides, visit ${city.name}` : "Rajasthan tourism",
+    image: city?.imageUrl
+  });
+
   const [places, setPlaces] = useState([]);
   const [listings, setListings] = useState([]);
   const [allFoods, setAllFoods] = useState([]);

@@ -3,8 +3,15 @@ import { Link } from "react-router-dom";
 import { Search, MapPin, Compass } from "lucide-react";
 import { API_BASE_URL } from "../../config/api.js";
 import "./CitiesList.css";
+import useSEO from "../../hooks/useSEO";
 
 export default function CitiesList() {
+  useSEO({
+    title: "Explore Cities",
+    description: "Discover the top destinations in Rajasthan, including Jaipur, Jodhpur, Udaipur, Jaisalmer, and Pushkar. Read local travel advice, routes, and emergency contacts.",
+    keywords: "Rajasthan cities, Jaipur travel, Udaipur lakes, Jaisalmer dunes, Jodhpur blue houses, Pushkar temples"
+  });
+
   const [cities, setCities] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
