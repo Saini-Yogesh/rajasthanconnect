@@ -13,3 +13,37 @@ Rajasthan Connect is an interactive, search-engine-optimized web application sho
 - [History & Royal Dynasties](https://www.rajasthanconnect.in/history-culture) - Deep dive into Mewar, Marwar, and Jaipur rulers, traditional attire (Pagdi, Bandhani), and folk arts (Ghoomar).
 - [AI Trip Planner](https://www.rajasthanconnect.in/planner) - Custom, budget-optimized day-by-day itinerary generator.
 - [Ask AI Assistant](https://www.rajasthanconnect.in/ai-assistant) - Chat interface answering queries about historical wars, dress codes, and local travel advice.
+
+## Dynamic Resource Pages
+
+### Cities & Regions
+- [Jaipur](https://www.rajasthanconnect.in/cities/jaipur) - Historical profile, transit guide, and emergency contacts for the Pink City.
+- [Jodhpur](https://www.rajasthanconnect.in/cities/jodhpur) - Landmark, transport, and weather details for the Blue City.
+- [Udaipur](https://www.rajasthanconnect.in/cities/udaipur) - Detailed travel guides, lakes, and local resources for the City of Lakes.
+- [Jaisalmer](https://www.rajasthanconnect.in/cities/jaisalmer) - Desert safari routes and profiles of the Golden City.
+- [Pushkar](https://www.rajasthanconnect.in/cities/pushkar) - Sacred ghats and pilgrimage resources in the Holy Town.
+
+### Places & Landmarks
+- [Amber Fort](https://www.rajasthanconnect.in/places/amber-fort) - Architectural history, timings, and guide tips for Jaipur's hilltop fort.
+- [Hawa Mahal](https://www.rajasthanconnect.in/places/hawa-mahal) - Palace of Winds visitor guidelines and history.
+- [Mehrangarh Fort](https://www.rajasthanconnect.in/places/mehrangarh-fort) - Audio tour details, pricing, and history of Jodhpur's majestic fortress.
+- [Jaswant Thada](https://www.rajasthanconnect.in/places/jaswant-thada) - Detailed information for the white marble mausoleum.
+- [Udaipur City Palace](https://www.rajasthanconnect.in/places/city-palace-udaipur) - Mewar dynastic architecture, ticket prices, and history.
+- [Lake Pichola](https://www.rajasthanconnect.in/places/lake-pichola) - Boating fares, timing, and Jag Mandir profiles.
+- [Jaisalmer Fort](https://www.rajasthanconnect.in/places/sonar-qila) - The living fort's residency layout, temples, and history.
+- [Sam Sand Dunes](https://www.rajasthanconnect.in/places/sam-sand-dunes) - Overnight camping, safari details, and desert guides.
+- [Brahma Temple](https://www.rajasthanconnect.in/places/brahma-temple) - Sacred worship guidelines and historical details for Pushkar's creator temple.
+
+### Traditional Cuisine & Recipes
+- [Dal Baati Churma](https://www.rajasthanconnect.in/foods/dal-baati-churma) - Historical origin, list of ingredients, recipe steps, and best local eateries.
+- [Rajasthani Laal Maas](https://www.rajasthanconnect.in/foods/laal-maas) - Traditional hot mathania-chili mutton curry details.
+- [Jaipuri Ghewar](https://www.rajasthanconnect.in/foods/ghewar) - Disc-shaped sweet recipe and Teej festival significance.
+- [Pyaz ki Kachori](https://www.rajasthanconnect.in/foods/pyaz-kachori) - Spiced onion breakfast pastry preparation.
+- [Pushkar Malpua](https://www.rajasthanconnect.in/foods/malpua) - Sweet pancake preparation and pilgrimage heritage.
+- [Ker Sangri](https://www.rajasthanconnect.in/foods/ker-sangri) - Desert berry and bean preserve recipe.
+
+### Cultural Festivals
+- [Gangaur Festival](https://www.rajasthanconnect.in/festivals/gangaur) - Cultural dates, royal parade routes, and dress codes for women.
+- [Pushkar Camel Fair](https://www.rajasthanconnect.in/festivals/pushkar-fair) - Global livestock trading event calendar and photographic locations.
+- [Jaisalmer Desert Festival](https://www.rajasthanconnect.in/festivals/desert-festival) - Turban-tying contest schedules and traditional fire dance events.
+
