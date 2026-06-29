@@ -214,7 +214,7 @@ export default function PlaceDetail() {
                       <span className="connectionLabel">👑 Related Rulers:</span>
                       <div className="connectionVal">
                         {relatedRulers.map(r => (
-                          <Link to="/history-culture" className="connectionLink" key={r.id}>
+                          <Link to={`/rulers/${r.id}`} className="connectionLink" key={r.id}>
                             {r.name} ({r.dynasty})
                           </Link>
                         ))}

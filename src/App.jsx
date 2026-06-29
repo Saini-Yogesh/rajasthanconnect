@@ -13,6 +13,8 @@ import FoodsList from "./pages/FoodsList/FoodsList";
 import FestivalDetail from "./pages/FestivalDetail/FestivalDetail";
 import FestivalsList from "./pages/FestivalsList/FestivalsList";
 import HistoryCulture from "./pages/HistoryCulture/HistoryCulture";
+import CultureDetail from "./pages/CultureDetail/CultureDetail";
+import RulerDetail from "./pages/RulerDetail/RulerDetail";
 import TripPlanner from "./pages/TripPlanner/TripPlanner";
 import AiAssistant from "./pages/AiAssistant/AiAssistant";
 import DirectoryListings from "./pages/DirectoryListings/DirectoryListings";
@@ -100,6 +102,22 @@ export default function App() {
             element={
               <div className="pageWithNav">
                 <HistoryCulture />
+              </div>
+            }
+          />
+          <Route
+            path="/culture/:id"
+            element={
+              <div className="pageWithNav">
+                <CultureDetail />
+              </div>
+            }
+          />
+          <Route
+            path="/rulers/:id"
+            element={
+              <div className="pageWithNav">
+                <RulerDetail />
               </div>
             }
           />

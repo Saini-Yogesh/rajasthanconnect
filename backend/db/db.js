@@ -318,6 +318,21 @@ export const db = {
     return result.map(mapCulture);
   },
 
+  async getCultureTopic(id) {
+    let result;
+    if (supabase) {
+      const { data, error } = await supabase
+        .from("culture_topics")
+        .select("*")
+        .eq("id", id)
+        .single();
+      if (!error) result = data;
+      else console.error("Supabase query error, falling back:", error);
+    }
+    if (!result) result = CULTURE_TOPICS.find((c) => c.id === id) || null;
+    return mapCulture(result);
+  },
+
   async getHistoryRulers() {
     let result;
     if (supabase) {

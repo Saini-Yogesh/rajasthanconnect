@@ -148,6 +148,9 @@ export default function HistoryCulture() {
                             )}
                           </div>
                         )}
+                        <Link to={`/rulers/${ruler.id}`} className="btnExploreRuler">
+                          Read Full Biography →
+                        </Link>
                       </div>
                     </div>
                   ))}
@@ -212,6 +215,9 @@ export default function HistoryCulture() {
                             )}
                           </div>
                         )}
+                        <Link to={`/culture/${topic.id}`} className="btnExploreCulture">
+                          Read Detailed Guide →
+                        </Link>
                       </div>
                     </div>
                   ))}

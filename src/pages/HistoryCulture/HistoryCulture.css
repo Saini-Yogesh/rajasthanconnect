@@ -276,17 +276,41 @@
 .detailsRow {
   font-size: 0.85rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 4px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.detailsRow:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .detailsRow strong {
   color: var(--color-secondary);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
 }
 
 .valText {
-  color: var(--color-text-muted);
-  text-align: right;
-  max-width: 60%;
+  color: var(--color-text-dark);
+  text-align: left;
+}
+
+@media (min-width: 576px) {
+  .detailsRow {
+    display: grid;
+    grid-template-columns: 1.2fr 2.8fr;
+    gap: 10px;
+    align-items: start;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .valText {
+    text-align: left;
+  }
 }
 
 /* Etiquette Panel Layout */
@@ -491,5 +515,25 @@
     font-size: 0.9rem;
     border-bottom: 2px solid transparent;
   }
+}
+
+.btnExploreCulture, .btnExploreRuler {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  text-align: center;
+  transition: all var(--transition-fast);
+  margin-top: 15px;
+  align-self: flex-start;
+}
+
+.btnExploreCulture:hover, .btnExploreRuler:hover {
+  background-color: var(--color-primary-hover);
+  box-shadow: var(--shadow-glow);
 }
 

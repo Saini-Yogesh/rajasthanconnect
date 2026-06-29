@@ -1,0 +1,398 @@
+.rulerDetailPage {
+  background-color: var(--color-bg-light);
+  min-height: 100vh;
+}
+
+.rulerDetailHeader {
+  background: linear-gradient(135deg, #1e1b4b 0%, #7c2d12 100%);
+  color: #ffffff;
+  padding: 50px 4%;
+  text-align: center;
+}
+
+.headerContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.homeBreadcrumb {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-bottom: 15px;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.homeBreadcrumb:hover {
+  color: var(--color-primary-hover);
+}
+
+.rulerDetailHeader h1 {
+  font-family: var(--font-serif);
+  font-size: 2.6rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.headerMeta {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  font-weight: 600;
+}
+
+.reignBadge {
+  display: inline-block;
+  background-color: rgba(249, 115, 22, 0.15);
+  color: var(--color-primary);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 5px;
+}
+
+/* Body Layout */
+.rulerDetailBody {
+  padding: 40px 4% 80px 4%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rulerDetailGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media (min-width: 992px) {
+  .rulerDetailGrid {
+    grid-template-columns: 2fr 1.1fr;
+  }
+}
+
+.rulerHeroImage {
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f8fafc;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  margin-bottom: 30px;
+  box-shadow: var(--shadow-sm);
+}
+
+.cardBlock {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: var(--shadow-sm);
+}
+
+.cardBlock h2 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--color-secondary);
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: 8px;
+}
+
+.cardBlock p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text-dark);
+}
+
+/* Achievements List */
+.achievementsList {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.achievementsList li {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--color-text-dark);
+}
+
+/* Battles Block */
+.battlesBlockList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.battleItemRow {
+  background-color: var(--color-bg-light);
+  padding: 15px 20px;
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--color-primary);
+}
+
+.battleItemRow strong {
+  font-size: 1rem;
+  color: var(--color-secondary);
+  display: block;
+  margin-bottom: 5px;
+}
+
+.battleItemRow p {
+  font-size: 0.88rem;
+  line-height: 1.4;
+  color: var(--color-text-dark);
+  margin: 0;
+}
+
+/* Sidebar */
+.stickySidebar {
+  position: sticky;
+  top: 99px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.quickInfoCard {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: var(--shadow-md);
+}
+
+.quickInfoCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 8px;
+}
+
+/* Connected entities */
+.connRow {
+  margin-bottom: 20px;
+}
+
+.connRow:last-child {
+  margin-bottom: 0;
+}
+
+.connLabel {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #cbd5e1;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.connList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.connLink {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.connLink:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #ffffff;
+}
+
+/* REVIEWS CARD */
+.reviewsBlockCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: var(--shadow-sm);
+}
+
+.reviewsBlockCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 8px;
+}
+
+.reviewSubmitForm {
+  background-color: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.reviewSubmitForm h4 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  margin-bottom: 12px;
+}
+
+.reviewSuccessMsg {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #059669;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  border: 1px dashed rgba(16, 185, 129, 0.3);
+}
+
+.reviewSubmitForm .formRow {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.reviewSubmitForm input, .reviewSubmitForm select, .reviewSubmitForm textarea {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: var(--color-text-dark);
+}
+
+.reviewSubmitForm textarea {
+  width: 100%;
+  height: 80px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.btnSubmitReview {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 0.82rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all var(--transition-fast);
+}
+
+.btnSubmitReview:hover {
+  background-color: var(--color-primary);
+}
+
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.reviewItemCard {
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 12px;
+}
+
+.reviewItemCard:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.reviewHeader strong {
+  font-size: 0.88rem;
+  color: var(--color-secondary);
+}
+
+.revRating {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 0.82rem;
+}
+
+.revComment {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--color-text-dark);
+  margin-bottom: 4px;
+}
+
+.revDate {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+}
+
+.noReviewsYet {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  padding: 15px 0;
+  font-style: italic;
+}
+
+/* Loading state */
+.rulerLoading, .rulerNotFound {
+  text-align: center;
+  padding: 100px 20px;
+  min-height: 50vh;
+}
+
+.spinner {
+  animation: spin 3s linear infinite;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+
+.btnHome {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .reviewSubmitForm .formRow {
+    grid-template-columns: 1fr;
+  }
+}
