@@ -293,6 +293,8 @@ export default function Home() {
   const [quizAnswered, setQuizAnswered] = useState(null);
   const [selectedOption, setSelectedOption] = useState(null);
   const [activeFact, setActiveFact] = useState(0);
+  const [isFactTickerHovered, setIsFactTickerHovered] = useState(false);
+  const [isTriviaHovered, setIsTriviaHovered] = useState(false);
 
   // Greeting
   useEffect(() => {
@@ -305,21 +307,23 @@ export default function Home() {
 
   // Auto rotate trivia
   useEffect(() => {
+    if (isTriviaHovered) return;
     const t = setInterval(
       () => setActiveTrivia((p) => (p + 1) % TRIVIA_FACTS.length),
       8000,
     );
     return () => clearInterval(t);
-  }, []);
+  }, [isTriviaHovered]);
 
   // Auto rotate fun fact ticker
   useEffect(() => {
+    if (isFactTickerHovered) return;
     const t = setInterval(
       () => setActiveFact((p) => (p + 1) % FUN_FACTS.length),
       5000,
     );
     return () => clearInterval(t);
-  }, []);
+  }, [isFactTickerHovered]);
 
   const handleQuizAnswer = (idx) => {
     setSelectedOption(idx);
@@ -358,7 +362,11 @@ export default function Home() {
       </header>
 
       {/* ── WOW FACTS TICKER ── */}
-      <div className="factsTickerBar">
+      <div
+        className="factsTickerBar"
+        onMouseEnter={() => setIsFactTickerHovered(true)}
+        onMouseLeave={() => setIsFactTickerHovered(false)}
+      >
         <div className="tickerLabel">
           <Zap size={14} /> WOW FACT
         </div>
@@ -418,7 +426,11 @@ export default function Home() {
           </div>
 
           <div className="hubColumn">
-            <div className="hubCard triviaCard">
+            <div
+              className="hubCard triviaCard"
+              onMouseEnter={() => setIsTriviaHovered(true)}
+              onMouseLeave={() => setIsTriviaHovered(false)}
+            >
               <div className="cardHeader">
                 <Sparkles className="headerIcon gold" />
                 <h3>Did You Know?</h3>

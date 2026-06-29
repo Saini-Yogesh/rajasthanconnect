@@ -30,6 +30,7 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--color-secondary);
+  white-space: nowrap;
 }
 
 .logoSpan {
@@ -50,6 +51,7 @@
   padding: 5px 0;
   cursor: pointer;
   transition: color var(--transition-fast);
+  white-space: nowrap;
 }
 
 .navLink:hover {
@@ -72,6 +74,9 @@
 }
 
 .ctaButton {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
   background-color: var(--color-primary);
   color: #fff;
   padding: 10px 22px;
@@ -105,6 +110,8 @@
   top: 80px;
   left: 0;
   width: 100%;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
   background-color: var(--color-bg-card);
   box-shadow: var(--shadow-lg);
   display: flex;
@@ -114,15 +121,22 @@
   border-bottom: 2px solid var(--color-primary);
   z-index: 999;
   transform: translateY(-150%);
-  transition: transform var(--transition-normal);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: transform var(--transition-normal), opacity var(--transition-normal), visibility var(--transition-normal);
 }
 
 .navbarScrolled ~ .mobileMenu {
   top: 65px;
+  max-height: calc(100vh - 65px);
 }
 
 .mobileMenuOpen {
   transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .mobileMenuLink {
@@ -130,6 +144,12 @@
   font-weight: 600;
   padding: 10px 0;
   border-bottom: 1px solid var(--color-border);
+  color: var(--color-secondary);
+  transition: color var(--transition-fast);
+}
+
+.mobileMenuLink:hover {
+  color: var(--color-primary);
 }
 
 .mobileMenuLink:last-child {
@@ -137,7 +157,26 @@
 }
 
 /* Responsive Design */
-@media (max-width: 968px) {
+@media (max-width: 1280px) {
+  .navbar {
+    padding: 0 2%;
+  }
+  .navLinks {
+    gap: 16px;
+  }
+  .navLink {
+    font-size: 0.85rem;
+  }
+  .ctaButton {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+  }
+  .logo {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 1150px) {
   .navLinks {
     display: none;
   }

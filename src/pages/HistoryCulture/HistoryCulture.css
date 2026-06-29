@@ -467,3 +467,29 @@
   box-shadow: var(--shadow-sm);
 }
 
+/* Responsive Media Queries to Prevent Horizontal Scrollbars */
+@media (max-width: 768px) {
+  .cultureHeader {
+    padding: 40px 4% 30px 4%;
+  }
+  .cultureHeader h1 {
+    font-size: 2.0rem;
+  }
+  .cultureHeader p {
+    font-size: 0.95rem;
+  }
+  .cultureTabsBar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    top: 0;
+  }
+  .cultureTabsBar .tabBtn {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+    border-bottom: 2px solid transparent;
+  }
+}
+

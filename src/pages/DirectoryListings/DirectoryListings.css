@@ -382,3 +382,22 @@
   padding: 80px 20px;
   color: var(--color-text-muted);
 }
+
+/* Responsive Media Queries to Prevent Horizontal Scrollbars */
+@media (max-width: 768px) {
+  .directoryHeader h1 {
+    font-size: 2.0rem;
+  }
+  .directoryHeader p {
+    font-size: 0.95rem;
+  }
+  .directoryHeader {
+    padding: 60px 4% 40px 4%;
+  }
+  .categoryFilters {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 0;
+  }
+}

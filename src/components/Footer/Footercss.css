@@ -1,4 +1,4 @@
-.footer {
+.footerContainer {
   background-color: var(--color-secondary);
   color: #94a3b8;
   padding: 60px 4% 30px 4%;
@@ -42,7 +42,7 @@
 
 .footerColTitle {
   font-family: var(--font-serif);
-  /* color: #ffffff; */
+  color: #ffffff;
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 20px;
@@ -73,6 +73,7 @@
 }
 
 .footerLinkItem:hover {
+  color: var(--color-primary);
   transform: translateX(4px);
 }
 
@@ -91,7 +92,7 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 10px 14px;
   border-radius: var(--radius-sm);
-  /* color: #ffffff; */
+  color: #ffffff;
   font-size: 0.9rem;
   flex: 1;
 }
@@ -132,7 +133,7 @@
   gap: 12px;
 }
 
-.socialBtn {
+.socialIcon {
   background-color: rgba(255, 255, 255, 0.05);
   color: #ffffff;
   width: 36px;
@@ -145,7 +146,7 @@
   cursor: pointer;
 }
 
-.socialBtn:hover {
+.socialIcon:hover {
   background-color: var(--color-primary);
   transform: translateY(-2px);
 }

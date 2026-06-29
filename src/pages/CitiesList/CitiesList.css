@@ -201,3 +201,17 @@
   padding: 60px 20px;
   color: var(--color-text-muted);
 }
+
+/* Responsive Media Queries to Prevent Horizontal Scrollbars */
+@media (max-width: 768px) {
+  .citiesHeader h1 {
+    font-size: 2.2rem;
+  }
+  .citiesHeader p {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+  .citiesHeader {
+    padding: 60px 4% 40px 4%;
+  }
+}
