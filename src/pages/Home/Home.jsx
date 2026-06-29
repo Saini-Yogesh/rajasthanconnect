@@ -388,6 +388,7 @@ export default function Home() {
 
       {/* ── MAP & TRIVIA/QUIZ ── */}
       <section className="interactiveHubSection">
+        <h2 className="sr-only">Interactive Discovery Hub</h2>
         <div className="hubGrid">
           <div className="hubCard mapPortalCard">
             <div className="cardHeader">
@@ -580,6 +581,7 @@ export default function Home() {
 
       {/* ── FOOD & FESTIVALS BANNERS ── */}
       <section className="highlightSections">
+        <h2 className="sr-only">Featured Cultural Chapters</h2>
         <div className="highlightInner">
           <div className="highlightGrid">
             <div className="highlightBanner foodBanner">
@@ -643,7 +645,7 @@ export default function Home() {
                   >
                     {item.badge}
                   </span>
-                  <h4>{item.title}</h4>
+                  <h3>{item.title}</h3>
                   <p className="culturalSubtitle">{item.subtitle}</p>
                   <p className="culturalDesc">{item.desc}</p>
                 </div>
@@ -683,7 +685,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="festCardBody">
-                  <h4>{f.name}</h4>
+                  <h3>{f.name}</h3>
                   <p className="festCity">
                     <MapPin size={12} /> {f.city}
                   </p>
