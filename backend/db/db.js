@@ -29,7 +29,6 @@ if (isSupabaseConfigured) {
 }
 
 let localReviews = [...REVIEWS];
-let localSavedItineraries = [];
 
 const mapCity = (c) => {
   if (!c) return null;
@@ -485,81 +484,4 @@ export const db = {
     return mapReview(newReview);
   },
 
-  async getSavedItineraries() {
-    let result;
-    if (supabase) {
-      const { data, error } = await supabase
-        .from("saved_itineraries")
-        .select("*")
-        .order("created_at", { ascending: false });
-      if (!error) {
-        result = data.map((i) => ({
-          id: i.id,
-          title: i.title,
-          days: i.days,
-          budget: i.budget,
-          startingCity: i.starting_city,
-          interests: i.interests,
-          itineraryData: i.itinerary_data,
-          createdAt: i.created_at,
-        }));
-      } else {
-        console.error("Supabase query error, falling back:", error);
-      }
-    }
-    if (!result) {
-      result = localSavedItineraries;
-    }
-    return result;
-  },
-
-  async saveItinerary(itineraryData) {
-    const newItinerary = {
-      id: `itinerary-${Date.now()}`,
-      title:
-        itineraryData.title ||
-        `${itineraryData.days} Days from ${itineraryData.startingCity}`,
-      days: Number(itineraryData.days),
-      budget: Number(itineraryData.budget),
-      startingCity: itineraryData.startingCity,
-      interests: itineraryData.interests || [],
-      itineraryData: itineraryData.itineraryData,
-      createdAt: new Date().toISOString(),
-    };
-
-    if (supabase) {
-      const dbInsert = {
-        title: newItinerary.title,
-        days: newItinerary.days,
-        budget: newItinerary.budget,
-        starting_city: newItinerary.startingCity,
-        interests: newItinerary.interests,
-        itinerary_data: newItinerary.itineraryData,
-      };
-      const { data, error } = await supabase
-        .from("saved_itineraries")
-        .insert([dbInsert])
-        .select();
-      if (!error) {
-        const i = data[0];
-        return {
-          id: i.id,
-          title: i.title,
-          days: i.days,
-          budget: i.budget,
-          startingCity: i.starting_city,
-          interests: i.interests,
-          itineraryData: i.itinerary_data,
-          createdAt: i.created_at,
-        };
-      }
-      console.error(
-        "Supabase insert error, falling back to local save:",
-        error,
-      );
-    }
-
-    localSavedItineraries.unshift(newItinerary);
-    return newItinerary;
-  },
 };

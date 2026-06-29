@@ -5,7 +5,6 @@
 
 -- Clean up existing tables if they exist
 DROP TABLE IF EXISTS reviews CASCADE;
-DROP TABLE IF EXISTS saved_itineraries CASCADE;
 DROP TABLE IF EXISTS directory_listings CASCADE;
 DROP TABLE IF EXISTS history_rulers CASCADE;
 DROP TABLE IF EXISTS culture_topics CASCADE;
@@ -147,17 +146,7 @@ CREATE TABLE reviews (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
--- 9. Saved Itineraries Table
-CREATE TABLE saved_itineraries (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    title VARCHAR(250) NOT NULL,
-    days INT NOT NULL,
-    budget INT NOT NULL,
-    starting_city VARCHAR(100) NOT NULL,
-    interests TEXT[],
-    itinerary_data JSONB NOT NULL,
-    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-);
+
 
 -- ========================================================
 -- ROW LEVEL SECURITY (RLS) & ACCESS CONTROL CONFIGURATIONS
@@ -173,7 +162,6 @@ ALTER TABLE culture_topics ENABLE ROW LEVEL SECURITY;
 ALTER TABLE history_rulers ENABLE ROW LEVEL SECURITY;
 ALTER TABLE directory_listings ENABLE ROW LEVEL SECURITY;
 ALTER TABLE reviews ENABLE ROW LEVEL SECURITY;
-ALTER TABLE saved_itineraries ENABLE ROW LEVEL SECURITY;
 
 -- 1. Read access (SELECT) policies: Anyone can read data (public select)
 CREATE POLICY "Allow public select cities" ON cities FOR SELECT USING (true);
@@ -184,7 +172,6 @@ CREATE POLICY "Allow public select culture_topics" ON culture_topics FOR SELECT 
 CREATE POLICY "Allow public select history_rulers" ON history_rulers FOR SELECT USING (true);
 CREATE POLICY "Allow public select directory_listings" ON directory_listings FOR SELECT USING (true);
 CREATE POLICY "Allow public select reviews" ON reviews FOR SELECT USING (true);
-CREATE POLICY "Allow public select saved_itineraries" ON saved_itineraries FOR SELECT USING (true);
 
 -- 2. Write access (INSERT, UPDATE, DELETE) policies:
 CREATE POLICY "Restrict insert cities" ON cities FOR INSERT WITH CHECK (false);
@@ -194,10 +181,9 @@ CREATE POLICY "Restrict insert festivals" ON festivals FOR INSERT WITH CHECK (fa
 CREATE POLICY "Restrict insert culture_topics" ON culture_topics FOR INSERT WITH CHECK (false);
 CREATE POLICY "Restrict insert history_rulers" ON history_rulers FOR INSERT WITH CHECK (false);
 
--- Allow public inserts for user reviews, listing registrations, and saved plans
+-- Allow public inserts for user reviews and listing registrations
 CREATE POLICY "Allow public insert reviews" ON reviews FOR INSERT WITH CHECK (true);
 CREATE POLICY "Allow public insert directory_listings" ON directory_listings FOR INSERT WITH CHECK (true);
-CREATE POLICY "Allow public insert saved_itineraries" ON saved_itineraries FOR INSERT WITH CHECK (true);
 
 -- ========================================================
 -- SEED DATA FOR ENCYCLOPEDIA (AUTOMATICALLY GENERATED)

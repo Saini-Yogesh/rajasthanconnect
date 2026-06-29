@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Compass, Sparkles, MapPin, Calendar, CircleDollarSign, Loader2, ArrowRight } from 'lucide-react';
 import { API_BASE_URL } from '../../config/api.js';
 import './TripPlanner.css';
@@ -19,16 +19,6 @@ export default function TripPlanner() {
   
   const [itinerary, setItinerary] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [saveStatus, setSaveStatus] = useState('');
-  const [savedPlans, setSavedPlans] = useState([]);
-
-  // Fetch saved itineraries
-  useEffect(() => {
-    fetch(`${API_BASE_URL}/api/ai/itineraries`)
-      .then(res => res.json())
-      .then(data => setSavedPlans(data))
-      .catch(err => console.error('Failed to load saved plans:', err));
-  }, []);
 
   const handleInterestToggle = (interest) => {
     if (selectedInterests.includes(interest)) {
@@ -42,7 +32,6 @@ export default function TripPlanner() {
     e.preventDefault();
     setLoading(true);
     setItinerary(null);
-    setSaveStatus('');
 
     fetch(`${API_BASE_URL}/api/ai/plan-trip`, {
       method: 'POST',
@@ -65,31 +54,7 @@ export default function TripPlanner() {
       });
   };
 
-  const handleSaveItinerary = () => {
-    if (!itinerary) return;
 
-    fetch(`${API_BASE_URL}/api/ai/save-itinerary`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        title: itinerary.title,
-        days: days,
-        budget: budget,
-        startingCity: startingCity,
-        interests: selectedInterests,
-        itineraryData: itinerary
-      })
-    })
-      .then(res => res.json())
-      .then(saved => {
-        setSavedPlans(prev => [saved, ...prev]);
-        setSaveStatus('Success! Your itinerary is saved in our database database.');
-      })
-      .catch(err => {
-        console.error('Failed to save itinerary:', err);
-        setSaveStatus('Error saving itinerary. Check server connections.');
-      });
-  };
 
   const interestsList = ['History', 'Food', 'Culture', 'Shopping', 'Desert Safari', 'Photography', 'Wildlife', 'Adventure'];
 
@@ -173,25 +138,7 @@ export default function TripPlanner() {
               </form>
             </div>
 
-            {/* Saved Itineraries Gallery */}
-            {savedPlans.length > 0 && (
-              <div className="savedPlansCard">
-                <h3>Saved Itineraries ({savedPlans.length})</h3>
-                <div className="savedList">
-                  {savedPlans.map(plan => (
-                    <div 
-                      className="savedPlanItem" 
-                      key={plan.id}
-                      onClick={() => setItinerary(plan.itineraryData)}
-                      style={{ cursor: 'pointer' }}
-                    >
-                      <h4>{plan.title}</h4>
-                      <p>🗓️ {plan.days} Days | 💰 Budget: {plan.budget} INR | Starting: {plan.startingCity}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
+
           </div>
 
           {/* Results Column */}
@@ -207,13 +154,6 @@ export default function TripPlanner() {
                 <div className="itineraryHeader">
                   <h2>{itinerary.title}</h2>
                   <p>Estimated Budget Used: <strong>{itinerary.totalEstimatedCost} INR</strong></p>
-                  
-                  <div className="headerActions">
-                    <button onClick={handleSaveItinerary} className="btnSavePlan">
-                      Save Itinerary to DB
-                    </button>
-                  </div>
-                  {saveStatus && <p className="saveMessage">{saveStatus}</p>}
                 </div>
 
                 {/* Day-by-Day Timeline List */}

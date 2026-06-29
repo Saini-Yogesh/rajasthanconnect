@@ -19,28 +19,6 @@ router.post('/plan-trip', async (req, res) => {
   }
 });
 
-router.post('/save-itinerary', async (req, res) => {
-  try {
-    const { title, days, budget, startingCity, interests, itineraryData } = req.body;
-    if (!days || !startingCity || !itineraryData) {
-      return res.status(400).json({ error: 'Missing parameters to save itinerary' });
-    }
-
-    const saved = await db.saveItinerary({ title, days, budget, startingCity, interests, itineraryData });
-    res.status(201).json(saved);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-});
-
-router.get('/itineraries', async (req, res) => {
-  try {
-    const itineraries = await db.getSavedItineraries();
-    res.json(itineraries);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-});
 
 router.post('/chat', async (req, res) => {
   try {
