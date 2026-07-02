@@ -99,8 +99,8 @@ const rateLimiter = (limitWindowMs, maxRequests) => {
 // Apply rate limiter specifically to AI endpoints to safeguard Gemini budgets
 app.use("/api/ai", rateLimiter(60000, 15), aiRouter);
 
-// Apply cache middleware to API endpoints (caches GET requests for 10 minutes)
-app.use("/api", cache(600), apiRouter);
+// Apply cache middleware to API endpoints (caches GET requests for 1 week)
+app.use("/api", cache(604800), apiRouter);
 
 app.get("/health", (req, res) => {
   res.json({
