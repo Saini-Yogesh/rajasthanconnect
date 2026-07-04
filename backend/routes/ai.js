@@ -1,6 +1,5 @@
 import express from "express";
 import { gemini } from "../services/gemini.js";
-import { db } from "../db/db.js";
 
 const router = express.Router();
 

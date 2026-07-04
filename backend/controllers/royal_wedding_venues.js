@@ -1,14 +1,14 @@
 import { supabase } from "../config/db.js";
 
 /**
- * Get all festivals (supports optional filter by related city)
+ * Get all royal wedding venues (supports optional city_id filter)
  */
-export const getFestivals = async (req, res) => {
+export const getRoyalWeddingVenues = async (req, res) => {
   try {
-    let query = supabase.from("festivals").select("*").order("title", { ascending: true });
+    let query = supabase.from("royal_wedding_venues").select("*").order("name", { ascending: true });
 
     if (req.query.city_id) {
-      query = query.contains("related_city_ids", [req.query.city_id]);
+      query = query.eq("city_id", req.query.city_id);
     }
 
     const { data, error } = await query;
@@ -20,19 +20,19 @@ export const getFestivals = async (req, res) => {
 };
 
 /**
- * Get a specific festival by slug/ID
+ * Get a specific wedding venue by slug/ID
  */
-export const getFestivalById = async (req, res) => {
+export const getRoyalWeddingVenueById = async (req, res) => {
   try {
     const { data, error } = await supabase
-      .from("festivals")
+      .from("royal_wedding_venues")
       .select("*")
       .eq("id", req.params.id)
       .single();
 
     if (error) {
       if (error.code === "PGRST116") {
-        return res.status(404).json({ error: "Festival not found" });
+        return res.status(404).json({ error: "Wedding venue not found" });
       }
       throw error;
     }

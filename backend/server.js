@@ -1,4 +1,4 @@
-import "dotenv/config";
+import "./configEnv.js";
 import express from "express";
 import cors from "cors";
 import morgan from "morgan";
@@ -106,7 +106,7 @@ app.get("/health", (req, res) => {
   res.json({
     status: "healthy",
     timestamp: new Date().toISOString(),
-    databaseFallback: !process.env.SUPABASE_URL,
+    databaseFallback: !process.env.DATABASE_URL,
     aiFallback: !process.env.GEMINI_API_KEY,
   });
 });

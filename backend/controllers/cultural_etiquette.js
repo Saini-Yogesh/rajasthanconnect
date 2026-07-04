@@ -1,14 +1,14 @@
 import { supabase } from "../config/db.js";
 
 /**
- * Get all festivals (supports optional filter by related city)
+ * Get all cultural etiquette topics (supports optional category filter)
  */
-export const getFestivals = async (req, res) => {
+export const getCulturalEtiquette = async (req, res) => {
   try {
-    let query = supabase.from("festivals").select("*").order("title", { ascending: true });
+    let query = supabase.from("cultural_etiquette").select("*").order("title", { ascending: true });
 
-    if (req.query.city_id) {
-      query = query.contains("related_city_ids", [req.query.city_id]);
+    if (req.query.category) {
+      query = query.eq("category", req.query.category);
     }
 
     const { data, error } = await query;
@@ -20,19 +20,19 @@ export const getFestivals = async (req, res) => {
 };
 
 /**
- * Get a specific festival by slug/ID
+ * Get a specific etiquette topic by slug/ID
  */
-export const getFestivalById = async (req, res) => {
+export const getCulturalEtiquetteById = async (req, res) => {
   try {
     const { data, error } = await supabase
-      .from("festivals")
+      .from("cultural_etiquette")
       .select("*")
       .eq("id", req.params.id)
       .single();
 
     if (error) {
       if (error.code === "PGRST116") {
-        return res.status(404).json({ error: "Festival not found" });
+        return res.status(404).json({ error: "Etiquette topic not found" });
       }
       throw error;
     }

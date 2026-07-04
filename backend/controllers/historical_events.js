@@ -1,20 +1,17 @@
 import { supabase } from "../config/db.js";
 
 /**
- * Get all places (supports optional filters for city_id, district_id, and category)
+ * Get all historical events (supports optional category and location filters)
  */
-export const getPlaces = async (req, res) => {
+export const getHistoricalEvents = async (req, res) => {
   try {
-    let query = supabase.from("places").select("*").order("title", { ascending: true });
+    let query = supabase.from("historical_events").select("*").order("title", { ascending: true });
 
-    if (req.query.city_id) {
-      query = query.eq("city_id", req.query.city_id);
-    }
-    if (req.query.district_id) {
-      query = query.eq("district_id", req.query.district_id);
-    }
     if (req.query.category) {
       query = query.eq("category", req.query.category);
+    }
+    if (req.query.location_place_id) {
+      query = query.eq("location_place_id", req.query.location_place_id);
     }
 
     const { data, error } = await query;
@@ -26,19 +23,19 @@ export const getPlaces = async (req, res) => {
 };
 
 /**
- * Get a specific place by slug/ID
+ * Get a specific historical event by slug/ID
  */
-export const getPlaceById = async (req, res) => {
+export const getHistoricalEventById = async (req, res) => {
   try {
     const { data, error } = await supabase
-      .from("places")
+      .from("historical_events")
       .select("*")
       .eq("id", req.params.id)
       .single();
 
     if (error) {
       if (error.code === "PGRST116") {
-        return res.status(404).json({ error: "Place not found" });
+        return res.status(404).json({ error: "Historical event not found" });
       }
       throw error;
     }

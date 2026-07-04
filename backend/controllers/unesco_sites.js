@@ -1,20 +1,15 @@
 import { supabase } from "../config/db.js";
 
 /**
- * Get all cities (supports optional filter by district_id)
+ * Get all unesco sites
  */
-export const getCities = async (req, res) => {
+export const getUnescoSites = async (req, res) => {
   try {
-    let query = supabase
-      .from("cities")
+    const { data, error } = await supabase
+      .from("unesco_sites")
       .select("*")
       .order("name", { ascending: true });
 
-    if (req.query.district_id) {
-      query = query.eq("district_id", req.query.district_id);
-    }
-
-    const { data, error } = await query;
     if (error) throw error;
     res.json(data);
   } catch (err) {
@@ -23,19 +18,19 @@ export const getCities = async (req, res) => {
 };
 
 /**
- * Get a specific city by slug/ID
+ * Get a specific unesco site by slug/ID
  */
-export const getCityById = async (req, res) => {
+export const getUnescoSiteById = async (req, res) => {
   try {
     const { data, error } = await supabase
-      .from("cities")
+      .from("unesco_sites")
       .select("*")
       .eq("id", req.params.id)
       .single();
 
     if (error) {
       if (error.code === "PGRST116") {
-        return res.status(404).json({ error: "City not found" });
+        return res.status(404).json({ error: "UNESCO site not found" });
       }
       throw error;
     }

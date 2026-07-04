@@ -1,13 +1,15 @@
 # 🕌 Rajasthan Connect - Database Design Report
+
 This report outlines the proposed relational database architecture for the **Rajasthan Connect** application. It details how to structure, store, and interconnect the **19 available datasets** (covering cities, forts, dynasties, cuisine, folk arts, languages, etc.) to support a seamless, premium user experience.
 
 ---
 
 ## 🗃️ 1. Database Architecture Recommendation: PostgreSQL (via Supabase)
 
-We recommend using a **Hybrid Relational Database Model** built on **PostgreSQL (Supabase)**. 
+We recommend using a **Hybrid Relational Database Model** built on **PostgreSQL (Supabase)**.
 
 ### Why PostgreSQL/Supabase is the Optimal Choice:
+
 1. **Rich Relationships**: The 19 datasets are deeply interconnected (e.g., a City has Places, Places were built by Rulers, Rulers belonged to Dynasties, Dynasties had primary Languages, etc.). A relational database excels at these query joins.
 2. **Polymorphic / Single-Table Inheritance**: Instead of creating 10 different tables for different types of "Places" (forts, palaces, lakes, wildlife reserves), we can use a single `places` table with a `category` discriminator. This simplifies queries and frontend routing.
 3. **PostgreSQL Native Array (`TEXT[]`) & JSONB Support**:
@@ -30,19 +32,19 @@ erDiagram
     CITIES ||--o{ WEDDING_VENUES : "hosts"
     CITIES ||--o{ UNIQUE_EXPERIENCES : "hosts"
     CITIES ||--o{ HANDICRAFTS : "originates"
-    
+
     DYNASTIES ||--o{ RULERS : "belongs_to"
     RULERS ||--o{ PLACES : "built_monument"
     RULERS ||--o{ HISTORICAL_EVENTS : "participated_in"
     PLACES ||--o{ HISTORICAL_EVENTS : "occurred_at"
-    
+
     COMMUNITIES_TRIBES }o--o{ FOLK_ARTS : "practices"
     COMMUNITIES_TRIBES }o--o{ FOLK_MUSIC_INSTRUMENTS : "plays_sings"
     COMMUNITIES_TRIBES }o--o{ ATTIRE : "wears"
     COMMUNITIES_TRIBES }o--o{ LANGUAGES : "speaks"
 
     PLACES }o--o{ UNESCO_SITES : "classified_under"
-    
+
     %% Array-based relationships in Hybrid Model:
     CITIES }o--o{ CUISINES : "shares_via_array"
     CITIES }o--o{ FESTIVALS : "shares_via_array"
@@ -756,10 +758,11 @@ To expand the dataset names in `Rajasthan Data` (e.g. adding detailed descriptio
 When a user clicks on an entity card (e.g. a City card, a Place card, a Festival card), the detailed page loads. To query all interconnected data efficiently, implement the following query patterns in your Node.js/Express backend.
 
 ### A. Fetching City Details (and resolving related Cuisine, Festivals, & Places)
+
 In a single API call, we can retrieve a city and query other tables based on array overlapping or foreign keys:
 
 ```javascript
-import { supabase } from "../db/db.js";
+import { supabase } from "../config/db.js";
 
 export const getCityDetails = async (req, res) => {
   const { cityId } = req.params;
@@ -771,7 +774,8 @@ export const getCityDetails = async (req, res) => {
       .eq("id", cityId)
       .single();
 
-    if (cityErr || !city) return res.status(404).json({ error: "City not found" });
+    if (cityErr || !city)
+      return res.status(404).json({ error: "City not found" });
 
     // 2. Query places associated with this City (Forts, Palaces, Temples, etc.)
     const { data: places } = await supabase
@@ -803,7 +807,7 @@ export const getCityDetails = async (req, res) => {
       places,
       cuisines,
       festivals,
-      handicrafts
+      handicrafts,
     });
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -812,6 +816,7 @@ export const getCityDetails = async (req, res) => {
 ```
 
 ### B. Fetching Place Details (and resolving historical Rulers, Dynasties & Reviews)
+
 When opening a Place (e.g. Amber Fort):
 
 ```javascript
@@ -824,7 +829,8 @@ export const getPlaceDetails = async (req, res) => {
       .eq("id", placeId)
       .single();
 
-    if (placeErr || !place) return res.status(404).json({ error: "Place not found" });
+    if (placeErr || !place)
+      return res.status(404).json({ error: "Place not found" });
 
     // Resolve Rulers who built/ruled this place using array match
     let rulers = [];
@@ -846,7 +852,7 @@ export const getPlaceDetails = async (req, res) => {
     res.json({
       ...place,
       rulers,
-      reviews
+      reviews,
     });
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -855,6 +861,7 @@ export const getPlaceDetails = async (req, res) => {
 ```
 
 ### C. Fetching Folk Art details (resolving practicing Tribes & Instruments)
+
 When opening a Folk Art (e.g. Ghoomar):
 
 ```javascript
@@ -867,7 +874,8 @@ export const getFolkArtDetails = async (req, res) => {
       .eq("id", artId)
       .single();
 
-    if (artErr || !art) return res.status(404).json({ error: "Folk Art not found" });
+    if (artErr || !art)
+      return res.status(404).json({ error: "Folk Art not found" });
 
     // Query which Tribes/Communities practice this Folk Art
     const { data: communities } = await supabase
@@ -888,7 +896,7 @@ export const getFolkArtDetails = async (req, res) => {
     res.json({
       ...art,
       communities,
-      instruments
+      instruments,
     });
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -899,6 +907,7 @@ export const getFolkArtDetails = async (req, res) => {
 ---
 
 ## 🚀 5. Next Steps for Implementation
+
 1. **Apply Schemas**: Run the [Supabase SQL DDL Schema](#3-table-schema-definitions-supabase-sql-ddl) directly in the Supabase SQL editor dashboard.
 2. **Setup AI Ingestion Scripts**: Update your backend script `backend/db/generateSeedData.js` to process the remaining 11 JSON files using Gemini API with the JSON prompt templates provided in [Section 4](#4-json-data-formats-for-ai-content-generation).
 3. **Integrate Routes**: Add matching Express routers and endpoints in `backend/routes/` and controllers to enable clean retrieval of these interconnected details.

@@ -1,4 +1,4 @@
-import { db } from "../db/db.js";
+import { supabase } from "../config/db.js";
 
 // Input Validation Helper for Business Listings
 export const validateListingData = (data) => {
@@ -16,10 +16,9 @@ export const validateListingData = (data) => {
     errors.push(`Category must be one of: ${allowedCategories.join(', ')}.`);
   }
 
-  // Validate City
-  const allowedCities = ['Jaipur', 'Jodhpur', 'Udaipur', 'Jaisalmer'];
-  if (!city || !allowedCities.includes(city)) {
-    errors.push(`City must be one of: ${allowedCities.join(', ')}.`);
+  // Validate City (supports all major cities now, not just a hardcoded list)
+  if (!city || typeof city !== 'string' || city.trim().length < 2) {
+    errors.push('City name is required.');
   }
 
   // Validate Phone number (standard local/intl formats with digits, space, -, (, ))
@@ -39,21 +38,36 @@ export const validateListingData = (data) => {
   };
 };
 
+/**
+ * Get all listings (supports city_id and category filters)
+ */
 export const getListings = async (req, res) => {
   try {
     const { cityId, category } = req.query;
-    const data = await db.getDirectoryListings(cityId, category);
+    let query = supabase.from("directory_listings").select("*");
+
+    if (cityId) {
+      query = query.eq("city_id", cityId.toLowerCase());
+    }
+    if (category && category !== "All") {
+      query = query.eq("category", category);
+    }
+
+    const { data, error } = await query;
+    if (error) throw error;
     res.json(data);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 };
 
+/**
+ * Create a new business directory listing and notify via EmailJS
+ */
 export const createListing = async (req, res) => {
   try {
     const { businessName, category, city, phone, description } = req.body;
 
-    // Run input validation schema checks
     const validation = validateListingData(req.body);
     if (!validation.isValid) {
       return res.status(400).json({
@@ -62,59 +76,60 @@ export const createListing = async (req, res) => {
       });
     }
 
-    // Retrieve EmailJS credentials from environment variables
-    const serviceId = process.env.EMAILJS_SERVICE_ID;
-    const templateId = process.env.EMAILJS_TEMPLATE_ID;
-    const publicKey = process.env.EMAILJS_PUBLIC_KEY;
+    // Insert listing into Supabase table
+    const { data, error } = await supabase
+      .from("directory_listings")
+      .insert([{
+        city_id: city.toLowerCase(),
+        title: businessName,
+        category: category,
+        subcategory: category === "Guides" ? "Tour Guide" : "Services",
+        rating: 5.0,
+        location_address: `${city}, Rajasthan`,
+        contact_phone: phone,
+        whatsapp: phone,
+        description: description,
+        pricing: "Contact for pricing",
+        is_verified: false
+      }])
+      .select();
 
-    console.log("EmailJS configuration load status:", {
-      serviceId: serviceId ? "LOADED" : "NOT_FOUND",
-      templateId: templateId ? "LOADED" : "NOT_FOUND",
-      publicKey: publicKey ? "LOADED" : "NOT_FOUND",
-    });
+    if (error) throw error;
 
-    // Send the data via EmailJS REST API
-    const requestBody = {
-      service_id: serviceId,
-      template_id: templateId,
-      user_id: publicKey,
-      template_params: {
-        businessName,
-        category,
-        city,
-        phone,
-        description,
-      },
-    };
+    // Send email using EmailJS if configured
+    try {
+      const serviceId = process.env.EMAILJS_SERVICE_ID;
+      const templateId = process.env.EMAILJS_TEMPLATE_ID;
+      const publicKey = process.env.EMAILJS_PUBLIC_KEY;
 
-    // If private key (Access Token) is configured, pass it to authenticate the server-side request
-    if (process.env.EMAILJS_PRIVATE_KEY) {
-      requestBody.accessToken = process.env.EMAILJS_PRIVATE_KEY;
+      if (serviceId && templateId && publicKey) {
+        const requestBody = {
+          service_id: serviceId,
+          template_id: templateId,
+          user_id: publicKey,
+          template_params: {
+            businessName,
+            category,
+            city,
+            phone,
+            description,
+          },
+        };
+        if (process.env.EMAILJS_PRIVATE_KEY) {
+          requestBody.accessToken = process.env.EMAILJS_PRIVATE_KEY;
+        }
+        await fetch("https://api.emailjs.com/api/v1.0/email/send", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(requestBody),
+        });
+      }
+    } catch (emailErr) {
+      console.error("EmailJS notification error:", emailErr);
     }
 
-    const response = await fetch(
-      "https://api.emailjs.com/api/v1.0/email/send",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(requestBody),
-      },
-    );
-
-    if (!response.ok) {
-      const errorText = await response.text();
-      throw new Error(`EmailJS API responded with error: ${errorText}`);
-    }
-
-    // Return a success confirmation object
-    res.status(201).json({
-      success: true,
-      message: "Listing registered successfully via EmailJS",
-    });
+    res.status(201).json(data[0]);
   } catch (err) {
-    console.error("Error sending registration email via EmailJS:", err);
     res.status(500).json({ error: err.message });
   }
 };

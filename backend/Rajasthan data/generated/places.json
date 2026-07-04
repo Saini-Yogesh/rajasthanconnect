@@ -7643,5 +7643,37 @@
       "rajasthani-folk-music",
       "meena-tribal-art"
     ]
+  },
+  {
+    "id": "haldighati-pass",
+    "city_id": "udaipur",
+    "district_id": "rajsamand-district",
+    "title": "Haldighati Pass",
+    "category": "Hills & Nature",
+    "overview": "Haldighati is a famous mountain pass in the Aravalli Range of Rajasthan, western India, connecting Rajsamand and Pali districts.",
+    "history": "Famous for the historic Battle of Haldighati (1576) between Maharana Pratap and the Mughal army.",
+    "architecture_style": "Natural mountain pass",
+    "best_time": "October to March",
+    "timings": "Open 24 hours",
+    "entry_fee": "Free",
+    "map_coords": {
+      "lat": 24.8906,
+      "lng": 73.7027
+    },
+    "parking": "Parking available nearby",
+    "photography_rules": "Allowed",
+    "things_to_avoid": "None",
+    "travel_tips": "Carry water and wear walking shoes",
+    "faq": [],
+    "image_urls": [
+      "https://images.unsplash.com/photo-1617874519465-3c9e2f2f6c6c"
+    ],
+    "rating": 4.8,
+    "related_ruler_ids": [
+      "maharana-pratap"
+    ],
+    "related_food_ids": [],
+    "related_festival_ids": [],
+    "related_culture_ids": []
   }
 ]

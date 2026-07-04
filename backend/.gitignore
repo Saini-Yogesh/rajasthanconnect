@@ -12,7 +12,6 @@ node_modules
 dist
 dist-ssr
 *.local
-/clearCache.js
 
 # Editor directories and files
 .vscode/*

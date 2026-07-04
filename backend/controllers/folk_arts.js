@@ -1,12 +1,15 @@
 import { supabase } from "../config/db.js";
 
 /**
- * Get all festivals (supports optional filter by related city)
+ * Get all folk arts (supports optional category and related city filters)
  */
-export const getFestivals = async (req, res) => {
+export const getFolkArts = async (req, res) => {
   try {
-    let query = supabase.from("festivals").select("*").order("title", { ascending: true });
+    let query = supabase.from("folk_arts").select("*").order("name", { ascending: true });
 
+    if (req.query.category) {
+      query = query.eq("category", req.query.category);
+    }
     if (req.query.city_id) {
       query = query.contains("related_city_ids", [req.query.city_id]);
     }
@@ -20,19 +23,19 @@ export const getFestivals = async (req, res) => {
 };
 
 /**
- * Get a specific festival by slug/ID
+ * Get a specific folk art by slug/ID
  */
-export const getFestivalById = async (req, res) => {
+export const getFolkArtById = async (req, res) => {
   try {
     const { data, error } = await supabase
-      .from("festivals")
+      .from("folk_arts")
       .select("*")
       .eq("id", req.params.id)
       .single();
 
     if (error) {
       if (error.code === "PGRST116") {
-        return res.status(404).json({ error: "Festival not found" });
+        return res.status(404).json({ error: "Folk art not found" });
       }
       throw error;
     }

@@ -1,14 +1,14 @@
 import { supabase } from "../config/db.js";
 
 /**
- * Get all festivals (supports optional filter by related city)
+ * Get all traditional attire (supports optional worn_by filter)
  */
-export const getFestivals = async (req, res) => {
+export const getAttire = async (req, res) => {
   try {
-    let query = supabase.from("festivals").select("*").order("title", { ascending: true });
+    let query = supabase.from("attire").select("*").order("name", { ascending: true });
 
-    if (req.query.city_id) {
-      query = query.contains("related_city_ids", [req.query.city_id]);
+    if (req.query.worn_by) {
+      query = query.eq("worn_by", req.query.worn_by);
     }
 
     const { data, error } = await query;
@@ -20,19 +20,19 @@ export const getFestivals = async (req, res) => {
 };
 
 /**
- * Get a specific festival by slug/ID
+ * Get a specific attire item by slug/ID
  */
-export const getFestivalById = async (req, res) => {
+export const getAttireById = async (req, res) => {
   try {
     const { data, error } = await supabase
-      .from("festivals")
+      .from("attire")
       .select("*")
       .eq("id", req.params.id)
       .single();
 
     if (error) {
       if (error.code === "PGRST116") {
-        return res.status(404).json({ error: "Festival not found" });
+        return res.status(404).json({ error: "Attire item not found" });
       }
       throw error;
     }
