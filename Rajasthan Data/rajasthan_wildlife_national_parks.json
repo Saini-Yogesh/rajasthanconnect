@@ -1,0 +1,34 @@
+{
+  "national_parks": [
+    "Ranthambore National Park",
+    "Desert National Park",
+    "Keoladeo Ghana National Park",
+    "Mukundra Hills National Park"
+  ],
+  "tiger_reserves": [
+    "Ranthambore Tiger Reserve",
+    "Sariska Tiger Reserve",
+    "Mukundra Hills Tiger Reserve",
+    "Ramgarh Vishdhari Tiger Reserve"
+  ],
+  "wildlife_sanctuaries": [
+    "Tal Chhapar Wildlife Sanctuary",
+    "Mount Abu Wildlife Sanctuary",
+    "Kumbhalgarh Wildlife Sanctuary",
+    "Jaisamand Wildlife Sanctuary",
+    "Sajjangarh Wildlife Sanctuary",
+    "National Chambal Wildlife Sanctuary",
+    "Darrah Wildlife Sanctuary",
+    "Phulwari Ki Nal Wildlife Sanctuary",
+    "Bandh Baretha Wildlife Sanctuary",
+    "Shergarh Wildlife Sanctuary",
+    "Todgarh-Raoli Wildlife Sanctuary",
+    "Jamwa Ramgarh Wildlife Sanctuary"
+  ],
+  "bird_sanctuaries": [
+    "Keoladeo Bird Sanctuary",
+    "Sambhar Salt Lake Bird Area",
+    "Khichan Bird Village",
+    "Tal Chhapar Bird Sanctuary"
+  ]
+}
