@@ -5,17 +5,35 @@ import morgan from "morgan";
 import apiRouter from "./routes/api.js";
 import aiRouter from "./routes/ai.js";
 import cache from "./middleware/cache.js";
+import { isGroqConfigured } from "./services/groq/index.js";
+
+// Prevent process exit on unhandled async errors
+process.on("unhandledRejection", (reason) => {
+  console.error("[unhandledRejection]", reason);
+});
+process.on("uncaughtException", (err) => {
+  console.error("[uncaughtException]", err.message);
+});
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Safe CORS configuration allowing localhost, your custom domain, and Vercel deployments
-const allowedOrigins = [
+// Required behind Railway, Render, Fly.io, etc. for correct client IPs (rate limiting)
+app.set("trust proxy", 1);
+
+const defaultOrigins = [
   "http://localhost:5173",
   "http://localhost:5000",
   "https://rajasthanconnect.in",
   "https://www.rajasthanconnect.in",
 ];
+
+const envOrigins = (process.env.FRONTEND_URLS || "")
+  .split(",")
+  .map((o) => o.trim())
+  .filter(Boolean);
+
+const allowedOrigins = [...new Set([...defaultOrigins, ...envOrigins])];
 
 app.use(
   cors({
@@ -30,7 +48,7 @@ app.use(
       if (isAllowed) {
         callback(null, true);
       } else {
-        callback(new Error("Not allowed by CORS"));
+        callback(null, false);
       }
     },
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
@@ -96,7 +114,7 @@ const rateLimiter = (limitWindowMs, maxRequests) => {
   };
 };
 
-// Apply rate limiter specifically to AI endpoints to safeguard Gemini budgets
+// Apply rate limiter specifically to AI endpoints to safeguard Groq API quotas
 app.use("/api/ai", rateLimiter(60000, 15), aiRouter);
 
 // Apply cache middleware to API endpoints (caches GET requests for 1 week)
@@ -107,7 +125,7 @@ app.get("/health", (req, res) => {
     status: "healthy",
     timestamp: new Date().toISOString(),
     databaseFallback: !process.env.DATABASE_URL,
-    aiFallback: !process.env.GEMINI_API_KEY,
+    aiFallback: !isGroqConfigured(),
   });
 });
 
@@ -128,5 +146,7 @@ app.use((err, req, res, next) => {
 
 app.listen(PORT, () => {
   console.log(`🚀 RajasthanConnect API Server running on port ${PORT}`);
-  console.log(`👉 Health check: http://localhost:${PORT}/health`);
+  if (process.env.NODE_ENV !== "production") {
+    console.log(`👉 Health check: http://localhost:${PORT}/health`);
+  }
 });

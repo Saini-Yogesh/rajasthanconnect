@@ -1,92 +1,92 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
+import { SITE } from "../utils/seo";
 
 /**
- * Custom hook to dynamically update page meta tags and inject JSON-LD schemas for maximum SEO indexability.
+ * Dynamically updates title, meta tags, canonical URL, robots, and JSON-LD schema.
+ * Pass a config object from LIST_SEO or build*SEO() helpers in utils/seo.js.
  */
-export default function useSEO({ title, description, keywords, image, url, schema }) {
+export default function useSEO({
+  title,
+  description,
+  keywords,
+  image,
+  url,
+  schema,
+  robots = "index, follow",
+  type = "website",
+}) {
   useEffect(() => {
-    // 1. Document Title
-    const baseTitle = "Rajasthan Connect — Connecting Heritage, Tour Guides & Stays";
-    if (title) {
-      document.title = `${title} | Rajasthan Connect`;
-    } else {
-      document.title = baseTitle;
-    }
+    const baseTitle = `${SITE.name} — Rajasthan Tourism, Culture & Travel Guide`;
+    const fullTitle = title ? `${title} | ${SITE.name}` : baseTitle;
+    document.title = fullTitle;
 
-    // Helper to update or create meta tags
-    const updateMetaTag = (selector, attributeName, attributeValue, content) => {
-      if (!content) return;
-      let element = document.querySelector(selector);
-      if (!element) {
-        element = document.createElement('meta');
-        element.setAttribute(attributeName, attributeValue);
-        document.head.appendChild(element);
+    const setMeta = (selector, attrName, attrValue, content) => {
+      if (content == null || content === "") return;
+      let el = document.querySelector(selector);
+      if (!el) {
+        el = document.createElement("meta");
+        el.setAttribute(attrName, attrValue);
+        document.head.appendChild(el);
       }
-      element.setAttribute('content', content);
+      el.setAttribute("content", content);
     };
 
-    // Helper to update link canonical tag
-    const updateCanonical = (href) => {
+    const setLink = (rel, href) => {
       if (!href) return;
-      let element = document.querySelector('link[rel="canonical"]');
-      if (!element) {
-        element = document.createElement('link');
-        element.setAttribute('rel', 'canonical');
-        document.head.appendChild(element);
+      let el = document.querySelector(`link[rel="${rel}"]`);
+      if (!el) {
+        el = document.createElement("link");
+        el.setAttribute("rel", rel);
+        document.head.appendChild(el);
       }
-      element.setAttribute('href', href);
+      el.setAttribute("href", href);
     };
 
-    // 2. Primary Meta Tags
-    const fallbackDesc = "Discover Rajasthan's rich culture, book local verified tour guides, reserve heritage stays, and explore majestic sand dunes. Your direct gateway to the land of kings.";
-    const fallbackKeywords = "Rajasthan connect, Rajasthan tour guides, Jaisalmer camel safari, Udaipur heritage hotels, Jaipur local guide, Rajasthan artisans, Blue pottery Jaipur, Dal Baati Churma, Rajasthan tourism portal";
-    
-    updateMetaTag('meta[name="description"]', 'name', 'description', description || fallbackDesc);
-    updateMetaTag('meta[name="keywords"]', 'name', 'keywords', keywords || fallbackKeywords);
+    const fallbackDesc =
+      "Explore Rajasthan — cities, forts, festivals, food, handicrafts & verified local guides. Your complete travel guide to the Land of Kings.";
+    const fallbackKeywords =
+      "Rajasthan tourism, Rajasthan travel guide, Jaipur Udaipur Jaisalmer, Rajasthan festivals, Rajasthani food, things to do Rajasthan";
 
-    // 3. Open Graph Tags (WhatsApp, Facebook sharing previews)
-    const ogTitle = title ? `${title} | Rajasthan Connect` : baseTitle;
-    const ogDesc = description || fallbackDesc;
-    const ogImg = image || "https://www.rajasthanconnect.in/images/jaipur.webp";
-    const ogUrl = url || window.location.href;
+    const desc = description || fallbackDesc;
+    const kw = keywords || fallbackKeywords;
+    const img = image || SITE.defaultImage;
+    const pageUrl = url || window.location.href;
 
-    updateMetaTag('meta[property="og:title"]', 'property', 'og:title', ogTitle);
-    updateMetaTag('meta[property="og:description"]', 'property', 'og:description', ogDesc);
-    updateMetaTag('meta[property="og:image"]', 'property', 'og:image', ogImg);
-    updateMetaTag('meta[property="og:url"]', 'property', 'og:url', ogUrl);
-    updateMetaTag('meta[property="og:type"]', 'property', 'og:type', 'website');
+    setMeta('meta[name="description"]', "name", "description", desc);
+    setMeta('meta[name="keywords"]', "name", "keywords", kw);
+    setMeta('meta[name="robots"]', "name", "robots", robots);
+    setMeta('meta[name="geo.region"]', "name", "geo.region", "IN-RJ");
+    setMeta('meta[name="geo.placename"]', "name", "geo.placename", "Rajasthan, India");
 
-    // 4. Twitter Tags
-    updateMetaTag('meta[property="twitter:title"]', 'property', 'twitter:title', ogTitle);
-    updateMetaTag('meta[property="twitter:description"]', 'property', 'twitter:description', ogDesc);
-    updateMetaTag('meta[property="twitter:image"]', 'property', 'twitter:image', ogImg);
-    updateMetaTag('meta[property="twitter:url"]', 'property', 'twitter:url', ogUrl);
-    updateMetaTag('meta[property="twitter:card"]', 'property', 'twitter:card', 'summary_large_image');
+    setMeta('meta[property="og:title"]', "property", "og:title", fullTitle);
+    setMeta('meta[property="og:description"]', "property", "og:description", desc);
+    setMeta('meta[property="og:image"]', "property", "og:image", img);
+    setMeta('meta[property="og:url"]', "property", "og:url", pageUrl);
+    setMeta('meta[property="og:type"]', "property", "og:type", type);
+    setMeta('meta[property="og:site_name"]', "property", "og:site_name", SITE.name);
+    setMeta('meta[property="og:locale"]', "property", "og:locale", SITE.locale);
 
-    // 5. Canonical link tag
-    updateCanonical(ogUrl);
+    setMeta('meta[name="twitter:card"]', "name", "twitter:card", "summary_large_image");
+    setMeta('meta[name="twitter:title"]', "name", "twitter:title", fullTitle);
+    setMeta('meta[name="twitter:description"]', "name", "twitter:description", desc);
+    setMeta('meta[name="twitter:image"]', "name", "twitter:image", img);
+    setMeta('meta[name="twitter:url"]', "name", "twitter:url", pageUrl);
 
-    // 6. Structured Schema JSON-LD injection
-    let scriptTag = document.getElementById('dynamic-jsonld-schema');
-    if (scriptTag) {
-      scriptTag.remove();
-    }
+    setLink("canonical", pageUrl);
+
+    const existing = document.getElementById("dynamic-jsonld-schema");
+    if (existing) existing.remove();
 
     if (schema) {
-      scriptTag = document.createElement('script');
-      scriptTag.id = 'dynamic-jsonld-schema';
-      scriptTag.type = 'application/ld+json';
-      scriptTag.innerHTML = JSON.stringify(schema);
-      document.body.appendChild(scriptTag);
+      const script = document.createElement("script");
+      script.id = "dynamic-jsonld-schema";
+      script.type = "application/ld+json";
+      script.textContent = JSON.stringify(schema);
+      document.head.appendChild(script);
     }
 
-    // Cleanup schema script on unmount
     return () => {
-      const tag = document.getElementById('dynamic-jsonld-schema');
-      if (tag) {
-        tag.remove();
-      }
+      document.getElementById("dynamic-jsonld-schema")?.remove();
     };
-
-  }, [title, description, keywords, image, url, schema]);
+  }, [title, description, keywords, image, url, schema, robots, type]);
 }

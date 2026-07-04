@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Compass, Send } from "lucide-react";
-import { API_BASE_URL } from "../../config/api.js";
+import { API_BASE_URL, fetchJson } from "../../config/api.js";
 import "./CultureDetail.css";
 import useSEO from "../../hooks/useSEO";
+import { buildCultureSEO } from "../../utils/seo";
 
 export default function CultureDetail() {
   const { id } = useParams();
@@ -20,20 +21,15 @@ export default function CultureDetail() {
   const [submittingReview, setSubmittingReview] = useState(false);
   const [reviewMsg, setReviewMsg] = useState("");
 
-  useSEO({
-    title: topic ? `${topic.title} - Rajasthani Culture & Folk Arts` : "Culture Detail",
-    description: topic ? topic.description : "Explore the details of traditional music, attire, folk dances, and crafts of Rajasthan.",
-    keywords: topic ? `${topic.title}, Rajasthani ${topic.category.toLowerCase()}, traditional ${topic.title.toLowerCase()}` : "Rajasthan culture, Rajasthani crafts",
-    image: topic?.image_url || topic?.imageUrl
-  });
+  useSEO(buildCultureSEO(topic, id));
 
   useEffect(() => {
     setLoading(true);
     Promise.all([
-      fetch(`${API_BASE_URL}/api/culture/${id}`).then((res) => res.json()),
-      fetch(`${API_BASE_URL}/api/reviews/${id}/culture`).then((res) => res.json()),
-      fetch(`${API_BASE_URL}/api/cities`).then((res) => res.json()),
-      fetch(`${API_BASE_URL}/api/festivals`).then((res) => res.json()),
+      fetchJson(`/api/culture/${id}`),
+      fetch(`${API_BASE_URL}/api/reviews/${id}/culture`).then((res) => (res.ok ? res.json() : [])),
+      fetchJson("/api/cities").catch(() => []),
+      fetchJson("/api/festivals").catch(() => []),
     ])
       .then(([topicData, reviewsData, citiesData, festsData]) => {
         setTopic(topicData);

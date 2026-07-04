@@ -12,20 +12,14 @@ import {
 import { API_BASE_URL } from "../../config/api.js";
 import "./DirectoryListings.css";
 import useSEO from "../../hooks/useSEO";
+import { LIST_SEO } from "../../utils/seo";
+import { matchesSearch } from "../../utils/search";
 
 export default function DirectoryListings() {
   const [searchParams] = useSearchParams();
   const registerQuery = searchParams.get("register");
 
-  useSEO({
-    title: registerQuery
-      ? "Register Local Business & Services"
-      : "Local Services & Guides Directory",
-    description:
-      "Search for verified tour guides, hotel stays, restaurants, and shops, or register your own travel business listing on Rajasthan Connect.",
-    keywords:
-      "Rajasthan directory, registered guides, heritage hotels list, local shops, register travel agency",
-  });
+  useSEO(registerQuery ? LIST_SEO.directoryRegister : LIST_SEO.directory);
 
   // Listings state
   const [listings, setListings] = useState([]);
@@ -135,10 +129,8 @@ export default function DirectoryListings() {
       });
   };
 
-  const filteredListings = listings.filter(
-    (l) =>
-      l.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      l.description.toLowerCase().includes(searchTerm.toLowerCase()),
+  const filteredListings = listings.filter((l) =>
+    matchesSearch(searchTerm, l.title, l.description)
   );
 
   const categories = [

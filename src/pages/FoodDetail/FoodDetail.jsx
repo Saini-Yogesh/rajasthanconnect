@@ -1,20 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Compass, BookOpen, Utensils, Star, Send } from 'lucide-react';
-import { API_BASE_URL } from '../../config/api.js';
+import { API_BASE_URL, fetchJson } from '../../config/api.js';
 import './FoodDetail.css';
 import useSEO from '../../hooks/useSEO';
+import { buildFoodSEO } from '../../utils/seo';
 
 export default function FoodDetail() {
   const { id } = useParams();
   const [food, setFood] = useState(null);
   
-  useSEO({
-    title: food ? `${food.title} Recipe & History` : "Cuisine Details",
-    description: food ? food.description : "Learn the recipe, ingredients, history, and where to eat traditional Rajasthani dishes.",
-    keywords: food ? `${food.title} recipe, how to make ${food.title}, ${food.title} origin, traditional food` : "Rajasthani food",
-    image: food?.imageUrl || food?.image_url
-  });
+  useSEO(buildFoodSEO(food, id));
 
   const [reviews, setReviews] = useState([]);
   const [allCities, setAllCities] = useState([]);
@@ -30,10 +26,10 @@ export default function FoodDetail() {
   useEffect(() => {
     setLoading(true);
     Promise.all([
-      fetch(`${API_BASE_URL}/api/foods/${id}`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/reviews/${id}/food`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/cities`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/festivals`).then(res => res.json())
+      fetchJson(`/api/foods/${id}`),
+      fetch(`${API_BASE_URL}/api/reviews/${id}/food`).then(res => res.ok ? res.json() : []),
+      fetchJson('/api/cities').catch(() => []),
+      fetchJson('/api/festivals').catch(() => [])
     ])
       .then(([foodData, reviewsData, citiesData, festivalsData]) => {
         setFood(foodData);

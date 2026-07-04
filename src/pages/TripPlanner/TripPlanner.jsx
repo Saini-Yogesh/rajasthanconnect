@@ -3,13 +3,10 @@ import { Compass, Sparkles, MapPin, Calendar, CircleDollarSign, Loader2, ArrowRi
 import { API_BASE_URL } from '../../config/api.js';
 import './TripPlanner.css';
 import useSEO from '../../hooks/useSEO';
+import { LIST_SEO } from '../../utils/seo';
 
 export default function TripPlanner() {
-  useSEO({
-    title: "AI Custom Trip Planner",
-    description: "Generate a custom, day-by-day travel itinerary for Rajasthan using our smart AI planner. Filter by starting city, days, budget, and interests.",
-    keywords: "Rajasthan trip planner, AI travel itinerary, Jaipur itinerary, Udaipur holiday package, custom routes Rajasthan"
-  });
+  useSEO(LIST_SEO.planner);
 
   // Wizard states
   const [startingCity, setStartingCity] = useState('Jaipur');
@@ -19,6 +16,7 @@ export default function TripPlanner() {
   
   const [itinerary, setItinerary] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [plannerError, setPlannerError] = useState("");
 
   const handleInterestToggle = (interest) => {
     if (selectedInterests.includes(interest)) {
@@ -32,6 +30,7 @@ export default function TripPlanner() {
     e.preventDefault();
     setLoading(true);
     setItinerary(null);
+    setPlannerError("");
 
     fetch(`${API_BASE_URL}/api/ai/plan-trip`, {
       method: 'POST',
@@ -45,13 +44,16 @@ export default function TripPlanner() {
     })
       .then(res => res.json())
       .then(data => {
+        if (data.error || !data.days) {
+          setPlannerError("Could not generate itinerary right now. Please try again in a moment.");
+          return;
+        }
         setItinerary(data);
-        setLoading(false);
       })
-      .catch(err => {
-        console.error('Failed to generate plan:', err);
-        setLoading(false);
-      });
+      .catch(() => {
+        setPlannerError("Could not reach the planner service. Please try again shortly.");
+      })
+      .finally(() => setLoading(false));
   };
 
 
@@ -63,7 +65,7 @@ export default function TripPlanner() {
       <header className="plannerHeader">
         <Sparkles className="headerIcon" size={40} />
         <h1>AI Sightseeing Itinerary Planner</h1>
-        <p>Input your parameters, and our Gemini AI engine will formulate a day-by-day sightseeing timeline detailing timings, hotspots, and pricing.</p>
+        <p>Input your parameters, and our AI engine will formulate a day-by-day sightseeing timeline detailing timings, hotspots, and pricing.</p>
       </header>
 
       <section className="plannerBody">
@@ -147,7 +149,13 @@ export default function TripPlanner() {
               <div className="loadingTimeline">
                 <Compass className="spinIcon" size={60} />
                 <h3>Generating Sightseeing Itinerary</h3>
-                <p>Gemini AI is parsing weather norms, traffic constraints, ticket timings, and local maps...</p>
+                <p>AI is parsing weather norms, traffic constraints, ticket timings, and local maps...</p>
+              </div>
+            ) : plannerError ? (
+              <div className="timelineIdleState">
+                <Compass size={64} className="idleIcon" />
+                <h3>Planner Unavailable</h3>
+                <p>{plannerError}</p>
               </div>
             ) : itinerary ? (
               <div className="itineraryDisplay">

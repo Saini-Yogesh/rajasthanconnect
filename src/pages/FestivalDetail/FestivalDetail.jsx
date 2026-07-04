@@ -1,20 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Compass, Calendar, MapPin, Search } from "lucide-react";
-import { API_BASE_URL } from "../../config/api.js";
+import { fetchJson } from "../../config/api.js";
 import "./FestivalDetail.css";
 import useSEO from "../../hooks/useSEO";
+import { buildFestivalSEO } from "../../utils/seo";
 
 export default function FestivalDetail() {
   const { id } = useParams();
   const [festival, setFestival] = useState(null);
   
-  useSEO({
-    title: festival ? `${festival.title} - Guide & Dates` : "Festival Details",
-    description: festival ? festival.importance : "Discover significance, history, travel tips, and dress codes for cultural festivals in Rajasthan.",
-    keywords: festival ? `${festival.title}, ${festival.title} dates, travel tips ${festival.title}, dress code ${festival.title}` : "Rajasthan festivals",
-    image: festival?.imageUrls?.[0] || festival?.image_urls?.[0]
-  });
+  useSEO(buildFestivalSEO(festival, id));
 
   const [allCities, setAllCities] = useState([]);
   const [allFoods, setAllFoods] = useState([]);
@@ -24,10 +20,10 @@ export default function FestivalDetail() {
   useEffect(() => {
     setLoading(true);
     Promise.all([
-      fetch(`${API_BASE_URL}/api/festivals/${id}`).then((res) => res.json()),
-      fetch(`${API_BASE_URL}/api/cities`).then((res) => res.json()),
-      fetch(`${API_BASE_URL}/api/foods`).then((res) => res.json()),
-      fetch(`${API_BASE_URL}/api/culture`).then((res) => res.json()),
+      fetchJson(`/api/festivals/${id}`),
+      fetchJson("/api/cities").catch(() => []),
+      fetchJson("/api/foods").catch(() => []),
+      fetchJson("/api/culture").catch(() => []),
     ])
       .then(([festData, citiesData, foodsData, cultureData]) => {
         setFestival(festData);
@@ -82,8 +78,8 @@ export default function FestivalDetail() {
           </Link>
           <h1>{festival.title}</h1>
           <div className="headerMeta">
-            <span>📅 {festival.date}</span>
-            <span>📍 {festival.location}</span>
+            <span>📅 {festival.date_approximate_english || festival.date_hindi_month || festival.date}</span>
+            <span>📍 {Array.isArray(festival.locations) ? festival.locations.join(", ") : (festival.location || "Rajasthan")}</span>
           </div>
         </div>
       </header>
@@ -200,8 +196,8 @@ export default function FestivalDetail() {
                     <div className="guideParam">
                       <strong>🍽️ Traditional Festive Sweets</strong>
                       <div className="foodBadgeList">
-                        {festival.special_foods.map((food) => (
-                          <span className="foodBadge" key={food}>
+                        {festival.special_foods.map((food, i) => (
+                          <span className="foodBadge" key={`${food}-${i}`}>
                             {food}
                           </span>
                         ))}

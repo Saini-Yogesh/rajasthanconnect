@@ -1,21 +1,19 @@
 import express from "express";
-import { gemini } from "../services/gemini.js";
+import { generateItinerary } from "../services/groq/planner.js";
+import { getChatResponse } from "../services/groq/chat.js";
 
 const router = express.Router();
+
+const RATE_LIMIT_REPLY = `⏳ **The AI guide is briefly resting** (API rate limit reached).\n\nPlease try again in a moment, or browse our **[Cities](/cities)** and **[History & Culture](/history-culture)** guides.\n\nKhamma Ghani! 🙏`;
 
 router.post("/plan-trip", async (req, res) => {
   try {
     const { days, budget, startingCity, interests } = req.body;
     if (!days || !startingCity) {
-      return res
-        .status(400)
-        .json({ error: "Missing days or startingCity parameters" });
+      return res.status(400).json({ error: "Missing days or startingCity parameters" });
     }
 
-    console.log(
-      `Generating itinerary: ${days} days, budget ${budget} INR, starting in ${startingCity}...`,
-    );
-    const itinerary = await gemini.generateItinerary({
+    const itinerary = await generateItinerary({
       days,
       budget,
       startingCity,
@@ -23,37 +21,45 @@ router.post("/plan-trip", async (req, res) => {
     });
     res.json(itinerary);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error("plan-trip error:", err.message);
+    try {
+      const fallback = await generateItinerary({
+        days: req.body?.days || 3,
+        budget: req.body?.budget || 15000,
+        startingCity: req.body?.startingCity || "Jaipur",
+        interests: req.body?.interests,
+      });
+      res.json(fallback);
+    } catch {
+      res.json({
+        title: "Rajasthan Heritage Journey",
+        days: [],
+        totalEstimatedCost: 0,
+        travelTips: ["Please try generating your itinerary again in a moment."],
+      });
+    }
   }
 });
 
 router.post("/chat", async (req, res) => {
   try {
     const { messageHistory } = req.body;
-    if (
-      !messageHistory ||
-      !Array.isArray(messageHistory) ||
-      messageHistory.length === 0
-    ) {
+    if (!messageHistory || !Array.isArray(messageHistory) || messageHistory.length === 0) {
       return res.status(400).json({ error: "Missing messageHistory array" });
     }
 
-    console.log(
-      `Querying AI Chatbot: "${messageHistory[messageHistory.length - 1].content}"`,
-    );
-    const reply = await gemini.getChatResponse(messageHistory);
-    res.json({ reply });
+    const reply = await getChatResponse(messageHistory);
+    res.json({ reply: reply || RATE_LIMIT_REPLY });
   } catch (err) {
-    // Gemini quota exhausted — return a graceful fallback message to the user
-    if (
-      err.status === 429 ||
-      (err.message && err.message.includes("RESOURCE_EXHAUSTED"))
-    ) {
-      return res.json({
-        reply: `⏳ **The AI guide is currently resting** (free API quota reached for today).\n\nThe assistant will be fully available again tomorrow. In the meantime, you can:\n* Browse our **[Cities Portal](/cities)** for destination guides\n* Read **[History & Culture](/history-culture)** for dynasty chronicles\n* Use the **[Trip Planner](/planner)** which also works with this AI\n\nKhamma Ghani! 🙏`,
+    console.error("chat error:", err.message);
+    try {
+      const reply = await getChatResponse(req.body?.messageHistory || []);
+      res.json({ reply: reply || RATE_LIMIT_REPLY });
+    } catch {
+      res.json({
+        reply: "**Khamma Ghani! 🙏** I'm having a brief connection issue. Please try again in a moment.",
       });
     }
-    res.status(500).json({ error: err.message });
   }
 });
 

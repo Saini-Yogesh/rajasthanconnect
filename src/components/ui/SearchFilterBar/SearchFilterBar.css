@@ -1,0 +1,99 @@
+.searchFilterBar {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 680px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.searchInputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchBarIcon {
+  position: absolute;
+  left: 14px;
+  color: var(--color-text-muted);
+  pointer-events: none;
+}
+
+.searchBarInput {
+  width: 100%;
+  padding: 12px 16px 12px 44px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  color: var(--color-text-dark);
+  box-shadow: var(--shadow-md);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.searchBarInput::placeholder {
+  color: #a8a29e;
+}
+
+.searchBarInput:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(194, 65, 12, 0.15);
+}
+
+.filterChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.filterChip {
+  padding: 6px 16px;
+  border-radius: 100px;
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  backdrop-filter: blur(4px);
+}
+
+.filterChip:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.filterChip--active {
+  background: #ffffff;
+  color: var(--color-primary);
+  border-color: #ffffff;
+  font-weight: 600;
+}
+
+/* When used outside dark header (light background context) */
+.searchFilterBar--light .filterChip {
+  border-color: var(--color-border);
+  background: var(--color-bg-card);
+  color: var(--color-text-dark);
+}
+
+.searchFilterBar--light .filterChip:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.searchFilterBar--light .filterChip--active {
+  background: var(--color-primary);
+  color: #ffffff;
+  border-color: var(--color-primary);
+}
+
+@media (max-width: 640px) {
+  .filterChips {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Rajasthan Connect — Tourism & Culture Guide",
+  "short_name": "Rajasthan Connect",
+  "description": "Explore Rajasthan cities, forts, festivals, food, handicrafts and plan trips with AI tools.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#faf8f5",
+  "theme_color": "#c2410c",
+  "lang": "en-IN",
+  "categories": ["travel", "education", "lifestyle"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

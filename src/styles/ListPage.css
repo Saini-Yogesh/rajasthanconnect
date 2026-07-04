@@ -1,0 +1,10 @@
+/* Shared styles for all list pages */
+.pageContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 5%;
+}
+
+@media (max-width: 640px) {
+  .pageContainer { padding: 28px 4%; }
+}

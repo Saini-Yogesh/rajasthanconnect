@@ -1,0 +1,127 @@
+.dynastiesTimeline {
+  position: relative;
+  padding: 0 0 40px;
+}
+
+.dynastiesTimeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--color-primary), var(--color-accent));
+  transform: translateX(-50%);
+}
+
+.dynastyRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.dynastyRowLeft { flex-direction: row; }
+.dynastyRowRight { flex-direction: row-reverse; }
+
+.dynastyCard {
+  width: calc(50% - 36px);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 22px 24px;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.dynastyCard:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.dynastyTimelineNode {
+  width: 72px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 22px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.dynastyTimelineNode::before {
+  content: '◆';
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  background: var(--color-bg-light);
+  padding: 2px;
+}
+
+.dynastyCardEra {
+  display: inline-block;
+  background: rgba(194, 65, 12, 0.1);
+  color: var(--color-primary);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.dynastyName {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin: 0 0 6px;
+}
+
+.dynastyClan {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  margin: 0 0 4px;
+}
+
+.dynastyCapital {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  margin: 0 0 10px;
+}
+
+.dynastyDesc {
+  font-size: 0.87rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin: 0 0 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.dynastyLink {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: opacity var(--transition-fast);
+}
+
+.dynastyLink:hover { opacity: 0.7; }
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .dynastiesTimeline::before { left: 16px; }
+  .dynastyRow,
+  .dynastyRowRight { flex-direction: column !important; }
+  .dynastyCard { width: 100%; margin-left: 36px; }
+  .dynastyTimelineNode {
+    position: absolute;
+    left: 0;
+    width: 32px;
+    padding-top: 22px;
+  }
+}

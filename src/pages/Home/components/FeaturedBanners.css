@@ -1,0 +1,4 @@
+/* Continues cream band after Communities — padding handled by homeTheme */
+.highlightSections--continued .sectionHeader {
+  margin-bottom: 32px;
+}

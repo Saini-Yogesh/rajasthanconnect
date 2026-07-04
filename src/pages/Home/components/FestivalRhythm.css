@@ -1,0 +1,120 @@
+/* uses homeSection homeSection--warm */
+
+.festivalRhythmHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 40px;
+  padding: 32px;
+  background: var(--home-white, #fff);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+}
+
+@media (min-width: 768px) {
+  .festivalRhythmHero {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.festivalRhythmStat {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-align: left;
+}
+
+.festivalRhythmStat svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.festivalRhythmNumber {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  color: var(--color-secondary);
+  line-height: 1.2;
+}
+
+.festivalRhythmLabel {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+
+.festivalRhythmDivider {
+  width: 60px;
+  height: 2px;
+  background: var(--color-border);
+}
+
+@media (min-width: 768px) {
+  .festivalRhythmDivider {
+    width: 2px;
+    height: 60px;
+  }
+}
+
+.festivalRhythmGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+@media (min-width: 640px) {
+  .festivalRhythmGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .festivalRhythmGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.festivalRhythmCard {
+  background: var(--home-white, #fff);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  border-top: 3px solid var(--color-primary);
+}
+
+.festivalRhythmSeason {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.festivalRhythmCard p {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.festivalRhythmNote {
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+  margin: 32px auto 0;
+  max-width: 720px;
+}
+
+.festivalRhythmCta {
+  text-align: center;
+  margin-top: 28px;
+}

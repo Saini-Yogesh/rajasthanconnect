@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Compass, Send } from "lucide-react";
-import { API_BASE_URL } from "../../config/api.js";
+import { API_BASE_URL, fetchJson } from "../../config/api.js";
 import "./RulerDetail.css";
 import useSEO from "../../hooks/useSEO";
+import { buildRulerSEO } from "../../utils/seo";
 
 export default function RulerDetail() {
   const { id } = useParams();
@@ -20,20 +21,15 @@ export default function RulerDetail() {
   const [submittingReview, setSubmittingReview] = useState(false);
   const [reviewMsg, setReviewMsg] = useState("");
 
-  useSEO({
-    title: ruler ? `${ruler.name} - Rajput Dynasty King Biography` : "Ruler Detail",
-    description: ruler ? ruler.biography : "Explore chronicles of historic Rajput kings, dynasties, and battles of Rajasthan.",
-    keywords: ruler ? `${ruler.name}, ${ruler.dynasty}, battle of ${ruler.name}, history of rajasthan` : "Rajput dynasties",
-    image: ruler?.image_url || ruler?.imageUrl
-  });
+  useSEO(buildRulerSEO(ruler, id));
 
   useEffect(() => {
     setLoading(true);
     Promise.all([
-      fetch(`${API_BASE_URL}/api/history/${id}`).then((res) => res.json()),
-      fetch(`${API_BASE_URL}/api/reviews/${id}/ruler`).then((res) => res.json()),
-      fetch(`${API_BASE_URL}/api/cities`).then((res) => res.json()),
-      fetch(`${API_BASE_URL}/api/places`).then((res) => res.json()),
+      fetchJson(`/api/history/${id}`),
+      fetch(`${API_BASE_URL}/api/reviews/${id}/ruler`).then((res) => (res.ok ? res.json() : [])),
+      fetchJson("/api/cities").catch(() => []),
+      fetchJson("/api/places").catch(() => []),
     ])
       .then(([rulerData, reviewsData, citiesData, placesData]) => {
         setRuler(rulerData);

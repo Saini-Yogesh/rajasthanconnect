@@ -51,6 +51,18 @@ export const supabase = {
         return this;
       },
 
+      single() {
+        this._single = true;
+        this._limit = 2;
+        return this;
+      },
+
+      contains(column, value) {
+        if (!this._contains) this._contains = [];
+        this._contains.push({ column, value });
+        return this;
+      },
+
       insert(data) {
         this._insertData = data;
         return this;
@@ -121,6 +133,14 @@ export const supabase = {
               });
             }
 
+            if (this._contains?.length > 0) {
+              this._contains.forEach((c) => {
+                const arrVal = Array.isArray(c.value) ? c.value : [c.value];
+                params.push(JSON.stringify(arrVal));
+                conditions.push(`"${c.column}" @> $${params.length}::jsonb`);
+              });
+            }
+
             if (conditions.length > 0) {
               queryStr += ` WHERE ${conditions.join(' AND ')}`;
             }
@@ -137,7 +157,15 @@ export const supabase = {
             data = res;
           }
 
-          if (this._maybeSingle) {
+          if (this._single) {
+            if (!data || data.length === 0) {
+              resolve({ data: null, error: { code: 'PGRST116', message: 'Row not found' } });
+            } else if (data.length > 1) {
+              resolve({ data: null, error: { code: 'PGRST116', message: 'Multiple rows returned' } });
+            } else {
+              resolve({ data: data[0], error: null });
+            }
+          } else if (this._maybeSingle) {
             resolve({ data: data[0] || null, error: null });
           } else {
             resolve({ data, error: null });

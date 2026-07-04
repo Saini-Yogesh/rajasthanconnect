@@ -1,0 +1,9 @@
+/* Shared page layout used by all list pages */
+.pageContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 5%;
+}
+
+.handicraftsPage {}
+.handicraftsGrid { background: var(--color-bg-light); }

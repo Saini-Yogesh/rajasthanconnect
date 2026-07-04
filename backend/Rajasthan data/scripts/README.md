@@ -5,9 +5,10 @@ This folder contains the AI-powered seed data generation script. It reads the ra
 ## 📋 Prerequisites
 
 1. Ensure you have Node.js installed.
-2. Ensure you have the `GEMINI_API_KEY` defined in your `backend/.env` file:
+2. Ensure you have Groq API keys defined in your `backend/.env` file:
    ```env
-   GEMINI_API_KEY=AQ.your_api_key_here
+   GROQ_API_KEY=gsk_your_api_key_here
+   # or GROQ_API_KEY_1 through GROQ_API_KEY_10 for rotation
    ```
 
 ## 🚀 How to Run

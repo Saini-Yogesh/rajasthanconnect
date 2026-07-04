@@ -1,152 +1,111 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import {
-  Compass,
-  Mail,
-  Heart,
-  Twitter,
-  Facebook,
-  Instagram,
-} from "lucide-react";
+import { Compass, Sparkles, MessageCircle, MapPin } from "lucide-react";
 import "./Footercss.css";
 
+const FOOTER_LINKS = [
+  {
+    heading: "Explore Rajasthan",
+    links: [
+      { to: "/cities", label: "Royal Cities" },
+      { to: "/districts", label: "Districts" },
+      { to: "/places", label: "Forts & Palaces" },
+      { to: "/experiences", label: "Unique Experiences" },
+      { to: "/royal-weddings", label: "Royal Wedding Venues" },
+      { to: "/unesco-sites", label: "UNESCO World Heritage" },
+    ],
+  },
+  {
+    heading: "Culture & History",
+    links: [
+      { to: "/history-culture", label: "History & Dynasties" },
+      { to: "/dynasties", label: "Royal Dynasties" },
+      { to: "/events", label: "Historical Events" },
+      { to: "/folk-arts", label: "Folk Arts" },
+      { to: "/folk-music", label: "Folk Music & Instruments" },
+      { to: "/attire", label: "Traditional Attire" },
+    ],
+  },
+  {
+    heading: "Heritage & Community",
+    links: [
+      { to: "/handicrafts", label: "Handicrafts" },
+      { to: "/foods", label: "Royal Cuisine" },
+      { to: "/festivals", label: "Festivals & Melas" },
+      { to: "/languages", label: "Languages" },
+      { to: "/communities", label: "Communities & Tribes" },
+    ],
+  },
+  {
+    heading: "Services",
+    links: [
+      { to: "/directory", label: "Local Directory" },
+      { to: "/planner", label: "AI Trip Planner" },
+      { to: "/ai-assistant", label: "Ask AI Guide" },
+      { to: "/directory?register=true", label: "Register Business" },
+    ],
+  },
+];
+
 export default function Footer() {
-  const [email, setEmail] = useState("");
-
-  const handleSubscribe = (e) => {
-    e.preventDefault();
-    alert(
-      `Thank you for subscribing with: ${email}!\nWe will send you monthly Rajasthan travel updates.`,
-    );
-    setEmail("");
-  };
-
   return (
-    <footer className="footerContainer" style={{ marginTop: "20px" }}>
-      <div className="footerGrid">
-        {/* Brand Info */}
+    <footer className="footer">
+      {/* Jali border */}
+      <div className="footerJaliBorder" aria-hidden="true" />
+
+      <div className="footerInner">
+        {/* Brand */}
         <div className="footerBrand">
-          <div className="footerLogo">
-            <Compass
-              className="logoIcon"
-              size={28}
-              color="var(--color-primary)"
-            />
+          <Link to="/" className="footerLogo">
+            <Compass size={28} color="var(--color-primary)" />
             <span>
-              <span className="footerLogoSpan">RajasthanConnect</span>
+              Rajasthan<span className="footerLogoAccent">Connect</span>
             </span>
+          </Link>
+          <p className="footerTagline">
+            The digital encyclopedia of the Land of Kings. Explore royal
+            history, vibrant culture, and connect with verified local guides.
+          </p>
+          <div className="footerAiLinks">
+            <Link to="/planner" className="footerAiBtn">
+              <Sparkles size={14} /> AI Trip Planner
+            </Link>
+            <Link to="/ai-assistant" className="footerAiBtn">
+              <MessageCircle size={14} /> Ask AI Guide
+            </Link>
           </div>
-          <p className="footerDesc">
-            rajasthanconnect.in is a dedicated platform designed to bridge
-            heritage, local tourism providers, and global travelers, making the
-            golden experience of Rajasthan accessible to everyone.
+          <p className="footerLocation">
+            <MapPin size={13} /> Rajasthan, India 🇮🇳
           </p>
         </div>
 
-        {/* Quick Links */}
-        <div>
-          <h4 className="footerColTitle">Quick Links</h4>
-          <ul className="footerLinks">
-            <li className="footerLinkItem">
-              <Link to="/cities">Explore Cities</Link>
-            </li>
-            <li className="footerLinkItem">
-              <Link to="/foods">Royal Cuisine</Link>
-            </li>
-            <li className="footerLinkItem">
-              <Link to="/history-culture">History & Culture</Link>
-            </li>
-            <li className="footerLinkItem">
-              <Link to="/directory">Local Providers</Link>
-            </li>
-            <li className="footerLinkItem">
-              <Link to="/directory?register=true">Register Listing</Link>
-            </li>
-          </ul>
-        </div>
-
-        {/* Help & Resources */}
-        <div>
-          <h4 className="footerColTitle">Help & Resources</h4>
-          <ul className="footerLinks">
-            <li className="footerLinkItem">
-              <Link to="/history-culture">Cultural Etiquette</Link>
-            </li>
-            <li className="footerLinkItem">
-              <Link to="/festivals">Festival Calendar</Link>
-            </li>
-            <li className="footerLinkItem">
-              <Link to="/ai-assistant">Ask AI Assistant</Link>
-            </li>
-            <li className="footerLinkItem">
-              <Link to="/planner">AI Trip Planner</Link>
-            </li>
-          </ul>
-        </div>
-
-        {/* Newsletter Signup */}
-        <div>
-          <h4 className="footerColTitle">Stay Updated</h4>
-          <p className="newsletterText">
-            Subscribe to our newsletter to receive curated itineraries, local
-            stories, and exclusive guide events.
-          </p>
-          <form onSubmit={handleSubscribe} className="newsletterForm">
-            <input
-              type="email"
-              className="newsletterInput"
-              placeholder="Your email address"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
-            <button
-              type="submit"
-              className="newsletterBtn"
-              aria-label="Subscribe"
-            >
-              <Mail size={16} />
-            </button>
-          </form>
+        {/* Links grid */}
+        <div className="footerLinksGrid">
+          {FOOTER_LINKS.map((col) => (
+            <div key={col.heading} className="footerLinksCol">
+              <h4 className="footerColHeading">{col.heading}</h4>
+              <ul className="footerLinkList">
+                {col.links.map((l) => (
+                  <li key={l.to}>
+                    <Link to={l.to} className="footerLink">
+                      {l.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
 
-      {/* Footer Bottom */}
       <div className="footerBottom">
-        <div>
-          © 2026 rajasthanconnect.in. Created with{" "}
-          <Heart
-            size={12}
-            color="var(--color-primary)"
-            fill="var(--color-primary)"
-            style={{ display: "inline-block", verticalAlign: "middle" }}
-          />{" "}
-          for the royal state.
-        </div>
-
-        <div className="socialRow">
-          <a
-            href="https://twitter.com"
-            className="socialIcon"
-            aria-label="Twitter"
-          >
-            <Twitter size={18} />
-          </a>
-          <a
-            href="https://facebook.com"
-            className="socialIcon"
-            aria-label="Facebook"
-          >
-            <Facebook size={18} />
-          </a>
-          <a
-            href="https://instagram.com"
-            className="socialIcon"
-            aria-label="Instagram"
-          >
-            <Instagram size={18} />
-          </a>
-        </div>
+        <p>
+          &copy; {new Date().getFullYear()} RajasthanConnect. Built with ❤️ for
+          the Land of Kings.
+        </p>
+        <p className="footerBottomRight">
+          Preserving heritage · One story at a time
+        </p>
       </div>
     </footer>
   );

@@ -4,13 +4,11 @@ import { Search, MapPin, Calendar, Compass } from "lucide-react";
 import { API_BASE_URL } from "../../config/api.js";
 import "./FestivalsList.css";
 import useSEO from "../../hooks/useSEO";
+import { LIST_SEO } from "../../utils/seo";
+import { matchesSearch } from "../../utils/search";
 
 export default function FestivalsList() {
-  useSEO({
-    title: "Cultural Festivals & Sacred Fasting",
-    description: "Explore the vibrant local festivals of Rajasthan: dates, locations, travel advice, dress codes, and significance of Pushkar Camel Fair, Gangaur, and Desert Festival.",
-    keywords: "Rajasthan festivals, Pushkar Camel Fair, Gangaur Festival, Jaisalmer Desert Festival, Teej Festival, Holi"
-  });
+  useSEO(LIST_SEO.festivals);
 
   const [festivals, setFestivals] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -29,11 +27,8 @@ export default function FestivalsList() {
       });
   }, []);
 
-  const filteredFestivals = festivals.filter(
-    (f) =>
-      f.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      f.location.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      f.importance.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredFestivals = festivals.filter((f) =>
+    matchesSearch(searchTerm, f.title, f.location, f.importance)
   );
 
   return (

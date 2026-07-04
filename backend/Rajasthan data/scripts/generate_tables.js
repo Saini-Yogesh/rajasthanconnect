@@ -136,7 +136,7 @@ function loadRawFile(filename) {
 }
 
 // ---------------------------------------------------------
-// TABLE REGISTRY & SCHEMA SCHEMES FOR GEMINI GENERATION
+// TABLE REGISTRY & SCHEMA SCHEMES FOR AI GENERATION
 // ---------------------------------------------------------
 const TABLES = {
   districts: {

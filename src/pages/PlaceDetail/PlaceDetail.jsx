@@ -1,20 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Clock, MapPin, Compass, AlertCircle, Sparkles, Send } from 'lucide-react';
-import { API_BASE_URL } from '../../config/api.js';
+import { API_BASE_URL, fetchJson } from '../../config/api.js';
 import './PlaceDetail.css';
 import useSEO from '../../hooks/useSEO';
+import { buildPlaceSEO } from '../../utils/seo';
 
 export default function PlaceDetail() {
   const { id } = useParams();
   const [place, setPlace] = useState(null);
   
-  useSEO({
-    title: place ? `${place.title} - Sights & Guides` : "Attraction Details",
-    description: place ? place.description : "Get details, timing, history, and verified guides for historic monuments in Rajasthan.",
-    keywords: place ? `${place.title}, ${place.category}, visit ${place.title}, timings, entry fee` : "Rajasthan places to visit",
-    image: place?.imageUrls?.[0] || place?.image_urls?.[0]
-  });
+  useSEO(buildPlaceSEO(place, id));
 
   const [reviews, setReviews] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -34,12 +30,12 @@ export default function PlaceDetail() {
     setLoading(true);
     // Fetch Place detail, reviews, and related nodes
     Promise.all([
-      fetch(`${API_BASE_URL}/api/places/${id}`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/reviews/${id}/place`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/history`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/foods`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/festivals`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/culture`).then(res => res.json())
+      fetchJson(`/api/places/${id}`),
+      fetch(`${API_BASE_URL}/api/reviews/${id}/place`).then(res => res.ok ? res.json() : []),
+      fetchJson('/api/history').catch(() => []),
+      fetchJson('/api/foods').catch(() => []),
+      fetchJson('/api/festivals').catch(() => []),
+      fetchJson('/api/culture').catch(() => [])
     ])
       .then(([placeData, reviewsData, rulersData, foodsData, festivalsData, cultureData]) => {
         setPlace(placeData);

@@ -65,7 +65,78 @@ npm run build
 
 ## 📡 Production Deployment
 
-Since this is a Vite-based single-page application (SPA), it is highly compatible with modern serverless hosting providers. To connect your custom domain **`rajasthanconnect.in`**, deploy the code using one of these options:
+This project is **two services**: a Vite React frontend and an Express API backend.
 
-- **Vercel / Netlify**: Connect this GitHub repository. Set the Build Command to `npm run build` and Publish Directory to `dist`. Add your custom domain in the project settings.
-- **GitHub Pages**: Build the bundle and deploy it to a dedicated branch. Ensure your `CNAME` file under `public/` points to `rajasthanconnect.in`.
+### 1. Deploy the backend (Railway, Render, Fly.io, VPS, etc.)
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `DATABASE_URL` | Yes | PostgreSQL connection string |
+| `NODE_ENV` | Yes | Set to `production` |
+| `PORT` | Auto | Set by most hosts (default `5000`) |
+| `GROQ_API_KEY` or `GROQ_API_KEY_1` … `_10` | Optional | AI Planner & Ask AI via Groq (local fallback if unset) |
+| `FRONTEND_URLS` | Recommended | Comma-separated CORS origins, e.g. `https://rajasthanconnect.in,https://www.rajasthanconnect.in` |
+| `EMAILJS_*` | Optional | Business registration email notifications |
+| `ENABLE_REDIS` / `REDIS_URL` | Optional | Response caching |
+
+**Start command:** `npm start` (in the `backend/` folder)
+
+**Health check:** `GET /health` — should return `{ "status": "healthy" }`
+
+Copy `backend/.env.example` → `backend/.env` locally. On your host, set the same variables in the dashboard (never commit `.env`).
+
+### 2. Deploy the frontend (Vercel)
+
+1. Push this repo to GitHub and import it in [Vercel](https://vercel.com/new).
+2. Vercel auto-detects Vite — `vercel.json` is already configured.
+3. Add **Environment Variables** (Project → Settings → Environment Variables):
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `VITE_API_URL` | **Yes** | Live backend URL, e.g. `https://api.rajasthanconnect.in` (no trailing slash) |
+| `VITE_GA_MEASUREMENT_ID` | Optional | Google Analytics 4 ID (`G-XXXXXXXXXX`) for traffic tracking |
+| `VITE_SITE_URL` | Optional | `https://www.rajasthanconnect.in` (used for canonical URLs) |
+
+4. Deploy — build runs `generate:sitemap` then `vite build`.
+5. Add custom domain `rajasthanconnect.in` + `www.rajasthanconnect.in` in Vercel → Domains.
+
+**Build command:** `npm run build`  
+**Output directory:** `dist`
+
+### 3. Google Search Console (indexing)
+
+1. Go to [Google Search Console](https://search.google.com/search-console).
+2. Add property `https://www.rajasthanconnect.in` (Domain or URL prefix).
+3. Verify ownership — the meta tag is already in `index.html`:
+   `google-site-verification` content=`bbeUh9qz3JRX393M4xYGV7QUBatmrkSaLRJzvR_Bj3A`
+4. Submit sitemap: **`https://www.rajasthanconnect.in/sitemap.xml`**
+   (Auto-generated on every build — includes 500+ city/place/food/festival URLs.)
+5. Use **URL Inspection** → Request Indexing for homepage and top city pages.
+
+### 4. Google AdSense
+
+- Publisher ID `ca-pub-7648174652418610` is in `index.html`.
+- **`public/ads.txt`** and **`public/app-ads.txt`** are configured for crawler verification.
+- In AdSense → Sites → add `rajasthanconnect.in` and verify `ads.txt` is found at:
+  `https://www.rajasthanconnect.in/ads.txt`
+
+### 5. Google Analytics (optional)
+
+1. Create a GA4 property at [analytics.google.com](https://analytics.google.com).
+2. Copy the Measurement ID (`G-XXXXXXXXXX`).
+3. Add `VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX` in Vercel env vars and redeploy.
+
+### 6. Custom domain & backend CORS
+
+- Point `rajasthanconnect.in` → frontend host (Vercel/Netlify)
+- Point `api.rajasthanconnect.in` (or similar) → backend host
+- Set `VITE_API_URL` to that API URL
+- Set `FRONTEND_URLS` on the backend to your frontend domain(s)
+
+### Security checklist
+
+- `.env` and `backend/.env` are gitignored — **never commit them**
+- No API keys are hardcoded in source code (Groq, EmailJS, DB all use env vars)
+- CORS blocks unknown origins in production
+- AI routes are rate-limited (15 req/min per IP)
+- Error stack traces are hidden when `NODE_ENV=production`

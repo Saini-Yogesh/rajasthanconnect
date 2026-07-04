@@ -1,20 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { MapPin, Compass, ShieldAlert, Award, Star } from 'lucide-react';
-import { API_BASE_URL } from '../../config/api.js';
+import { fetchJson } from '../../config/api.js';
 import './CityDetail.css';
 import useSEO from '../../hooks/useSEO';
+import { buildCitySEO } from '../../utils/seo';
 
 export default function CityDetail() {
   const { id } = useParams();
   const [city, setCity] = useState(null);
   
-  useSEO({
-    title: city ? `${city.name} Travel Guide` : "City Details",
-    description: city ? city.description : "Explore historical attractions, local foods, verified guides, and places to visit in Rajasthan.",
-    keywords: city ? `${city.name} tourism, ${city.name} sights, ${city.name} local guides, visit ${city.name}` : "Rajasthan tourism",
-    image: city?.imageUrl
-  });
+  useSEO(buildCitySEO(city, id));
 
   const [places, setPlaces] = useState([]);
   const [listings, setListings] = useState([]);
@@ -28,12 +24,12 @@ export default function CityDetail() {
     setLoading(true);
     // Fetch City detail, places, listings and other nodes to connect
     Promise.all([
-      fetch(`${API_BASE_URL}/api/cities/${id}`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/places?cityId=${id}`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/listings?cityId=${id}`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/foods`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/festivals`).then(res => res.json()),
-      fetch(`${API_BASE_URL}/api/history`).then(res => res.json())
+      fetchJson(`/api/cities/${id}`),
+      fetchJson(`/api/places?city_id=${id}`).catch(() => []),
+      fetchJson(`/api/listings?cityId=${id}`).catch(() => []),
+      fetchJson('/api/foods').catch(() => []),
+      fetchJson('/api/festivals').catch(() => []),
+      fetchJson('/api/history').catch(() => [])
     ])
       .then(([cityData, placesData, listingsData, foodsData, festivalsData, rulersData]) => {
         setCity(cityData);

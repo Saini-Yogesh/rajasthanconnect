@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Home } from "lucide-react";
+import useSEO from "../../hooks/useSEO";
+import { LIST_SEO } from "../../utils/seo";
 import "./NotFound.css";
 
 export default function NotFound() {
+  useSEO(LIST_SEO.notFound);
+
   return (
     <div className="notFoundPage">
       {/* Full-bleed background desert landscape */}

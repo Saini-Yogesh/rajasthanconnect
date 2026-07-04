@@ -1,0 +1,38 @@
+.spinnerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 60px 20px;
+  min-height: 200px;
+}
+
+.spinnerWrapper--sm { min-height: 120px; padding: 30px; }
+.spinnerWrapper--lg { min-height: 300px; padding: 80px; }
+
+.mandalaSpinner {
+  animation: mandalaSpin 3s linear infinite;
+}
+
+.spinnerWrapper--sm .mandalaSpinner { width: 48px; height: 48px; }
+.spinnerWrapper--md .mandalaSpinner { width: 72px; height: 72px; }
+.spinnerWrapper--lg .mandalaSpinner { width: 96px; height: 96px; }
+
+.mandalaSvg {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes mandalaSpin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinnerMessage {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  text-align: center;
+}

@@ -1,15 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Compass, Send, Sparkles, MessageSquare, AlertCircle } from 'lucide-react';
 import { API_BASE_URL } from '../../config/api.js';
+import { MarkdownContent } from '../../utils/markdown.jsx';
 import './AiAssistant.css';
 import useSEO from '../../hooks/useSEO';
+import { LIST_SEO } from '../../utils/seo';
 
 export default function AiAssistant() {
-  useSEO({
-    title: "AI Travel Assistant - Chat Live",
-    description: "Ask anything about Rajasthan's heritage, food recipes, hotel stays, local transportation, or emergency helplines to our virtual travel companion.",
-    keywords: "Ask AI Rajasthan, travel assistant chat, digital local guide, chat with travel AI"
-  });
+  useSEO(LIST_SEO.aiAssistant);
 
   const [messages, setMessages] = useState([
     {
@@ -27,12 +25,28 @@ What can I help you explore today?`
   ]);
   const [inputMessage, setInputMessage] = useState('');
   const [loading, setLoading] = useState(false);
-  const messagesEndRef = useRef(null);
+  const messagesLogRef = useRef(null);
+  const prevMessageCountRef = useRef(messages.length);
+
+  const scrollChatToBottom = (behavior = 'smooth') => {
+    const log = messagesLogRef.current;
+    if (!log) return;
+    log.scrollTo({ top: log.scrollHeight, behavior });
+  };
 
   useEffect(() => {
-    // Scroll to bottom
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages, loading]);
+    // Scroll only inside the chat container — never the whole page
+    if (messages.length > prevMessageCountRef.current) {
+      scrollChatToBottom();
+    }
+    prevMessageCountRef.current = messages.length;
+  }, [messages]);
+
+  useEffect(() => {
+    if (loading) {
+      scrollChatToBottom();
+    }
+  }, [loading]);
 
   const handleSendMessage = (e, text = null) => {
     if (e) e.preventDefault();
@@ -53,17 +67,16 @@ What can I help you explore today?`
     })
       .then(res => res.json())
       .then(data => {
-        setMessages(prev => [...prev, { role: 'assistant', content: data.reply }]);
-        setLoading(false);
+        const reply = data.reply || '**Khamma Ghani! 🙏** I could not process that right now. Please try again in a moment.';
+        setMessages(prev => [...prev, { role: 'assistant', content: reply }]);
       })
-      .catch(err => {
-        console.error('Failed to query AI:', err);
+      .catch(() => {
         setMessages(prev => [...prev, { 
           role: 'assistant', 
-          content: '⚠️ I apologize, my connection to the royal library was temporarily cut off. Please check that the API server is active and try again.' 
+          content: '**Khamma Ghani! 🙏** I am briefly unavailable. Please try again in a moment.' 
         }]);
-        setLoading(false);
-      });
+      })
+      .finally(() => setLoading(false));
   };
 
   const presetQuestions = [
@@ -86,7 +99,7 @@ What can I help you explore today?`
           
           {/* Chat Messages Log */}
           <div className="chatWindowCard">
-            <div className="messagesLog">
+            <div className="messagesLog" ref={messagesLogRef}>
               {messages.map((msg, index) => (
                 <div 
                   className={`messageBubbleRow ${msg.role === 'user' ? 'userRow' : 'assistantRow'}`}
@@ -96,26 +109,7 @@ What can I help you explore today?`
                     {msg.role === 'user' ? '👤' : '🐪'}
                   </div>
                   <div className="msgBubble">
-                    {/* Render basic markdown manually for formatting */}
-                    <div className="markdownContent">
-                      {msg.content.split('\n').map((line, lIdx) => {
-                        let processed = line;
-                        // Bold tags replacement
-                        if (processed.includes('**')) {
-                          const parts = processed.split('**');
-                          return (
-                            <p key={lIdx}>
-                              {parts.map((p, pIdx) => pIdx % 2 === 1 ? <strong key={pIdx}>{p}</strong> : p)}
-                            </p>
-                          );
-                        }
-                        // Bullet point formatting
-                        if (processed.trim().startsWith('*')) {
-                          return <li key={lIdx} style={{ marginLeft: '15px', listStyleType: 'disc' }}>{processed.trim().substring(1).trim()}</li>;
-                        }
-                        return <p key={lIdx}>{processed}</p>;
-                      })}
-                    </div>
+                    <MarkdownContent content={msg.content} />
                   </div>
                 </div>
               ))}
@@ -127,7 +121,6 @@ What can I help you explore today?`
                   </div>
                 </div>
               )}
-              <div ref={messagesEndRef} />
             </div>
 
             {/* Prompt Form */}

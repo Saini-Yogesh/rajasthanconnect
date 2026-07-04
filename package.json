@@ -8,9 +8,11 @@
     "dev": "concurrently \"npm run client\" \"npm run server\"",
     "client": "vite",
     "server": "npm run dev --prefix backend",
-    "build": "vite build",
+    "generate:sitemap": "node scripts/generate-sitemap.js",
+    "build": "npm run generate:sitemap && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start:api": "npm start --prefix backend"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

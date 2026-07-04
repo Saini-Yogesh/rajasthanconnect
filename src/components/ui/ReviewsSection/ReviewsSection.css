@@ -1,0 +1,169 @@
+/* ── Reviews Section CSS ── */
+
+.reviewsBlockCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 25px;
+  box-shadow: var(--shadow-sm);
+  margin-top: 24px;
+}
+
+.reviewsBlockCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 8px;
+}
+
+.reviewSubmitForm {
+  background-color: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.reviewSubmitForm h4 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  margin-bottom: 12px;
+}
+
+.reviewSuccessMsg {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #059669;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  border: 1px dashed rgba(16, 185, 129, 0.3);
+}
+
+.reviewSubmitForm .formRow {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.reviewSubmitForm input, 
+.reviewSubmitForm select, 
+.reviewSubmitForm textarea {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: var(--color-text-dark);
+  outline: none;
+}
+
+.reviewSubmitForm input:focus, 
+.reviewSubmitForm select:focus, 
+.reviewSubmitForm textarea:focus {
+  border-color: var(--color-primary);
+}
+
+.reviewSubmitForm textarea {
+  width: 100%;
+  height: 80px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.btnSubmitReview {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 0.82rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all var(--transition-fast);
+}
+
+.btnSubmitReview:hover {
+  background-color: var(--color-primary);
+}
+
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 350px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+/* Scrollbar styles for reviews list */
+.reviewsList::-webkit-scrollbar {
+  width: 5px;
+}
+.reviewsList::-webkit-scrollbar-track {
+  background: var(--color-bg-light);
+}
+.reviewsList::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 4px;
+}
+
+.reviewItemCard {
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 12px;
+}
+
+.reviewItemCard:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.reviewHeader strong {
+  font-size: 0.88rem;
+  color: var(--color-secondary);
+}
+
+.revRating {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 0.82rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.revComment {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--color-text-dark);
+  margin-bottom: 4px;
+}
+
+.revDate {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+}
+
+.noReviewsYet, 
+.loadingReviews {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  padding: 15px 0;
+  font-style: italic;
+}
