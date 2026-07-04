@@ -1,0 +1,658 @@
+[
+  {
+    "id": "ajmer-district",
+    "name": "Ajmer",
+    "headquarters": "Ajmer",
+    "division": "Ajmer Division",
+    "area_sq_km": 8481,
+    "population": 2583052,
+    "established_year": 1949,
+    "history": "Ajmer, a historic city in Rajasthan, has been a significant cultural and religious center for centuries. The district is home to the famous Dargah Sharif of Khwaja Moinuddin Chishti, a revered Sufi saint. The city has a rich history dating back to the 7th century and has been ruled by various dynasties, including the Chauhans, Mughals, and British. The district is also known for its stunning Ana Sagar Lake and the imposing Taragarh Fort, which offers breathtaking views of the city.",
+    "climate": "Ajmer has a hot semi-arid climate, with very hot summers and mild winters. The district experiences a significant amount of rainfall during the monsoon season, which helps to alleviate the dry conditions.",
+    "map_coordinates": {
+      "lat": 26.4499,
+      "lng": 74.6399
+    },
+    "image_url": "https://images.unsplash.com/photo-1610874789347-3c1e2c bee5f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "alwar-district",
+    "name": "Alwar",
+    "headquarters": "Alwar",
+    "division": "Jaipur Division",
+    "area_sq_km": 8380,
+    "population": 3671999,
+    "established_year": 1949,
+    "history": "Alwar district has a rich and varied history, with evidence of human habitation dating back to the prehistoric era. The region was a major center of power during the medieval period, with the Pratihara dynasty and the Delhi Sultanate vying for control. The district is also home to the famous Bala Qila, a 16th-century fort that dominates the city of Alwar. The region's strategic location made it an important stopping point for traders and travelers, and it was a key location during the Indian Rebellion of 1857.",
+    "climate": "The climate of Alwar is characterized by hot, dry summers and mild winters, with an average annual rainfall of around 600 mm. The district experiences a monsoon season from July to September, with most of the rainfall occurring during this period.",
+    "map_coordinates": {
+      "lat": 27.5499,
+      "lng": 76.6353
+    },
+    "image_url": "https://images.unsplash.com/photo-1614218122575-4f5a81f9e9c4"
+  },
+  {
+    "id": "balotra-district",
+    "name": "Balotra",
+    "headquarters": "Balotra",
+    "division": "Jodhpur Division",
+    "area_sq_km": 16800,
+    "population": 1052564,
+    "established_year": 1949,
+    "history": "The Balotra district, situated in the Jodhpur Division of Rajasthan, has a rich history dating back to the medieval period. It was a significant trading center during the Mughal era, known for its textile industry, particularly the production of 'Patola' and 'Heer' fabrics. The region has been influenced by various rulers, including the Rathores and the Mughals, which is reflected in its architectural heritage. The district is also home to several ancient temples, including the famous Tilwara Jain Temple, showcasing the region's cultural and spiritual significance.",
+    "climate": "Hot arid, dry desert weather, characterized by very hot summers and mild winters, with very little rainfall throughout the year",
+    "map_coordinates": {
+      "lat": 25.8432,
+      "lng": 72.2389
+    },
+    "image_url": "https://images.unsplash.com/photo-1614216692545-9e0c4f6f2e1b"
+  },
+  {
+    "id": "banswara-district",
+    "name": "Banswara",
+    "headquarters": "Banswara",
+    "division": "Udaipur Division",
+    "area_sq_km": 5037,
+    "population": 1798211,
+    "established_year": 1949,
+    "history": "Banswara district has a rich and diverse history, with evidence of human habitation dating back to the Mesolithic era. The region was once part of the Mahi Kantha agency, a collection of princely states in southern Rajasthan. The district is named after the city of Banswara, which was founded by Maharawal Jagmal Singh in 1528. The region is known for its natural beauty, with numerous rivers, lakes, and waterfalls, as well as its cultural heritage, including the famous Tripura Sundari temple.",
+    "climate": "The climate of Banswara district is characterized by hot summers and mild winters, with an average annual rainfall of around 900 mm. The region experiences a monsoon season from July to September, with most of the rainfall occurring during this period.",
+    "map_coordinates": {
+      "lat": 23.5432,
+      "lng": 74.4567
+    },
+    "image_url": "https://images.unsplash.com/photo-1621502376861-42c8c1b0f4e1"
+  },
+  {
+    "id": "baran-district",
+    "name": "Baran",
+    "headquarters": "Baran",
+    "division": "Kota Division",
+    "area_sq_km": 6955,
+    "population": 1225682,
+    "established_year": 1991,
+    "history": "Baran district, situated in the southern part of Rajasthan, has a rich historical background. The region was once a part of the erstwhile princely state of Bundi and was later merged with the state of Rajasthan in 1949. The district was formally established in 1991, when it was carved out of the Kota district. The region is known for its natural beauty, with the Parvati River flowing through it and the scenic landscapes of the Vindhyachal and Aravalli ranges.",
+    "climate": "The climate of Baran district is characterized by hot, dry summers and mild winters, with an average annual rainfall of around 900 mm. The region experiences a monsoon season from July to September, which brings much-needed relief from the scorching summer heat.",
+    "map_coordinates": {
+      "lat": 25.0898,
+      "lng": 76.5149
+    },
+    "image_url": "https://images.unsplash.com/photo-1614216692545-9e0e5f2e5e5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdfMXx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "barmer-district",
+    "name": "Barmer",
+    "headquarters": "Barmer",
+    "division": "Jodhpur Division",
+    "area_sq_km": 28387,
+    "population": 2600755,
+    "established_year": 1949,
+    "history": "Barmer district has a rich history dating back to the 12th century when it was a part of the Rathore dynasty. The district was a major stopover for traders and travelers on the Silk Route, and its strategic location made it an important center for trade and commerce. The district is also home to several ancient forts, temples, and monuments, including the famous Kiradu temples, which are a testament to its rich cultural heritage. The district's history is also marked by the bravery and valor of its people, who have fought against invaders and protected their land with pride and honor.",
+    "climate": "Hot arid, dry desert weather",
+    "map_coordinates": {
+      "lat": 25.7492,
+      "lng": 71.6383
+    },
+    "image_url": "https://images.unsplash.com/photo-1614216692545-9f4cbe5e0c5b"
+  },
+  {
+    "id": "beawar-district",
+    "name": "Beawar",
+    "headquarters": "Beawar",
+    "division": "Ajmer Division",
+    "area_sq_km": 4491,
+    "population": 2462717,
+    "established_year": 1991,
+    "history": "Beawar district has a rich historical background, with evidence of human habitation dating back to the prehistoric era. The region was an important center of trade and commerce during the medieval period, with the city of Beawar serving as a major hub for the textile industry. The district was formally established in 1991, when it was carved out of the Ajmer district. Today, Beawar is a thriving industrial and commercial center, known for its production of textiles, cement, and marble.",
+    "climate": "Hot arid, dry desert weather, with very little rainfall throughout the year",
+    "map_coordinates": {
+      "lat": 26.1023,
+      "lng": 74.3194
+    },
+    "image_url": "https://images.unsplash.com/photo-1610874787281-2e5c2c bee7f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "bharatpur-district",
+    "name": "Bharatpur",
+    "headquarters": "Bharatpur",
+    "division": "Bharatpur Division",
+    "area_sq_km": 5066.79,
+    "population": 2549121,
+    "established_year": 1949,
+    "history": "Bharatpur district has a rich and storied history, with the city of Bharatpur being founded in 1733 by Maharaja Suraj Mal. The district was a major stronghold of the Jat kingdom and played a significant role in the Indian Rebellion of 1857. The region is also home to the Keoladeo National Park, a UNESCO World Heritage Site and one of the most important bird sanctuaries in the world. The district's history is a testament to the bravery and resilience of its people, who have shaped the region into what it is today.",
+    "climate": "The climate of Bharatpur district is characterized by hot, dry summers and mild winters, with a monsoon season that brings much-needed relief to the region. The district experiences a semi-arid climate, with very little rainfall throughout the year.",
+    "map_coordinates": {
+      "lat": 27.2167,
+      "lng": 77.4833
+    },
+    "image_url": "https://images.unsplash.com/photo-1614218122579-ecb1e2e2e2e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "bhilwara-district",
+    "name": "Bhilwara",
+    "headquarters": "Bhilwara",
+    "division": "Ajmer Division",
+    "area_sq_km": 10455,
+    "population": 2410457,
+    "established_year": 1949,
+    "history": "Bhilwara district has a rich historical background, with evidence of human habitation dating back to the Mesolithic era. The region was ruled by various dynasties, including the Guhilas, the Mughals, and the Marathas, before becoming part of the British Indian Empire. After India gained independence, Bhilwara was established as a separate district in 1949. The district is known for its textile industry, particularly its production of fabrics such as suitings, shirtings, and dress materials.",
+    "climate": "Bhilwara has a hot, semi-arid climate, characterized by very hot summers and mild winters. The district experiences a significant amount of rainfall during the monsoon season, which helps to support its agricultural activities.",
+    "map_coordinates": {
+      "lat": 25.3534,
+      "lng": 74.6353
+    },
+    "image_url": "https://images.unsplash.com/photo-1621514574338-3c0f8c Dee"
+  },
+  {
+    "id": "bikaner-district",
+    "name": "Bikaner",
+    "headquarters": "Bikaner",
+    "division": "Bikaner Division",
+    "area_sq_km": 30130,
+    "population": 2367743,
+    "established_year": 1949,
+    "history": "Bikaner district has a rich and storied history dating back to the 15th century when it was founded by Rao Bika, a Rathore prince. The city of Bikaner was a major center of trade and commerce in the region, with the city's strategic location making it an important stopover for caravans traveling between Central Asia and the Indian subcontinent. Over the centuries, Bikaner has been ruled by various dynasties, including the Mughals and the British, each leaving their mark on the city's architecture, culture, and traditions. Today, Bikaner is a thriving city known for its stunning architecture, vibrant culture, and mouth-watering cuisine.",
+    "climate": "Hot arid, dry desert weather",
+    "map_coordinates": {
+      "lat": 28.0238,
+      "lng": 73.3159
+    },
+    "image_url": "https://images.unsplash.com/photo-1610877789664-2c3b5e0e5e0c"
+  },
+  {
+    "id": "bundi-district",
+    "name": "Bundi",
+    "headquarters": "Bundi",
+    "division": "Kota Division",
+    "area_sq_km": 5557,
+    "population": 1137258,
+    "established_year": 1949,
+    "history": "Bundi district has a rich and storied history, with evidence of human habitation dating back to the Mesolithic era. The region was a major hub of trade and commerce during the medieval period, with the city of Bundi serving as the capital of the erstwhile Bundi State. The district is home to numerous historical landmarks, including the Taragarh Fort, the Bundi Palace, and the Chitrashala art gallery. The region's unique cultural heritage is reflected in its traditional architecture, folk music, and local handicrafts.",
+    "climate": "Bundi district experiences a hot, semi-arid climate, with very hot summers and mild winters. The region receives most of its rainfall during the monsoon season, which typically lasts from July to September.",
+    "map_coordinates": {
+      "lat": 25.4432,
+      "lng": 75.6403
+    },
+    "image_url": "https://images.unsplash.com/photo-1618773921116-cc6c4c6e2c4e"
+  },
+  {
+    "id": "chittorgarh-district",
+    "name": "Chittorgarh",
+    "headquarters": "Chittorgarh",
+    "division": "Udaipur Division",
+    "area_sq_km": 10856,
+    "population": 1544393,
+    "established_year": 1949,
+    "history": "Chittorgarh, the former capital of the Sisodia dynasty, has a rich and storied history dating back to the 8th century. The district is dominated by the majestic Chittorgarh Fort, a UNESCO World Heritage Site and one of the largest fort complexes in India. The fort has borne witness to numerous battles and sieges, including the legendary tales of Rani Padmini and the bravery of Maharana Pratap. The district is also home to numerous other historical sites, including the Vijay Stambh and the Kirti Stambh, which showcase the architectural and cultural heritage of the region.",
+    "climate": "Chittorgarh has a hot, semi-arid climate with very little rainfall throughout the year. The summer months are extremely hot, while the winters are mild and pleasant. The district experiences a significant variation in temperature, with the mercury often soaring above 45 degrees Celsius in the summer and dropping to around 5 degrees Celsius in the winter.",
+    "map_coordinates": {
+      "lat": 24.8864,
+      "lng": 74.6268
+    },
+    "image_url": "https://images.unsplash.com/photo-1587391671668-5c0b3e2e2b4e"
+  },
+  {
+    "id": "churu-district",
+    "name": "Churu",
+    "headquarters": "Churu",
+    "division": "Bikaner Division",
+    "area_sq_km": 16830,
+    "population": 2041173,
+    "established_year": 1949,
+    "history": "Churu district has a rich historical background, with evidence of human habitation dating back to the pre-historic era. The district was a major stopover for trade caravans traveling between the Indus Valley Civilization and the Gangetic plains. Churu was also an important center of learning and culture during the Mughal and Rajput periods, with many historical monuments and temples still standing today. The district is also known for its role in the Indian independence movement, with several notable freedom fighters hailing from the region.",
+    "climate": "Hot arid, dry desert weather, with very little rainfall throughout the year",
+    "map_coordinates": {
+      "lat": 28.2945,
+      "lng": 74.9571
+    },
+    "image_url": "https://images.unsplash.com/photo-1617871115510-6a9e5e2e2c7c"
+  },
+  {
+    "id": "dausa-district",
+    "name": "Dausa",
+    "headquarters": "Dausa",
+    "division": "Jaipur Division",
+    "area_sq_km": 3427.36,
+    "population": 1637185,
+    "established_year": 1991,
+    "history": "Dausa district has a rich historical background, with the city of Dausa being an important stopover for traders and travelers in the medieval period. The district is home to the famous Abhaneri stepwell, a masterpiece of ancient Indian architecture. Dausa was a part of the erstwhile Jaipur state and was formed as a separate district in 1991. The district is known for its vibrant culture, with a mix of Rajput and Mughal influences.",
+    "climate": "Hot semi-arid, with very hot summers and mild winters",
+    "map_coordinates": {
+      "lat": 26.8853,
+      "lng": 76.3364
+    },
+    "image_url": "https://images.unsplash.com/photo-1614218122579-3c6b9f8f4e2c"
+  },
+  {
+    "id": "deeg-district",
+    "name": "Deeg",
+    "headquarters": "Deeg",
+    "division": "Bharatpur Division",
+    "area_sq_km": 2384.34,
+    "population": 994188,
+    "established_year": 2012,
+    "history": "Deeg is a historic town in the Bharatpur district of Rajasthan, known for its stunning palaces, forts, and beautiful gardens. The town has a rich cultural heritage and was once the capital of the Jat kingdom of Bharatpur. Deeg was a major center of power and politics during the 18th century and was known for its brave warriors and skilled artisans. The district was formally established in 2012, and since then, it has been growing rapidly, with a focus on agriculture, tourism, and small-scale industries.",
+    "climate": "Deeg has a hot and dry climate, with very little rainfall throughout the year. The summer months are extremely hot, with temperatures often reaching 45 degrees Celsius, while the winters are mild and pleasant, with temperatures ranging from 5 to 15 degrees Celsius.",
+    "map_coordinates": {
+      "lat": 27.4692,
+      "lng": 77.3281
+    },
+    "image_url": "https://images.unsplash.com/photo-1614216692545-5a5b9f9e5d9a"
+  },
+  {
+    "id": "dholpur-district",
+    "name": "Dholpur",
+    "headquarters": "Dholpur",
+    "division": "Bharatpur Division",
+    "area_sq_km": 3084,
+    "population": 1183713,
+    "established_year": 1982,
+    "history": "Dholpur district has a rich and diverse history, with evidence of human habitation dating back to the Stone Age. The district was a major center of power during the medieval period, with the ruling family of Dholpur tracing its lineage back to the Tomara Rajputs of Delhi. The district was also an important hub of trade and commerce, with the city of Dholpur serving as a key stopover on the trade route between Delhi and the Deccan region. In 1949, Dholpur became part of the state of Rajasthan, and in 1982, it was carved out as a separate district from the Bharatpur district.",
+    "climate": "Dholpur district has a hot and dry climate, with very little rainfall throughout the year. The summer months are extremely hot, with temperatures often reaching 45 degrees Celsius, while the winter months are mild and pleasant. The district experiences a short monsoon season, with most of the rainfall occurring between July and September.",
+    "map_coordinates": {
+      "lat": 26.7043,
+      "lng": 77.8931
+    },
+    "image_url": "https://images.unsplash.com/photo-1614218123509-8c9c4d8f4e0a"
+  },
+  {
+    "id": "didwana-kuchaman-district",
+    "name": "Didwana-Kuchaman",
+    "headquarters": "Didwana",
+    "division": "Ajmer Division",
+    "area_sq_km": 2970,
+    "population": 1374611,
+    "established_year": 2023,
+    "history": "The Didwana-Kuchaman district is a newly formed administrative division in the state of Rajasthan, India, carved out from the Nagaur district. Historically, the region has been a significant center for trade and commerce, with the town of Didwana serving as an important stopover for merchants traveling between Delhi and Gujarat. The district is home to several ancient monuments, including the Kuchaman Fort, which dates back to the 9th century and offers breathtaking views of the surrounding landscape. The region is also known for its rich cultural heritage, with a unique blend of Rajasthani and Mughal influences evident in its architecture, art, and cuisine.",
+    "climate": "Hot arid, dry desert weather, with very little rainfall throughout the year",
+    "map_coordinates": {
+      "lat": 27.3982,
+      "lng": 74.5689
+    },
+    "image_url": "https://images.unsplash.com/photo-1621516073606-9a7460a8bd6e"
+  },
+  {
+    "id": "dungarpur-district",
+    "name": "Dungarpur",
+    "headquarters": "Dungarpur",
+    "division": "Udaipur Division",
+    "area_sq_km": 3772.48,
+    "population": 593229,
+    "established_year": 1949,
+    "history": "Dungarpur district has a rich and varied history, with evidence of human habitation dating back to the Mesolithic era. The region was ruled by the Guhilot dynasty in the 14th century and later became a princely state under the umbrella of the Mughal Empire. After India gained independence, Dungarpur merged with the Union of India in 1949. The district is home to numerous ancient temples, palaces, and monuments, showcasing its cultural and architectural heritage.",
+    "climate": "Dungarpur has a tropical climate, characterized by hot summers and mild winters, with an average annual rainfall of around 900 mm. The region experiences a monsoon season from July to September, which brings significant rainfall to the area.",
+    "map_coordinates": {
+      "lat": 23.8432,
+      "lng": 73.7161
+    },
+    "image_url": "https://images.unsplash.com/photo-1614218122579-3cbe7e2c9e2e"
+  },
+  {
+    "id": "hanumangarh-district",
+    "name": "Hanumangarh",
+    "headquarters": "Hanumangarh",
+    "division": "Bikaner Division",
+    "area_sq_km": 9656.09,
+    "population": 1771223,
+    "established_year": 1994,
+    "history": "Hanumangarh district has a rich historical background, with evidence of human habitation dating back to the Indus Valley Civilization. The district was a major center of trade and commerce during the medieval period, with the town of Hanumangarh being an important stopover for caravans traveling between India and Central Asia. The district was formed in 1994, when it was separated from the Ganganagar district. Today, Hanumangarh is a thriving agricultural district, known for its production of wheat, cotton, and sugarcane.",
+    "climate": "Hot arid, dry desert weather, with very little rainfall throughout the year",
+    "map_coordinates": {
+      "lat": 29.5872,
+      "lng": 74.3289
+    },
+    "image_url": "https://images.unsplash.com/photo-1614216692545-6a8c3a6a5c2a"
+  },
+  {
+    "id": "jaipur-district",
+    "name": "Jaipur",
+    "headquarters": "Jaipur",
+    "division": "Jaipur Division",
+    "area_sq_km": 11117.79,
+    "population": 6663975,
+    "established_year": 1949,
+    "history": "Jaipur, the Pink City, has a rich and storied history dating back to 1727 when it was founded by Maharaja Sawai Jai Singh II. The city was meticulously planned with broad avenues, imposing forts, and beautiful palaces, showcasing a blend of Rajput and Mughal architectural styles. Over the centuries, Jaipur has been an important cultural, economic, and administrative hub, with its strategic location facilitating trade and commerce. Today, Jaipur is a thriving metropolis, known for its vibrant markets, stunning architecture, and warm hospitality.",
+    "climate": "Jaipur experiences a hot semi-arid climate, characterized by extremely hot summers and mild winters. The city witnesses a significant variation in temperature throughout the year, with the summer months being the hottest and the winter months being the coolest.",
+    "map_coordinates": {
+      "lat": 26.926,
+      "lng": 75.7873
+    },
+    "image_url": "https://images.unsplash.com/photo-1578946062312-33e0e6c2e2b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "jaisalmer-district",
+    "name": "Jaisalmer",
+    "headquarters": "Jaisalmer",
+    "division": "Jodhpur Division",
+    "area_sq_km": 38401,
+    "population": 669919,
+    "established_year": 1949,
+    "history": "Jaisalmer, known as the 'Golden City', has a rich and storied history dating back to 1156 AD when it was founded by Rawal Jaisal, a Bhati Rajput ruler. Strategically located on the trade route between India and Central Asia, Jaisalmer played a significant role in the medieval period as a major trading center. The city is dominated by the majestic Jaisalmer Fort, a UNESCO World Heritage Site, which stands as a testament to the district's glorious past. Over the centuries, Jaisalmer has been influenced by various cultures, including the Rajputs, the Mughals, and the British, each leaving their mark on the district's architecture, art, and traditions.",
+    "climate": "Hot arid, dry desert weather, characterized by very little rainfall and extreme temperature fluctuations",
+    "map_coordinates": {
+      "lat": 26.9167,
+      "lng": 70.9167
+    },
+    "image_url": "https://images.unsplash.com/photo-1618762234455-2e2e3f5e0e2c"
+  },
+  {
+    "id": "jalore-district",
+    "name": "Jalore",
+    "headquarters": "Jalore",
+    "division": "Jodhpur Division",
+    "area_sq_km": 10640,
+    "population": 1829000,
+    "established_year": 1949,
+    "history": "Jalore district has a rich and diverse history dating back to the 8th century when it was a major center of trade and commerce. The district was a key location in the ancient Indian kingdom of Gurjara-Pratihara and was later ruled by the Chauhan dynasty. Jalore is also known for its significant role in the Indian independence movement, with several freedom fighters hailing from the district. The district's strategic location made it an important hub for the exchange of goods, ideas, and cultures between different regions of India.",
+    "climate": "Hot arid, dry desert weather",
+    "map_coordinates": {
+      "lat": 25.3493,
+      "lng": 72.6211
+    },
+    "image_url": "https://images.unsplash.com/photo-1614216691651-8c2e5f9e2e2c"
+  },
+  {
+    "id": "jhalawar-district",
+    "name": "Jhalawar",
+    "headquarters": "Jhalawar",
+    "division": "Kota Division",
+    "area_sq_km": 6218,
+    "population": 1510181,
+    "established_year": 1949,
+    "history": "Jhalawar has a rich historical background, with evidence of human habitation dating back to the 8th century. The district was a princely state during the British era, ruled by the Jhala clan, and was known for its stunning architecture, vibrant culture, and natural beauty. After India gained independence, Jhalawar became part of the state of Rajasthan in 1949. Today, the district is a popular tourist destination, attracting visitors with its picturesque landscapes, historic monuments, and unique cultural heritage.",
+    "climate": "Jhalawar has a semi-arid climate, with very hot summers and mild winters. The district experiences a significant amount of rainfall during the monsoon season, which helps to sustain its agricultural activities and natural ecosystems.",
+    "map_coordinates": {
+      "lat": 24.5953,
+      "lng": 76.1589
+    },
+    "image_url": "https://images.unsplash.com/photo-1633882123455-3e6d2c bee3f1"
+  },
+  {
+    "id": "jhunjhunu-district",
+    "name": "Jhunjhunu",
+    "headquarters": "Jhunjhunu",
+    "division": "Jaipur Division",
+    "area_sq_km": 5928.5,
+    "population": 2139655,
+    "established_year": 1949,
+    "history": "Jhunjhunu district has a rich historical background, with evidence of human habitation dating back to the pre-historic era. The district was a major center of trade and commerce during the Mughal period and was later ruled by the Shekhawati Rajputs. The region is known for its stunning havelis, forts, and temples, showcasing the architectural prowess of the Rajput era. The district has also played a significant role in India's struggle for independence, with many freedom fighters hailing from this region.",
+    "climate": "Semi-arid, with hot summers and mild winters, characterized by low humidity and moderate rainfall",
+    "map_coordinates": {
+      "lat": 28.1303,
+      "lng": 75.3983
+    },
+    "image_url": "https://images.unsplash.com/photo-1612869545819-3a1b2e2c bee7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "jodhpur-district",
+    "name": "Jodhpur",
+    "headquarters": "Jodhpur",
+    "division": "Jodhpur Division",
+    "area_sq_km": 22850,
+    "population": 3687165,
+    "established_year": 1949,
+    "history": "Jodhpur district has a rich and diverse history dating back to the 12th century when it was the capital of the Marwar kingdom. The city was founded by Rao Jodha in 1459 and was a major trading center in the region. Over the centuries, Jodhpur has been ruled by various dynasties, including the Rathores, the Mughals, and the British. Today, Jodhpur is a thriving city known for its stunning architecture, vibrant culture, and breathtaking natural beauty.",
+    "climate": "Hot arid, dry desert weather",
+    "map_coordinates": {
+      "lat": 26.2389,
+      "lng": 73.0232
+    },
+    "image_url": "https://images.unsplash.com/photo-1599605839179-3e2a6d2e2c6e"
+  },
+  {
+    "id": "karauli-district",
+    "name": "Karauli",
+    "headquarters": "Karauli",
+    "division": "Bharatpur Division",
+    "area_sq_km": 5043,
+    "population": 1585903,
+    "established_year": 1949,
+    "history": "Karauli district has a rich and diverse history, with evidence of human habitation dating back to the prehistoric era. The region was once a part of the Matsya Kingdom, which was an important power during the times of the Mahabharata. In the 14th century, the area was ruled by the Yaduvanshi Rajputs, who built the historic Timangarh Fort, a testament to the region's architectural and cultural heritage. The district is also home to numerous ancient temples, including the Madan Mohan Ji Temple, which attracts devotees from across the country.",
+    "climate": "Karauli district experiences a hot and dry climate, with very little rainfall throughout the year. The summer months are extremely hot, with temperatures often reaching 45 degrees Celsius, while the winters are mild and pleasant, with temperatures ranging from 10 to 20 degrees Celsius.",
+    "map_coordinates": {
+      "lat": 26.5056,
+      "lng": 77.0243
+    },
+    "image_url": "https://images.unsplash.com/photo-1617871111111-11111111-1111?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&h=1000&fit=crop"
+  },
+  {
+    "id": "khairthal-tijara-district",
+    "name": "Alwar",
+    "headquarters": "Alwar",
+    "division": "Jaipur Division",
+    "area_sq_km": 8380,
+    "population": 3671999,
+    "established_year": 1949,
+    "history": "The Khairthal-Tijara region, now part of the Alwar district, boasts a rich historical heritage dating back to the 11th century when it was a significant hub during the Delhi Sultanate. The area has been ruled by various dynasties, including the Mughals and the Marathas, each leaving their distinct mark on the region's architecture, culture, and traditions. The district's strategic location made it a crucial stopover for traders and travelers moving between Delhi and the Rajasthan kingdoms. Historically, the region has been known for its bravery, with tales of local heroes and their exploits against invading forces still recounted in local folklore.",
+    "climate": "The climate of the Khairthal-Tijara region is characterized by hot, dry summers and mild winters, with the monsoon season bringing much-needed relief from the arid conditions. The district experiences a semi-arid climate, with average temperatures ranging from 2°C in winter to 45°C in the peak summer months.",
+    "map_coordinates": {
+      "lat": 27.5333,
+      "lng": 76.5833
+    },
+    "image_url": "https://images.unsplash.com/photo-1624441756412-4a5e2c2c4e8f"
+  },
+  {
+    "id": "kota-district",
+    "name": "Kota",
+    "headquarters": "Kota",
+    "division": "Kota Division",
+    "area_sq_km": 5277,
+    "population": 1958645,
+    "established_year": 1949,
+    "history": "Kota district has a rich and storied history dating back to the 13th century when it was a part of the Hada kingdom. The city of Kota was a major hub of trade and commerce during the Mughal era and was later ruled by the Rajput kingdoms of Bundi and Hadoti. The district is home to several historical landmarks, including the Kota Garh, also known as the City Palace, which showcases a blend of Rajput and Mughal architectural styles. The district has also played a significant role in the Indian independence movement, with several prominent freedom fighters hailing from the region.",
+    "climate": "Kota district has a semi-arid climate, characterized by hot summers and mild winters. The district experiences a significant amount of rainfall during the monsoon season, which helps to sustain the region's agricultural activities.",
+    "map_coordinates": {
+      "lat": 25.1842,
+      "lng": 75.8538
+    },
+    "image_url": "https://images.unsplash.com/photo-1610877789669-5c9c8c9e2c7c"
+  },
+  {
+    "id": "kotputli-behror-district",
+    "name": "Kotputli-Behror",
+    "headquarters": "Kotputli",
+    "division": "Jaipur Division",
+    "area_sq_km": 2961,
+    "population": 1025261,
+    "established_year": 2012,
+    "history": "Kotputli-Behror district, carved out of Alwar district, has a rich history dating back to the Mahabharata era. The region is known for its historical significance, with the town of Kotputli being an important stopover for traders and travelers. The district is also home to several ancient temples, forts, and monuments, showcasing its cultural and architectural heritage. With its strategic location, Kotputli-Behror has played a significant role in the region's economic and social development.",
+    "climate": "Hot semi-arid, with extremely hot summers and mild winters",
+    "map_coordinates": {
+      "lat": 27.7032,
+      "lng": 76.1789
+    },
+    "image_url": "https://images.unsplash.com/photo-1614218128314-71e2e0e4e2b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "nagaur-district",
+    "name": "Nagaur",
+    "headquarters": "Nagaur",
+    "division": "Ajmer Division",
+    "area_sq_km": 17718.55,
+    "population": 3398424,
+    "established_year": 1949,
+    "history": "Nagaur district has a rich and diverse history dating back to the 4th century BC. The city was an important center of trade and commerce during the Mughal era and was a major hub for the Marwar region. The Nagaur Fort, also known as Ahhichatragarh, is a prominent historical landmark in the district, showcasing a blend of Rajput and Mughal architectural styles. The district is also known for its vibrant cultural heritage, with numerous fairs and festivals being celebrated throughout the year, including the famous Nagaur Fair.",
+    "climate": "Hot arid, dry desert weather, with very little rainfall throughout the year",
+    "map_coordinates": {
+      "lat": 27.2043,
+      "lng": 73.7365
+    },
+    "image_url": "https://images.unsplash.com/photo-1618773921114-cc7e5c1e0f4c"
+  },
+  {
+    "id": "pali-district",
+    "name": "Pali",
+    "headquarters": "Pali",
+    "division": "Jodhpur Division",
+    "area_sq_km": 12387.78,
+    "population": 2038533,
+    "established_year": 1949,
+    "history": "Pali district has a rich and diverse history, with evidence of human habitation dating back to the Stone Age. The district was a major center of trade and commerce during the medieval period, with the city of Pali serving as a key stopover on the trade route between Delhi and Gujarat. The district is also home to several important historical sites, including the ancient town of Bali, which was an important center of Jainism and Hinduism. The district has a unique cultural heritage, with a blend of Rajasthani, Gujarati, and Marwari influences.",
+    "climate": "Hot and dry desert weather, with very little rainfall throughout the year",
+    "map_coordinates": {
+      "lat": 25.7673,
+      "lng": 73.3232
+    },
+    "image_url": "https://images.unsplash.com/photo-1617871115511-5d6f2f2a5f4e"
+  },
+  {
+    "id": "phalodi-district",
+    "name": "Phalodi",
+    "headquarters": "Phalodi",
+    "division": "Jodhpur Division",
+    "area_sq_km": 6867.55,
+    "population": 223844,
+    "established_year": 2017,
+    "history": "Phalodi district was carved out of Jodhpur district in 2017 and has a rich history dating back to the medieval period. The city of Phalodi was an important trading center and was once a major stopover for camel caravans traveling between Delhi and Gujarat. The district is home to several historical sites, including the ancient fort of Phalodi, which was built by the Rathore rulers of Marwar. The region is also known for its vibrant culture and traditional crafts, including woodcarving, pottery, and textiles.",
+    "climate": "Hot arid, dry desert weather",
+    "map_coordinates": {
+      "lat": 27.1281,
+      "lng": 72.3624
+    },
+    "image_url": "https://images.unsplash.com/photo-1614216692547-77c3a5e2e3a8"
+  },
+  {
+    "id": "pratapgarh-district",
+    "name": "Pratapgarh",
+    "headquarters": "Pratapgarh",
+    "division": "Udaipur Division",
+    "area_sq_km": 4448.38,
+    "population": 867848,
+    "established_year": 2008,
+    "history": "Pratapgarh district is one of the 33 districts of Rajasthan, India, and was created on 26 January 2008, when it was separated from the Chittorgarh district. Historically, the region was part of the Mewar kingdom, and its strategic location made it a significant hub for trade and commerce. The district is named after the town of Pratapgarh, which was founded by Maharana Pratap, the legendary king of Mewar, in the 16th century. The region is known for its rich cultural heritage, with numerous ancient temples, forts, and monuments that reflect the architectural and artistic traditions of the Mewar kingdom.",
+    "climate": "The climate of Pratapgarh district is characterized by hot, dry summers and mild winters, with an average annual rainfall of around 900 mm. The district experiences a subtropical climate, with temperatures ranging from 2°C in winter to 45°C in summer.",
+    "map_coordinates": {
+      "lat": 24.0314,
+      "lng": 74.7792
+    },
+    "image_url": "https://images.unsplash.com/photo-1614218122577-8f5b8e2b0e2c"
+  },
+  {
+    "id": "rajsamand-district",
+    "name": "Rajsamand",
+    "headquarters": "Rajsamand",
+    "division": "Udaipur Division",
+    "area_sq_km": 3875,
+    "population": 1156922,
+    "established_year": 1949,
+    "history": "Rajsamand district has a rich historical background, with evidence of human habitation dating back to the 8th century. The district is named after Rajsamand Lake, a stunning artificial lake built by Maharana Raj Singh in 1660. The region has been ruled by various dynasties, including the Mewar Kingdom, and has a significant cultural and architectural heritage. The district is also home to the famous Kumbhalgarh Fort, a UNESCO World Heritage Site and one of the most impressive forts in Rajasthan.",
+    "climate": "The climate of Rajsamand is characterized by hot, dry summers and mild winters, with an average annual rainfall of around 600 mm. The district experiences a typical desert climate, with very little rainfall during the summer months.",
+    "map_coordinates": {
+      "lat": 25.0739,
+      "lng": 73.8823
+    },
+    "image_url": "https://images.unsplash.com/photo-1581055731747-5a1a9d1f1a3c"
+  },
+  {
+    "id": "salumbar-district",
+    "name": "Salumbar",
+    "headquarters": "Salumbar",
+    "division": "Udaipur Division",
+    "area_sq_km": 2428,
+    "population": 237650,
+    "established_year": 2023,
+    "history": "Salumbar is a newly formed district in the Udaipur Division of Rajasthan, carved out from the Udaipur district in 2023. Historically, the region was part of the Mewar kingdom and was known for its rich cultural heritage and natural beauty. The district is home to several ancient temples, forts, and monuments, showcasing the region's architectural and historical significance. The formation of Salumbar as a separate district is expected to boost the local economy and improve administrative efficiency.",
+    "climate": "Salumbar experiences a subtropical climate, characterized by hot summers and mild winters, with moderate rainfall during the monsoon season.",
+    "map_coordinates": {
+      "lat": 24.0853,
+      "lng": 74.0653
+    },
+    "image_url": "https://images.unsplash.com/photo-1621502378453-81c7277e7f4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "sawai-madhopur-district",
+    "name": "Sawai Madhopur",
+    "headquarters": "Sawai Madhopur",
+    "division": "Bharatpur Division",
+    "area_sq_km": 4500,
+    "population": 1338118,
+    "established_year": 1977,
+    "history": "Sawai Madhopur district has a rich historical background dating back to the 13th century when it was a part of the Ranthambore kingdom. The district was a major stronghold of the Kachwaha clan of Rajputs and was later ruled by the Mughal Empire. In 1977, it was separated from the Bharatpur district to form a new district. The district is home to the famous Ranthambore National Park, which is one of the largest national parks in India and a major tourist attraction.",
+    "climate": "The climate of Sawai Madhopur is characterized by hot, dry summers and mild winters, with an average annual rainfall of around 800 mm. The district experiences a tropical savanna climate, with the temperature ranging from 2°C in winter to 45°C in summer.",
+    "map_coordinates": {
+      "lat": 26.0333,
+      "lng": 76.3667
+    },
+    "image_url": "https://images.unsplash.com/photo-1618773921114-cc3c4e2e2e2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "sikar-district",
+    "name": "Sikar",
+    "headquarters": "Sikar",
+    "division": "Jaipur Division",
+    "area_sq_km": 7732.44,
+    "population": 2677737,
+    "established_year": 1972,
+    "history": "Sikar district has a rich historical background, with evidence of human habitation dating back to the Indus Valley Civilization. The region was later ruled by various dynasties, including the Rajputs, Mughals, and British. The district is home to several historical sites, including the Sikar Fort, which was built in the 18th century. The region is also known for its vibrant culture, with a blend of Rajasthani and Mughal influences.",
+    "climate": "Semi-arid, with hot summers and mild winters, characterized by low humidity and limited rainfall",
+    "map_coordinates": {
+      "lat": 27.6142,
+      "lng": 75.1453
+    },
+    "image_url": "https://images.unsplash.com/photo-1614216691641-79f6f3e9b4c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "sirohi-district",
+    "name": "Sirohi",
+    "headquarters": "Sirohi",
+    "division": "Jodhpur Division",
+    "area_sq_km": 5139,
+    "population": 1037185,
+    "established_year": 1949,
+    "history": "Sirohi district has a rich and diverse history, with evidence of human habitation dating back to the ancient Indus Valley Civilization. The region was later ruled by the Gurjara-Pratihara dynasty, followed by the Delhi Sultanate and the Mughal Empire. In the 18th century, Sirohi became a princely state, ruled by the Deora Chauhan dynasty, and was known for its stunning architecture, vibrant culture, and breathtaking natural beauty. Today, Sirohi is a popular tourist destination, attracting visitors from all over the world with its stunning landscapes, historic landmarks, and unique cultural heritage.",
+    "climate": "Sirohi has a hot, semi-arid climate, characterized by very hot summers and mild winters. The district experiences a significant amount of rainfall during the monsoon season, which helps to sustain the region's diverse flora and fauna.",
+    "map_coordinates": {
+      "lat": 24.8852,
+      "lng": 72.8623
+    },
+    "image_url": "https://images.unsplash.com/photo-1587391672727-5a5a3f2e3e2e"
+  },
+  {
+    "id": "sri-ganganagar-district",
+    "name": "Sri Ganganagar",
+    "headquarters": "Sri Ganganagar",
+    "division": "Bikaner Division",
+    "area_sq_km": 11264,
+    "population": 1973433,
+    "established_year": 1949,
+    "history": "Sri Ganganagar district is situated in the northwestern part of Rajasthan and was established in 1949. The district is named after Maharaja Ganga Singh, who was the ruler of Bikaner. Historically, the area was part of the Bikaner State and was primarily a barren land that was transformed into a fertile region through the construction of the Gang Canal, which was built during the reign of Maharaja Ganga Singh. The district has a rich cultural heritage, with a blend of traditional and modern influences.",
+    "climate": "Hot arid, dry desert weather, with very hot summers and mild winters",
+    "map_coordinates": {
+      "lat": 29.9211,
+      "lng": 73.8631
+    },
+    "image_url": "https://images.unsplash.com/photo-1619852734439-5e2f9f5f3e2e"
+  },
+  {
+    "id": "tonk-district",
+    "name": "Tonk",
+    "headquarters": "Tonk",
+    "division": "Ajmer Division",
+    "area_sq_km": 7194,
+    "population": 1423869,
+    "established_year": 1948,
+    "history": "Tonk district has a rich and diverse history, with evidence of human habitation dating back to the ancient Indus Valley Civilization. The district was a major center of trade and commerce during the medieval period, with the city of Tonk being an important hub for the exchange of goods and ideas. The district is also home to several historic monuments, including the famous Sunehri Kothi, a stunning example of Mughal architecture. The region's strategic location made it a prized possession for various rulers, including the Rajputs, the Mughals, and the British.",
+    "climate": "Tonk district experiences a hot, semi-arid climate, with very little rainfall throughout the year. The summer months are extremely hot, with temperatures often reaching 45 degrees Celsius, while the winters are mild and pleasant.",
+    "map_coordinates": {
+      "lat": 26.1643,
+      "lng": 75.7883
+    },
+    "image_url": "https://images.unsplash.com/photo-1610877789664-2e2c9e5f0a5b"
+  },
+  {
+    "id": "udaipur-district",
+    "name": "Udaipur",
+    "headquarters": "Udaipur",
+    "division": "Udaipur Division",
+    "area_sq_km": 13698.36,
+    "population": 3068423,
+    "established_year": 1949,
+    "history": "Udaipur, also known as the City of Lakes, has a rich and storied history dating back to 1559 when it was founded by Maharana Udai Singh II. The city was the capital of the Kingdom of Mewar and was a major cultural and trade center in the region. Udaipur's history is marked by its bravery and sacrifice, with the Mewar kingdom being one of the few kingdoms that resisted the Mughal Empire. Today, Udaipur is a popular tourist destination known for its stunning lakes, palaces, and temples.",
+    "climate": "Udaipur has a tropical climate, with very hot summers and mild winters. The city experiences a significant amount of rainfall during the monsoon season, which helps to cool down the temperature and provide relief from the heat.",
+    "map_coordinates": {
+      "lat": 24.5854,
+      "lng": 73.7128
+    },
+    "image_url": "https://images.unsplash.com/photo-1587390238-4c5a5f2e2f2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  }
+]

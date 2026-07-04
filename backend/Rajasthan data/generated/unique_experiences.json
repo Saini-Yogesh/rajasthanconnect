@@ -1,0 +1,794 @@
+[
+  {
+    "id": "camel-safari-in-the-thar-desert",
+    "title": "Sunset to Sunrise Camel Safari in the Thar Desert",
+    "description": "Embark on an unforgettable journey through the majestic Thar Desert, exploring the golden sand dunes, and witnessing breathtaking sunsets. As the stars begin to twinkle, settle into a cozy desert camp, where local folk musicians and dancers will mesmerize you with their traditional performances. The next morning, watch the sunrise over the dunes, and enjoy a delicious breakfast before returning to civilization. This enchanting experience offers a unique glimpse into the rich cultural heritage and natural beauty of Rajasthan.",
+    "city_id": "jaisalmer",
+    "duration": "Overnight (18 Hours)",
+    "best_time_of_day": "Sunset to Sunrise",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Desert Safari",
+        "Thar Desert Tours"
+      ],
+      "contact": "+91 94141 11111"
+    },
+    "pricing_estimate": "INR 3500 - 6000 per person",
+    "safety_tips": [
+      "Wear sunscreen and a hat to protect yourself from the scorching desert sun",
+      "Bring warm jackets for chilly desert nights",
+      "Stay hydrated by drinking plenty of water",
+      "Respect local customs and traditions"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1619856697648-4f3e5f4e2c9a"
+  },
+  {
+    "id": "desert-camping",
+    "title": "Overnight Desert Camping Under Starry Skies",
+    "description": "Embark on an unforgettable desert camping experience in the majestic dunes of Rajasthan, where the vast expanse of golden sand meets the star-studded night sky. As the sun sets, gather around a crackling campfire and listen to the enchanting tales of local folklores, while savoring delectable Rajasthani cuisine. Under the guidance of experienced guides, explore the mystical world of desert wildlife, and wake up to a breathtaking sunrise that will leave you spellbound. As night falls, lie down on the soft sand and let the celestial showcase above mesmerize you, making this desert camping experience an eternal memory.",
+    "city_id": "jaisalmer",
+    "duration": "Overnight (18 Hours)",
+    "best_time_of_day": "Sunset to Sunrise",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Desert Safaris",
+        "Jaisalmer Camping Tours"
+      ],
+      "contact": "+91 94141 11111"
+    },
+    "pricing_estimate": "INR 3500 - 6000 per person",
+    "safety_tips": [
+      "Wear sunscreen and a hat to protect yourself from the scorching desert sun",
+      "Bring warm jackets for chilly desert nights",
+      "Stay hydrated by drinking plenty of water",
+      "Follow the instructions of your guide at all times"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1619856697948-6f6c3f4e5e3c"
+  },
+  {
+    "id": "hot-air-balloon-ride",
+    "title": "Sunrise Hot Air Balloon Ride Over the Golden City of Jaisalmer",
+    "description": "Experience the breathtaking beauty of Rajasthan's Thar Desert from high above with a serene hot air balloon ride. As the sun rises over the golden city of Jaisalmer, witness the majestic fort, the intricate architecture, and the vast expanse of the desert landscape. With the wind gently blowing, the balloon will soar above the dunes, offering a bird's-eye view of the stunning scenery. This tranquil experience will leave you with unforgettable memories of Rajasthan's natural beauty and rich cultural heritage.",
+    "city_id": "jaisalmer",
+    "duration": "Approximately 1-2 Hours",
+    "best_time_of_day": "Early Morning, just before Sunrise",
+    "booking_details": {
+      "licensed_operators": [
+        "Sky Waltz Balloon Safari",
+        "Rajasthan Balloons"
+      ],
+      "contact": "+91 94141 41111"
+    },
+    "pricing_estimate": "INR 12000 - 18000 per person",
+    "safety_tips": [
+      "Wear warm clothing, including a jacket and gloves, as it can get chilly in the early morning",
+      "Wear comfortable shoes and dress in layers for ease of movement",
+      "Follow the instructions of the pilot and crew at all times",
+      "Do not throw any objects from the balloon during the flight"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1518548422935-3e0fbdce0f4f"
+  },
+  {
+    "id": "jeep-safari-in-the-desert",
+    "title": "Dune Bashing and Village Exploration in the Thar Desert",
+    "description": "Embark on an exhilarating Jeep Safari in the Desert, navigating through the endless dunes of the Thar Desert in Rajasthan. This adventure takes you deep into the heart of the desert, where you'll experience the thrill of dune bashing, witness breathtaking sunsets, and explore quaint villages to learn about the local culture and traditions. As you drive through the desert, you'll come across various flora and fauna, including the majestic chinkara and the elegant peacock. With the expertise of a local guide, you'll discover the secrets of the desert and create unforgettable memories.",
+    "city_id": "jaisalmer",
+    "duration": "Full Day (10 Hours)",
+    "best_time_of_day": "Early Morning to Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Desert Safari",
+        "Thar Desert Adventures"
+      ],
+      "contact": "+91 94141 11111"
+    },
+    "pricing_estimate": "INR 4000 - 7000 per person",
+    "safety_tips": [
+      "Wear sunscreen and a hat to protect yourself from the scorching sun",
+      "Bring warm clothing for the chilly desert nights",
+      "Stay hydrated by drinking plenty of water",
+      "Follow the instructions of the guide and stay within the designated area"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1617871110598-3c7a2d3b2c5f"
+  },
+  {
+    "id": "sunset-at-sam-sand-dunes",
+    "title": "Witness the Breathtaking Sunset at Sam Sand Dunes",
+    "description": "Experience the mesmerizing beauty of the Thar Desert as the sun sets over the majestic Sam Sand Dunes, creating a kaleidoscope of colors in the sky. Travelers can take a camel ride or trek through the dunes to reach the perfect spot to witness this natural wonder. As the sun dips below the horizon, the sky transforms into a canvas of oranges, pinks, and purples, leaving onlookers spellbound. The tranquility of the desert and the warmth of the setting sun make for an unforgettable experience.",
+    "city_id": "jaisalmer",
+    "duration": "Evening (3-4 Hours)",
+    "best_time_of_day": "Late Afternoon to Early Evening",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Desert Safari Jaisalmer",
+        "Sam Sand Dunes Tours"
+      ],
+      "contact": "+91 94141 41111"
+    },
+    "pricing_estimate": "INR 1500 - 3000 per person",
+    "safety_tips": [
+      "Wear comfortable shoes and clothing",
+      "Bring sunscreen and a hat",
+      "Stay hydrated with plenty of water",
+      "Be cautious of sandstorms"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1616174442748-5e1e3e2c5e2e"
+  },
+  {
+    "id": "village-tourism-experience",
+    "title": "Immersive Village Life Experience in Rural Rajasthan",
+    "description": "Embark on a captivating journey to experience the authentic rural life of Rajasthan, where you'll delve into the heart of a traditional village, interacting with locals, and discovering their customs, traditions, and way of life. You'll have the opportunity to participate in daily village activities, such as farming, pottery, and cooking, and indulge in delicious home-cooked meals. As the day unfolds, you'll witness the vibrant colors of rural Rajasthan, from the brightly dressed villagers to the majestic sunsets over the arid landscape. With a warm welcome from the villagers, you'll feel like an honored guest, rather than just a tourist, as you immerse yourself in the simplicity and charm of village life.",
+    "city_id": "jodhpur",
+    "duration": "Full Day (10 Hours)",
+    "best_time_of_day": "Early Morning to Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Village Tours",
+        "Desert Village Expeditions"
+      ],
+      "contact": "+91 94141 11111"
+    },
+    "pricing_estimate": "INR 1800 - 3500 per person",
+    "safety_tips": [
+      "Wear comfortable walking shoes",
+      "Bring sunscreen and a hat",
+      "Respect local customs and traditions",
+      "Stay hydrated throughout the day"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578946067506-0b8f7c4a4e5d"
+  },
+  {
+    "id": "heritage-walks",
+    "title": "Exploring the Ancient Walled City of Jaipur",
+    "description": "Embark on a captivating heritage walk through the historic city of Jaipur, discovering its rich cultural heritage and architectural marvels. As you wander through the bustling streets, you'll uncover the secrets of the city's ancient past, from the majestic Hawa Mahal to the vibrant Johari Bazaar. With a knowledgeable guide by your side, you'll delve into the history and significance of each landmark, immersing yourself in the local culture and traditions. From the majestic City Palace to the picturesque Jantar Mantar, every step reveals a new story, a new legend, and a new experience.",
+    "city_id": "jaipur",
+    "duration": "Half Day (4 Hours)",
+    "best_time_of_day": "Early Morning to Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Jaipur Walks",
+        "Heritage India"
+      ],
+      "contact": "+91 141 237 5467"
+    },
+    "pricing_estimate": "INR 1200 - 2500 per person",
+    "safety_tips": [
+      "Wear comfortable walking shoes",
+      "Bring sunscreen and a hat",
+      "Stay hydrated with plenty of water",
+      "Respect local customs and traditions"
+    ],
+    "image_url": "https://images.unsplash.com/photo-161985116464 männer-jaipur-heritage-walks"
+  },
+  {
+    "id": "palace-stay-experience",
+    "title": "Regal Palace Stay Experience in Rajasthan",
+    "description": "Immerse yourself in the opulence of Rajasthan's royal heritage with a palace stay experience, where you'll reside in a centuries-old palace turned luxury hotel. As you step into the grand halls, you'll be surrounded by intricate architecture, ornate furnishings, and impeccable service. Your days will be filled with guided tours of the palace, exploring its hidden passages, and learning about the history of the royal family who once resided here. In the evenings, enjoy traditional Rajasthani cuisine and cultural performances, making for an unforgettable experience.",
+    "city_id": "jaipur",
+    "duration": "2 Nights, 3 Days",
+    "best_time_of_day": "Anytime of the year, though October to February is ideal",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Palace Hotels of India"
+      ],
+      "contact": "+91 141 238 5151"
+    },
+    "pricing_estimate": "INR 8000 - 15000 per person",
+    "safety_tips": [
+      "Respect palace rules and traditions",
+      "Stay hydrated in the desert climate",
+      "Wear modest clothing while exploring the palace"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1619856697798-3a5d0c2e0f3c"
+  },
+  {
+    "id": "fort-exploration-tours",
+    "title": "Majestic Fort Exploration Tours in Rajasthan",
+    "description": "Embark on a captivating journey through the majestic forts of Rajasthan, exploring the grandeur of historical monuments like the Mehrangarh Fort in Jodhpur, the Amber Fort in Jaipur, and the Kumbhalgarh Fort. As you wander through the intricately designed corridors and chambers, uncover the secrets of the bygone era, and experience the rich cultural heritage of the region. With expert guides, delve into the history and significance of these architectural marvels, and discover the stories of the brave warriors and rulers who once inhabited them. From the stunning views of the surrounding landscape to the intricate carvings and paintings, every aspect of these forts is a testament to the ingenuity and craftsmanship of the people who built them.",
+    "city_id": "jodhpur",
+    "duration": "Full Day (8 Hours)",
+    "best_time_of_day": "Early Morning to Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism Development Corporation",
+        "Jodhpur Heritage Tours"
+      ],
+      "contact": "+91 94141 41111"
+    },
+    "pricing_estimate": "INR 1500 - 3000 per person",
+    "safety_tips": [
+      "Wear comfortable walking shoes",
+      "Bring sunscreen and a hat",
+      "Stay hydrated throughout the tour",
+      "Respect local customs and traditions"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1618773921114-ccf2e2c2c5c2"
+  },
+  {
+    "id": "royal-train-journey-on-palace-on-wheels",
+    "title": "Royal Train Journey on Palace on Wheels",
+    "description": "Embark on a luxurious journey through Rajasthan's majestic landscapes aboard the iconic Palace on Wheels train, meticulously designed to evoke the opulence of a bygone era. As you traverse the region, immerse yourself in the rich cultural heritage and breathtaking vistas that Rajasthan has to offer, from the vibrant streets of Jaipur to the tranquil lakes of Udaipur. With lavish accommodations and exceptional service, every moment of this royal train journey is a testament to the state's legendary hospitality. Each stop unfolds like a chapter in a grand tale, weaving history, architecture, and natural beauty into an unforgettable experience.",
+    "city_id": "jaipur",
+    "duration": "7 Nights and 8 Days",
+    "best_time_of_day": "Early Morning to Late Evening",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism Development Corporation",
+        "Indian Railways Catering and Tourism Corporation"
+      ],
+      "contact": "+91 141 238 5152"
+    },
+    "pricing_estimate": "INR 150,000 - 200,000 per person",
+    "safety_tips": [
+      "Carry necessary medications and a first-aid kit",
+      "Stay hydrated throughout the journey",
+      "Respect local customs and traditions during visits to historical sites"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1618773928471-5c5a1e2c2c4c"
+  },
+  {
+    "id": "luxury-heritage-hotel-stay",
+    "title": "Regal Retreat in a Restored Haveli",
+    "description": "Experience the opulence of Rajasthan's royal past with a luxurious stay in a meticulously restored heritage hotel, where intricate architecture, lavish decor, and exceptional service come together to create an unforgettable experience. As you step into the grand courtyard, the sounds of the city fade away, replaced by the soft chirping of birds and the gentle rustle of trees. With each room telling a story of its own, adorned with antique furnishings and artwork, every moment feels like a journey through time. From delectable local cuisine to rejuvenating spa treatments, every aspect of your stay is designed to pamper and indulge your senses.",
+    "city_id": "jaipur",
+    "duration": "2 Nights, 3 Days",
+    "best_time_of_day": "Anytime, though evenings are particularly enchanting",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Heritage Tours",
+        "Jaipur Luxury Stays"
+      ],
+      "contact": "+91 141 237 0999"
+    },
+    "pricing_estimate": "INR 8000 - 15000 per person",
+    "safety_tips": [
+      "Respect local customs and dress modestly",
+      "Stay hydrated, especially during summer months",
+      "Carry a basic first-aid kit"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1618773929035-3c3c2e0f2c4e"
+  },
+  {
+    "id": "boating-on-lake-pichola",
+    "title": "Sunset Boating on Lake Pichola",
+    "description": "Experience the breathtaking beauty of Lake Pichola as you take a serene boat ride amidst the majestic backdrop of the Aravalli Mountains. As the sun sets, the sky is painted with hues of orange and pink, reflecting off the tranquil waters of the lake. You'll get to see the stunning City Palace of Udaipur and the picturesque Jag Mandir, a 17th-century palace built on an island in the lake. With the gentle lapping of the water against the boat and the sweet songs of birds filling the air, this is an experience that will leave you enchanted and relaxed.",
+    "city_id": "udaipur",
+    "duration": "1-2 Hours",
+    "best_time_of_day": "Sunset to Early Evening",
+    "booking_details": {
+      "licensed_operators": [
+        "Pichola Boat Service",
+        "Udaipur Boat Club"
+      ],
+      "contact": "+91 98290 12345"
+    },
+    "pricing_estimate": "INR 500 - 1000 per person",
+    "safety_tips": [
+      "Wear comfortable clothing and shoes",
+      "Bring a hat, sunglasses, and sunscreen for protection",
+      "Follow the instructions of the boat operator",
+      "Keep your belongings secure and close to you"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1618773921115-cc7e2e5e5f1c"
+  },
+  {
+    "id": "witnessing-the-wagah-style-ceremony-at-longewala-border",
+    "title": "Witnessing the Wagah-Style Ceremony at Longewala Border",
+    "description": "Experience the patriotic fervor of the Wagah-Style Ceremony at the Longewala Border, where the Indian Army showcases its valor and grandeur. This ceremony is a replica of the one held at the Wagah-Attari border and is a testament to the bravery and sacrifice of the Indian soldiers. As the sun sets, the atmosphere is filled with excitement and pride as the soldiers march and perform drills, culminating in the lowering of the flags of both India and Pakistan. The ceremony is a must-visit for anyone looking to experience the rich history and culture of Rajasthan.",
+    "city_id": "jaisalmer",
+    "duration": "2-3 Hours",
+    "best_time_of_day": "Sunset",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Longewala Border Tourism"
+      ],
+      "contact": "+91 94141 11111"
+    },
+    "pricing_estimate": "INR 500 - 1000 per person",
+    "safety_tips": [
+      "Arrive early to secure a good spot",
+      "Bring binoculars for a closer view",
+      "Stay hydrated and bring snacks",
+      "Follow instructions from the army personnel"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1617871111111-11111111-1111"
+  },
+  {
+    "id": "bird-watching-at-keoladeo-national-park",
+    "title": "Bird Watching at Keoladeo National Park",
+    "description": "Embark on an unforgettable bird watching adventure at Keoladeo National Park, a UNESCO World Heritage Site, where over 370 species of birds await your arrival. As you wander through the park's lush wetlands, you'll have the chance to spot majestic birds like the Siberian Crane, the Greater Spotted Eagle, and the Dalmatian Pelican. With the help of experienced guides, you'll learn about the unique characteristics and habitats of these incredible creatures. Whether you're a seasoned ornithologist or just a nature enthusiast, this experience promises to leave you in awe of the natural beauty of Rajasthan.",
+    "city_id": "bharatpur",
+    "duration": "Half Day (4-5 Hours)",
+    "best_time_of_day": "Early Morning to Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Wildlife Conservation Society"
+      ],
+      "contact": "+91 5644 222 777"
+    },
+    "pricing_estimate": "INR 1500 - 3000 per person",
+    "safety_tips": [
+      "Wear comfortable walking shoes and clothes",
+      "Bring binoculars for a closer look at the birds",
+      "Stay hydrated and bring sunscreen",
+      "Respect the park's rules and wildlife"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1579423699855-5a2c5e2f2e5f"
+  },
+  {
+    "id": "tiger-safari-at-ranthambore",
+    "title": "Tiger Safari at Ranthambore National Park",
+    "description": "Embark on a thrilling adventure through the Ranthambore National Park, one of India's premier tiger reserves, where you'll have the chance to spot the majestic Bengal tiger in its natural habitat. As you journey through the park's lush forests and grasslands, you'll be accompanied by experienced guides who will share their knowledge of the park's flora and fauna. With over 80 tigers calling the park home, the chances of spotting these elusive creatures are high, making for an unforgettable experience. The park is also home to a wide variety of other wildlife, including leopards, sloth bears, and over 300 species of birds.",
+    "city_id": "sawai-madhopur",
+    "duration": "Half Day (6 Hours)",
+    "best_time_of_day": "Early Morning to Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Ranthambore Tiger Safari",
+        "Wildlife Expeditions India"
+      ],
+      "contact": "+91 7462 220113"
+    },
+    "pricing_estimate": "INR 1500 - 3000 per person",
+    "safety_tips": [
+      "Wear comfortable walking shoes",
+      "Bring binoculars for wildlife spotting",
+      "Stay hydrated and bring sunscreen"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1579568466561-3a7f4c9b4e5c"
+  },
+  {
+    "id": "leopard-safari-at-jawai",
+    "title": "Leopard Safari at Jawai",
+    "description": "Embark on an exhilarating Leopard Safari at Jawai, where the majestic leopards roam free amidst the rugged landscape of Rajasthan. As you venture into the wilderness, the experienced guides will lead you through the dense forests and rocky outcrops, increasing the chances of spotting these elusive creatures. With the sun casting a golden glow over the landscape, the thrill of witnessing leopards in their natural habitat is an experience unlike any other. As the safari comes to a close, the vibrant cultural heritage of the local Rabari community awaits, offering a glimpse into their traditional way of life.",
+    "city_id": "jodhpur",
+    "duration": "Half Day (6 Hours)",
+    "best_time_of_day": "Early Morning to Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Wildlife Tours",
+        "Jawai Leopard Safari"
+      ],
+      "contact": "+91 94141 41111"
+    },
+    "pricing_estimate": "INR 1800 - 3500 per person",
+    "safety_tips": [
+      "Wear comfortable walking shoes",
+      "Bring binoculars for a closer look",
+      "Stay hydrated and bring sun protection",
+      "Maintain a safe distance from the leopards"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1579567743411-8f4a8b5c4e1e"
+  },
+  {
+    "id": "attending-a-folk-music-performance",
+    "title": "Immersive Evening of Rajasthani Folk Music and Dance",
+    "description": "Attend a captivating folk music performance in the heart of Rajasthan, where you'll be treated to the enchanting sounds of traditional instruments like the sarangi, dholak, and khartal. Watch in awe as skilled folk dancers perform the famous Ghoomar and Kalbeliya dances, showcasing the rich cultural heritage of the region. As the sun sets over the desert landscape, let the rhythmic beats and melodies transport you to a world of rustic charm and simplicity. With local artists sharing stories and legends behind the music, this experience promises to be an unforgettable journey into the soul of Rajasthan.",
+    "city_id": "jaisalmer",
+    "duration": "Evening (4 Hours)",
+    "best_time_of_day": "Sunset to Late Evening",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Folk Arts",
+        "Desert Music Academy"
+      ],
+      "contact": "+91 94141 11111"
+    },
+    "pricing_estimate": "INR 1500 - 3000 per person",
+    "safety_tips": [
+      "Wear comfortable clothing and footwear",
+      "Bring a light jacket for cooler evenings",
+      "Stay hydrated and avoid traveling alone at night"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1619569117365-3f2f2e2c bee7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFqYXN0aGFuJTIwZm9sa2xlJTIwbXVzaWMlMjBwZXJmb3JtYW5jfGVufDB8fHHwWlx8aG90fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+  },
+  {
+    "id": "watching-a-kalbeliya-dance-performance",
+    "title": "Enchanting Kalbeliya Dance Performance",
+    "description": "Witness the mesmerizing Kalbeliya dance, a traditional folk performance of the Kalbeliya community, known for their nomadic lifestyle and expertise in snake charming. This dance form is characterized by its energetic and sinuous movements, often performed to the rhythm of the 'been', a traditional wind instrument. As you watch the dancers sway to the music, you'll be transported to a world of vibrant colors and rich cultural heritage. The Kalbeliya dance is a testament to the community's resilience and creativity, and is a must-experience for anyone interested in Rajasthan's diverse cultural landscape.",
+    "city_id": "jaisalmer",
+    "duration": "2-3 hours",
+    "best_time_of_day": "Evening, around sunset",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Jaisalmer Heritage Tours"
+      ],
+      "contact": "+91 94141 41111"
+    },
+    "pricing_estimate": "INR 1000 - 2000 per person",
+    "safety_tips": [
+      "Be respectful of the performers and their culture",
+      "Remove your shoes before entering the performance area",
+      "Bring a camera to capture the vibrant colors and energy of the performance"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1605826777436-4e1e2f2e5f4e"
+  },
+  {
+    "id": "watching-a-kathputli-puppet-show",
+    "title": "Traditional Kathputli Puppet Show in Rajasthan",
+    "description": "Experience the ancient art of Kathputli puppetry, a traditional form of storytelling in Rajasthan, where skilled puppeteers bring to life tales of mythological heroes, legendary lovers, and local folklore through intricately crafted puppets. As the puppets dance and converse, the puppeteers' skilled hands weave a mesmerizing narrative that transports you to a world of wonder and enchantment. With its origins dating back to the 14th century, this unique art form has been a cornerstone of Rajasthani culture, entertaining and educating audiences for generations. As you watch the show, you'll be immersed in the vibrant colors, lively music, and infectious energy of this captivating performance.",
+    "city_id": "jaipur",
+    "duration": "1-2 hours",
+    "best_time_of_day": "Evening, around sunset",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Puppet Show Company",
+        "Jaipur Kathputli Arts"
+      ],
+      "contact": "+91 141 237 0999"
+    },
+    "pricing_estimate": "INR 500 - 1000 per person",
+    "safety_tips": [
+      "Arrive at least 30 minutes before the show to secure good seats",
+      "Be respectful of the puppeteers and the performance",
+      "Keep your phone on silent mode during the show"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1554744512-8c9f7e3ba8e5"
+  },
+  {
+    "id": "shopping-in-traditional-bazaars",
+    "title": "Immersive Shopping Experience in Traditional Bazaars of Rajasthan",
+    "description": "Delve into the vibrant world of Rajasthan's traditional bazaars, where ancient customs and modern charm blend seamlessly. As you wander through the bustling streets, discover an array of exotic goods, from intricately crafted jewelry and colorful textiles to fragrant spices and local handicrafts. With each step, the sounds, smells, and sights of the bazaar will envelop you, offering a truly immersive experience. Whether you're a seasoned shopper or just looking to soak up the local culture, Rajasthan's traditional bazaars have something for everyone.",
+    "city_id": "jaipur",
+    "duration": "Half Day (4-5 Hours)",
+    "best_time_of_day": "Late Morning to Early Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism Development Corporation",
+        "Jaipur Heritage Tours"
+      ],
+      "contact": "+91 141 220 0777"
+    },
+    "pricing_estimate": "INR 1000 - 2000 per person",
+    "safety_tips": [
+      "Wear comfortable shoes",
+      "Stay hydrated",
+      "Be mindful of your belongings in crowded areas"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1618773927484-2c8f4c1e2c4b"
+  },
+  {
+    "id": "participating-in-gangaur-celebrations",
+    "title": "Immersive Gangaur Festival Experience",
+    "description": "Participate in the vibrant Gangaur celebrations, a significant festival in Rajasthan, where you'll get to witness the grand procession, adorned with colorful costumes and ornaments, and be a part of the traditional rituals and customs. The festivities take place over 18 days, honoring the goddess Gauri, and you'll have the chance to learn about the history and cultural significance of this event. As you join in the celebrations, you'll be treated to local delicacies, folk music, and dance performances, making for an unforgettable experience. With the guidance of local experts, you'll delve into the essence of Rajasthani culture and traditions.",
+    "city_id": "jaipur",
+    "duration": "18 days",
+    "best_time_of_day": "Evening to Night",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Gangaur Festival Organizers"
+      ],
+      "contact": "+91 141 222 7722"
+    },
+    "pricing_estimate": "INR 8000 - 12000 per person",
+    "safety_tips": [
+      "Wear modest clothing, covering your shoulders and knees",
+      "Remove your shoes when entering temples or homes",
+      "Stay hydrated and bring sunscreen",
+      "Respect local customs and traditions"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1617856703834-5c5c5f2e2e2e"
+  },
+  {
+    "id": "experiencing-the-pushkar-camel-fair",
+    "title": "Immersive Pushkar Camel Fair Experience",
+    "description": "Witness the vibrant spectacle of the Pushkar Camel Fair, where thousands of camels and their owners gather for a spectacular display of color, music, and culture. As a traveler, you'll have the opportunity to explore the bustling fairgrounds, marvel at the majestic camels, and engage with the local community. The fair is a kaleidoscope of experiences, from camel rides and competitions to traditional folk performances and delectable local cuisine. With its rich history and cultural significance, the Pushkar Camel Fair is an unforgettable experience that will leave you with lifelong memories.",
+    "city_id": "ajmer",
+    "duration": "5-7 days",
+    "best_time_of_day": "Early morning to late evening",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Pushkar Camel Fair Organizers"
+      ],
+      "contact": "+91 145 277 3000"
+    },
+    "pricing_estimate": "INR 8000 - 15000 per person",
+    "safety_tips": [
+      "Wear comfortable clothing and shoes",
+      "Stay hydrated and bring sunscreen",
+      "Respect local customs and traditions",
+      "Be mindful of your belongings in crowded areas"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1605822656217-8f2e2e2e2e2e"
+  },
+  {
+    "id": "visiting-a-bishnoi-village",
+    "title": "Immersive Bishnoi Village Experience",
+    "description": "Embark on a captivating journey to a traditional Bishnoi village, where you'll delve into the lives of this eco-conscious community, renowned for their harmonious coexistence with nature. Witness the unique blend of culture, tradition, and environmental stewardship that defines the Bishnoi people. Engage with the locals, learn about their customs, and participate in activities that showcase their sustainable way of life. As you explore the village, you'll discover the intricate balance between human habitation and wildlife conservation that the Bishnoi community has perfected over centuries.",
+    "city_id": "jodhpur",
+    "duration": "Half Day (4-5 Hours)",
+    "best_time_of_day": "Early Morning to Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Bishnoi Village Tours"
+      ],
+      "contact": "+91 94141 41111"
+    },
+    "pricing_estimate": "INR 1500 - 3000 per person",
+    "safety_tips": [
+      "Wear comfortable walking shoes",
+      "Bring sunscreen and a hat",
+      "Respect local customs and traditions"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1619856697648-3f2f9e2f2c7c"
+  },
+  {
+    "id": "stargazing-in-the-thar-desert",
+    "title": "Stargazing in the Thar Desert",
+    "description": "Experience the celestial magic of the Thar Desert, one of the darkest places in India, perfect for stargazing. Under the guidance of expert astronomers, spend an evening identifying constellations, learning about the myths behind them, and understanding the science of astronomy. As the sun sets over the dunes, the sky transforms into a canvas of twinkling stars, offering a breathtaking view of the universe. This unique experience combines adventure, education, and tranquility, allowing travelers to disconnect from the chaos of city life and reconnect with nature.",
+    "city_id": "jaisalmer",
+    "duration": "Evening to Midnight (6 Hours)",
+    "best_time_of_day": "Sunset to Midnight",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Thar Desert Safaris"
+      ],
+      "contact": "+91 94141 41111"
+    },
+    "pricing_estimate": "INR 1500 - 3000 per person",
+    "safety_tips": [
+      "Wear warm clothing as desert nights can be chilly",
+      "Bring binoculars for a closer look at the stars",
+      "Stay hydrated by drinking plenty of water",
+      "Follow the instructions of the guide for a safe experience"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1518837351552-45d5e5d5fb3c"
+  },
+  {
+    "id": "photography-tour-of-blue-city-jodhpur",
+    "title": "Capture the Essence of Blue City Jodhpur",
+    "description": "Embark on a captivating photography tour of Jodhpur, a city known for its mesmerizing blue-hued architecture, rich history, and vibrant culture. This experience allows travelers to delve into the heart of the Blue City, exploring its narrow alleys, historic landmarks, and local markets, all while capturing the essence of this enchanting city through the lens. With the guidance of a local expert, discover the best vantage points to photograph the majestic Mehrangarh Fort, the stunning Jaswant Thada, and the bustling Sadar Market. As the sun sets, witness the city transform into a kaleidoscope of colors, making for a truly unforgettable photography experience.",
+    "city_id": "jodhpur",
+    "duration": "Full Day (8 Hours)",
+    "best_time_of_day": "Early Morning to Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Jodhpur Photography Tours"
+      ],
+      "contact": "+91 94141 41111"
+    },
+    "pricing_estimate": "INR 4000 - 7000 per person",
+    "safety_tips": [
+      "Wear comfortable walking shoes",
+      "Bring sunscreen and a hat to protect against the sun",
+      "Stay hydrated by carrying a refillable water bottle",
+      "Respect local customs and traditions when photographing people or places of worship"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1618773921117-ccd6f2f5f2c1"
+  },
+  {
+    "id": "photography-tour-of-golden-city-jaisalmer",
+    "title": "Capturing the Essence of Jaisalmer: A Photography Tour",
+    "description": "Embark on a captivating photography tour of Jaisalmer, the Golden City, where the majestic sandstone architecture and the vast expanse of the Thar Desert provide a unique backdrop for your lens. Explore the intricate carvings and ornate balconies of the havelis, and capture the vibrant colors of the local markets. As the sun sets, the sky is painted with hues of orange and pink, making it a photographer's paradise. With the guidance of a local expert, uncover the hidden gems of Jaisalmer and take home unforgettable memories.",
+    "city_id": "jaisalmer",
+    "duration": "Full Day (8 Hours)",
+    "best_time_of_day": "Early Morning to Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Jaisalmer Photography Tours"
+      ],
+      "contact": "+91 94141 11111"
+    },
+    "pricing_estimate": "INR 4000 - 7000 per person",
+    "safety_tips": [
+      "Wear comfortable shoes and clothes suitable for walking",
+      "Bring sunscreen, sunglasses, and a hat to protect yourself from the sun",
+      "Stay hydrated by carrying a water bottle",
+      "Respect local customs and traditions when photographing people or places of worship"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1617871110598-2c8f5e2f5a5b"
+  },
+  {
+    "id": "exploring-stepwells-baoris",
+    "title": "Unveiling the Ancient Stepwells of Rajasthan",
+    "description": "Delve into the mystical world of Rajasthan's stepwells, or baoris, and discover the architectural marvels that have stood the test of time. These ancient structures, often hidden from view, reveal the ingenuity and craftsmanship of a bygone era. As you explore the intricately carved stepwells, you'll uncover the history and significance of these subterranean wonders, which once served as community gathering spaces, temples, and even refuges from the scorching desert heat. With each step, you'll unravel the secrets of Rajasthan's rich cultural heritage.",
+    "city_id": "jaipur",
+    "duration": "Half-day (4-5 Hours)",
+    "best_time_of_day": "Early morning to late afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Heritage Tours",
+        "Jaipur Stepwell Expeditions"
+      ],
+      "contact": "+91 141 237 0999"
+    },
+    "pricing_estimate": "INR 1500 - 3000 per person",
+    "safety_tips": [
+      "Wear comfortable walking shoes",
+      "Bring sunscreen and a hat",
+      "Stay hydrated with plenty of water"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1618773921111-ccecbefece3c"
+  },
+  {
+    "id": "traditional-rajasthani-cooking-experience",
+    "title": "Immersive Traditional Rajasthani Cooking Experience",
+    "description": "Embark on a culinary journey through the heart of Rajasthan, where the aromas of exotic spices and the warmth of traditional hospitality come alive. In this immersive cooking experience, travelers will delve into the secrets of Rajasthani cuisine, learning the art of preparing authentic dishes like dal-baati-churma, laal maans, and ghevar. Under the guidance of a local culinary expert, participants will explore the vibrant markets to select the freshest ingredients and then cook these traditional meals in a rustic setting, surrounded by the beauty of Rajasthan's countryside. This experience is a true reflection of the state's rich culinary heritage and its people's love for food and hospitality.",
+    "city_id": "jaipur",
+    "duration": "Half Day (4 Hours)",
+    "best_time_of_day": "Morning to Early Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Food Tours",
+        "Jaipur Cooking Classes"
+      ],
+      "contact": "+91 98290 23456"
+    },
+    "pricing_estimate": "INR 1500 - 3000 per person",
+    "safety_tips": [
+      "Wear comfortable clothing and footwear",
+      "Bring a hat and sunscreen for market visits",
+      "Inform about any food allergies in advance"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1618773923344-3c2c3f2f2c6f"
+  },
+  {
+    "id": "turban-tying-experience",
+    "title": "The Traditional Turban Tying Experience",
+    "description": "Immerse yourself in the rich cultural heritage of Rajasthan by learning the ancient art of turban tying. This unique experience allows travelers to understand the significance of turbans in Rajasthani tradition and the various styles that are worn by men across different castes and communities. Under the guidance of a skilled local expert, you will learn how to tie a turban in the traditional manner, discovering the intricacies and nuances that make each style unique. As you master the art of turban tying, you will also gain insight into the history and cultural context of this timeless tradition.",
+    "city_id": "jaipur",
+    "duration": "Half Day (4 Hours)",
+    "best_time_of_day": "Morning to Early Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism Development Corporation",
+        "Jaipur Heritage Tours"
+      ],
+      "contact": "+91 141 222 7722"
+    },
+    "pricing_estimate": "INR 1200 - 2000 per person",
+    "safety_tips": [
+      "Wear comfortable clothing",
+      "Bring a camera to capture memories",
+      "Respect local customs and traditions"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1619569112556-19c2c2e5f2c1"
+  },
+  {
+    "id": "traditional-mehendi-experience",
+    "title": "Immersive Traditional Mehendi Experience in Rajasthan",
+    "description": "In this captivating experience, travelers can delve into the ancient art of traditional mehendi, where intricate designs are carefully applied to the hands and feet using natural henna. Guided by skilled local artisans, participants learn about the cultural significance and symbolism behind these designs, which are an integral part of Rajasthan's rich heritage. The experience includes a comprehensive workshop where one can learn various mehendi patterns and even get their own mehendi done. It's a unique opportunity to connect with the local culture and take back memories of Rajasthan's vibrant traditions.",
+    "city_id": "jaipur",
+    "duration": "Half Day (4 Hours)",
+    "best_time_of_day": "Late Morning to Early Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Cultural Tours",
+        "Jaipur Heritage Experiences"
+      ],
+      "contact": "+91 98290 23456"
+    },
+    "pricing_estimate": "INR 1500 - 3000 per person",
+    "safety_tips": [
+      "Wear loose, comfortable clothing to ensure easy access for mehendi application",
+      "Avoid using soap or harsh chemicals on the mehendi design for at least 24 hours"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1622245563622-8c9a1e2c9c4c"
+  },
+  {
+    "id": "camel-cart-ride",
+    "title": "Camel Cart Ride Through the Dunes of Jaisalmer",
+    "description": "Experience the rustic charm of Rajasthan with a camel cart ride, where you'll traverse through the golden dunes of Jaisalmer, witnessing breathtaking sunsets and learning about the local culture. As you ride on a traditional camel cart, you'll get to see the vast expanse of the Thar Desert, dotted with tiny villages and majestic forts. The cart will be adorned with colorful fabrics and bells, adding to the festive atmosphere. With a knowledgeable guide by your side, you'll get to know the history and significance of this mode of transportation in the region.",
+    "city_id": "jaisalmer",
+    "duration": "Half Day (4 Hours)",
+    "best_time_of_day": "Early Morning or Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Desert Safari Jaisalmer"
+      ],
+      "contact": "+91 94141 11111"
+    },
+    "pricing_estimate": "INR 1500 - 3000 per person",
+    "safety_tips": [
+      "Wear comfortable clothing and shoes",
+      "Bring sunscreen and a hat",
+      "Stay hydrated throughout the ride",
+      "Be respectful of the camel and the local environment"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1618773921117-0a5e2e2f2e2e"
+  },
+  {
+    "id": "camping-in-the-aravalli-hills",
+    "title": "Stargazing and Wilderness Camping in the Aravalli Hills",
+    "description": "Embark on an enchanting journey to the ancient Aravalli Hills, where the rugged landscape meets the celestial beauty of the night sky. As the sun sets over the hills, set up camp in a secluded spot, surrounded by the sounds of nature and the warmth of a campfire. Spend the evening gazing up at the stars, identifying constellations, and sharing stories of local legends and myths. The next morning, wake up to the sweet songs of birds and breathe in the fresh mountain air, feeling rejuvenated and connected to the natural world.",
+    "city_id": "udaipur",
+    "duration": "Overnight (18 Hours)",
+    "best_time_of_day": "Sunset to Sunrise",
+    "booking_details": {
+      "licensed_operators": [
+        "Aravalli Adventures",
+        "Rajasthan Expeditions"
+      ],
+      "contact": "+91 99289 12345"
+    },
+    "pricing_estimate": "INR 3500 - 6000 per person",
+    "safety_tips": [
+      "Bring warm clothing for chilly nights",
+      "Stay hydrated and bring refillable water bottles",
+      "Wear comfortable hiking shoes and sunscreen",
+      "Respect local wildlife and their habitats"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1516116216543-7fe3f9ac45d5"
+  },
+  {
+    "id": "visiting-tribal-villages-of-southern-rajasthan",
+    "title": "Immersive Cultural Experience: Visiting Tribal Villages of Southern Rajasthan",
+    "description": "Embark on a fascinating journey to the tribal villages of Southern Rajasthan, where you'll delve into the lives of the indigenous communities, such as the Bhil and Garasia tribes. Witness their traditional way of life, including their unique customs, vibrant attire, and skilled craftsmanship. As you explore the villages, you'll have the opportunity to interact with the locals, learn about their history, and experience their warm hospitality. From witnessing traditional folk dances to savoring local delicacies, this immersive experience will leave you with unforgettable memories of Rajasthan's rich cultural heritage.",
+    "city_id": "udaipur",
+    "duration": "Full Day (10 Hours)",
+    "best_time_of_day": "Early Morning to Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism",
+        "Tribal Village Tours"
+      ],
+      "contact": "+91 94141 41111"
+    },
+    "pricing_estimate": "INR 1500 - 3000 per person",
+    "safety_tips": [
+      "Respect local customs and traditions",
+      "Wear modest clothing and remove shoes when entering homes or temples",
+      "Bring sunscreen, a hat, and plenty of water to stay hydrated",
+      "Be mindful of your surroundings and avoid taking pictures of sensitive areas"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578946068736-3bbfbf2a0a3c"
+  },
+  {
+    "id": "temple-aarti-experience",
+    "title": "Immersive Temple Aarti Ceremony Experience",
+    "description": "Participate in the mesmerizing Temple Aarti ceremony, a sacred Hindu ritual that embodies the spiritual essence of Rajasthan. As the sun sets over the vibrant city of Jaipur, join the devotees at a historic temple to witness the enchanting aarti ceremony, where priests and devotees come together to worship deities with chanting, singing, and the waving of lamps. This experience allows travelers to delve into the rich cultural heritage of Rajasthan, understanding the significance of aarti in Hinduism and its role in the daily lives of locals. With the fragrance of incense sticks and the sound of devotional songs filling the air, this experience promises to be a truly unforgettable and immersive encounter with the spiritual heart of Rajasthan.",
+    "city_id": "jaipur",
+    "duration": "Evening (2-3 Hours)",
+    "best_time_of_day": "Sunset to Early Evening",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism Development Corporation",
+        "Jaipur Heritage Tours"
+      ],
+      "contact": "+91 141 222 7722"
+    },
+    "pricing_estimate": "INR 800 - 1500 per person",
+    "safety_tips": [
+      "Dress modestly and remove shoes before entering the temple",
+      "Respect the temple rules and traditions",
+      "Be prepared for large crowds during peak season"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1617871115515-5d5e0f5d5f5d"
+  },
+  {
+    "id": "exploring-unesco-hill-forts-of-rajasthan",
+    "title": "Discovering the Majestic UNESCO Hill Forts of Rajasthan",
+    "description": "Embark on an unforgettable journey to explore the six majestic hill forts of Rajasthan, recognized as UNESCO World Heritage Sites. These imposing structures, including Amber Fort, Jaisalmer Fort, Chittor Fort, Kumbhalgarh Fort, Ranthambore Fort, and Gagron Fort, showcase the architectural grandeur and historical significance of Rajasthan's rich past. As you wander through the forts, uncover the tales of bravery, romance, and strategic brilliance that have shaped the region's history. With their intricate designs, imposing walls, and breathtaking views, these hill forts are a testament to the ingenuity and craftsmanship of Rajasthan's rulers.",
+    "city_id": "jaipur",
+    "duration": "6-8 Days",
+    "best_time_of_day": "Early Morning to Late Afternoon",
+    "booking_details": {
+      "licensed_operators": [
+        "Rajasthan Tourism Development Corporation",
+        "Indian Heritage Walks"
+      ],
+      "contact": "+91 141 222 7722"
+    },
+    "pricing_estimate": "INR 15000 - 30000 per person",
+    "safety_tips": [
+      "Wear comfortable shoes and clothing suitable for hiking and exploring",
+      "Bring sunscreen, sunglasses, and a hat to protect yourself from the sun",
+      "Stay hydrated by carrying a refillable water bottle",
+      "Respect local customs and traditions when visiting the forts and interacting with locals"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1618773921118-cc2c1c2e5f4e"
+  }
+]

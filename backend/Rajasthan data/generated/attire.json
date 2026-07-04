@@ -1,0 +1,507 @@
+[
+  {
+    "id": "ghagra",
+    "name": "Rajasthani Ghagra Choli",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Bandhani cotton",
+      "Leheriya silk",
+      "Embroidered georgette"
+    ],
+    "cultural_significance": "The Ghagra Choli is a traditional attire that symbolizes the rich cultural heritage of Rajasthan. It is a symbol of marital status, with married women often wearing a Ghagra Choli with intricate embroidery and vibrant colors. The attire is also a representation of the region's craftsmanship, with each piece telling a story of the artisan's skill and dedication. In Rajasthan, the Ghagra Choli is a staple in every woman's wardrobe, reflecting the state's love for color, texture, and tradition.",
+    "wearing_style_occasions": "The Ghagra Choli is typically worn on special occasions such as weddings, festivals, and cultural events. It is often paired with a matching dupatta and traditional jewelry, such as a maang tikka and bangles. During the festive season, women in Rajasthan adorn themselves in their finest Ghagra Choli, showcasing the state's vibrant culture and traditions.",
+    "related_communities": [
+      "Rajput",
+      "Gurjar",
+      "Meena"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930907575-04c0b2c2f3c4"
+  },
+  {
+    "id": "choli",
+    "name": "Rajasthani Choli",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Bandhani cotton",
+      "Leheriya silk",
+      "Embroidered georgette"
+    ],
+    "cultural_significance": "The Choli is a traditional Rajasthani garment that holds significant cultural importance, symbolizing marital status, respect, and regional representation. It is often worn by married women as a symbol of their marital status and is considered an integral part of Rajasthani attire. The Choli is also a representation of the rich cultural heritage of Rajasthan, with its intricate embroidery and vibrant colors. The garment is a testament to the state's rich history and tradition of craftsmanship.",
+    "wearing_style_occasions": "The Choli is typically worn on special occasions such as weddings, festivals, and cultural events. It is often paired with a Ghagra or a Lehenga and is adorned with intricate embroidery and jewelry. The Choli is also worn during traditional Rajasthani dances, such as the Ghoomar, and is an integral part of the state's cultural identity.",
+    "related_communities": [
+      "Rajput",
+      "Gurjar",
+      "Meena"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930904926-86fc2f9a2c4c"
+  },
+  {
+    "id": "odhni",
+    "name": "Rajasthani Odhni",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Bandhani cotton",
+      "Leheriya silk",
+      "Gota embroidery"
+    ],
+    "cultural_significance": "The Odhni is a traditional Rajasthani garment that holds significant cultural and symbolic meaning. It is a long, flowing piece of cloth that is draped over the head and shoulders, often worn by married women as a symbol of marital status and respect. The Odhni is also a representation of the woman's family and community, with different colors and patterns signifying different regions and castes. In Rajasthan, the Odhni is a powerful symbol of feminine identity and cultural heritage.",
+    "wearing_style_occasions": "The Odhni is typically worn on special occasions such as weddings, festivals, and religious ceremonies. It is draped over the head and shoulders in a specific style, often with the help of a family member or elder. The Odhni is also worn as a everyday garment, particularly in rural areas, where it serves as a practical and modest piece of clothing.",
+    "related_communities": [
+      "Rajput",
+      "Jat",
+      "Gujjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930905555-48eb5a2e3a1c"
+  },
+  {
+    "id": "poshak",
+    "name": "Rajasthani Poshak",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Bandhani cotton",
+      "Leheriya silk",
+      "Gota embroidery"
+    ],
+    "cultural_significance": "The Poshak is a traditional Rajasthani attire that holds significant cultural importance, symbolizing the marital status and respect of a woman in the society. It is a three-piece attire consisting of a lehenga, kurti, and odhni, each piece intricately designed with traditional Rajasthani motifs and patterns. The Poshak is a representation of the rich cultural heritage of Rajasthan and is often worn on special occasions such as weddings and festivals. The attire is also a symbol of the woman's identity and her connection to her family and community.",
+    "wearing_style_occasions": "The Poshak is typically worn on special occasions such as weddings, festivals, and family gatherings. It is worn with great pride and elegance, often paired with traditional Rajasthani jewelry such as Kundan and Meenakari. The attire is worn in a specific style, with the lehenga and kurti draped in a particular way, and the odhni draped over the head and shoulders.",
+    "related_communities": [
+      "Rajput",
+      "Marwari",
+      "Gujjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583398466698-5a3c2b4c6b5f"
+  },
+  {
+    "id": "leheriya-saree",
+    "name": "Rajasthani Leheriya Saree",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Leheriya cotton",
+      "Leheriya silk",
+      "Bandhani dyed fabrics"
+    ],
+    "cultural_significance": "The Leheriya Saree is a traditional attire that holds significant cultural importance in Rajasthan, symbolizing the vibrant spirit and rich heritage of the state. It is often worn during festivals and special occasions, representing the marital status and regional identity of the wearer. The unique wave-like pattern of the Leheriya Saree is a testament to the skilled craftsmanship of Rajasthani artisans, who have perfected the art of resist-dyeing over centuries. This attire is a reflection of the state's rich cultural diversity and its people's love for colorful and intricate designs.",
+    "wearing_style_occasions": "The Leheriya Saree is typically worn during festivals like Diwali, Holi, and Teej, as well as on special occasions like weddings and family gatherings. It is often paired with traditional Rajasthani jewelry, such as bangles, necklaces, and earrings, to create a stunning and elegant look. The saree is usually draped in a specific style, with the pallu (the decorative end of the saree) draped over the shoulder, adding to the overall charm and beauty of the attire.",
+    "related_communities": [
+      "Marwari community",
+      "Rajput community",
+      "Gujjar community"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930907575-04c443e2f4c2"
+  },
+  {
+    "id": "bandhani-saree",
+    "name": "Rajasthani Bandhani Saree",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Bandhani cotton",
+      "Leheriya silk",
+      "Gota Patti embroidered fabric"
+    ],
+    "cultural_significance": "The Bandhani Saree holds significant cultural importance in Rajasthan, symbolizing marital bliss, prosperity, and good fortune. This traditional attire is often worn by women during auspicious occasions and is considered a symbol of Rajasthani heritage. The intricate tie-and-dye technique used to create the Bandhani pattern is a testament to the state's rich textile history. The saree is also a representation of the region's vibrant colors and eclectic mix of cultures.",
+    "wearing_style_occasions": "The Bandhani Saree is typically worn during weddings, festivals, and other celebratory occasions. It is often paired with traditional Rajasthani jewelry, such as the 'borla' or 'nath', and is considered an essential part of the state's cultural attire. The saree is worn in a variety of styles, including the 'seedha' and 'ulati' pleating methods, which add to its elegance and charm.",
+    "related_communities": [
+      "Rajput",
+      "Gujjar",
+      "Meena"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930937932-5e2f2e5c4e2e"
+  },
+  {
+    "id": "kurti-kanchli",
+    "name": "Rajasthani Kurti-Kanchli",
+    "worn_by": "Men",
+    "material_fabrics": [
+      "Cotton",
+      "Silk",
+      "Embroidered fabrics"
+    ],
+    "cultural_significance": "The Kurti-Kanchli is a traditional attire in Rajasthan, symbolizing the rich cultural heritage of the state. It is a symbol of masculinity and is often worn by men on special occasions, representing respect, dignity, and honor. The attire is also a representation of the regional identity of Rajasthan, with its unique embroidery and prints. The Kurti-Kanchli is a testament to the state's rich history and cultural diversity.",
+    "wearing_style_occasions": "The Kurti-Kanchli is typically worn on special occasions such as weddings, festivals, and cultural events. It is worn with a dhoti or a pyjama, and is often paired with a turban or a safa. The attire is also worn during traditional Rajasthani dances, such as the Ghoomar and the Kalbeliya.",
+    "related_communities": [
+      "Rajput",
+      "Jat",
+      "Gurjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583398466698-92e2e5f6b8c4"
+  },
+  {
+    "id": "angrakha",
+    "name": "Rajasthani Angrakha",
+    "worn_by": "Men",
+    "material_fabrics": [
+      "Cotton",
+      "Silk",
+      "Embroidered fabrics"
+    ],
+    "cultural_significance": "The Angrakha is a traditional Rajasthani attire that symbolizes dignity, honor, and respect. It is often worn by men of high social standing and is a symbol of their cultural heritage. The intricate embroidery and designs on the Angrakha reflect the rich craftsmanship of Rajasthan and are a testament to the state's rich cultural legacy. The Angrakha is also a symbol of marital status, with married men often wearing it as a sign of their commitment to their wives and families.",
+    "wearing_style_occasions": "The Angrakha is typically worn on special occasions such as weddings, festivals, and other cultural events. It is often paired with a dhoti or a pyjama and is worn with a turban or a safa. The Angrakha is also worn as a symbol of respect and is often presented as a gift to guests and dignitaries.",
+    "related_communities": [
+      "Rajputs",
+      "Jats",
+      "Brahmins"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583398466694-5c6d9c0f2d5b"
+  },
+  {
+    "id": "dhoti",
+    "name": "Rajasthani Dhoti",
+    "worn_by": "Men",
+    "material_fabrics": [
+      "Cotton",
+      "Silk",
+      "Khadi"
+    ],
+    "cultural_significance": "The dhoti is a traditional garment in Rajasthan, symbolizing simplicity, humility, and cultural heritage. It is often worn by men during religious ceremonies, festivals, and special occasions, signifying respect for tradition and community. The dhoti is also a symbol of marital status, with married men wearing it in a specific style to signify their commitment. In Rajasthan, the dhoti is a staple in every man's wardrobe, representing the state's rich cultural legacy.",
+    "wearing_style_occasions": "The dhoti is typically worn with a kurta and a turban, creating a majestic and elegant look. It is commonly worn during festivals like Diwali, Holi, and Navratri, as well as during weddings and other special occasions. The dhoti is also worn as a daily attire by many men in rural Rajasthan, showcasing its versatility and comfort.",
+    "related_communities": [
+      "Rajput",
+      "Brahmin",
+      "Jat"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930903318-678e2c6b3a9c"
+  },
+  {
+    "id": "achkan",
+    "name": "Rajasthani Achkan",
+    "worn_by": "Men",
+    "material_fabrics": [
+      "Silk",
+      "Cotton",
+      "Velvet"
+    ],
+    "cultural_significance": "The Achkan is a traditional Rajasthani attire that symbolizes elegance, sophistication, and refinement. It is often worn by men of high social status, signifying their wealth and prestige. The intricate embroidery and embellishments on the Achkan reflect the rich cultural heritage of Rajasthan, with each stitch telling a story of the region's history and traditions. The Achkan is also a symbol of respect and dignity, often worn by men during special occasions and ceremonies.",
+    "wearing_style_occasions": "The Achkan is typically worn on formal occasions such as weddings, festivals, and cultural events. It is usually paired with a dhoti or a pyjama, and adorned with a turban or a safa. The Achkan is also worn during traditional Rajasthani ceremonies, such as the 'Graha Shanti' ceremony, which is performed to bring peace and prosperity to the family.",
+    "related_communities": [
+      "Rajput",
+      "Jat",
+      "Brahmin"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930907489-2460f2f2e2f4"
+  },
+  {
+    "id": "sherwani",
+    "name": "Rajasthani Sherwani",
+    "worn_by": "Men",
+    "material_fabrics": [
+      "Silk",
+      "Velvet",
+      "Brocade"
+    ],
+    "cultural_significance": "The Sherwani is a traditional attire that symbolizes elegance, sophistication, and royalty in Rajasthani culture. It is often worn by grooms on their wedding day, signifying the beginning of a new life and the union of two families. The intricate embroidery and embellishments on the Sherwani also represent the rich cultural heritage and craftsmanship of Rajasthan. The attire is a reflection of the state's history, with influences from Mughal and Rajput traditions.",
+    "wearing_style_occasions": "The Sherwani is typically worn on special occasions such as weddings, festivals, and formal events. It is usually paired with a pyjama or a dhoti, and adorned with a turban or a safa. The attire is worn with pride and dignity, showcasing the wearer's respect for tradition and culture.",
+    "related_communities": [
+      "Rajput",
+      "Mughal",
+      "Marwari"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583398466697-9c9a3f3b3a3b"
+  },
+  {
+    "id": "jodhpuri-suit",
+    "name": "Jodhpuri Suit",
+    "worn_by": "Men",
+    "material_fabrics": [
+      "Wool",
+      "Cotton",
+      "Silk"
+    ],
+    "cultural_significance": "The Jodhpuri suit, also known as a Jodhpuri, is a traditional outfit that originated in the city of Jodhpur, Rajasthan. It symbolizes elegance, sophistication, and refinement, and is often worn on special occasions to showcase respect and dignity. The Jodhpuri suit is a representation of the rich cultural heritage of Rajasthan and is deeply rooted in the state's history and traditions. It is a symbol of the region's aristocracy and is often worn by men of high social standing.",
+    "wearing_style_occasions": "The Jodhpuri suit is typically worn on formal occasions such as weddings, festivals, and other celebrations. It is usually paired with a shirt, trousers, and a waistcoat, and is often adorned with intricate embroidery and other decorative elements. The suit is worn with pride and is considered an essential part of a man's wardrobe in Rajasthan, particularly during the winter months.",
+    "related_communities": [
+      "Rajput",
+      "Jodhpuri",
+      "Marwari"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1559839733-35b1a1660d6e"
+  },
+  {
+    "id": "safa",
+    "name": "Rajasthani Safa Turban",
+    "worn_by": "Men",
+    "material_fabrics": [
+      "Bandhani cotton",
+      "Leheriya silk",
+      "Kota Doria"
+    ],
+    "cultural_significance": "The Safa is an integral part of Rajasthani tradition and culture, symbolizing respect, honor, and dignity. It is often worn by men on special occasions such as weddings, festivals, and family gatherings, signifying their marital status and social standing. The Safa is also a representation of the rich cultural heritage of Rajasthan, with its vibrant colors and intricate designs reflecting the state's history and craftsmanship. In addition, the Safa is a symbol of regional pride, with different regions of Rajasthan having their unique styles and patterns of Safa.",
+    "wearing_style_occasions": "The Safa is typically worn on the head, with the fabric folded and tied in a specific style to create a distinctive look. It is often worn on special occasions such as weddings, festivals, and family gatherings, where it is considered an essential part of the traditional attire. The Safa is also worn during cultural events and celebrations, such as the Pushkar Fair and the Desert Festival, where it is an integral part of the traditional dress.",
+    "related_communities": [
+      "Rajput",
+      "Jat",
+      "Gurjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584931197234-5c7a5e2c7e5f"
+  },
+  {
+    "id": "pagri",
+    "name": "Rajasthani Pagri",
+    "worn_by": "Men",
+    "material_fabrics": [
+      "Bandhani cotton",
+      "Leheriya silk",
+      "Kota Doria"
+    ],
+    "cultural_significance": "The Pagri is a symbol of honor, respect, and dignity in Rajasthani culture. It is often worn by men on special occasions such as weddings, festivals, and formal events. The Pagri is also a representation of the wearer's social status, with different colors and patterns signifying different castes and communities. In rural Rajasthan, the Pagri is an integral part of a man's everyday attire, reflecting his identity and pride in his heritage.",
+    "wearing_style_occasions": "The Pagri is typically worn on the head, tied in a specific style that varies depending on the occasion and the wearer's community. It is an essential part of a Rajasthani groom's wedding attire, and is also worn during festivals such as Diwali and Holi. On special occasions, the Pagri is often adorned with intricate embroidery, mirrors, or other ornaments, adding to its grandeur and beauty.",
+    "related_communities": [
+      "Rajput",
+      "Jat",
+      "Gurjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930902824-44d6c6b3e2f6"
+  },
+  {
+    "id": "pheta",
+    "name": "Rajasthani Pheta",
+    "worn_by": "Men",
+    "material_fabrics": [
+      "Cotton",
+      "Silk",
+      "Bandhani"
+    ],
+    "cultural_significance": "The Pheta, also known as the Rajasthani turban, holds immense cultural significance in Rajasthan, symbolizing honor, respect, and dignity. It is a symbol of the wearer's social status, marital status, and community affiliation. The Pheta is also a representation of the rich cultural heritage of Rajasthan, with its intricate designs and vibrant colors reflecting the state's history and traditions. In Rajasthan, the Pheta is considered an integral part of a man's attire, and its tying is considered an art form, with different styles and techniques passed down through generations.",
+    "wearing_style_occasions": "The Pheta is typically worn on special occasions such as weddings, festivals, and cultural events, where it is tied in a specific style to signify the occasion. For example, the 'Safa' style is worn during weddings, while the 'Pagdi' style is worn during festivals. The Pheta is also worn as a symbol of respect and dignity in everyday life, with different styles and colors signifying different social and cultural contexts.",
+    "related_communities": [
+      "Rajput",
+      "Jat",
+      "Gurjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584933498461-4f2e2e2e2e2e"
+  },
+  {
+    "id": "breeches",
+    "name": "Rajasthani Breeches",
+    "worn_by": "Men",
+    "material_fabrics": [
+      "Cotton",
+      "Silk",
+      "Embroidered fabrics"
+    ],
+    "cultural_significance": "The Rajasthani breeches, also known as 'Tight Churidar Pyjamas', hold significant cultural importance in the state of Rajasthan. They symbolize elegance, sophistication, and refinement, often worn by men of high social status. The intricate embroidery and vibrant colors of the breeches reflect the rich cultural heritage of Rajasthan, representing the state's history, traditions, and values. The breeches are also a symbol of respect and dignity, often worn during special occasions and festivals.",
+    "wearing_style_occasions": "The Rajasthani breeches are typically worn with a long kurta and a turban, creating a majestic and dignified look. They are often worn during traditional festivals, such as the Pushkar Camel Fair and the Desert Festival, as well as during weddings and other special occasions. The breeches are also worn as a symbol of respect and dignity during daily life, particularly in rural areas where traditional attire is still prevalent.",
+    "related_communities": [
+      "Rajput",
+      "Jat",
+      "Gurjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833904-977d9d8f0d9f"
+  },
+  {
+    "id": "mojari",
+    "name": "Rajasthani Mojari",
+    "worn_by": "Men",
+    "material_fabrics": [
+      "Leather",
+      "Embroidered velvet",
+      "Golden thread"
+    ],
+    "cultural_significance": "The Mojari is a traditional footwear in Rajasthan, symbolizing elegance, sophistication, and cultural heritage. It is often worn by men on special occasions, signifying respect, dignity, and pride in their cultural roots. Mojari is also a symbol of marital status, as grooms wear them during wedding ceremonies. The intricate designs and craftsmanship of Mojari reflect the rich cultural diversity of Rajasthan.",
+    "wearing_style_occasions": "Mojari is typically worn with traditional attire such as dhoti, kurta, and turban on special occasions like weddings, festivals, and cultural events. The footwear is designed to be comfortable and stylish, making it a popular choice for men in Rajasthan. During weddings, the groom wears Mojari as a symbol of his new status and responsibility.",
+    "related_communities": [
+      "Rajput",
+      "Jat",
+      "Brahmin"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930907579-64e7a5f2e2c6"
+  },
+  {
+    "id": "jutti",
+    "name": "Rajasthani Jutti",
+    "worn_by": "Unisex",
+    "material_fabrics": [
+      "Leather",
+      "Embroidered silk",
+      "Gold thread"
+    ],
+    "cultural_significance": "The Jutti is a traditional footwear in Rajasthan, symbolizing elegance, comfort, and cultural heritage. It is often adorned with intricate designs and patterns, reflecting the rich craftsmanship of the region. In Rajasthan, Juttis are considered an essential part of traditional attire, especially during weddings and festivals, and are often passed down as family heirlooms. They represent a deep connection to the state's history and cultural identity.",
+    "wearing_style_occasions": "Juttis are typically worn with traditional Rajasthani outfits, such as dhotis, kurta-pyjamas, and lehengas, during special occasions like weddings, festivals, and cultural events. They are also worn as a symbol of respect and dignity, especially by elders and community leaders. In modern times, Juttis have become a fashion statement, with many designers incorporating them into their collections.",
+    "related_communities": [
+      "Rajputs",
+      "Marwaris",
+      "Mewaris"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930950595-ee18ca2f9e6e"
+  },
+  {
+    "id": "borla",
+    "name": "Rajasthani Borla",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Gold",
+      "Silver",
+      "Kundan"
+    ],
+    "cultural_significance": "The Borla is a traditional Rajasthani forehead ornament that holds significant cultural and marital importance. It is typically worn by married women as a symbol of their marital status and is considered a vital part of their traditional attire. The Borla is often adorned with intricate designs and precious stones, reflecting the rich cultural heritage of Rajasthan. It is also believed to bring good fortune and prosperity to the wearer.",
+    "wearing_style_occasions": "The Borla is typically worn on special occasions such as weddings, festivals, and traditional ceremonies. It is usually paired with a traditional Rajasthani outfit, including a lehenga or a saree, and is often accompanied by other traditional jewelry pieces. The Borla is a staple in Rajasthani weddings, where it is worn by the bride as a symbol of her new marital status.",
+    "related_communities": [
+      "Rajput",
+      "Marwari",
+      "Gujjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930907575-04c4439e08e5"
+  },
+  {
+    "id": "rakhdi",
+    "name": "Rajasthani Rakhdi",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Red thread",
+      "Silver or gold ornaments"
+    ],
+    "cultural_significance": "The Rakhdi, also known as Rakhi, is a sacred thread tied by a sister around her brother's wrist, symbolizing their bond and the brother's promise to protect his sister. This tradition is deeply rooted in Rajasthani culture and is a symbol of love, care, and affection between siblings. The Rakhdi is also a representation of the strong family ties and values that are deeply ingrained in the Rajasthani community. It is a reminder of the brother's responsibility to protect and care for his sister, and the sister's prayers for her brother's well-being and success.",
+    "wearing_style_occasions": "The Rakhdi is typically tied on the occasion of Raksha Bandhan, a festival that celebrates the bond between siblings. On this day, sisters tie the Rakhdi around their brother's wrist, and in return, the brothers give their sisters gifts and promise to protect them. The Rakhdi is also worn on other special occasions such as weddings and festivals, where it is seen as a symbol of good luck and prosperity.",
+    "related_communities": [
+      "Marwari",
+      "Rajput",
+      "Gurjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1614433872434-4f5c9f1e5a3e"
+  },
+  {
+    "id": "bajuband",
+    "name": "Rajasthani Bajuband",
+    "worn_by": "Men",
+    "material_fabrics": [
+      "Gold",
+      "Silver",
+      "Kundan"
+    ],
+    "cultural_significance": "The Bajuband is a traditional Rajasthani armlet that holds significant cultural and historical importance. It is a symbol of strength, courage, and honor, often passed down from one generation to the next. In Rajasthan, the Bajuband is considered a mark of respect and is typically worn by men of high social standing or those who have achieved great feats. The Bajuband is also a representation of the region's rich heritage and craftsmanship, with intricate designs and patterns that reflect the state's unique cultural identity.",
+    "wearing_style_occasions": "The Bajuband is typically worn on special occasions such as weddings, festivals, and traditional ceremonies. It is usually paired with a traditional Rajasthani outfit, such as a dhoti and kurta, and is worn on the upper arm. The Bajuband is also worn as a symbol of pride and identity, and is often worn by men during traditional dances and performances, such as the Ghoomar and Kalbeliya.",
+    "related_communities": [
+      "Rajput",
+      "Jat",
+      "Gurjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583398463379-8c2eac7c9c1c"
+  },
+  {
+    "id": "kardhani",
+    "name": "Rajasthani Kardhani",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Bandhani cotton",
+      "Leheriya silk",
+      "Gota embroidery"
+    ],
+    "cultural_significance": "The Kardhani is a traditional Rajasthani attire that holds significant cultural importance, symbolizing the marital status of a woman. It is a long, embroidered skirt that is typically worn by married women, and its intricate designs and patterns are believed to bring good fortune and prosperity. The Kardhani is also a representation of the rich cultural heritage of Rajasthan, with its vibrant colors and elaborate embroidery reflecting the state's rich history and traditions. The attire is often passed down from generation to generation, serving as a symbol of family legacy and cultural identity.",
+    "wearing_style_occasions": "The Kardhani is typically worn on special occasions such as weddings, festivals, and family gatherings. It is often paired with a matching blouse and dupatta, and is adorned with intricate jewelry and accessories. The attire is worn with pride and dignity, and is considered an essential part of Rajasthani tradition and culture.",
+    "related_communities": [
+      "Rajput",
+      "Jat",
+      "Gurjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930908738-35677e3e3d6e"
+  },
+  {
+    "id": "kundan-jewellery",
+    "name": "Rajasthani Kundan Jewellery",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Gold",
+      "Silver",
+      "Precious stones"
+    ],
+    "cultural_significance": "Kundan jewellery holds immense cultural significance in Rajasthan, symbolizing marital status, wealth, and social standing. It is deeply rooted in the state's rich history and is often passed down as heirlooms from one generation to the next. The intricate designs and craftsmanship of Kundan jewellery are a testament to the skill and artistry of Rajasthani artisans. The jewellery is also believed to bring good fortune and prosperity to the wearer.",
+    "wearing_style_occasions": "Kundan jewellery is typically worn on special occasions such as weddings, festivals, and other celebrations. It is often paired with traditional Rajasthani attire, such as lehengas and sarees, to add a touch of elegance and sophistication. The jewellery is also worn as a symbol of status and wealth, with more intricate and elaborate designs reserved for royalty and nobility.",
+    "related_communities": [
+      "Rajput",
+      "Marwari",
+      "Gujjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930907575-77e0faa8e2c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "meenakari-jewellery",
+    "name": "Rajasthani Meenakari Jewellery",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Gold",
+      "Silver",
+      "Kundan",
+      "Enamel"
+    ],
+    "cultural_significance": "Meenakari jewellery holds immense cultural significance in Rajasthan, symbolizing marital status, prosperity, and regional heritage. The intricate enamel work is a testament to the skilled craftsmanship of Rajasthani artisans, who have perfected this technique over centuries. Meenakari jewellery is often passed down as heirlooms, representing family traditions and values. It is also a symbol of the state's rich cultural diversity and its historical ties with the Mughal Empire.",
+    "wearing_style_occasions": "Meenakari jewellery is typically worn on special occasions such as weddings, festivals, and family gatherings. The intricate designs and vibrant colors of Meenakari pieces make them a staple in Rajasthani bridal attire, adding a touch of elegance and sophistication to the overall look. During festivals like Diwali and Navratri, women adorn themselves with Meenakari jewellery to showcase their cultural heritage and add to the festive spirit.",
+    "related_communities": [
+      "Rajputs",
+      "Marwaris",
+      "Jains"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930907575-4e2b7c6befe5"
+  },
+  {
+    "id": "nath",
+    "name": "Rajasthani Nath",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Gold",
+      "Silver",
+      "Kundan",
+      "Polki"
+    ],
+    "cultural_significance": "The Nath, a traditional nose ring, is a symbol of marital status and cultural identity in Rajasthan. It is typically worn by married women and is considered a vital part of their attire, signifying their commitment to their husbands and their families. The Nath is also a representation of the rich cultural heritage of Rajasthan, with its intricate designs and craftsmanship reflecting the state's history and traditions. The size and design of the Nath can also indicate the social status and wealth of the family.",
+    "wearing_style_occasions": "The Nath is typically worn on special occasions such as weddings, festivals, and family gatherings. It is an essential part of the traditional Rajasthani attire, and women often wear it with their sarees, lehengas, or suits. The Nath is also worn as a symbol of cultural pride and identity, and women often adorn themselves with it during cultural events and celebrations.",
+    "related_communities": [
+      "Rajput",
+      "Marwari",
+      "Gujjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584114223431-82f8c6b8e1b4"
+  },
+  {
+    "id": "hansli",
+    "name": "Rajasthani Hansli",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Gold",
+      "Silver",
+      "Kundan"
+    ],
+    "cultural_significance": "The Hansli is a traditional Rajasthani necklace that holds significant cultural and symbolic meaning. It is often gifted to a bride by her parents or in-laws as a symbol of love, respect, and commitment. The Hansli is also believed to bring good fortune and prosperity to the wearer, and is often passed down from generation to generation as a family heirloom. In Rajasthani culture, the Hansli is a representation of the strong bond between a husband and wife.",
+    "wearing_style_occasions": "The Hansli is typically worn on special occasions such as weddings, festivals, and family gatherings. It is often paired with traditional Rajasthani attire such as a lehenga or a saree, and is considered an essential part of a woman's jewelry collection. The Hansli is also worn as a symbol of marital status, and is often adorned with intricate designs and patterns that reflect the wearer's social status and family background.",
+    "related_communities": [
+      "Rajput",
+      "Jat",
+      "Gurjar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584111481596-3a2e5b8c9d34"
+  },
+  {
+    "id": "payal",
+    "name": "Rajasthani Payal",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Silver",
+      "Gold",
+      "Copper"
+    ],
+    "cultural_significance": "The Payal, also known as an ankle bell or ghungroo, is a traditional ornament in Rajasthan that holds significant cultural importance. It is a symbol of marital status, with married women wearing it as a sign of their commitment to their husbands. The Payal is also a representation of the region's rich cultural heritage, with its intricate designs and craftsmanship reflecting the state's history and traditions. In addition, the Payal is believed to bring good luck and prosperity to the wearer, making it a cherished possession among Rajasthani women.",
+    "wearing_style_occasions": "The Payal is typically worn on special occasions such as weddings, festivals, and other celebrations. It is usually worn in combination with other traditional ornaments, such as bangles and earrings, to create a stunning and elegant look. During traditional dances like the Ghoomar, the Payal is worn to add a musical element to the performance, with the bells creating a melodious sound as the dancer moves.",
+    "related_communities": [
+      "Rajput",
+      "Jat",
+      "Brahmin"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930937932-6e93c9e6f2c0"
+  },
+  {
+    "id": "chooda",
+    "name": "Rajasthani Chooda",
+    "worn_by": "Women",
+    "material_fabrics": [
+      "Ivory bangles",
+      "Red lacquer",
+      "Golden accents"
+    ],
+    "cultural_significance": "The Chooda is a traditional Rajasthani bangle set that holds immense cultural and marital significance, symbolizing the newlywed bride's marital status and her transition into a new life. It is typically gifted by the bride's in-laws as a symbol of their love and acceptance. The Chooda is believed to bring good fortune and prosperity to the couple, and its red color represents the bride's happiness and joy. In Rajasthani culture, the Chooda is considered an essential part of a bride's wedding attire and is often passed down as an heirloom from generation to generation.",
+    "wearing_style_occasions": "The Chooda is traditionally worn by Rajasthani brides on their wedding day and for a period of time after the wedding, usually up to a year. It is worn in a specific style, with the bangles stacked on the bride's arms, and is often complemented by other traditional Rajasthani jewelry pieces. The Chooda is also worn on special occasions such as festivals and family gatherings, where it serves as a reminder of the bride's marital status and her connection to her new family.",
+    "related_communities": [
+      "Marwari",
+      "Rajput",
+      "Jat"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584931197234-4246c1e2f4c4"
+  }
+]

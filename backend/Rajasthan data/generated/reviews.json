@@ -1,0 +1,178 @@
+[
+  {
+    "item_id": "amber-fort",
+    "item_type": "place",
+    "rating": 5,
+    "comment": "I visited Amber Fort with my family and it was an unforgettable experience, the fort's architecture and history left us all in awe. The elephant ride to the fort was a unique experience, but the queues were quite long, so I would recommend visiting early in the morning. Overall, I would highly recommend Amber Fort to anyone visiting Jaipur, it's a must-visit attraction that showcases the city's rich history and culture.",
+    "author": "Amit Sharma, Delhi",
+    "id": "81a489dc-bc94-4f3c-824d-7f72ae0bd4e0"
+  },
+  {
+    "item_id": "mehrangarh-fort",
+    "item_type": "place",
+    "rating": 5,
+    "comment": "My visit to Mehrangarh Fort was an unforgettable experience, the fort's majestic architecture and stunning views of the city left me spellbound. The fort's museum was also very informative and provided a glimpse into the rich history of the place. I would highly recommend visiting the fort during sunset to get the most out of the experience",
+    "author": "Amit Sharma, Delhi",
+    "id": "baf062ef-1b75-42ef-a7b2-c78db0e51cff"
+  },
+  {
+    "item_id": "chittorgarh-fort",
+    "item_type": "place",
+    "rating": 4,
+    "comment": "I visited Chittorgarh Fort with my family and was amazed by its grandeur and historical significance, the fort's architecture and the views from the top were breathtaking, however, the maintenance and cleanliness of the fort could be improved to make the experience even better.",
+    "author": "Amit Sharma, Delhi",
+    "id": "9469ff15-66be-4847-b602-7fd6a51f8987"
+  },
+  {
+    "item_id": "chittorgarh-fort",
+    "item_type": "place",
+    "rating": 5,
+    "comment": "As a history enthusiast, I was blown away by the sheer scale and beauty of Chittorgarh Fort, the audio guide was very informative and helped me understand the rich history of the fort, I would highly recommend visiting the fort at sunrise or sunset to avoid the crowds and heat.",
+    "author": "Emily Wilson, USA",
+    "id": "86572de6-424e-415d-8775-8a3db93c6d95"
+  },
+  {
+    "item_id": "kumbhalgarh-fort",
+    "item_type": "place",
+    "rating": 4,
+    "comment": "I visited Kumbhalgarh Fort with my family and was amazed by its grandeur and rich history, the fort's walls and architecture are truly breathtaking, however, the lack of proper signage and guides made it difficult to navigate and understand the significance of certain areas.",
+    "author": "Amit Sharma, Delhi",
+    "id": "cd148c62-78f0-487b-b990-17f01c86b858"
+  },
+  {
+    "item_id": "kumbhalgarh-fort",
+    "item_type": "place",
+    "rating": 5,
+    "comment": "During my trip to India, I had the opportunity to visit Kumbhalgarh Fort and it was one of the highlights of my journey, the fort's massive walls and stunning views of the surrounding landscape left me speechless, I highly recommend hiring a local guide to get a deeper understanding of the fort's history and significance.",
+    "author": "Emily Wilson, USA",
+    "id": "2c9b0d48-2d6a-460a-bd42-cf477e721fac"
+  },
+  {
+    "item_id": "jaisalmer-fort",
+    "item_type": "place",
+    "rating": 5,
+    "comment": "My visit to Jaisalmer Fort was an unforgettable experience, the majestic architecture and stunning views of the city left me spellbound. The fort's intricate carvings, grand palaces, and beautiful Jain temples are a must-see for anyone visiting Jaisalmer. I highly recommend taking a guided tour to explore the fort's hidden gems and learn about its rich history.",
+    "author": "Amit Sharma, Delhi",
+    "id": "44581155-c9f6-4efc-9ab6-ccdee43aeb0c"
+  },
+  {
+    "item_id": "jaisalmer-fort",
+    "item_type": "place",
+    "rating": 4,
+    "comment": "I was amazed by the sheer scale and beauty of Jaisalmer Fort, it's like something out of a fairy tale. While the fort itself is breathtaking, I found the tourist infrastructure to be a bit lacking, with some areas feeling overly commercialized. Despite this, I would still highly recommend visiting Jaisalmer Fort, especially at sunset when the golden light casts a magical glow over the entire structure.",
+    "author": "Emily Wilson, Australia",
+    "id": "d5aa3737-7026-4e90-bd29-1246785b649a"
+  },
+  {
+    "item_id": "junagarh-fort",
+    "item_type": "place",
+    "rating": 4,
+    "comment": "I visited Junagarh Fort with my family and was amazed by its grandeur and historical significance, the fort's architecture is a beautiful blend of Rajput and Mughal styles. The fort's museum has an impressive collection of artifacts, but the maintenance could be improved, especially in the gardens. I would recommend visiting the fort early in the morning to avoid the crowds and heat, and hiring a guide to get a deeper understanding of its history.",
+    "author": "Amit Sharma, Delhi",
+    "id": "bd3f97fb-3655-4d57-a2df-8a26258b6b88"
+  },
+  {
+    "item_id": "junagarh-fort",
+    "item_type": "place",
+    "rating": 5,
+    "comment": "As a history enthusiast, I was blown away by the sheer scale and beauty of Junagarh Fort, the intricate carvings and ornate decorations are a testament to the skill of the craftsmen who built it. The fort's history is fascinating, and our guide did an excellent job of bringing it to life, I was particularly impressed by the fort's impressive collection of arms and armor. I would highly recommend Junagarh Fort to anyone visiting Bikaner, it's a must-see attraction that exceeded my expectations in every way.",
+    "author": "Emily Wilson, USA",
+    "id": "8e637cfb-183d-43a0-b52d-9421415c6e6d"
+  },
+  {
+    "item_id": "dal-baati-churma",
+    "item_type": "food",
+    "rating": 4,
+    "comment": "I recently tried Dal Baati Churma at a local restaurant in Rajasthan and it was an incredible experience, the combination of flavors and textures was amazing, but I felt that the baati could have been softer. The dal was perfectly cooked and the churma added a nice sweetness to the dish. I would definitely recommend trying this traditional Rajasthani dish, but be prepared for a heavy meal.",
+    "author": "Amit Sharma, Delhi",
+    "id": "acb5655b-9778-427a-b24f-cd6a69dde3d5"
+  },
+  {
+    "item_id": "gatte-ki-sabzi",
+    "item_type": "food",
+    "rating": 4,
+    "comment": "I recently tried Gatte Ki Sabzi at a local restaurant in Jaipur and was blown away by the flavors and textures, the dish was perfectly balanced with a mix of spicy and tangy flavors. However, I felt that the portion size was a bit small for the price. I would highly recommend this dish to anyone looking to try authentic Rajasthani cuisine, but be prepared for a wait as it can take some time to prepare.",
+    "author": "Amit Sharma, Delhi",
+    "id": "2354ad33-dac1-491c-890f-2ca73e21ac46"
+  },
+  {
+    "item_id": "ker-sangri",
+    "item_type": "food",
+    "rating": 4,
+    "comment": "I recently tried Ker Sangri at a local restaurant in Jaisalmer and was blown away by the explosion of flavors in this traditional Rajasthani dish. The combination of ker berries and sangri beans was absolutely delicious, although I felt that the portion size could have been larger. I would highly recommend this dish to anyone looking to try authentic Rajasthani cuisine, but be sure to pair it with a side of roti or rice to fill you up.",
+    "author": "Amit Sharma, Delhi",
+    "id": "7f014348-5933-46e6-b1a8-6e3c60757d59"
+  },
+  {
+    "item_id": "laal-maas",
+    "item_type": "food",
+    "rating": 4,
+    "comment": "I recently had the opportunity to try Laal Maas at a local restaurant in Jaipur, and I must say it was an explosion of flavors in my mouth. The dish was cooked to perfection, with the right amount of spices and tender meat, however, I felt that the portion size was a bit small. I would highly recommend it to anyone who loves spicy food and is looking to try authentic Rajasthani cuisine.",
+    "author": "Amit Sharma, Delhi",
+    "id": "56492a7f-1878-4ff4-9c99-008247256e0a"
+  },
+  {
+    "item_id": "camel-safari-in-the-thar-desert",
+    "item_type": "experience",
+    "rating": 5,
+    "comment": "I had an incredible time on the Sunset to Sunrise Camel Safari in the Thar Desert, the guides were knowledgeable and friendly, and the scenery was breathtaking. The only downside was the bumpy ride, but it was well worth it for the stunning views of the sunset and sunrise. I highly recommend this experience to anyone looking for an adventure in the desert, just be sure to bring plenty of water and sunscreen.",
+    "author": "Rahul Patel, Delhi",
+    "id": "d7d5e1d3-99ee-46c5-ba59-cc7029a4066a"
+  },
+  {
+    "item_id": "camel-safari-in-the-thar-desert",
+    "item_type": "experience",
+    "rating": 4,
+    "comment": "My husband and I took the Sunset to Sunrise Camel Safari in the Thar Desert and it was an unforgettable experience, the camels were well-cared for and the guides were very informative about the local culture and history. The only reason I didn't give it a 5-star rating is that the accommodations at the campsite were a bit basic, but the food was delicious and the company was great. I would definitely recommend this experience to fellow travelers, especially those looking for a unique and authentic Indian adventure.",
+    "author": "Emily Wilson, Australia",
+    "id": "6266cc29-0ce2-4e78-bea3-635a064a428c"
+  },
+  {
+    "item_id": "desert-camping",
+    "item_type": "experience",
+    "rating": 4,
+    "comment": "I recently had the opportunity to go on the Overnight Desert Camping Under Starry Skies experience and it was truly breathtaking, the guides were knowledgeable and the food was delicious, however, the sleeping arrangements could be improved for a more comfortable night's sleep. The highlight of the trip was definitely the stunning view of the stars at night, it was like nothing I've ever seen before. I would definitely recommend this experience to anyone looking for a unique adventure, but be sure to bring warm clothing as it can get quite chilly at night.",
+    "author": "Rahul Patel, India",
+    "id": "742a73b2-3cea-4138-acc8-0d54a3e56d52"
+  },
+  {
+    "item_id": "desert-camping",
+    "item_type": "experience",
+    "rating": 5,
+    "comment": "My wife and I went on the Overnight Desert Camping Under Starry Skies experience during our honeymoon and it was absolutely amazing, the scenery was beautiful and the staff were friendly and helpful. We enjoyed the camel ride and the traditional dinner, and the tent was comfortable and clean. I would highly recommend this experience to anyone looking for a romantic getaway or an adventure, the views of the stars at night are unforgettable and the overall experience is one that we will always treasure, we're from the US and this was our first time in the desert.",
+    "author": "David Lee, USA",
+    "id": "a2c69c9a-85cd-4ba7-b7d8-f600bd1f5f24"
+  },
+  {
+    "item_id": "hot-air-balloon-ride",
+    "item_type": "experience",
+    "rating": 5,
+    "comment": "The Sunrise Hot Air Balloon Ride Over the Golden City of Jaisalmer was an unforgettable experience, the breathtaking views of the city from above were truly mesmerizing. Our pilot was very experienced and provided us with a safe and smooth ride, the complimentary breakfast after the ride was also delicious. I would highly recommend this experience to anyone visiting Jaisalmer, it's a must-do activity that will leave you with lifelong memories.",
+    "author": "Amit Sharma, Delhi",
+    "id": "090c0e32-1e4c-4fdc-b2ee-63115eb42452"
+  },
+  {
+    "item_id": "hot-air-balloon-ride",
+    "item_type": "experience",
+    "rating": 4,
+    "comment": "I took the Sunrise Hot Air Balloon Ride Over the Golden City of Jaisalmer with my family and we all loved it, the views of the city and the surrounding desert were stunning. The only downside was that the ride was a bit shorter than we expected, but overall it was an amazing experience and the staff were very friendly and helpful. I would recommend this experience to anyone looking for a unique and exciting way to see Jaisalmer, but be prepared for an early morning wake-up call.",
+    "author": "Emily Wilson, USA",
+    "id": "45c14ded-abe9-4c0d-a76c-ae198a137933"
+  },
+  {
+    "item_id": "dune-bashing-in-thar-desert",
+    "item_type": "experience",
+    "rating": 4,
+    "comment": "I had an exhilarating time dune bashing in the Thar Desert, the thrill of sliding down massive sand dunes was an unforgettable experience, however the village exploration could have been more in-depth to truly understand the local culture. The tour operators were friendly and knowledgeable, providing us with insights into the history and significance of the region. I would recommend this experience to adventure seekers, but suggest they also consider adding a homestay or local interaction to their itinerary for a more immersive experience.",
+    "author": "Amit Sharma, Delhi",
+    "id": "dd125a03-25cc-41cf-979a-ec51c26e4ee1"
+  },
+  {
+    "item_id": "dune-bashing-in-thar-desert",
+    "item_type": "experience",
+    "rating": 5,
+    "comment": "My visit to the Thar Desert for dune bashing and village exploration was a dream come true, the breathtaking sunsets and warm hospitality of the locals left me in awe, and I appreciated the eco-friendly approach of the tour operators. The dune bashing was an adrenaline rush like no other, and the village exploration provided a unique glimpse into the traditional way of life in the desert. I highly recommend this experience to fellow travelers, especially those interested in nature, culture, and adventure, and suggest they book with a reputable operator to ensure a safe and enjoyable journey.",
+    "author": "Emily Wilson, USA",
+    "id": "f60e8397-5a98-4359-8d96-74267812df0d"
+  }
+]

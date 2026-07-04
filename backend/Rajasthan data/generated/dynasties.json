@@ -1,0 +1,286 @@
+[
+  {
+    "id": "sisodia",
+    "name": "Sisodia Dynasty of Mewar",
+    "clan_origin": "Suryavanshi Rajput",
+    "founder": "Bappa Rawal",
+    "established_century": "8th Century AD",
+    "golden_era": "Reigns of Rana Kumbha and Rana Sanga, who expanded the kingdom, promoted arts, and defended against invaders",
+    "history_summary": "The Sisodia Dynasty of Mewar, originating from the Suryavanshi clan, was founded by Bappa Rawal in the 8th century AD. The dynasty played a pivotal role in Indian history, especially during the reigns of Rana Kumbha and Rana Sanga, who are remembered for their bravery, strategic alliances, and patronage of the arts. The Sisodias were known for their unwavering resistance against foreign invaders, including the Delhi Sultanate and the Mughal Empire. Their legacy continues to be celebrated in the form of magnificent architectural wonders, literary works, and the preservation of Rajasthani culture.",
+    "emblem_url": "https://images.unsplash.com/photo-1624491507259-2c2a5e2e2c7c",
+    "capital_city_ids": [
+      "chittorgarh",
+      "udaipur"
+    ],
+    "patronage_arts": [
+      "Architecture of Forts and Palaces",
+      "Rajasthani Miniature Paintings",
+      "Classical Music and Dance Forms"
+    ]
+  },
+  {
+    "id": "rathore",
+    "name": "Rathore Dynasty of Marwar",
+    "clan_origin": "Suryavanshi Rajput",
+    "founder": "Rao Siha Rathore",
+    "established_century": "13th Century AD",
+    "golden_era": "Reigns of Rao Maldeo and Rao Ganga",
+    "history_summary": "The Rathore Dynasty of Marwar, originating from the Suryavanshi clan, was founded by Rao Siha Rathore in the 13th century. Over the centuries, the Rathores established a powerful kingdom in Marwar, with their capital in Jodhpur, and played a significant role in shaping the history of Rajasthan. The dynasty is known for its brave warriors, skilled administrators, and patronage of arts and architecture. The Rathores also had a complex relationship with the Mughal Empire, with periods of alliance and conflict, ultimately maintaining their independence and autonomy.",
+    "emblem_url": "https://images.unsplash.com/photo-1618004314455-8e3c1a2f5e5e",
+    "capital_city_ids": [
+      "jodhpur",
+      "mehrangarh"
+    ],
+    "patronage_arts": [
+      "Architecture of Mehrangarh Fort",
+      "Miniature Paintings of Marwar School",
+      "Folk Music and Dance of Marwar Region"
+    ]
+  },
+  {
+    "id": "kachwaha",
+    "name": "Kachwaha Dynasty of Amber-Jaipur",
+    "clan_origin": "Suryavanshi Rajput",
+    "founder": "Dulha Rao",
+    "established_century": "12th Century AD",
+    "golden_era": "Reigns of Prithviraj Singh I, Sawai Jai Singh II, and Sawai Ram Singh II",
+    "history_summary": "The Kachwaha dynasty, also known as the Amber-Jaipur dynasty, was a powerful and influential Rajput clan that ruled over the region of Dhundhar in present-day Rajasthan. The Kachwahas were known for their bravery, strategic alliances, and cultural achievements, including the development of the Amber Fort and the city of Jaipur. The dynasty played a significant role in shaping the history of Rajasthan, with notable rulers such as Prithviraj Singh I and Sawai Jai Singh II, who were renowned for their military prowess, administrative skills, and patronage of the arts. The Kachwahas were also known for their strong relationships with the Mughal Empire, with many of their rulers serving as allies and vassals to the Mughal emperors.",
+    "emblem_url": "https://images.unsplash.com/photo-1618773925661-ccd3f2f2e2c5",
+    "capital_city_ids": [
+      "amber",
+      "jaipur"
+    ],
+    "patronage_arts": [
+      "Hindu temple architecture",
+      "Rajasthani miniature painting",
+      "Classical Indian music and dance",
+      "Jaipur blue pottery"
+    ]
+  },
+  {
+    "id": "chauhan",
+    "name": "Chauhan Dynasty of Ajmer",
+    "clan_origin": "Aganivanshi Rajput",
+    "founder": "Vasudeva",
+    "established_century": "7th Century AD",
+    "golden_era": "Reigns of Prithviraj Chauhan III and Govinda-Raja II",
+    "history_summary": "The Chauhan Dynasty of Ajmer was a powerful and influential Rajput kingdom that ruled over parts of northwestern India, particularly in the region of Ajmer and Delhi, from the 7th to the 12th century AD. The dynasty was founded by Vasudeva and rose to prominence under the rule of Prithviraj Chauhan III, who expanded the kingdom's territories and established trade and cultural relations with neighboring kingdoms. The Chauhans were known for their bravery, military prowess, and patronage of the arts, and their legacy continues to be celebrated in the region's folklore and historical accounts. The dynasty's decline began with the invasion of Muhammad Ghori in the late 12th century AD, marking the end of their rule and the beginning of Muslim rule in the region.",
+    "emblem_url": "https://images.unsplash.com/photo-1587391672734-5c2a3c8c3e2e",
+    "capital_city_ids": [
+      "ajmer",
+      "delhi"
+    ],
+    "patronage_arts": [
+      "Architecture of Hindu temples and forts",
+      "Development of Rajasthani miniature paintings",
+      "Promotion of classical Indian music and dance"
+    ]
+  },
+  {
+    "id": "bhati",
+    "name": "Bhati Dynasty of Jaisalmer",
+    "clan_origin": "Yaduvanshi Rajput",
+    "founder": "Rao Jaisal",
+    "established_century": "12th Century AD",
+    "golden_era": "Reigns of Rawal Jethsi and Rawal Lunakarna",
+    "history_summary": "The Bhati Dynasty of Jaisalmer was a powerful and influential Rajput clan that ruled over the Jaisalmer region from the 12th to the 20th century. Founded by Rao Jaisal in 1156 AD, the dynasty played a significant role in the history of Rajasthan, known for their bravery, chivalry, and architectural achievements. The Bhati rulers were also patrons of art, architecture, and literature, and their legacy can still be seen in the magnificent forts, temples, and palaces that dot the Jaisalmer landscape. The dynasty's history is marked by numerous battles and alliances with other Rajput clans, as well as the Mughal and British empires.",
+    "emblem_url": "https://images.unsplash.com/photo-1619852738211-4f4e2c4e2c7c",
+    "capital_city_ids": [
+      "jaisalmer"
+    ],
+    "patronage_arts": [
+      "Rajasthani miniature paintings",
+      "Jaisalmer stone carvings",
+      "Mughal-inspired architecture"
+    ]
+  },
+  {
+    "id": "hada",
+    "name": "Hada Chauhan Dynasty (Bundi-Kota)",
+    "clan_origin": "Chandravanshi Rajput",
+    "founder": "Rao Deva Hada",
+    "established_century": "12th Century AD",
+    "golden_era": "Reigns of Rao Raja Bhoj and Rao Raja Chattar Sal",
+    "history_summary": "The Hada Chauhan Dynasty, originating from the Chandravanshi lineage, was founded by Rao Deva Hada in the 12th century AD. The Hadas established their rule in the Hadoti region, which comprises the present-day districts of Bundi, Kota, and Jhalawar in Rajasthan. The dynasty is known for its rich cultural heritage, architectural marvels, and patronage of arts and literature. The Hada rulers were skilled warriors and administrators, and their reign is often referred to as the golden era of the dynasty, marked by significant contributions to the fields of art, architecture, and literature.",
+    "emblem_url": "https://images.unsplash.com/photo-1618773921117-5f5c2a5e2f1b",
+    "capital_city_ids": [
+      "bundi",
+      "kota"
+    ],
+    "patronage_arts": [
+      "Mewar-style miniature paintings",
+      "Rajasthani folk music and dance",
+      "Hada-style architecture",
+      "Rajputana literature and poetry"
+    ]
+  },
+  {
+    "id": "shekhawat",
+    "name": "Shekhawat Dynasty of Shekhawati",
+    "clan_origin": "Rajput clan of the Kachwaha lineage, Suryavanshi",
+    "founder": "Rao Shekha",
+    "established_century": "15th Century AD",
+    "golden_era": "Reigns of Rao Shekha and his descendants, who built numerous forts, temples, and havelis in the Shekhawati region",
+    "history_summary": "The Shekhawat Dynasty was a powerful and influential Rajput clan that ruled over the Shekhawati region in northeastern Rajasthan. Founded by Rao Shekha in the 15th century, the dynasty played a significant role in the history of Rajasthan, producing many notable rulers, warriors, and patrons of the arts. The Shekhawats were known for their bravery, administrative skills, and cultural achievements, which are still evident in the numerous forts, temples, and havelis that dot the Shekhawati landscape. The dynasty's legacy continues to be celebrated in the region, with many of its historical sites and monuments still standing as testaments to its rich cultural heritage.",
+    "emblem_url": "https://images.unsplash.com/photo-1618773929847-09f7d5e2d1b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "capital_city_ids": [
+      "sikar",
+      "jhunjhunu",
+      "churu"
+    ],
+    "patronage_arts": [
+      "Architecture of havelis and forts",
+      "Mughal and Rajasthani miniature paintings",
+      "Shekhawati school of fresco paintings"
+    ]
+  },
+  {
+    "id": "jhala",
+    "name": "Jhala Dynasty of Jhalawar",
+    "clan_origin": "Chandravanshi Rajput",
+    "founder": "Rajput ruler of the Jhala clan, Madan Singh",
+    "established_century": "18th Century AD",
+    "golden_era": "Reign of Maharaj Rana Madan Singh and his successors who brought prosperity to Jhalawar",
+    "history_summary": "The Jhala Dynasty of Jhalawar was a prominent Rajput clan that ruled over the region of Jhalawar in southeastern Rajasthan. The dynasty was founded by Rajput ruler Madan Singh, who established Jhalawar as a separate principality in the 18th century. The Jhala rulers were known for their patronage of the arts, architecture, and their military prowess, which helped them maintain their independence in the face of neighboring kingdoms. The Jhala Dynasty played a significant role in the history of Rajasthan, with their rulers contributing to the rich cultural heritage of the region through their support of music, literature, and art.",
+    "emblem_url": "https://images.unsplash.com/photo-1622245561815-ffd0b4a6c9b5",
+    "capital_city_ids": [
+      "jhalawar"
+    ],
+    "patronage_arts": [
+      "Rajasthani miniature paintings",
+      "Mewari Ghazal music",
+      "Jhalawar-style architecture"
+    ]
+  },
+  {
+    "id": "deora",
+    "name": "Deora Chauhan Dynasty of Sirohi",
+    "clan_origin": "Agnivanshi Rajput",
+    "founder": "Rao Sobha Ji",
+    "established_century": "12th Century AD",
+    "golden_era": "Reigns of Rao Lakha Ji and Rao Surtan Ji",
+    "history_summary": "The Deora Chauhan Dynasty of Sirohi was a powerful and influential Rajput clan that ruled over the region of Sirohi in southern Rajasthan. The dynasty was founded by Rao Sobha Ji in the 12th century AD and reached its zenith during the reigns of Rao Lakha Ji and Rao Surtan Ji, who expanded the kingdom's borders and encouraged art, architecture, and literature. The Deora Chauhans were known for their bravery, chivalry, and patronage of the arts, and their legacy continues to be celebrated in the region. The dynasty's history is marked by its struggles against the Delhi Sultanate and the Mughal Empire, as well as its alliances with other Rajput clans.",
+    "emblem_url": "https://images.unsplash.com/photo-1593642634315-4436f3555c7a",
+    "capital_city_ids": [
+      "sirohi"
+    ],
+    "patronage_arts": [
+      "Architecture of the Sirohi Fort",
+      "Miniature paintings of the Pichhwai style",
+      "Classical music and dance of the Mewar region"
+    ]
+  },
+  {
+    "id": "bika",
+    "name": "Bika Rathore Dynasty of Bikaner",
+    "clan_origin": "Rathore clan of Suryavanshi Rajputs",
+    "founder": "Bika Rathore",
+    "established_century": "15th Century AD",
+    "golden_era": "Reigns of Rao Bika, Rao Jodha, and Maharaja Ganga Singh",
+    "history_summary": "The Bika Rathore Dynasty was founded in 1488 by Bika Rathore, a son of Rao Jodha of Marwar. The dynasty ruled Bikaner for nearly five centuries, producing notable rulers like Rao Bika, who established the city of Bikaner, and Maharaja Ganga Singh, who modernized the state and played a key role in India's struggle for independence. The Bika Rathores were known for their bravery, administrative skills, and patronage of arts and architecture. They built several magnificent forts, palaces, and temples, including the Junagarh Fort, which showcases a blend of Rajput and Mughal architectural styles.",
+    "emblem_url": "https://images.unsplash.com/photo-1619851164644-3b9f2f2e0e6e",
+    "capital_city_ids": [
+      "bikaner"
+    ],
+    "patronage_arts": [
+      "Rajput architecture",
+      "Mughal miniature paintings",
+      "classical music and dance"
+    ]
+  },
+  {
+    "id": "songara",
+    "name": "Songara Chauhan Dynasty of Jalore",
+    "clan_origin": "Agnivanshi Rajput",
+    "founder": "King Manika Rai",
+    "established_century": "8th Century AD",
+    "golden_era": "Reigns of King Udayan and King Chachigadeva",
+    "history_summary": "The Songara Chauhan Dynasty of Jalore was a powerful and influential Rajput clan that ruled over the region of Jalore in southern Rajasthan from the 8th to the 13th centuries. The dynasty was founded by King Manika Rai, who is said to have been a descendant of the Agnivanshi Rajputs. During their reign, the Songara Chauhans were known for their bravery, military prowess, and patronage of the arts. They built several impressive forts, temples, and monuments, including the famous Jalore Fort, which still stands today as a testament to their architectural and engineering skills.",
+    "emblem_url": "https://images.unsplash.com/photo-1593642634316-5b6dbf09f5d5",
+    "capital_city_ids": [
+      "jalor",
+      "bhildi"
+    ],
+    "patronage_arts": [
+      "Architecture of forts and temples",
+      "Sculpture and stone carvings",
+      "Classical music and dance"
+    ]
+  },
+  {
+    "id": "parihar",
+    "name": "Parihar Dynasty of Mandore",
+    "clan_origin": "Suryavanshi Rajput",
+    "founder": "Rao Siha",
+    "established_century": "6th Century AD",
+    "golden_era": "Reigns of Rao Chandrasen and Rao Kanhardev",
+    "history_summary": "The Parihar Dynasty of Mandore was a powerful and influential clan that ruled over the Marwar region of Rajasthan. Founded by Rao Siha in the 6th century AD, the dynasty played a significant role in shaping the history of the region. The Parihars were known for their bravery, military prowess, and patronage of the arts, and their reign is often referred to as the golden era of Mandore. During their rule, the city of Mandore flourished as a major cultural and commercial center, attracting scholars, artists, and merchants from all over India.",
+    "emblem_url": "https://images.unsplash.com/photo-1618773928478-7444c0c2a5d5",
+    "capital_city_ids": [
+      "mandore",
+      "jodhpur"
+    ],
+    "patronage_arts": [
+      "Architecture of Mandore Gardens",
+      "Parihar School of Painting",
+      "Classical Rajasthani Music"
+    ]
+  },
+  {
+    "id": "guhila",
+    "name": "Guhila Dynasty of Mewar",
+    "clan_origin": "Guhilot or Guhila, a branch of the Suryavanshi Rajputs",
+    "founder": "Bappa Rawal",
+    "established_century": "8th Century AD",
+    "golden_era": "Reigns of Rana Kumbha and Rana Sanga, who expanded the kingdom and patronized arts and architecture",
+    "history_summary": "The Guhila Dynasty of Mewar was a powerful and influential Rajput kingdom that ruled over the region from the 8th to the 12th centuries. Founded by Bappa Rawal, the dynasty played a significant role in shaping the history of Rajasthan. The Guhilas were known for their bravery, military prowess, and patronage of arts and architecture. They built several iconic structures, including the famous Eklingji Temple, which remains a testament to their rich cultural heritage.",
+    "emblem_url": "https://images.unsplash.com/photo-1593642634315-4436f3555fa1",
+    "capital_city_ids": [
+      "chittorgarh",
+      "nagda"
+    ],
+    "patronage_arts": [
+      "Architecture of Hindu temples",
+      "Rajasthani miniature paintings",
+      "Classical music and dance forms like Kathak and Bharatanatyam"
+    ]
+  },
+  {
+    "id": "dahiya",
+    "name": "Dahiya Dynasty of Rajasthan",
+    "clan_origin": "Chandravanshi Rajput",
+    "founder": "Dahia Rao",
+    "established_century": "12th Century AD",
+    "golden_era": "Reigns of Rao Deva and Rao Shankar",
+    "history_summary": "The Dahiya Dynasty was a medieval power that ruled parts of Rajasthan, particularly in the regions of Marwar and Mewar. Founded by Dahia Rao in the 12th century, the dynasty played a significant role in the regional politics and was known for its bravery and military prowess. The Dahiya rulers were patrons of art, architecture, and literature, and their reign saw the construction of several notable temples, forts, and palaces. The dynasty's influence began to wane in the 16th century, but its legacy continues to be felt in the cultural and historical heritage of Rajasthan.",
+    "emblem_url": "https://images.unsplash.com/photo-1618773925669-ecce7e5e5c4e",
+    "capital_city_ids": [
+      "jodhpur",
+      "bikaner"
+    ],
+    "patronage_arts": [
+      "Rajasthani miniature paintings",
+      "Mewari architecture",
+      "Marwari folk music and dance"
+    ]
+  },
+  {
+    "id": "tanwar",
+    "name": "Tanwar (Tomar) Dynasty",
+    "clan_origin": "Suryavanshi Rajput",
+    "founder": "Anangpal Tomar",
+    "established_century": "8th Century AD",
+    "golden_era": "Reigns of Anangpal Tomar and Prithviraj Chauhan",
+    "history_summary": "The Tanwar dynasty, also known as the Tomar dynasty, was a powerful and influential clan that ruled over the Delhi region from the 8th to the 12th centuries. They were known for their bravery, military prowess, and patronage of the arts. The dynasty reached its zenith during the reign of Prithviraj Chauhan, who defeated several invading armies and expanded the kingdom's borders. The Tanwars were also known for their architectural achievements, including the construction of the Qila Rai Pithora fort in Delhi.",
+    "emblem_url": "https://images.unsplash.com/photo-1593642634316-4437a4e361b4",
+    "capital_city_ids": [
+      "delhi",
+      "hansi"
+    ],
+    "patronage_arts": [
+      "Hindu temple architecture",
+      "Sanskrit literature",
+      "Classical Indian music"
+    ]
+  }
+]

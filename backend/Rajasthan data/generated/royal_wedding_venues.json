@@ -1,0 +1,726 @@
+[
+  {
+    "id": "city-palace-udaipur-venue",
+    "name": "City Palace, Udaipur",
+    "place_id": "lake-pichola",
+    "city_id": "udaipur",
+    "accommodation_details": {
+      "rooms": 30,
+      "suites": 10,
+      "decor": "Mewar-style architecture with intricate frescoes, ornate mirror work, and beautifully landscaped gardens"
+    },
+    "capacity": "150 - 500 Guests",
+    "amenities": [
+      "Lakeside mandap with breathtaking views of Lake Pichola",
+      "Royal spa with traditional Ayurvedic treatments",
+      "Private courtyards for intimate gatherings",
+      "Exquisite crystal and silverware for fine dining experiences"
+    ],
+    "pricing_range": "Ultra-Luxury (Premium)",
+    "contact_details": {
+      "email": "citypalaceudaipur@example.com",
+      "phone": "+91 294 252 8000"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619856697648-3c2c3f2f2c2c",
+      "https://images.unsplash.com/photo-1623423434343-4b4b4b4b4b4b",
+      "https://images.unsplash.com/photo-1632132131313-1a1a1a1a1a1a"
+    ]
+  },
+  {
+    "id": "the-oberoi-udaivilas-udaipur-venue",
+    "name": "The Oberoi Udaivilas, Udaipur",
+    "place_id": "lake-pichola",
+    "city_id": "udaipur",
+    "accommodation_details": {
+      "rooms": 87,
+      "suites": 4,
+      "decor": "Inspired by the grandeur of Mewar, the hotel features intricate Mughal and Rajasthani architecture, with beautifully landscaped gardens and serene water features"
+    },
+    "capacity": "150 - 300 Guests",
+    "amenities": [
+      "Private lakeside dining",
+      "Exclusive spa and wellness center",
+      "Personalized butler service",
+      "Lakeside mandap for wedding ceremonies",
+      "Private swimming pools and outdoor terraces"
+    ],
+    "pricing_range": "Ultra-Luxury (Premium)",
+    "contact_details": {
+      "email": "udaivilas@oberoihotels.com",
+      "phone": "+91 294 243 3300"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1593642634315-4436f3555e8f",
+      "https://images.unsplash.com/photo-1579621814441-71c95a67cc7a",
+      "https://images.unsplash.com/photo-1584296507914-7475f2370a1b"
+    ]
+  },
+  {
+    "id": "taj-lake-palace-udaipur-venue",
+    "name": "Taj Lake Palace",
+    "place_id": "lake-pichola",
+    "city_id": "udaipur",
+    "accommodation_details": {
+      "rooms": 66,
+      "suites": 17,
+      "decor": "Majestic architecture with intricate carvings and ornate decor, reflecting the grandeur of Mewar dynasty"
+    },
+    "capacity": "150 - 300 Guests",
+    "amenities": [
+      "Lakeside mandap",
+      "Royal spa",
+      "Private jetty for boat arrivals",
+      "Exclusive swimming pool",
+      "World-class fitness center"
+    ],
+    "pricing_range": "Ultra-Luxury (Premium)",
+    "contact_details": {
+      "email": "lakepalace.udaipur@tajhotels.com",
+      "phone": "+91 294 242 8800"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619854735331-3a7c9c bee4c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "https://images.unsplash.com/photo-1582719088318-2e8f6e1c7d2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
+      "https://images.unsplash.com/photo-1619854735331-3a7c9c bee4c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    ]
+  },
+  {
+    "id": "fateh-prakash-palace-udaipur-venue",
+    "name": "Fateh Prakash Palace",
+    "place_id": "lake-pichola",
+    "city_id": "udaipur",
+    "accommodation_details": {
+      "rooms": 65,
+      "suites": 15,
+      "decor": "Exquisite blend of Rajasthani and Mughal architecture with intricate stone carvings, ornate frescoes, and majestic domes"
+    },
+    "capacity": "150 - 300 Guests",
+    "amenities": [
+      "Lakeside mandap with breathtaking views of Lake Pichola",
+      "Royal spa offering traditional Ayurvedic massages and treatments",
+      "Exclusive access to the palace's ornate courtyards and gardens",
+      "Personalized butler service for the wedding party",
+      "Customized catering with a range of traditional Rajasthani and international cuisine"
+    ],
+    "pricing_range": "Ultra-Luxury (Premium)",
+    "contact_details": {
+      "email": "fatehprakashpalace@udaipur.com",
+      "phone": "+91 294 252 8000"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1593642634315-62a99bfbf2c0",
+      "https://images.unsplash.com/photo-1605822657176-409a2c6f2c7a",
+      "https://images.unsplash.com/photo-1587620948187-95e2797f8a4c"
+    ]
+  },
+  {
+    "id": "shiv-niwas-palace-udaipur-venue",
+    "name": "Shiv Niwas Palace",
+    "place_id": "city-palace-udaipur",
+    "city_id": "udaipur",
+    "accommodation_details": {
+      "rooms": 36,
+      "suites": 6,
+      "decor": "Exquisite blend of Mewar and European architectural styles with intricate stone carvings, ornate frescoes, and lavish furnishings"
+    },
+    "capacity": "100 - 250 Guests",
+    "amenities": [
+      "Lakeside lawns with breathtaking views of Lake Pichola",
+      "Royal spa and wellness center offering traditional Ayurvedic treatments",
+      "Private courtyards and gardens for intimate gatherings",
+      "Exclusive access to the City Palace Museum and Crystal Gallery"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "shivniwasvenue@udaipurroyal.com",
+      "phone": "+91 294 252 8000"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1618773921734-3f2f3c bee4e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1605822657553-77f7e5f3e2b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+      "https://images.unsplash.com/photo-1582719084584-6d7f75c bee4e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    ]
+  },
+  {
+    "id": "jagmandir-island-palace-udaipur-venue",
+    "name": "Jagmandir Island Palace",
+    "place_id": "lake-pichola",
+    "city_id": "udaipur",
+    "accommodation_details": {
+      "rooms": 21,
+      "suites": 6,
+      "decor": "Mughal and Rajput architectural styles with intricate marble inlays, ornate frescoes, and majestic domes"
+    },
+    "capacity": "100 - 250 Guests",
+    "amenities": [
+      "Lakeside mandap with breathtaking views of Lake Pichola",
+      "Royal spa with Ayurvedic treatments and massages",
+      "Private gardens and courtyards for intimate gatherings",
+      "Exclusive access to the palace's historic halls and chambers"
+    ],
+    "pricing_range": "Ultra-Luxury (Premium)",
+    "contact_details": {
+      "email": "jagmandirpalace@udaipur.com",
+      "phone": "+91 294 252 8000"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1618871111405-8e2e5c3c4f3b",
+      "https://images.unsplash.com/photo-1593642634316-07c4a4c9d6d4",
+      "https://images.unsplash.com/photo-1605822657553-05c9f9c4c4d4"
+    ]
+  },
+  {
+    "id": "rambagh-palace-jaipur-venue",
+    "name": "Rambagh Palace",
+    "place_id": null,
+    "city_id": "jaipur",
+    "accommodation_details": {
+      "rooms": 79,
+      "suites": 45,
+      "decor": "Opulent blend of Rajput and Mughal architectural styles with intricately carved marble, sandstone, and ornate furnishings"
+    },
+    "capacity": "100 - 500 Guests",
+    "amenities": [
+      "Lush gardens and lawns for outdoor weddings",
+      "Indoor and outdoor swimming pools",
+      "Exclusive spa and wellness center",
+      "Fine dining restaurants serving Rajasthani and international cuisine",
+      "Private meeting and event spaces"
+    ],
+    "pricing_range": "Ultra-Luxury (Premium)",
+    "contact_details": {
+      "email": "rambagh.palace@email.com",
+      "phone": "+91 141 238 5700"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619851167555-2c8c1e5f1c4e",
+      "https://images.unsplash.com/photo-162244586113 erotisch-2c8c1e5f1c4e",
+      "https://images.unsplash.com/photo-1619851167555-2c8c1e5f1c4"
+    ]
+  },
+  {
+    "id": "jai-mahal-palace-jaipur-venue",
+    "name": "Jai Mahal Palace",
+    "place_id": "jai-mahal-palace",
+    "city_id": "jaipur",
+    "accommodation_details": {
+      "rooms": 100,
+      "suites": 6,
+      "decor": "A blend of Indo-Saracenic architecture with intricate Mughal and Rajput styles, reflecting the rich cultural heritage of Rajasthan"
+    },
+    "capacity": "150 - 300 Guests",
+    "amenities": [
+      "Lush green lawns",
+      "Ornate courtyards",
+      "Royal spa and wellness center",
+      "Exclusive dining areas",
+      "Majestic banquet halls"
+    ],
+    "pricing_range": "Ultra-Luxury (Premium)",
+    "contact_details": {
+      "email": "info@jaimahalpalace.com",
+      "phone": "+91 141 663 3000"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619854739891-3e2c bee7f6b5",
+      "https://images.unsplash.com/photo-1619854739892-3e2c bee7f6b6",
+      "https://images.unsplash.com/photo-1619854739893-3e2c bee7f6b7"
+    ]
+  },
+  {
+    "id": "samode-palace-jaipur-venue",
+    "name": "Samode Palace",
+    "place_id": null,
+    "city_id": "jaipur",
+    "accommodation_details": {
+      "rooms": 43,
+      "suites": 4,
+      "decor": "Exquisite blend of Mughal and Rajasthani architecture, with intricate frescoes, ornate marble floors, and beautifully manicured gardens"
+    },
+    "capacity": "100 - 250 Guests",
+    "amenities": [
+      "Lush green lawns",
+      "Ornate courtyards",
+      "Private dining areas",
+      "Royal spa",
+      "Swimming pool"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "info@samodepalace.com",
+      "phone": "+91 1423 240 123"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619856697648-4f5f6e2e5c4e",
+      "https://images.unsplash.com/photo-1622446684366-4c4e2e2e5c4e",
+      "https://images.unsplash.com/photo-1623464211815-3c3c3c3c3c3c"
+    ]
+  },
+  {
+    "id": "fairmont-jaipur-jaipur-venue",
+    "name": "Fairmont Jaipur",
+    "place_id": null,
+    "city_id": "jaipur",
+    "accommodation_details": {
+      "rooms": 245,
+      "suites": 5,
+      "decor": "Inspired by the Mughal and Rajasthani architecture, the decor is a blend of traditional and modern elements, with intricate stone carvings, majestic domes, and beautifully landscaped gardens."
+    },
+    "capacity": "150 - 800 Guests",
+    "amenities": [
+      "Lush green lawns",
+      "Majestic banquet halls",
+      "Royal spa and wellness center",
+      "Outdoor swimming pool",
+      "Fitness center",
+      "Business center"
+    ],
+    "pricing_range": "Ultra-Luxury (Premium)",
+    "contact_details": {
+      "email": "fairmontjaipur@fairmont.com",
+      "phone": "+91 141 229 8100"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619854739892-3c3e2a5e2d7f",
+      "https://images.unsplash.com/photo-1609454928575-4c0e2c6f4d9d",
+      "https://images.unsplash.com/photo-1584129711611-7a54e5e2a8a1"
+    ]
+  },
+  {
+    "id": "raj-palace-jaipur-venue",
+    "name": "Raj Palace",
+    "place_id": null,
+    "city_id": "jaipur",
+    "accommodation_details": {
+      "rooms": 60,
+      "suites": 15,
+      "decor": "Exquisite blend of Mughal and Rajput architectural styles, adorned with intricate frescoes, ornate furnishings, and lavish decor"
+    },
+    "capacity": "200 - 500 Guests",
+    "amenities": [
+      "Lush green lawns",
+      "Ornate courtyards",
+      "Royal spa and wellness center",
+      "Exclusive dining areas",
+      "Majestic banquet halls"
+    ],
+    "pricing_range": "Ultra-Luxury (Premium)",
+    "contact_details": {
+      "email": "info@rajpalacejaipur.com",
+      "phone": "+91 141 235 3888"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619856697648-3befe0c bee3d",
+      "https://images.unsplash.com/photo-1623113931978-9e2e5f9e5f4a",
+      "https://images.unsplash.com/photo-1606787620817-8a9d5b7a3e44"
+    ]
+  },
+  {
+    "id": "mundota-fort-and-palace-jaipur-venue",
+    "name": "Mundota Fort and Palace",
+    "place_id": null,
+    "city_id": "jaipur",
+    "accommodation_details": {
+      "rooms": 20,
+      "suites": 10,
+      "decor": "Rajput architecture with intricate stone carvings, ornate furnishings, and traditional Rajasthani motifs"
+    },
+    "capacity": "150 - 300 Guests",
+    "amenities": [
+      "Lakeside mandap",
+      "Royal spa",
+      "Private courtyards",
+      "Exclusive dining areas",
+      "Traditional Rajasthani folk performances"
+    ],
+    "pricing_range": "Ultra-Luxury (Premium)",
+    "contact_details": {
+      "email": "info@mundotafort.com",
+      "phone": "+91 141 1234567"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619856697648-3befe6e5c5f4",
+      "https://images.unsplash.com/photo-1605822657553-0a4e2f2d5c4a",
+      "https://images.unsplash.com/photo-1587391675874-5c2c6f2f3f1c"
+    ]
+  },
+  {
+    "id": "neemrana-fort-palace-alwar-venue",
+    "name": "Neemrana Fort Palace",
+    "place_id": null,
+    "city_id": "alwar",
+    "accommodation_details": {
+      "rooms": 72,
+      "suites": 6,
+      "decor": "14th-century architecture with a blend of Indian and European styles, featuring intricate carvings, ornate frescoes, and majestic arches"
+    },
+    "capacity": "150 - 500 Guests",
+    "amenities": [
+      "Rooftop wedding area with breathtaking views of the Aravalli hills",
+      "Heritage spa with traditional Indian massages and treatments",
+      "Lush green gardens and courtyards for outdoor ceremonies and receptions",
+      "Indoor and outdoor swimming pools",
+      "Exclusive lounge and bar with a wide range of cocktails and spirits"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "weddings@neemranafortpalace.com",
+      "phone": "+91 1494 246007"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619854735333-2f2e2f2f2f2f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max",
+      "https://images.unsplash.com/photo-1623423423423-2f2e2f2f2f2f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max",
+      "https://images.unsplash.com/photo-1633423423423-2f2e2f2f2f2f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max"
+    ]
+  },
+  {
+    "id": "suryagarh-jaisalmer-venue",
+    "name": "Suryagarh",
+    "place_id": "jaisalmer-fort",
+    "city_id": "jaisalmer",
+    "accommodation_details": {
+      "rooms": 62,
+      "suites": 2,
+      "decor": "Inspired by the majestic architecture of Jaisalmer Fort, with intricate stone carvings, and ornate furnishings, blending traditional Rajasthani style with modern luxury"
+    },
+    "capacity": "150 - 300 Guests",
+    "amenities": [
+      "Lush green lawns for outdoor weddings",
+      "Exquisite courtyard for cocktail parties",
+      "Royal spa with rejuvenating treatments",
+      "State-of-the-art fitness center",
+      "Delectable cuisine at the in-house restaurant"
+    ],
+    "pricing_range": "Ultra-Luxury (Premium)",
+    "contact_details": {
+      "email": "weddings@suryagarh.com",
+      "phone": "+91 02992 269 269"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619856697648-3a5d2f9f4f6b",
+      "https://images.unsplash.com/photo-1622445862164-ffa5e5e5f2f4",
+      "https://images.unsplash.com/photo-1627951024545-5c9a4c9c9c9c"
+    ]
+  },
+  {
+    "id": "fort-rajwada-jaisalmer-venue",
+    "name": "Fort Rajwada",
+    "place_id": "jaisalmer-fort",
+    "city_id": "jaisalmer",
+    "accommodation_details": {
+      "rooms": 65,
+      "suites": 11,
+      "decor": "Exquisite blend of traditional Rajasthani architecture and modern luxury, with intricate stone carvings, majestic arches, and ornate furnishings"
+    },
+    "capacity": "100 - 250 Guests",
+    "amenities": [
+      "Majestic Fort View",
+      "Royal Spa and Wellness Center",
+      "Lush Green Lawns",
+      "Exquisite Dining Hall",
+      "Rooftop Restaurant with panoramic views of Jaisalmer Fort"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "info@fortrajwada.com",
+      "phone": "+91 02992 252 222"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619851167553-5c5a5e2e5a6e",
+      "https://images.unsplash.com/photo-1622445861245-5c9a3e2a5a6e",
+      "https://images.unsplash.com/photo-1625861167553-5c5a5e2e5a6e"
+    ]
+  },
+  {
+    "id": "umaid-bhawan-palace-jodhpur-venue",
+    "name": "Umaid Bhawan Palace",
+    "place_id": null,
+    "city_id": "jodhpur",
+    "accommodation_details": {
+      "rooms": 70,
+      "suites": 22,
+      "decor": "Art Deco and Victorian architecture blended with traditional Indian styles"
+    },
+    "capacity": "100 - 500 Guests",
+    "amenities": [
+      "Private courtyard",
+      "Royal spa",
+      "Indoor and outdoor swimming pools",
+      "Tennis and squash courts",
+      "Billiards room",
+      "Library",
+      "Private museum"
+    ],
+    "pricing_range": "Ultra-Luxury (Premium)",
+    "contact_details": {
+      "email": "umaidbhawanpalace@email.com",
+      "phone": "+91 291 251 0101"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619851167433-6e2c9e5e5e6c",
+      "https://images.unsplash.com/photo-1623474456155-4c9f4e5f5e5f",
+      "https://images.unsplash.com/photo-1631164443728-4e2c4e5e5e5e"
+    ]
+  },
+  {
+    "id": "ajit-bhawan-jodhpur-venue",
+    "name": "Ajit Bhawan",
+    "place_id": "mehrangarh-fort",
+    "city_id": "jodhpur",
+    "accommodation_details": {
+      "rooms": 60,
+      "suites": 12,
+      "decor": "Rajasthani architecture with intricate stone carvings, ornate furnishings, and traditional Indian motifs"
+    },
+    "capacity": "150 - 300 Guests",
+    "amenities": [
+      "Lush green lawns",
+      "Heritage palace suites",
+      "Royal spa and wellness center",
+      "Outdoor swimming pool",
+      "Exclusive dining areas"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "info@ajitbhawan.com",
+      "phone": "+91 291 251 0411"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619856697648-3c4befe0e0e5",
+      "https://images.unsplash.com/photo-1622445862164-ffd6f4e2c2c4",
+      "https://images.unsplash.com/photo-1625869461735-0a1a5c5f90c4"
+    ]
+  },
+  {
+    "id": "raas-jodhpur-jodhpur-venue",
+    "name": "RAAS Jodhpur",
+    "place_id": "mehrangarh-fort",
+    "city_id": "jodhpur",
+    "accommodation_details": {
+      "rooms": 39,
+      "suites": 4,
+      "decor": "RAAS Jodhpur's decor is a masterful blend of modern luxury and traditional Rajasthani architecture, with intricate stone carvings, elegant furnishings, and beautifully landscaped gardens."
+    },
+    "capacity": "100 - 200 Guests",
+    "amenities": [
+      "Private walled gardens",
+      "Lavish courtyards",
+      "Rooftop restaurant with stunning views of Mehrangarh Fort",
+      "Luxurious spa and wellness center",
+      "Exclusive boutique shopping"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "info@raasjodhpur.com",
+      "phone": "+91 291 263 6455"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619856697648-3b6b7f2e2e5b",
+      "https://images.unsplash.com/photo-1605822657176-ff4e5c5b9a6c",
+      "https://images.unsplash.com/photo-1587391675874-5b5e3c2f0e1c"
+    ]
+  },
+  {
+    "id": "chanoud-garh-pali-venue",
+    "name": "Chanoud Garh",
+    "place_id": null,
+    "city_id": "pali",
+    "accommodation_details": {
+      "rooms": 12,
+      "suites": 4,
+      "decor": "Rajputana architecture with intricate stone carvings, ornate frescoes, and majestic domes"
+    },
+    "capacity": "100 - 250 Guests",
+    "amenities": [
+      "Lush green lawns",
+      "Private swimming pool",
+      "Rooftop dining with panoramic views of the Aravalli hills",
+      "Royal spa with traditional Ayurvedic treatments",
+      "Exclusive bar with premium spirits"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "info@chanoudgarh.com",
+      "phone": "+91 02935 262200"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619856697948-2c5b5c2e7c4c",
+      "https://images.unsplash.com/photo-1622442223625-4e5e5c4e5c4c",
+      "https://images.unsplash.com/photo-1626596596596-5c5c5c5c5c5c"
+    ]
+  },
+  {
+    "id": "chomu-palace-jaipur-venue",
+    "name": "Chomu Palace",
+    "place_id": null,
+    "city_id": "jaipur",
+    "accommodation_details": {
+      "rooms": 30,
+      "suites": 10,
+      "decor": "Rajput architecture with intricate frescoes, ornate furnishings, and traditional Indian motifs"
+    },
+    "capacity": "100 - 500 Guests",
+    "amenities": [
+      "Lush green lawns",
+      "Ornate courtyards",
+      "Royal spa and wellness center",
+      "Exclusive dining areas",
+      "Heritage-themed decor"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "info@chomupalace.com",
+      "phone": "+91 141 1234567"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619854739891-3a3a93e0e3f4",
+      "https://images.unsplash.com/photo-1622442222222-3a3a93e0e3f4",
+      "https://images.unsplash.com/photo-1633333333333-3a3a93e0e3f4"
+    ]
+  },
+  {
+    "id": "deogarh-mahal-rajsamand-venue",
+    "name": "Deogarh Mahal",
+    "place_id": "deogarh-mahal",
+    "city_id": "rajsamand",
+    "accommodation_details": {
+      "rooms": 50,
+      "suites": 15,
+      "decor": "A blend of Rajput and Mughal architectural styles with intricate stone carvings, ornate furnishings, and vibrant colors"
+    },
+    "capacity": "100 - 250 Guests",
+    "amenities": [
+      "Lush green gardens",
+      "Private courtyards",
+      "Rooftop dining with a view of the Aravalli hills",
+      "Royal spa and wellness center",
+      "Exclusive lounge areas"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "info@deogarhmahal.com",
+      "phone": "+91 02957 254 000"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619856698095-6f2c5b9a3e3e",
+      "https://images.unsplash.com/photo-1619856698096-2a5a5a3e3e3e",
+      "https://images.unsplash.com/photo-1619856698097-4f2c5b9a3e3e"
+    ]
+  },
+  {
+    "id": "alsisar-mahal-jhunjhunu-venue",
+    "name": "Alsisar Mahal",
+    "place_id": null,
+    "city_id": "jhunjhunu",
+    "accommodation_details": {
+      "rooms": 51,
+      "suites": 5,
+      "decor": "Shekhawati architecture with intricate frescoes and ornate furnishings"
+    },
+    "capacity": "100 - 500 Guests",
+    "amenities": [
+      "Lush green lawns",
+      "Heritage palace suites",
+      "Royal spa and wellness center",
+      "Outdoor swimming pool",
+      "Indoor and outdoor games"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "info@alsisarmahal.com",
+      "phone": "+91-1593-273232"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619856697948-5c7a3d8f4e3c",
+      "https://images.unsplash.com/photo-1622445862166-4a5c9c9f2c4d",
+      "https://images.unsplash.com/photo-1622445862167-5a5c9c9f2c4e"
+    ]
+  },
+  {
+    "id": "narain-niwas-palace-jaipur-venue",
+    "name": "Narain Niwas Palace",
+    "place_id": null,
+    "city_id": "jaipur",
+    "accommodation_details": {
+      "rooms": 37,
+      "suites": 5,
+      "decor": "Blending traditional Rajasthani and Anglo-Indian architectural styles, with intricate stone carvings, ornate furnishings, and lush gardens"
+    },
+    "capacity": "100 - 250 Guests",
+    "amenities": [
+      "Lush green lawns for outdoor weddings",
+      "Ornate courtyards for intimate gatherings",
+      "Royal spa with traditional Ayurvedic treatments",
+      "Exclusive dining areas serving local and international cuisine"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "info@narainniwaspalace.com",
+      "phone": "+91 141 2680251"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619854735339-8c9e2f4e2e9c",
+      "https://images.unsplash.com/photo-1605822657553-04e2f6e5a5d2",
+      "https://images.unsplash.com/photo-1582719470594-34c0d8a564d5"
+    ]
+  },
+  {
+    "id": "bhanwar-singh-palace-pushkar-venue",
+    "name": "Bhanwar Singh Palace",
+    "place_id": "pushkar-lake",
+    "city_id": "ajmer",
+    "accommodation_details": {
+      "rooms": 20,
+      "suites": 5,
+      "decor": "Traditional Rajasthani architecture with intricate stone carvings, majestic domes, and ornate frescoes, blending seamlessly with modern luxury amenities"
+    },
+    "capacity": "100 - 250 Guests",
+    "amenities": [
+      "Lush Green Lawns",
+      "Ornate Courtyards",
+      "Rooftop with panoramic views of Pushkar Lake",
+      "Royal Spa and Wellness Center",
+      "Exclusive Dining Areas"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "info@bhanwarsinghpalace.com",
+      "phone": "+91 145 277 3000"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1618773929084-0c6f2c2f2c6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1611231811968-81a5f2f2f2f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1618773929084-0c6f2c2f2c6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    ]
+  },
+  {
+    "id": "tijara-fort-palace-khairthal-tijara-venue",
+    "name": "Tijara Fort Palace",
+    "place_id": null,
+    "city_id": "alwar",
+    "accommodation_details": {
+      "rooms": 20,
+      "suites": 10,
+      "decor": "The Tijara Fort Palace showcases a blend of Rajput and Mughal architectural styles, with intricate stone carvings, ornate frescoes, and beautifully manicured gardens."
+    },
+    "capacity": "100 - 250 Guests",
+    "amenities": [
+      "Lush Green Lawns",
+      "Heritage Suites",
+      "Royal Spa",
+      "Open-Air Theater",
+      "Rooftop Dining"
+    ],
+    "pricing_range": "Luxury (High-End)",
+    "contact_details": {
+      "email": "info@tijarafortpalace.com",
+      "phone": "+91 01494 282111"
+    },
+    "image_urls": [
+      "https://images.unsplash.com/photo-1619856697948-2c2e2c6f2a5e",
+      "https://images.unsplash.com/photo-162244586113-INFRINGEMENT",
+      "https://images.unsplash.com/photo-1622445861133-2c2e2c6f2a5e"
+    ]
+  }
+]

@@ -1,0 +1,515 @@
+[
+  {
+    "id": "marwari",
+    "name": "Marwari Language",
+    "region_spoken": "Marwar region (Jodhpur, Jaisalmer, Barmer)",
+    "estimated_speakers": "7.8 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Khamma Ghani",
+        "meaning": "Hello / Many Greetings",
+        "context": "Used as a formal greeting"
+      },
+      {
+        "phrase": "Ram Ram",
+        "meaning": "Hello",
+        "context": "Informal greeting among friends and family"
+      },
+      {
+        "phrase": "Jai Bhagwan",
+        "meaning": "Victory to God",
+        "context": "Used to express gratitude or farewell"
+      }
+    ],
+    "literary_history": "Marwari language has a rich literary history, with notable works such as the 'Dingal' poetry of the Charan community, which dates back to the 12th century. The language has also been influenced by Rajasthani, Hindi, and Urdu. The Marwari language has been used in various forms of folk literature, including bardic poems and epics. The 'Maru-Gurjar' community has also contributed significantly to the literary heritage of the language, with their unique style of storytelling and poetry.",
+    "associated_communities": [
+      "Marwaris",
+      "Charans",
+      "Rajputs",
+      "Brahmins"
+    ]
+  },
+  {
+    "id": "mewari",
+    "name": "Mewari Language",
+    "region_spoken": "Mewar region (Udaipur, Chittorgarh, Rajsamand, Bhilwara)",
+    "estimated_speakers": "5.1 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Khamma Ghani",
+        "meaning": "Hello / Many Greetings",
+        "context": "Used as a formal greeting"
+      },
+      {
+        "phrase": "Dhanyavad",
+        "meaning": "Thank you",
+        "context": "Expressing gratitude"
+      },
+      {
+        "phrase": "Chalo",
+        "meaning": "Let's go",
+        "context": "Used to initiate movement or action"
+      }
+    ],
+    "literary_history": "Mewari has a rich literary history, with significant contributions to Rajasthani literature. The region has been home to many renowned poets and writers, including the famous bardic poet, Dursa Ajitha. The Mewari language has been used in various historical scripts, books, and epics, showcasing the region's cultural and literary heritage. The language has also been influenced by other languages such as Hindi, Gujarati, and Arabic, reflecting the region's strategic location and cultural exchange. Mewari literature often revolves around themes of love, nature, and the struggles of everyday life, providing a unique glimpse into the region's history and traditions.",
+    "associated_communities": [
+      "Rajputs",
+      "Brahmins",
+      "Jains",
+      "Merat-Koli"
+    ]
+  },
+  {
+    "id": "dhundhari-jaipuri",
+    "name": "Dhundhari (Jaipuri) Language",
+    "region_spoken": "Jaipur, Dausa, Tonk, and parts of Ajmer districts in Rajasthan",
+    "estimated_speakers": "20 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Khamma Ghani",
+        "meaning": "Hello / Many Greetings",
+        "context": "Used as a formal greeting"
+      },
+      {
+        "phrase": "Ram Ram",
+        "meaning": "Hello",
+        "context": "Informal greeting among friends and family"
+      },
+      {
+        "phrase": "Chalo Chalein",
+        "meaning": "Let's go",
+        "context": "Used to initiate movement or action"
+      }
+    ],
+    "literary_history": "Dhundhari language has a rich literary history, with notable works including the 'Bishnupad' and 'Dhola Maru Ra Duha' which are ancient ballads and folk songs. The language has been influenced by Rajasthani, Hindi, and Persian. The Dhundhari region has also been home to many prominent poets and writers, including the famous poet, Pandit Lakhmi Chand. The language has a significant contribution to the cultural heritage of Rajasthan, with many folk tales, proverbs, and riddles being passed down through generations.",
+    "associated_communities": [
+      "Rajputs",
+      "Brahmins",
+      "Jats",
+      "Gurjars",
+      "Meenas"
+    ],
+    "latitude": 26.9153,
+    "longitude": 75.7873
+  },
+  {
+    "id": "harauti-hadoti",
+    "name": "Harauti Language",
+    "region_spoken": "Hadoti region (Kota, Bundi, Jhalawar, Baran)",
+    "estimated_speakers": "2.5 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Ram Ram",
+        "meaning": "Hello",
+        "context": "Used as a casual greeting"
+      },
+      {
+        "phrase": "Kya haal hai",
+        "meaning": "How are you",
+        "context": "Used as a formal greeting"
+      },
+      {
+        "phrase": "Dhanyavad",
+        "meaning": "Thank you",
+        "context": "Used to express gratitude"
+      }
+    ],
+    "literary_history": "The Harauti language has a rich literary history, with influences from Rajasthani, Hindi, and Urdu. The region of Hadoti has been home to many prominent poets and writers, including the famous bardic poet, Kavi Keshav. The language has been used in various forms of folk literature, including bardic poems and epics. The most notable work in Harauti is the 'Katha Kirtan', a collection of devotional songs and stories.",
+    "associated_communities": [
+      "Meenas",
+      "Gurjars",
+      "Jats",
+      "Rajputs"
+    ]
+  },
+  {
+    "id": "shekhawati",
+    "name": "Shekhawati Language",
+    "region_spoken": "Shekhawati region (Sikar, Jhunjhunu, Churu)",
+    "estimated_speakers": "3.5 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Ram Ram",
+        "meaning": "Hello",
+        "context": "Used as a casual greeting"
+      },
+      {
+        "phrase": "Khamma Ghani",
+        "meaning": "Hello / Many Greetings",
+        "context": "Used as a formal greeting"
+      },
+      {
+        "phrase": "Jai Shri Ram",
+        "meaning": "Victory to Lord Rama",
+        "context": "Used as a blessing or farewell"
+      }
+    ],
+    "literary_history": "The Shekhawati language has a rich literary history, with many famous poets and writers contributing to its heritage. The region is known for its traditional folk songs and stories, which have been passed down through generations. The language has also been influenced by the works of famous Rajasthani poets such as Mirabai and Kabir. The Shekhawati region is home to many ancient manuscripts and scriptures, including the famous 'Shekhawati Ka Panchang', a collection of astrological and astronomical texts.",
+    "associated_communities": [
+      "Shekhawat Rajputs",
+      "Jats",
+      "Brahmins",
+      "Mahajans"
+    ]
+  },
+  {
+    "id": "mewati",
+    "name": "Mewati Language",
+    "region_spoken": "Alwar, Bharatpur and Dholpur districts of Rajasthan, and some parts of Haryana and Uttar Pradesh",
+    "estimated_speakers": "5 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Ram Ram",
+        "meaning": "Hello",
+        "context": "Used as a casual greeting among friends and family"
+      },
+      {
+        "phrase": "Kya haal hai",
+        "meaning": "How are you?",
+        "context": "Used as a formal greeting to inquire about someone's well-being"
+      },
+      {
+        "phrase": "Chalo chalo",
+        "meaning": "Let's go",
+        "context": "Used to invite someone to move or start a journey"
+      }
+    ],
+    "literary_history": "Mewati language has a rich literary history, with influences from Rajasthani, Hindi, and Urdu. The language has been used in various forms of folk literature, including bardic poems and epics. The most notable literary work in Mewati is the 'Vidrohi', a collection of poems written by the renowned Mewati poet, Kishori Lal. The language has also been used in various forms of folk music and dance, including the traditional 'Raas Leela' and 'Mayur Nritya'. The Mewati language has been an integral part of the cultural heritage of the region, with many notable writers and poets contributing to its literary wealth.",
+    "associated_communities": [
+      "Mewat community",
+      "Meo community",
+      "Rajput community",
+      "Gurjar community"
+    ]
+  },
+  {
+    "id": "bagri",
+    "name": "Bagri Language",
+    "region_spoken": "Jalore, Jodhpur, Pali, and Sirohi districts of Rajasthan; also spoken in some parts of Gujarat and Punjab",
+    "estimated_speakers": "1.4 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Chaachak pani",
+        "meaning": "Cold water",
+        "context": "Used to ask for water in a casual setting"
+      },
+      {
+        "phrase": "Khabo aaya",
+        "meaning": "I have come",
+        "context": "Used as a greeting when meeting someone"
+      },
+      {
+        "phrase": "Jao, khaana kha lo",
+        "meaning": "Go, eat food",
+        "context": "Used to invite someone to have a meal"
+      }
+    ],
+    "literary_history": "The Bagri language has a rich literary history, with many folk songs, poems, and stories passed down through generations. The language is known for its unique dialect and has been influenced by various languages such as Rajasthani, Hindi, and Gujarati. The Bagri language has also been used in various forms of traditional music and dance, such as the 'Langas' and 'Manganiyars' folk music. Despite its rich cultural heritage, the Bagri language is considered an endangered language and efforts are being made to preserve and promote it.",
+    "associated_communities": [
+      "Bhils",
+      "Minas",
+      "Gurjars",
+      "Rajputs"
+    ]
+  },
+  {
+    "id": "wagdi",
+    "name": "Wagdi Language",
+    "region_spoken": "Dungarpur and Banswara districts of southern Rajasthan",
+    "estimated_speakers": "Approximately 3.5 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Kem cho",
+        "meaning": "How are you",
+        "context": "Used as an informal greeting among friends and family"
+      },
+      {
+        "phrase": "Maja ma",
+        "meaning": "I'm fine",
+        "context": "Response to 'Kem cho' indicating the speaker is doing well"
+      },
+      {
+        "phrase": "Dhanyavad",
+        "meaning": "Thank you",
+        "context": "Expressing gratitude towards someone"
+      }
+    ],
+    "literary_history": "The Wagdi language has a rich literary history, with influences from the Bhil and Rajasthani languages. The region has been home to several notable poets and writers, including the famous Bhil poet, Kaka Kalu. The language has a strong oral tradition, with stories and legends passed down through generations. The Wagdi language has also been used in various folk songs and dances, showcasing the cultural heritage of the region.",
+    "associated_communities": [
+      "Bhil community",
+      "Garasia community",
+      "Damor community"
+    ]
+  },
+  {
+    "id": "godwari",
+    "name": "Godwari Language",
+    "region_spoken": "Godwar region (Sirohi, Pali, Jalore districts)",
+    "estimated_speakers": "2.5 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Ram Ram",
+        "meaning": "Hello / Greetings",
+        "context": "Used as a casual greeting among friends and family"
+      },
+      {
+        "phrase": "Khabar kaisi hai",
+        "meaning": "How are you?",
+        "context": "Used to inquire about someone's well-being"
+      },
+      {
+        "phrase": "Theek hai, dhanyavad",
+        "meaning": "I'm fine, thank you",
+        "context": "Used as a response to the previous question"
+      }
+    ],
+    "literary_history": "Godwari language has a rich literary history, with influences from Rajasthani, Gujarati, and Hindi. The region has been home to many renowned poets and writers, including the famous bard, Pancholi Doshi. The language has been used in various forms of folk literature, such as bardic poems and epics, which are still recited and sung by the local communities. The Godwari language has also been used in various historical scripts and books, including the 'Godwari Kavya', a collection of poems and songs written in the 18th century.",
+    "associated_communities": [
+      "Rathore",
+      "Bhil",
+      "Garasia",
+      "Dholi"
+    ]
+  },
+  {
+    "id": "malvi",
+    "name": "Malvi Language",
+    "region_spoken": "Malwa region (Ujjain, Indore, Ratlam, Mandsaur, Neemuch, and parts of Rajasthan)",
+    "estimated_speakers": "1.5 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Kya haal hai",
+        "meaning": "How are you?",
+        "context": "Used as an informal greeting among friends and family"
+      },
+      {
+        "phrase": "Chalo hum jaaye",
+        "meaning": "Let's go",
+        "context": "Used to initiate movement or action"
+      },
+      {
+        "phrase": "Dhanyavad",
+        "meaning": "Thank you",
+        "context": "Used to express gratitude"
+      }
+    ],
+    "literary_history": "The Malvi language has a rich literary history, with influences from Rajasthani, Hindi, and Gujarati. The region of Malwa has been home to many prominent poets and writers, including the famous Rajasthani poet, Dursa Ajitha. The language has been used in various forms of folk literature, such as bardic poems and epics, which are still recited and sung by local communities today. The Malvi language has also been used in various scripts, including the Devanagari script, which is still used today.",
+    "associated_communities": [
+      "Rathore",
+      "Chouhan",
+      "Parmar",
+      "Solanki"
+    ]
+  },
+  {
+    "id": "ahirwati",
+    "name": "Ahirwati Language",
+    "region_spoken": "Alwar, Bharatpur, and Dholpur districts of Rajasthan",
+    "estimated_speakers": "1.5 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Ram Ram",
+        "meaning": "Hello",
+        "context": "Used as a casual greeting"
+      },
+      {
+        "phrase": "Kya haal hai?",
+        "meaning": "How are you?",
+        "context": "Used as a formal greeting"
+      },
+      {
+        "phrase": "Dhanyavad",
+        "meaning": "Thank you",
+        "context": "Used to express gratitude"
+      }
+    ],
+    "literary_history": "Ahirwati language has a rich literary history, with influences from Rajasthani, Hindi, and Braj Bhasha. The language has been used in various folk songs, poems, and epics, showcasing the cultural heritage of the Ahir community. The most notable literary work in Ahirwati is the 'Veer Gatha', which narrates the stories of brave Ahir warriors. The language has also been used in various devotional songs and hymns, dedicated to Lord Krishna and other deities.",
+    "associated_communities": [
+      "Ahir",
+      "Yadav",
+      "Gurjar"
+    ],
+    "latitude": 27.5333,
+    "longitude": 76.6167
+  },
+  {
+    "id": "thali",
+    "name": "Thali Dialect",
+    "region_spoken": "Thali region (Alwar, Bharatpur, Dholpur)",
+    "estimated_speakers": "1.2 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Ram Ram",
+        "meaning": "Hello",
+        "context": "Used as an informal greeting"
+      },
+      {
+        "phrase": "Kya Haal Hai",
+        "meaning": "How are you?",
+        "context": "Used to inquire about someone's well-being"
+      },
+      {
+        "phrase": "Dhanyavad",
+        "meaning": "Thank you",
+        "context": "Used to express gratitude"
+      }
+    ],
+    "literary_history": "The Thali dialect has a rich literary history, with influences from Rajasthani, Hindi, and Urdu. The region has been home to many notable poets and writers, including the famous bard, Kavi Kankan. The dialect has been used in various forms of folk literature, including bardic poems and epics. The Thali dialect has also been influenced by the region's cultural and historical significance, with many stories and legends passed down through generations.",
+    "associated_communities": [
+      "Meena community",
+      "Gurjar community",
+      "Jat community"
+    ]
+  },
+  {
+    "id": "rajasthani",
+    "name": "Rajasthani Language",
+    "region_spoken": "Rajasthan state, including regions like Marwar, Mewar, Dhundhar, and Shekhawati",
+    "estimated_speakers": "50 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Khamma Ghani",
+        "meaning": "Hello / Many Greetings",
+        "context": "Used as a formal greeting"
+      },
+      {
+        "phrase": "Ram Ram",
+        "meaning": "Hello",
+        "context": "Informal greeting used among friends and family"
+      },
+      {
+        "phrase": "Dhanyavad",
+        "meaning": "Thank you",
+        "context": "Expressing gratitude towards someone"
+      }
+    ],
+    "literary_history": "Rajasthani language has a rich literary history, with notable works like the 'Bharatpur Epics' and 'Prithviraj Raso', an epic poem written by Chand Bardai. The language has also been influenced by various dialects like Marwari, Dhundhari, and Mewari, each with its unique scripts and bardic poems. The Rajasthani literature is known for its heroic tales, romantic ballads, and devotional songs, which have been passed down through generations by the Charans, a community of bards and poets. The language has also been used in various folk songs and dances, like the 'Kathputli' puppet shows, which are an integral part of Rajasthani culture.",
+    "associated_communities": [
+      "Rajputs",
+      "Charans",
+      "Bhils",
+      "Meenas",
+      "Jats"
+    ]
+  },
+  {
+    "id": "hindi",
+    "name": "Hindi Language",
+    "region_spoken": "Entire Rajasthan state, with major concentration in urban areas like Jaipur, Kota, and Ajmer",
+    "estimated_speakers": "25 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Namaste",
+        "meaning": "Hello / Greetings",
+        "context": "Used as a formal greeting, with hands clasped together"
+      },
+      {
+        "phrase": "Dhanyavad",
+        "meaning": "Thank you",
+        "context": "Expressing gratitude towards someone"
+      },
+      {
+        "phrase": "Chalo",
+        "meaning": "Let's go",
+        "context": "Used to initiate movement or action"
+      }
+    ],
+    "literary_history": "Hindi has a rich literary history in Rajasthan, with famous poets like Mirabai and Kabir contributing to the Bhakti movement. The language has been influenced by various dialects, including Rajasthani, and has been used in numerous literary works, such as the epic poem 'Bharatpur Ka Itihas'. Hindi is also the primary language used in education, government, and media in Rajasthan. The state has produced many renowned Hindi authors, including Narayan Chandur and Hari Joshi, who have made significant contributions to Hindi literature.",
+    "associated_communities": [
+      "Brahmins",
+      "Rajputs",
+      "Vaishyas",
+      "Jats"
+    ]
+  },
+  {
+    "id": "urdu",
+    "name": "Urdu Language",
+    "region_spoken": "Primarily spoken in North India, including Rajasthan, with significant presence in cities like Jaipur, Ajmer, and Kota",
+    "estimated_speakers": "50 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Assalamu alaikum",
+        "meaning": "Peace be upon you",
+        "context": "Used as a formal greeting among Muslims"
+      },
+      {
+        "phrase": "Khuda Hafiz",
+        "meaning": "God be your guardian",
+        "context": "Used as a formal goodbye"
+      },
+      {
+        "phrase": "Shukriya",
+        "meaning": "Thank you",
+        "context": "Expressing gratitude"
+      }
+    ],
+    "literary_history": "Urdu has a rich literary history, with significant contributions from poets like Mirza Ghalib, Amir Khusrau, and Faiz Ahmed Faiz. The language is known for its beautiful ghazals, which are poetic expressions of love and longing. Urdu literature has been heavily influenced by Persian, Arabic, and Turkish, and has played a significant role in the cultural and intellectual heritage of the Indian subcontinent. The language has also been used to write many famous works, including the poetry of Bahadur Shah Zafar, the last Mughal emperor.",
+    "associated_communities": [
+      "Muslims",
+      "Mughal descendants",
+      "Rajasthani Muslims",
+      "Hyderabadi Muslims"
+    ]
+  },
+  {
+    "id": "sindhi",
+    "name": "Sindhi Language",
+    "region_spoken": "Sindh region, also spoken in parts of Rajasthan, particularly in the districts of Jodhpur, Barmer, and Jaisalmer",
+    "estimated_speakers": "30 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Assan ji Vaari",
+        "meaning": "Goodbye",
+        "context": "Used as an informal farewell greeting"
+      },
+      {
+        "phrase": "Tunhin ji Salam",
+        "meaning": "Hello, greetings to you",
+        "context": "Used as a formal greeting"
+      },
+      {
+        "phrase": "Muhinjo Khair",
+        "meaning": "Farewell, may you have good health",
+        "context": "Used as a blessing when parting ways"
+      }
+    ],
+    "literary_history": "Sindhi language has a rich literary history, with famous poets such as Shah Abdul Latif Bhitai, Sachal Sarmast, and Ustad Bukhari. The language has been influenced by Arabic, Persian, and Sanskrit, and has a unique script. The Risalo of Shah Abdul Latif Bhitai is considered one of the most important works of Sindhi literature, and is still widely read and studied today. The language has also been used in various forms of folk music and dance, such as the Kaafi and the Bhajan.",
+    "associated_communities": [
+      "Sindhi Hindus",
+      "Sindhi Muslims",
+      "Sindhi Sikhs",
+      "Bhatias",
+      "Khatris"
+    ]
+  },
+  {
+    "id": "punjabi",
+    "name": "Punjabi Language",
+    "region_spoken": "Northwestern parts of Rajasthan, particularly in Sri Ganganagar and Hanumangarh districts",
+    "estimated_speakers": "1.5 Million speakers",
+    "vocabulary_samples": [
+      {
+        "phrase": "Sat sri akaal",
+        "meaning": "Hello / God is truth",
+        "context": "Used as a formal greeting"
+      },
+      {
+        "phrase": "Dhanyavad",
+        "meaning": "Thank you",
+        "context": "Expressing gratitude"
+      },
+      {
+        "phrase": "Chalo",
+        "meaning": "Let's go",
+        "context": "Used to initiate movement or action"
+      }
+    ],
+    "literary_history": "Punjabi has a rich literary history, with notable works including the Janamsakhis, which are biographical accounts of Guru Nanak's life. The Guru Granth Sahib, the holy scripture of Sikhism, is also written in Punjabi. The language has a long tradition of Sufi poetry and folk songs, which are still widely popular today. The works of famous Punjabi poets like Waris Shah and Bulleh Shah are considered classics of Punjabi literature.",
+    "associated_communities": [
+      "Sikhs",
+      "Punjabi Hindus",
+      "Rajasthani Punjabis"
+    ]
+  }
+]

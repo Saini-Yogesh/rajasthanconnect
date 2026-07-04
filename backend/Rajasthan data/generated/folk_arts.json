@@ -1,0 +1,808 @@
+[
+  {
+    "id": "ghoomar",
+    "name": "Ghoomar Dance",
+    "category": "Dance",
+    "origin_region": "Mewar Region of Rajasthan",
+    "history_origin": "Ghoomar is a traditional folk dance of Rajasthan, originating from the Mewar region. The dance is believed to have been performed by the royal women of the Mewar kingdom, showcasing their elegance and poise. The word 'Ghoomar' is derived from the Hindi word 'ghoomna', meaning 'to spin', which refers to the spinning movements of the dancers. This dance form has been an integral part of Rajasthani culture for centuries, with its roots dating back to the 15th century.",
+    "performance_details": "Ghoomar is typically performed by a group of women, who wear traditional attire including a long, flared skirt called a 'ghaghra' and a blouse called a 'choli'. The dancers move in a circular formation, spinning and twirling to the rhythm of traditional Rajasthani music. The dance involves intricate footwork and hand movements, with the dancers often using props such as earthen pots and sticks. The performance is usually accompanied by traditional Rajasthani instruments, including the 'dholak' and 'nagada'.",
+    "instruments_used": [
+      "dholak",
+      "nagada",
+      "sarangi",
+      "harmonium"
+    ],
+    "dress_code_props": [
+      "heavy flared ghagras",
+      "cholis",
+      "earthen pots",
+      "sticks",
+      "traditional jewelry"
+    ],
+    "key_exponents": [
+      "Queen Harshita Kumari of Mewar",
+      "Kumudini Lakhia",
+      "Gulabo Sapera"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1587391675404-6e2e2e4c4c3e",
+    "related_city_ids": [
+      "jaipur",
+      "udaipur",
+      "jodhpur",
+      "kota"
+    ]
+  },
+  {
+    "id": "kalbelia-dance",
+    "name": "Kalbelia Dance",
+    "category": "Dance",
+    "origin_region": "The Thar Desert region of Rajasthan, specifically among the Kalbelia community",
+    "history_origin": "The Kalbelia dance has its roots in the traditional folk culture of the Kalbelia community, a nomadic tribe known for their expertise in snake charming and their distinctive musical traditions. The dance is believed to have originated centuries ago, with its history intertwined with the myths and legends of the community. Over time, the dance has evolved to incorporate various influences, including those from other folk traditions and classical Indian dance forms. Today, the Kalbelia dance is recognized as an integral part of Rajasthan's rich cultural heritage, with efforts being made to preserve and promote this unique art form.",
+    "performance_details": "The Kalbelia dance is a dynamic and energetic performance, typically presented by a group of women who move in a circular formation, their bodies swaying to the rhythm of traditional folk music. The dance involves intricate footwork, rapid spins, and fluid movements, all of which require great skill and coordination. The performance is often accompanied by traditional Kalbelia music, played on instruments such as the pungi, dholak, and khanjari. The dance is usually performed during special occasions and festivals, and is an essential part of Kalbelia community gatherings and celebrations.",
+    "instruments_used": [
+      "Pungi",
+      "Dholak",
+      "Khanjari"
+    ],
+    "dress_code_props": [
+      "Traditional Kalbelia attire, including long, flowing black skirts and intricately designed blouses",
+      "Ornate jewelry, such as heavy earrings and necklaces",
+      "Colorful scarves and veils"
+    ],
+    "key_exponents": [
+      "Kesarbai Kalbelia",
+      "Rukmani Devi",
+      "Jodhabai Kalbelia"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1617874517905-3c1e7e2f4c4c",
+    "related_city_ids": [
+      "jaisalmer",
+      "jodhpur",
+      "bikaner"
+    ]
+  },
+  {
+    "id": "bhavai-dance",
+    "name": "Bhavai Dance",
+    "category": "Theatre",
+    "origin_region": "Rajasthan, specifically the Shekhawati and Marwar regions",
+    "history_origin": "Bhavai is an ancient folk theatre form that originated in the 12th century in the royal courts of Rajasthan. It is believed to have been created by the Bhavai community, a group of nomadic performers who traveled from village to village, entertaining audiences with their stories, songs, and dances. Over time, Bhavai evolved into a unique blend of theatre, music, and dance, with a focus on storytelling and social commentary. Today, Bhavai is an integral part of Rajasthan's cultural heritage, with performances taking place during festivals, fairs, and other special occasions.",
+    "performance_details": "A Bhavai performance typically involves a group of actors, musicians, and dancers who come together to tell a story through a combination of dialogue, song, and dance. The performance is usually accompanied by traditional instruments such as the dholak, nagara, and harmonium, and features elaborate costumes and props. The stories told through Bhavai are often based on mythological and historical themes, and are meant to entertain, educate, and inspire the audience. The performance is highly energetic and engaging, with the actors using a range of emotions, gestures, and movements to bring the story to life.",
+    "instruments_used": [
+      "dholak",
+      "nagara",
+      "harmonium"
+    ],
+    "dress_code_props": [
+      "colorful turbans",
+      "embroidered costumes",
+      "traditional jewelry",
+      "wooden masks"
+    ],
+    "key_exponents": [
+      "Kalyan Singh Bhavai",
+      "Rammurti Bhavai",
+      "Ghanshyam Bhavai"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1587391673625-7f0c4d2c2d4e",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "bikaner"
+    ]
+  },
+  {
+    "id": "chari-dance",
+    "name": "Chari Dance",
+    "category": "Dance",
+    "origin_region": "Kishangarh region of Rajasthan",
+    "history_origin": "The Chari Dance has its roots in the Kishangarh region of Rajasthan, dating back to the 16th century. This traditional folk dance is believed to have originated among the Gujjar community, who would perform it to celebrate the arrival of the monsoon season. The dance is said to have been inspired by the sound of the 'chari', a earthen pot used to store water, which the dancers balance on their heads while performing. Over time, the Chari Dance has evolved to become an integral part of Rajasthani culture, with its unique blend of music, dance, and storytelling.",
+    "performance_details": "The Chari Dance is typically performed by a group of women, who wear traditional attire and adorn themselves with intricate jewelry. The dance involves a series of intricate steps and movements, as the performers balance the 'chari' on their heads while singing and dancing to the rhythm of traditional folk songs. The dance is often performed during special occasions such as weddings, festivals, and harvest seasons, and is accompanied by the sound of traditional instruments like the 'dholak' and 'nagada'. The Chari Dance is a testament to the rich cultural heritage of Rajasthan, and its unique blend of music, dance, and storytelling continues to captivate audiences to this day.",
+    "instruments_used": [
+      "dholak",
+      "nagada",
+      "tambourine"
+    ],
+    "dress_code_props": [
+      "heavy flared ghagras",
+      "earthen pots",
+      "intricate jewelry",
+      "traditional Rajasthani attire"
+    ],
+    "key_exponents": [
+      "Kishangarh's Gujjar community",
+      "Rajasthani folk dance troupes"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1558981405-7148bb2a9a9e",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur"
+    ]
+  },
+  {
+    "id": "gair-dance",
+    "name": "Gair Dance",
+    "category": "Dance",
+    "origin_region": "Shekhawati and Marwar regions of Rajasthan",
+    "history_origin": "The Gair Dance has its roots in the medieval period, specifically in the Shekhawati and Marwar regions of Rajasthan. This traditional folk dance is believed to have originated as a form of entertainment and storytelling for the royal courts and local communities. Over time, it evolved into a unique blend of dance, music, and theater, showcasing the rich cultural heritage of the region. The Gair Dance is often performed during special occasions such as weddings, festivals, and fairs, and is considered an integral part of Rajasthan's folk traditions.",
+    "performance_details": "The Gair Dance is a dynamic and energetic performance that involves a group of men dancing in a circular formation, accompanied by traditional musical instruments such as the dholak, nagara, and shehnai. The dancers wear traditional attire, including a long tunic, pyjamas, and a colorful turban, and perform intricate footwork and spins to the rhythm of the music. The dance is often performed during the night, under the light of the full moon, and is said to be a mesmerizing spectacle that showcases the skill and agility of the dancers. The performance typically lasts for several hours, with the dancers taking breaks to rest and recharge.",
+    "instruments_used": [
+      "dholak",
+      "nagara",
+      "shehnai",
+      "chang"
+    ],
+    "dress_code_props": [
+      "long tunic",
+      "pyjamas",
+      "colorful turban",
+      "ghungroos"
+    ],
+    "key_exponents": [
+      "Kishan Lal",
+      "Ram Swaroop",
+      "Bhikha Ram"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1587391672727-0d5c4a5d7e6e",
+    "related_city_ids": [
+      "jodhpur",
+      "bikaner",
+      "sikar"
+    ]
+  },
+  {
+    "id": "terah-taali",
+    "name": "Terah Taali Dance",
+    "category": "Dance",
+    "origin_region": "The Thar Desert region of Rajasthan, specifically among the Kamad community",
+    "history_origin": "Terah Taali, which translates to 'thirteen beats', has its roots in the ancient traditions of the Kamad community in the Thar Desert region of Rajasthan. This dance form is believed to have originated over 200 years ago, with its history intertwined with the myths and legends of the region. The dance is said to have been performed by the Kamad women to invoke the gods and goddesses for the well-being of their families and community. Over time, Terah Taali has evolved into a unique and captivating dance form that showcases the rich cultural heritage of the region.",
+    "performance_details": "Terah Taali is a traditional folk dance that involves a complex series of hand and foot movements, accompanied by the rhythmic beating of manjeeras (small cymbals) and the chanting of folk songs. The dance is typically performed by a group of women, who are adorned in traditional attire and ornaments, and is characterized by its energetic and dynamic movements. The performance is often accompanied by a narrator who recites the mythological stories and legends associated with the dance. The dance is usually performed during special occasions such as festivals, weddings, and fairs, and is an integral part of the cultural landscape of the Thar Desert region.",
+    "instruments_used": [
+      "Manjeeras",
+      "Dholak",
+      "Nagada"
+    ],
+    "dress_code_props": [
+      "Traditional Rajasthani attire",
+      "Ornate jewelry",
+      "Manjeeras",
+      "Chunri"
+    ],
+    "key_exponents": [
+      "Kamad community artists",
+      "Rajasthani folk dance troupes"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1624562182391-2c0e5c9e2f4e",
+    "related_city_ids": [
+      "jaisalmer",
+      "jodhpur",
+      "bikaner"
+    ]
+  },
+  {
+    "id": "kachhi-ghodi-dance",
+    "name": "Kachhi Ghodi Dance",
+    "category": "Dance",
+    "origin_region": "Shekhawati region of Rajasthan",
+    "history_origin": "The Kachhi Ghodi Dance has its roots in the Shekhawati region of Rajasthan, where it originated as a traditional folk dance form. The dance is believed to have been performed by the local bhopa community, who would dress up in elaborate costumes and perform the dance to narrate stories of local heroes and mythological tales. The dance form is said to have been inspired by the traditional Rajasthani folk tales and the region's rich cultural heritage. Over time, the Kachhi Ghodi Dance has evolved and has become an integral part of Rajasthani folk culture, with performances being held during various festivals and celebrations.",
+    "performance_details": "The Kachhi Ghodi Dance is a highly energetic and acrobatic dance form, which involves a group of men dressed in elaborate costumes, including a dummy horse costume, known as the 'kachhi ghodi'. The dancers perform a series of intricate steps and movements, accompanied by traditional Rajasthani music and singing. The dance form is known for its high-energy performances, which include a range of acrobatic feats, including jumping, spinning, and somersaulting. The dancers also use a range of props, including sticks, swords, and shields, to add to the drama and spectacle of the performance.",
+    "instruments_used": [
+      "Nagada",
+      "Dholak",
+      "Chang"
+    ],
+    "dress_code_props": [
+      "Dummy horse costume",
+      "Elaborate turbans",
+      "Traditional Rajasthani attire",
+      "Sticks",
+      "Swords",
+      "Shields"
+    ],
+    "key_exponents": [
+      "Komal Kothari",
+      "Rajasthani Folk Dance Company"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1624566293431-5c9c bee7d8f2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    "related_city_ids": [
+      "sikar",
+      "jhunjhunu",
+      "churu"
+    ]
+  },
+  {
+    "id": "kathputli-pajasthan-puppetry",
+    "name": "Kathputli Puppetry",
+    "category": "Puppetry",
+    "origin_region": "Rajasthan, particularly in the Shekhawati region and surrounding areas",
+    "history_origin": "Kathputli, which translates to 'wooden doll' in Hindi, has its roots in the ancient traditions of Rajasthan. The art form is believed to have originated over 1,000 years ago, with the Bhat community being the primary custodians of this traditional puppetry. The puppets were initially made from wood, with intricate carvings and colorful costumes, and were used to narrate stories from mythology and folklore. Over time, the art form evolved to include string puppets, allowing for more complex and nuanced storytelling.",
+    "performance_details": "A Kathputli performance typically involves a group of skilled puppeteers, known as 'Bhats', who manipulate the puppets using a combination of strings and rods. The puppets are brought to life through a combination of music, dance, and storytelling, with the puppeteers using their voices to create different characters and emotions. The performances often feature stories from mythology and folklore, as well as contemporary issues and social commentary. The puppeteers use a range of techniques, including shadow puppetry and ventriloquism, to create a captivating and immersive experience for the audience.",
+    "instruments_used": [
+      "Nagada",
+      "Dholak",
+      "Harmonium",
+      "Sarangi"
+    ],
+    "dress_code_props": [
+      "Colorful costumes",
+      "Intricately carved wooden puppets",
+      "Strings and rods",
+      "Traditional Rajasthani attire"
+    ],
+    "key_exponents": [
+      "Kalyanpur Bhat",
+      "Purushottam Bhat",
+      "Rajasthani Puppeteer Troupe"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1624566293435-aea5f2e2c5c0",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "bikaner",
+      "ajmer"
+    ]
+  },
+  {
+    "id": "maand-singing",
+    "name": "Maand Singing",
+    "category": "Theatre",
+    "origin_region": "Marwar Region of Rajasthan",
+    "history_origin": "Maand singing has its roots in the royal courts of Jodhpur and other parts of the Marwar region, dating back to the 12th century. This traditional form of singing is believed to have originated among the Charan communities, who were known for their poetic and musical talents. Over time, Maand singing evolved into a distinct style, characterized by its unique blend of folk melodies and classical ragas. The art form was patronized by the rulers of Marwar, who encouraged its development and refinement.",
+    "performance_details": "Maand singing is typically performed by a group of singers, accompanied by traditional instruments such as the dholak, khartal, and sarangi. The performance begins with a slow and melancholic melody, which gradually builds up to a crescendo, showcasing the vocal range and expressiveness of the singers. The lyrics of Maand songs often revolve around themes of love, longing, and separation, and are characterized by their poetic depth and emotional intensity. The singers use intricate vocal techniques, such as meend and gamak, to convey the emotions and nuances of the lyrics.",
+    "instruments_used": [
+      "dholak",
+      "khartal",
+      "sarangi"
+    ],
+    "dress_code_props": [
+      "traditional Rajasthani attire",
+      "ornate turbans",
+      "heavy jewelry"
+    ],
+    "key_exponents": [
+      "Komal Kothari",
+      "Prakash Chand Surana",
+      "Ghanshyam Sapera"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1617871111111-11111111-1111",
+    "related_city_ids": [
+      "jodhpur",
+      "jaisalmer",
+      "bikaner"
+    ]
+  },
+  {
+    "id": "panihari-songs",
+    "name": "Panihari Songs",
+    "category": "Theatre",
+    "origin_region": "Rajasthan, specifically the Marwar region",
+    "history_origin": "Panihari songs have their roots in the traditional folk music of Rajasthan, dating back to the 14th century. These songs were primarily sung by women while fetching water from wells and other water sources, hence the name 'Panihari', which translates to 'water carrier'. The songs were a way for women to express their emotions, share stories, and connect with each other. Over time, Panihari songs have evolved to become an integral part of Rajasthani folk culture, often performed during social gatherings and festivals.",
+    "performance_details": "Panihari songs are typically performed by a group of women, who sing and dance in a circular formation. The performance involves intricate hand movements, clapping, and spinning, which are all synchronized to the rhythm of the song. The songs are often accompanied by traditional instruments like the 'dholak' and 'khartal', which add to the energetic and lively atmosphere of the performance. The lyrics of Panihari songs usually revolve around themes of love, nature, and everyday life, and are often improvised on the spot, making each performance unique and engaging.",
+    "instruments_used": [
+      "dholak",
+      "khartal",
+      "sarangi"
+    ],
+    "dress_code_props": [
+      "traditional Rajasthani attire",
+      "heavy jewelry",
+      "colorful dupattas"
+    ],
+    "key_exponents": [
+      "Komal Kothari",
+      "Rajasthani folk singer",
+      "Allah Jilai Bai"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1587391671816-ff4a4a5e2c9c",
+    "related_city_ids": [
+      "jodhpur",
+      "jaisalmer",
+      "bikaner"
+    ]
+  },
+  {
+    "id": "pabuji-ki-phad",
+    "name": "Pabuji Ki Phad",
+    "category": "Theatre",
+    "origin_region": "Rajasthan, specifically the Marwar region",
+    "history_origin": "Pabuji Ki Phad is an ancient folk art form that originated in the Marwar region of Rajasthan. It is a traditional narrative art form that depicts the life and deeds of the local hero, Pabuji, a Rajput warrior who lived in the 14th century. The phad is a long, rectangular cloth painting that is used to narrate the story of Pabuji, accompanied by music, dance, and dialogue. The art form is believed to have originated as a way to preserve the history and culture of the region, and has been passed down through generations of phad painters and performers.",
+    "performance_details": "The performance of Pabuji Ki Phad involves a phad painter, known as a bhopa, who sings and narrates the story of Pabuji, while unrolling the phad painting. The bhopa is accompanied by a musician who plays the ravanhatta, a traditional stringed instrument. The performance is typically held at night, and the audience gathers around the bhopa to listen to the story and watch the phad painting. The performance is a unique blend of music, dance, and theatre, and is an important part of the cultural heritage of Rajasthan.",
+    "instruments_used": [
+      "Ravanhatta",
+      "Dholak",
+      "Nagara"
+    ],
+    "dress_code_props": [
+      "Traditional Rajasthani attire",
+      "Phad painting",
+      "Ravanhatta instrument",
+      "Turban"
+    ],
+    "key_exponents": [
+      "Kalyan Joshi",
+      "Ghanshyam Joshi",
+      "Prabhulal Joshi"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1617871115511-5c4a4c6e0c4c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    "related_city_ids": [
+      "jodhpur",
+      "jaisalmer",
+      "bikaner"
+    ]
+  },
+  {
+    "id": "devnarayan-ki-phad",
+    "name": "Devnarayan Ki Phad",
+    "category": "Painting",
+    "origin_region": "Shahpura, Bhilwara district",
+    "history_origin": "Devnarayan Ki Phad is an ancient Rajasthani folk art that originated in the 17th century in the Bhilwara district of Rajasthan. The art form is named after the legendary hero-god Devnarayan, who is revered by the local community. The phad paintings depict the life and times of Devnarayan, showcasing his bravery, wisdom, and spiritual prowess. These paintings have been a vital part of the region's cultural heritage, serving as a visual representation of the community's history, mythology, and values.",
+    "performance_details": "Devnarayan Ki Phad paintings are created on long pieces of cloth, typically 10-15 feet in length, using natural dyes and pigments. The paintings are meticulously crafted by skilled artists, who use a range of techniques, including brushwork, stenciling, and appliqué, to bring the narrative to life. The phad paintings are often accompanied by musical performances, where the bhopa, a traditional singer, narrates the story of Devnarayan, while the phad is unrolled and displayed to the audience. The performance is a dynamic and engaging experience, with the bhopa using the phad as a visual aid to convey the story and its moral lessons.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "traditional Rajasthani attire",
+      "phad cloth",
+      "natural dyes and pigments"
+    ],
+    "key_exponents": [
+      "Kalyan Joshi",
+      "Prakash Joshi",
+      "Ghanshyam Joshi"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1617874519075-4c bee5e7f6c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    "related_city_ids": [
+      "bhilwara",
+      "jaipur"
+    ]
+  },
+  {
+    "id": "phad-painting",
+    "name": "Phad Painting",
+    "category": "Painting",
+    "origin_region": "Shahpura region of Bhilwara district in Rajasthan",
+    "history_origin": "Phad painting has its roots in the 10th century, originating from the Shahpura region of Bhilwara district in Rajasthan. This traditional art form was primarily used to depict the stories of local deities, such as Pabuji and Devnarayan, who were revered by the Bhil and Rajput communities. The paintings were typically created on long pieces of cloth, known as phads, which were used to narrate the stories of these deities during religious gatherings and festivals. Over time, phad painting has evolved to include a wide range of themes and motifs, while still maintaining its traditional essence and cultural significance.",
+    "performance_details": "Phad paintings are typically created by skilled artists, known as phad painters or chiteras, who use a combination of natural colors and intricate designs to bring the stories to life. The paintings are usually created on a long piece of cloth, which can range from 10 to 30 feet in length, and are often accompanied by music, dance, and narration. The phad painter will typically unroll the painting, section by section, while singing and narrating the story, creating an immersive experience for the audience. The level of detail and intricacy in phad paintings is remarkable, with each piece taking several months to complete.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "Long piece of cloth",
+      "Natural colors",
+      "Intricate designs"
+    ],
+    "key_exponents": [
+      "Pradhuman Khuteshwar",
+      "Kalyan Joshi",
+      "Shantilal Joshi"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1589544526851-9e5b3c5e5e5a",
+    "related_city_ids": [
+      "bhilwara",
+      "jaipur"
+    ]
+  },
+  {
+    "id": "miniature-painting",
+    "name": "Rajasthani Miniature Painting",
+    "category": "Painting",
+    "origin_region": "Mewar, Marwar, and Kishangarh regions of Rajasthan",
+    "history_origin": "Rajasthani Miniature Painting has its roots in the 16th century when the Mughal Empire's artistic influences merged with local Rajasthani styles. The art form flourished under the patronage of the royal courts of Mewar, Marwar, and Kishangarh, with each region developing its unique style and themes. Over time, the paintings became renowned for their intricate details, vivid colors, and mythological themes. The art form continued to evolve, incorporating new techniques and styles, while maintaining its traditional essence.",
+    "performance_details": "Rajasthani Miniature Paintings are created using a range of techniques, including hand-painting, gold leafing, and intricate brushwork. The paintings often depict mythological scenes, royal court life, and everyday village activities, showcasing the rich cultural heritage of Rajasthan. The artists use a variety of materials, including handmade paper, natural dyes, and precious stones, to create these exquisite works of art. Each painting is a testament to the skill and craftsmanship of the artist, requiring great patience, attention to detail, and artistic vision.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "handmade paper",
+      "natural dyes",
+      "precious stones",
+      "gold leaf"
+    ],
+    "key_exponents": [
+      "Nihal Chand",
+      "Sahib Din",
+      "Kripal Singh Shekhawat"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578946067504-3c2e3c4f1f1e",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ]
+  },
+  {
+    "id": "mandana-art",
+    "name": "Mandana Art",
+    "category": "Painting",
+    "origin_region": "Rajasthan, specifically the tribal communities of Bhil and Meena",
+    "history_origin": "Mandana art has its roots in the ancient traditions of the tribal communities of Rajasthan, dating back to the 7th century. The word 'Mandana' is derived from the Sanskrit word 'manda', meaning 'wall', and 'na', meaning 'to draw'. This art form was initially used to decorate the walls of homes and temples with intricate designs and patterns, often depicting mythological stories and everyday life. Over time, Mandana art has evolved to include a wide range of themes and motifs, while still retaining its traditional essence.",
+    "performance_details": "Mandana art is created using a combination of traditional techniques, including hand-painting and stencil work. The artists use a range of natural materials, such as earth oxides, plant dyes, and minerals, to create a vibrant color palette. The paintings often feature geometric patterns, floral motifs, and animal designs, which are carefully crafted to create a sense of balance and harmony. The art form is not only aesthetically pleasing but also carries deep symbolic meaning, reflecting the cultural and spiritual values of the community.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "traditional Rajasthani attire",
+      "handmade jewelry",
+      "intricately designed pottery"
+    ],
+    "key_exponents": [
+      "Kailash Chitrakar",
+      "Bhuri Bai",
+      "Ram Singh Chitrakar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1624566293431-3c9a5f2e2c4b",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ]
+  },
+  {
+    "id": "sanjhi-art",
+    "name": "Sanjhi Art",
+    "category": "Painting",
+    "origin_region": "Braj region of Rajasthan",
+    "history_origin": "Sanjhi art has its roots in the Braj region of Rajasthan, where it was traditionally practiced by the women of the region. The art form is believed to have originated in the 17th century, during the reign of the Mughal Empire. Sanjhi art was used to decorate the walls and floors of temples and homes, and was often used to depict scenes from Hindu mythology. The art form was also used to convey moral and social messages, and was an important part of the region's cultural heritage.",
+    "performance_details": "Sanjhi art is a traditional stencil art form, where intricate designs are cut out of paper and used to create patterns on walls and floors. The designs are typically made using a combination of geometric shapes and floral motifs, and are often used to depict scenes from everyday life. The art form requires great skill and patience, as the designs must be carefully cut out and arranged to create the desired pattern. Sanjhi art is often used to decorate the walls and floors of temples and homes, and is an important part of the region's cultural heritage.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "traditional Rajasthani clothing",
+      "handmade paper stencils",
+      "natural dyes"
+    ],
+    "key_exponents": [
+      "Kalyan Joshi",
+      "Bhawani Shankar",
+      "Ram Soni"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1587391675861-3c1e4c6f4f2f",
+    "related_city_ids": [
+      "bharatpur",
+      "alwar",
+      "jaipur"
+    ]
+  },
+  {
+    "id": "thewa-art",
+    "name": "Thewa Art",
+    "category": "Painting",
+    "origin_region": "Pratapgarh district",
+    "history_origin": "Thewa art has its roots in the Pratapgarh district of Rajasthan, dating back to the 18th century. This intricate art form is believed to have originated during the reign of Maharaja Pratap Singh, who encouraged artisans to create exquisite pieces using gold and glass. Over time, Thewa art evolved and gained popularity, with skilled craftsmen perfecting the technique of fusing gold and glass to create stunning designs. Today, Thewa art is a cherished part of Rajasthan's cultural heritage, with many artisans continuing to practice this traditional craft.",
+    "performance_details": "Thewa art involves a labor-intensive process of fusing gold and glass to create intricate designs on a variety of surfaces, including jewelry, ornaments, and decorative items. The process begins with the creation of a design on a metal surface, which is then covered with a layer of glass. The glass is then heated and molded to create the desired shape, after which gold is applied to the design using a specialized technique. The result is a beautiful, delicate piece of art that showcases the skill and craftsmanship of the artisan. Thewa art is typically created on a small scale, with each piece taking several hours or even days to complete. The level of detail and intricacy involved in Thewa art is truly remarkable, making each piece a unique work of art.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "gold wire",
+      "glass",
+      "copper foil",
+      "silver"
+    ],
+    "key_exponents": [
+      "Maharaja Pratap Singh",
+      "Rajendra Kumar Jain",
+      "Sohan Lal Jain"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1618773921117-2c6c2c2c2c2c",
+    "related_city_ids": [
+      "pratapgarh",
+      "jaipur",
+      "udaipur"
+    ]
+  },
+  {
+    "id": "blue-pottery",
+    "name": "Blue Pottery of Jaipur",
+    "category": "Painting",
+    "origin_region": "Jaipur, Rajasthan",
+    "history_origin": "Blue Pottery has its roots in the 17th century when it was introduced to India by the Mughals. The craft was further refined and popularized by the royal family of Jaipur, who encouraged the artisans to create exquisite pieces. Over time, the craft has evolved and is now known for its distinctive blue glaze and intricate designs. The art form has been passed down through generations of skilled artisans, who continue to create stunning pieces that are highly prized by collectors and connoisseurs.",
+    "performance_details": "Blue Pottery is created using a combination of traditional techniques and modern methods. The process begins with the creation of the pottery form, which is then glazed with a unique blue pigment that is made from a secret blend of materials. The glazed piece is then fired in a kiln at high temperatures to achieve the distinctive blue color. The artisans use a range of techniques, including hand-painting and printing, to create intricate designs and patterns on the pottery.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "earthen pots",
+      "glazed tiles",
+      "copper oxide"
+    ],
+    "key_exponents": [
+      "Kripal Singh Shekhawat",
+      "Ram Kumar",
+      "Mohan Singh"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1587391673624-0b8c8f9f2c7c",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "ajmer"
+    ]
+  },
+  {
+    "id": "lac-bangles-craft",
+    "name": "Lac Bangles Craft",
+    "category": "Puppetry",
+    "origin_region": "Rajasthan, particularly in the cities of Jaipur and Jodhpur",
+    "history_origin": "The Lac Bangles Craft has its roots in the ancient traditions of Rajasthan, where lac, a natural resin, was used to create intricate and colorful bangles. The craft is believed to have originated in the 16th century, during the reign of the Mughal Empire, when artisans from various parts of India came to Rajasthan to showcase their skills. Over time, the craft evolved and became an integral part of Rajasthani culture, with each region developing its unique style and design. Today, the Lac Bangles Craft is a thriving industry, with artisans creating stunning pieces that are highly prized by locals and tourists alike.",
+    "performance_details": "The Lac Bangles Craft involves a labor-intensive process, where artisans shape, mold, and polish lac to create beautiful bangles. The process begins with the collection of lac, which is then melted and colored with natural dyes. The colored lac is then shaped into thin sheets, which are molded into bangles using wooden molds. The bangles are then polished to a high shine, and intricate designs are added using a combination of traditional techniques and modern tools. The result is a stunning piece of jewelry that is both durable and beautiful.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "lac bangles, traditional Rajasthani attire, colorful fabrics"
+    ],
+    "key_exponents": [
+      "Raj Kumar, a renowned lac bangles artisan from Jaipur",
+      "Leela Devi, a national award-winning lac bangles artist from Jodhpur"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583398464935-04c2f2ac4b5c",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "bikaner"
+    ]
+  },
+  {
+    "id": "bandhani-tie-and-dye",
+    "name": "Bandhani Tie and Dye",
+    "category": "Painting",
+    "origin_region": "Kutch and Saurashtra regions of Gujarat and Rajasthan",
+    "history_origin": "Bandhani, which literally means 'to tie', is an ancient art form that originated in the Kutch and Saurashtra regions of Gujarat and Rajasthan over 500 years ago. The craft has been a significant part of the region's culture and tradition, with evidence of its existence found in the 11th-century writings of the Indian sage, Hemachandra. The art form is believed to have been influenced by the Jain and Buddhist traditions, which used tie and dye techniques to create intricate designs on fabrics. Over time, Bandhani has evolved and spread to other parts of India, with different regions developing their unique styles and techniques.",
+    "performance_details": "The process of creating Bandhani involves tying small knots on the fabric using thread or cotton yarn, which are then dyed in various colors to create intricate designs and patterns. The fabric is typically made of cotton, silk, or wool, and the dyeing process can take several days to complete. The tied knots resist the dye, creating a unique resist-dyeing effect that gives the fabric its characteristic look. The art of Bandhani requires great skill and patience, as the knots must be tied precisely to achieve the desired design.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "cotton or silk fabrics",
+      "thread or cotton yarn",
+      "natural dyes"
+    ],
+    "key_exponents": [
+      "Rahul Misra",
+      "Rajesh Pratap Singh",
+      "Anita Dongre"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1593642634315-62a99bfbf2e4",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "bikaner"
+    ]
+  },
+  {
+    "id": "leheriya",
+    "name": "Leheriya Art",
+    "category": "Painting",
+    "origin_region": "Marwar region of Rajasthan",
+    "history_origin": "Leheriya is an ancient art form that originated in the Marwar region of Rajasthan, specifically in the city of Jodhpur. The word 'leheriya' literally means 'wave' in the local dialect, which refers to the distinctive wave-like patterns that are characteristic of this art form. Leheriya has its roots in the traditional block printing techniques of the region, which date back to the 12th century. Over time, the art form has evolved to incorporate a range of vibrant colors and intricate designs, making it a unique and iconic part of Rajasthani culture.",
+    "performance_details": "Leheriya art is created using a combination of traditional block printing and hand-painting techniques. The process begins with the creation of wooden blocks, which are carved with intricate designs and patterns. The blocks are then used to print the designs onto fabric, which is typically made of cotton or silk. The printed fabric is then hand-painted with a range of vibrant colors, using a combination of natural dyes and pigments. The resulting artwork is a stunning example of traditional Rajasthani craftsmanship, with intricate patterns and designs that seem to come alive on the fabric.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "traditional Rajasthani clothing",
+      "block printing blocks",
+      "hand-painted fabrics"
+    ],
+    "key_exponents": [
+      "Kalyan Joshi",
+      "Gopal Samota",
+      "Ramesh Joshi"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1605827085562-ecb2e2f9c9f4",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ]
+  },
+  {
+    "id": "block-printing",
+    "name": "Block Printing Art",
+    "category": "Painting",
+    "origin_region": "Bagru and Sanganer regions of Rajasthan",
+    "history_origin": "Block printing in Rajasthan has a history dating back to the 17th century when it was introduced by the royal family of Amber. The art form was initially used to print intricate designs on fabrics for the royal family, but soon it spread to other parts of the state. Over time, block printing evolved and became an essential part of Rajasthani culture, with each region developing its unique style and technique. The art form was also influenced by the Mughal and Persian styles, which is evident in the intricate designs and patterns used in block printing.",
+    "performance_details": "Block printing is a labor-intensive process that involves carving intricate designs on wooden blocks, which are then used to print on fabrics. The process begins with the preparation of the fabric, which is washed and treated with a mixture of turmeric and oil to make it receptive to the dye. The wooden blocks are then dipped in the dye and stamped onto the fabric, creating a series of intricate designs and patterns. The process is repeated multiple times to achieve the desired design and color.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "wooden blocks",
+      "natural dyes",
+      "handloom fabrics"
+    ],
+    "key_exponents": [
+      "Kalyan Joshi",
+      "Vimla Joshi",
+      "Ramesh Joshi"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1554744512-9e2d5387d50a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxvY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur"
+    ]
+  },
+  {
+    "id": "meenakari-art",
+    "name": "Meenakari Art",
+    "category": "Painting",
+    "origin_region": "Rajasthan, particularly in Jaipur and Nathdwara",
+    "history_origin": "Meenakari art has its roots in the Mughal era, when artisans from Lahore and Delhi migrated to Rajasthan, bringing with them their expertise in enameling and jewelry-making. Over time, the art form evolved and flourished in the royal courts of Jaipur and Nathdwara, where it was patronized by the rulers. Meenakari art is characterized by intricate designs and patterns created using enamel work on gold, silver, and other metals. The art form has been passed down through generations of skilled artisans, who continue to create exquisite pieces that are highly prized for their beauty and craftsmanship.",
+    "performance_details": "Meenakari art is a labor-intensive process that involves several stages, including designing, engraving, and enameling. The artisan first creates a design on the metal surface, which is then engraved using specialized tools. The engraved design is then filled with enamel, which is made from a mixture of metal oxides, silica, and other materials. The piece is then fired in a kiln at high temperatures, causing the enamel to melt and fuse with the metal. The process is repeated multiple times to achieve the desired colors and patterns.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "gold and silver jewelry, intricately designed enamel work, traditional Rajasthani attire"
+    ],
+    "key_exponents": [
+      "Kripal Singh Shekhawat",
+      "Ram Kishore Choudhary",
+      "Mohammad Hussain"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1587391675874-5b5e2e0e2a1c",
+    "related_city_ids": [
+      "jaipur",
+      "rajsamand",
+      "udaipur"
+    ]
+  },
+  {
+    "id": "kundan-jewellery-craft",
+    "name": "Kundan Jewellery Craft",
+    "category": "Painting",
+    "origin_region": "Rajasthan, particularly in Jaipur and Bikaner",
+    "history_origin": "Kundan jewellery has its roots in the royal courts of Rajasthan, dating back to the Mughal era. The craft is believed to have originated in the 15th century, when skilled artisans from Delhi and other parts of India were invited to the royal courts of Rajasthan to create exquisite pieces of jewellery. Over time, the craft evolved and was refined, with the use of intricate designs, precious stones, and delicate filigree work. Today, Kundan jewellery is a highly prized and sought-after craft, known for its beauty, elegance, and intricate craftsmanship.",
+    "performance_details": "Kundan jewellery is created using a labor-intensive process that involves several stages, including designing, casting, and setting. The craft requires great skill and precision, as the artisans must carefully shape and polish the metal, and then set the precious stones into intricate designs. The jewellery is often adorned with delicate filigree work, enamel, and other decorative elements, which are carefully crafted to create a stunning and eye-catching effect. The entire process, from design to completion, can take several weeks or even months, depending on the complexity of the piece.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "Gold, silver, and precious stones",
+      "Intricate filigree work",
+      "Delicate enamel work"
+    ],
+    "key_exponents": [
+      "Rajasthani artisans",
+      "Mughal-era craftsmen",
+      "Jaipur-based jewellery designers"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583398466697-9c9a5c9f4d5e",
+    "related_city_ids": [
+      "jaipur",
+      "bikaner",
+      "jodhpur"
+    ]
+  },
+  {
+    "id": "marble-carving",
+    "name": "Rajasthani Marble Carving",
+    "category": "Painting",
+    "origin_region": "Makrana, Rajasthan",
+    "history_origin": "The history of marble carving in Rajasthan dates back to the 17th century when skilled artisans from the Makrana region began crafting intricate marble structures for the royal palaces and temples. The craft flourished under the patronage of the Mughal Empire, with artisans creating exquisite marble inlays, intricate carvings, and ornate sculptures. Over time, the craft has evolved, with modern artisans incorporating innovative techniques and designs while retaining the traditional essence. Today, Rajasthani marble carving is renowned globally for its exceptional beauty and craftsmanship.",
+    "performance_details": "Rajasthani marble carving involves a labor-intensive process that requires great skill and patience. Artisans begin by selecting high-quality marble blocks, which are then cut, shaped, and polished to create intricate designs and patterns. The craft involves a range of techniques, including carving, inlaying, and sculpting, to create stunning pieces that adorn temples, palaces, and homes. From intricate floral patterns to complex geometric designs, each piece is a testament to the artisan's skill and creativity.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "chisels",
+      "hammers",
+      "gouges",
+      "marble blocks"
+    ],
+    "key_exponents": [
+      "Kishore Singh",
+      "Rajendra Kumar",
+      "Mohammad Ali"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930902828-3e2f7c7b7b3b",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ]
+  },
+  {
+    "id": "stone-carving",
+    "name": "Rajasthani Stone Carving",
+    "category": "Painting",
+    "origin_region": "Mewar Region, Rajasthan",
+    "history_origin": "The tradition of stone carving in Rajasthan dates back to the 8th century, with the construction of temples like the Jagdish Temple in Udaipur and the Ranakpur Jain Temple. The artisans of the region have been perfecting their craft over the centuries, creating intricate and beautiful carvings that adorn the walls and ceilings of these temples. The stone carvings of Rajasthan are known for their delicate and detailed work, often depicting scenes from Hindu mythology and everyday life. The art form has been passed down through generations, with each new generation adding its own unique touch to the traditional techniques.",
+    "performance_details": "Rajasthani stone carving is a labor-intensive process that requires great skill and patience. The artisans use hand tools like chisels, hammers, and files to carve intricate designs and patterns into the stone. The process begins with the selection of the stone, which is usually white marble or red sandstone, and then the design is drawn onto the stone using a charcoal pencil. The carving process can take several weeks or even months to complete, depending on the complexity of the design. The finished carvings are often polished to a high shine, revealing the beauty of the stone and the skill of the artisan.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "white marble",
+      "red sandstone",
+      "chisels",
+      "hammers",
+      "files"
+    ],
+    "key_exponents": [
+      "Kailash Chand Kumawat",
+      "Rajendra Kumar Jain",
+      "Mahendra Kumar Kumhar"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1587391673627-5c8e5e5f2f2a",
+    "related_city_ids": [
+      "udaipur",
+      "jaipur",
+      "jodhpur"
+    ]
+  },
+  {
+    "id": "leather-mojari-craft",
+    "name": "Leather Mojari Craft",
+    "category": "Puppetry",
+    "origin_region": "Jodhpur, Marwar region of Rajasthan",
+    "history_origin": "The Leather Mojari Craft has its roots in the traditional footwear of the Marwar region, dating back to the 17th century. Mojari, a type of handcrafted leather footwear, was initially made for the royal families and nobles of the region. Over time, the craft evolved, and artisans began to create intricate designs and patterns on the leather, giving birth to the Leather Mojari Craft. This craft has been passed down through generations, with each artisan adding their unique touch to the traditional designs.",
+    "performance_details": "The Leather Mojari Craft involves the meticulous process of cutting, stitching, and embellishing leather to create exquisite pieces of art. Artisans use traditional tools and techniques, such as hand-stitching and block printing, to create intricate designs and patterns on the leather. The craft requires great skill and patience, as each piece is carefully crafted to perfection. The Leather Mojari Craft is not only limited to footwear but also includes other leather products, such as bags, belts, and accessories.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "leather strips",
+      "thread",
+      "beads",
+      "embroidery hoops"
+    ],
+    "key_exponents": [
+      "Mohammad Ali",
+      "Rahim Khan",
+      "Abdul Rashid"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930907575-86ae99a6a6c4",
+    "related_city_ids": [
+      "jodhpur",
+      "bikaner",
+      "jaipur"
+    ]
+  },
+  {
+    "id": "wood-carving",
+    "name": "Rajasthani Wood Carving",
+    "category": "Puppetry",
+    "origin_region": "Mewar Region, Rajasthan",
+    "history_origin": "Rajasthani Wood Carving has its roots in the Mewar region, dating back to the 17th century. The craft was initially used to create intricate wooden doors, windows, and furniture for the royal palaces. Over time, the artisans began to create wooden puppets, which were used to narrate stories from Hindu mythology and folk tales. The craft has been passed down through generations, with each artisan adding their unique touch to the traditional designs.",
+    "performance_details": "Rajasthani Wood Carving involves the creation of intricate wooden puppets, which are then used to perform puppet shows. The puppets are carved from a single piece of wood, with the artisan carefully crafting the details of the face, hands, and feet. The puppets are then painted and dressed in traditional attire, with the performances often accompanied by traditional music and narration. The puppet shows are used to entertain and educate audiences, with stories ranging from mythological tales to social issues.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "traditional Rajasthani attire",
+      "wooden puppets",
+      "intricately carved wooden props"
+    ],
+    "key_exponents": [
+      "Kalyan Singh",
+      "Raghunath Singh",
+      "Bhawani Singh"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1593642634315-4436f3555e8f",
+    "related_city_ids": [
+      "udaipur",
+      "jaipur",
+      "jodhpur"
+    ]
+  },
+  {
+    "id": "usta-art",
+    "name": "Usta Art",
+    "category": "Painting",
+    "origin_region": "Bikaner, Rajasthan",
+    "history_origin": "Usta art originated in the 16th century in Bikaner, Rajasthan, and is known for its intricate and delicate designs. This traditional Mughal-style miniature painting was patronized by the royal family of Bikaner and was used to adorn the walls and ceilings of their palaces. The art form is characterized by its use of gold and other vibrant colors, and its depiction of mythological and historical themes. Over time, Usta art has evolved to include a range of subjects, from portraits of royalty to scenes of everyday life.",
+    "performance_details": "Usta art is created using a range of techniques, including miniature painting, gold leafing, and intricate border work. The paintings are typically done on paper or cloth, and are often embellished with precious stones and other materials. The artists use a range of tools, including fine brushes and styluses, to create the intricate designs and patterns that are characteristic of Usta art. The process of creating an Usta painting can take several weeks or even months, depending on the complexity of the design and the level of detail involved.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "fine brushes",
+      "gold leaf",
+      "precious stones",
+      "traditional Rajasthani attire"
+    ],
+    "key_exponents": [
+      "Kalyan Joshi",
+      "Mohammad Hussain Usta",
+      "Ram Swaroop Usta"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1618773927566-3a1f2f2c bee4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    "related_city_ids": [
+      "bikaner",
+      "jodhpur",
+      "jaipur"
+    ]
+  },
+  {
+    "id": "thikri-art",
+    "name": "Thikri Art",
+    "category": "Painting",
+    "origin_region": "Rajasthan, specifically the Shekhawati region",
+    "history_origin": "Thikri art has its roots in the Shekhawati region of Rajasthan, where it originated as a traditional form of folk art. The word 'thikri' literally means 'broken glass' in the local dialect, which refers to the intricate glasswork used in this art form. Thikri art has been a part of the region's cultural heritage for centuries, with its origins dating back to the 18th century. It is believed to have been inspired by the Mughal and Rajput styles of art, which were prevalent in the region during that time.",
+    "performance_details": "Thikri art is a unique and intricate form of painting that involves the use of broken glass, mirrors, and other materials to create beautiful and intricate designs. The process of creating a thikri art piece is labor-intensive and requires great skill and patience, as the artist must carefully arrange the glass pieces to form the desired pattern. The art form is often used to decorate the walls and ceilings of havelis and other buildings in the Shekhawati region, and is also used to create beautiful and intricate designs on wooden and other surfaces. The use of glass and mirrors gives thikri art a distinctive shine and sparkle, which adds to its beauty and allure.",
+    "instruments_used": [],
+    "dress_code_props": [
+      "glass pieces",
+      "mirrors",
+      "wooden surfaces",
+      "haveli walls"
+    ],
+    "key_exponents": [
+      "Kalyan Mal",
+      "Bhawani Shankar",
+      "Ram Chandra"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1624567354773-5e2c8e3f4c4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    "related_city_ids": [
+      "sikar",
+      "jhunjhunu",
+      "churu"
+    ]
+  }
+]

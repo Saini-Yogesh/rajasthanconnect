@@ -1,0 +1,1208 @@
+[
+  {
+    "id": "blue-pottery",
+    "name": "Jaipuri Blue Pottery",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Multani Mitti clay",
+      "Kathai powder",
+      "Gum",
+      "Cobalt oxide",
+      "Copper oxide"
+    ],
+    "process_description": "The craft of Jaipuri Blue Pottery involves a meticulous process that begins with the collection of Multani Mitti clay, which is then kneaded with water and Kathai powder to create a pliable mixture. The mixture is then shaped into the desired form, and after drying, it is coated with a layer of gum to prepare it for glazing. The glaze, made from a combination of cobalt oxide and copper oxide, is applied to the pottery, and it is then fired at high temperatures in a kiln to achieve the distinctive blue color. The final product is a testament to the artisan's skill and patience, with intricate designs and patterns that reflect the rich cultural heritage of Rajasthan.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2009,
+    "famous_artisans": [
+      "Kripal Singh Shekhawat",
+      "Mohan Lal Kumhar"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550439062-609e93980a16"
+  },
+  {
+    "id": "bandhani",
+    "name": "Rajasthani Bandhani",
+    "origin_city_id": "jodhpur",
+    "materials_used": [
+      "cotton",
+      "silk",
+      "dye",
+      "thread"
+    ],
+    "process_description": "The process of creating Bandhani involves tying small knots on the fabric using thread, which is then dyed in various colors to create unique patterns. The fabric is first washed and dried, and then the knots are tied in specific patterns to resist the dye. The tied fabric is then dyed, and after the dyeing process, the knots are removed to reveal the resist patterns. The result is a beautiful, intricate design that is characteristic of Bandhani.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2010,
+    "famous_artisans": [
+      "Komal Doshi",
+      "Ramesh Patel"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Nai Sadak",
+        "city": "Jodhpur"
+      },
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578946064453-4e2c1e2f5a4f"
+  },
+  {
+    "id": "leheriya",
+    "name": "Leheriya",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Cotton",
+      "Silk",
+      "Natural dyes",
+      "Resist dyeing technique"
+    ],
+    "process_description": "Leheriya is a traditional Rajasthani resist dyeing technique that involves tying and dyeing fabric in a specific pattern to create a unique, wavy design. The process begins with preparing the fabric, usually cotton or silk, and then tying it in small knots to resist the dye. The fabric is then immersed in a natural dye bath, and the tied areas resist the dye, creating the distinctive Leheriya pattern. After the dyeing process, the fabric is washed and dried to reveal the beautiful, intricate design.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2019,
+    "famous_artisans": [
+      "Kalyanji-Johari",
+      "Ramesh Chandra"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556908453-69c8a3c3d1e7"
+  },
+  {
+    "id": "bagru-block-printing",
+    "name": "Bagru Block Printing",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "cotton fabric",
+      "natural dyes",
+      "wooden blocks",
+      "printing ink"
+    ],
+    "process_description": "The process of Bagru block printing begins with the preparation of wooden blocks, which are intricately carved with designs and patterns. The fabric is then washed and treated with a mixture of turmeric and mustard oil to create a resist effect. The blocks are dipped in a mixture of natural dyes and printing ink, and then stamped onto the fabric, creating a unique and intricate design. The fabric is then washed and dried, revealing the vibrant colors and patterns of the block printing.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2009,
+    "famous_artisans": [
+      "Mohammad Rafiq",
+      "Rajendra Kumar"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Anokhi Museum of Hand Printing",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Sambhar Lake Market",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556908453-1e3c0f5e2d2f"
+  },
+  {
+    "id": "sanganeri-block-printing",
+    "name": "Sanganeri Block Printing",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Cotton fabric",
+      "Natural dyes",
+      "Wooden blocks"
+    ],
+    "process_description": "Sanganeri block printing is a traditional craft that involves printing intricate designs onto cotton fabric using hand-carved wooden blocks. The process begins with the preparation of the fabric, which is washed and treated with a mixture of turmeric and oil to create a smooth surface for printing. The wooden blocks, which are hand-carved with intricate designs, are then dipped in natural dyes and applied to the fabric, creating a unique and intricate pattern. The fabric is then washed and dried, revealing the vibrant colors and designs of the Sanganeri block print.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2010,
+    "famous_artisans": [
+      "Kalyan Singh Choudhary",
+      "Rajendra Kumar Sharma"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550547667-8c0f3d9978b3"
+  },
+  {
+    "id": "kota-doria",
+    "name": "Kota Doria",
+    "origin_city_id": "kota",
+    "materials_used": [
+      "cotton",
+      "silk",
+      "golden zari"
+    ],
+    "process_description": "Kota Doria is a traditional Indian fabric made using the tie-and-dye technique, where cotton and silk threads are woven together to create a unique checked pattern. The process begins with the preparation of the warp and weft threads, which are then tied and dyed to create the distinctive design. The fabric is then woven on a traditional pit loom, with the weaver carefully intertwining the threads to create the intricate pattern. The finished fabric is soft, lightweight, and features a subtle sheen, making it perfect for creating a range of garments and home textiles.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2019,
+    "famous_artisans": [
+      "Rajendra Kumar Jain",
+      "Suresh Chandra Jain"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Kota Market",
+        "city": "Kota"
+      },
+      {
+        "market_name": "Rajasthan Handicrafts Emporium",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556906784-2c8c30e6c4c5"
+  },
+  {
+    "id": "pichwai-painting",
+    "name": "Nathdwara Pichwai Painting",
+    "origin_city_id": "nathdwara",
+    "materials_used": [
+      "handmade paper",
+      "natural dyes",
+      "gold and silver leaf",
+      "brushes made from squirrel hair"
+    ],
+    "process_description": "The process of creating a Pichwai painting begins with the preparation of handmade paper, which is then treated with a mixture of natural dyes and other substances to create a smooth, durable surface. The artist then sketches the design onto the paper using a fine brush, before filling in the intricate details with a range of colors. The use of gold and silver leaf adds a touch of luxury and sophistication to the painting, while the delicate brushstrokes and subtle color gradations require great skill and patience to achieve. Finally, the painting is sealed with a protective coating to preserve it for generations to come.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2013,
+    "famous_artisans": [
+      "Kalyan Joshi",
+      "Prakash Joshi",
+      "Gopal Kumawat"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Nathdwara Market",
+        "city": "Nathdwara"
+      },
+      {
+        "market_name": "Hathi Pol Bazaar",
+        "city": "Udaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1552365578-3c6c9b6c5c43"
+  },
+  {
+    "id": "phad-painting",
+    "name": "Phad Painting of Rajasthan",
+    "origin_city_id": "shahpura",
+    "materials_used": [
+      "Natural colors",
+      "Handmade paper",
+      "Cotton cloth",
+      "Brushes made from animal hair"
+    ],
+    "process_description": "The process of creating a Phad painting begins with the preparation of the canvas, which is typically made from cotton cloth. The artist then sketches the outline of the painting using a mixture of soot and water. The colors used are derived from natural sources such as plants, minerals, and soil, which are then applied to the canvas using brushes made from animal hair. The painting is typically done in a narrative style, depicting stories from ancient Indian epics such as the Ramayana and the Mahabharata.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2014,
+    "famous_artisans": [
+      "Kalyan Joshi",
+      "Pradip Mukherjee"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Naya Bazaar",
+        "city": "Udaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556908454-60c9b2c4a3e4"
+  },
+  {
+    "id": "miniature-painting",
+    "name": "Rajasthani Miniature Painting",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Handmade paper",
+      "Natural colors",
+      "Gold and silver leaf",
+      "Brushes made from squirrel hair"
+    ],
+    "process_description": "The process of creating a Rajasthani miniature painting begins with the preparation of the handmade paper, which is then coated with a layer of gesso to create a smooth surface. The artist then sketches the design onto the paper using a fine brush, before filling in the details with natural colors made from minerals and plants. The use of gold and silver leaf adds a touch of luxury to the painting, while the delicate brushstrokes and intricate details require great skill and patience. Finally, the painting is sealed with a layer of varnish to protect it from damage and fading.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2009,
+    "famous_artisans": [
+      "Kripal Singh Shekhawat",
+      "Ram Gopal Vijayvargiya"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556908453-45c84c6c7a1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "mandana-art",
+    "name": "Mandana Art of Rajasthan",
+    "origin_city_id": "shekhawati",
+    "materials_used": [
+      "Natural dyes",
+      "Earth oxides",
+      "Geru",
+      "Kumkum",
+      "Lime",
+      "Natural fibers"
+    ],
+    "process_description": "Mandana art is a traditional wall and floor painting art form of Rajasthan, typically created by the women of the region. The process begins with the preparation of the surface, which is then divided into sections using a thread dipped in geru, a type of natural dye. The designs are then filled in with a range of natural materials, including earth oxides, kumkum, and lime, which are applied using a small brush or a cloth. The final result is a vibrant and intricate design that is often used to adorn the walls and floors of homes during special occasions and festivals.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Ganga Devi",
+      "Bhuri Bai",
+      "Shantibai"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Bada Bazaar",
+        "city": "Jhunjhunu"
+      },
+      {
+        "market_name": "Kote Gate",
+        "city": "Jhunjhunu"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1624292474315-5c2c4e7c bee4"
+  },
+  {
+    "id": "thewa-art",
+    "name": "Pratapgarh Thewa Art",
+    "origin_city_id": "pratapgarh",
+    "materials_used": [
+      "Silver",
+      "Gold",
+      "Multicolored Enamel",
+      "Glass"
+    ],
+    "process_description": "Thewa art involves a meticulous process where intricate designs are etched onto glass, which is then layered with silver or gold foil. The artisan carefully shapes and molds the metal to fit the glass, creating an exquisite piece of art. The process requires immense patience and skill, as the artisan must ensure that the metal and glass are perfectly aligned to create the desired design. The final product is a stunning example of Rajasthani craftsmanship, with vibrant colors and intricate patterns that seem to come alive in the light.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2005,
+    "famous_artisans": [
+      "Shri Uttam Chandra",
+      "Shri Babulal Verma"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Bada Bazaar",
+        "city": "Pratapgarh"
+      },
+      {
+        "market_name": "Hathi Pol Bazaar",
+        "city": "Udaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578946065055-3e2c2a6e2f1f"
+  },
+  {
+    "id": "meenakari",
+    "name": "Rajasthani Meenakari",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Gold",
+      "Silver",
+      "Copper",
+      "Enamel",
+      "Gemstones"
+    ],
+    "process_description": "Meenakari is a traditional Rajasthani enamel work that involves intricate designs and patterns created by skilled artisans. The process begins with the preparation of the metal surface, which is then coated with a layer of enamel. The artisan then uses a specialized tool to create the design, which is followed by multiple layers of enamel being applied and fired in a kiln. The final product is a stunning piece of art that showcases the artisan's skill and craftsmanship.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2019,
+    "famous_artisans": [
+      "Mohammad Hussain",
+      "Rajendra Kumar",
+      "Kailash Chand"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550540340-4a1e2f2c8c7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "kundan-jewellery",
+    "name": "Rajasthani Kundan Jewellery",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Gold",
+      "Silver",
+      "Precious stones like diamonds, rubies, and emeralds",
+      "Glass",
+      "Enamel"
+    ],
+    "process_description": "Kundan jewellery making is a labor-intensive process that involves several steps. First, the design is created on paper, and then the gold or silver base is prepared. The next step involves setting the precious stones into the base using a specialized technique called 'kundan', which involves filling the gaps between the stones with a mixture of lac and gold. The final step involves polishing and finishing the piece to give it a high shine and intricate look.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2013,
+    "famous_artisans": [
+      "Mohammad Hussain",
+      "Rajendra Kumar",
+      "Narendra Singh"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Nai Sadak",
+        "city": "Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1552365572-3c7c5b5f8e6e"
+  },
+  {
+    "id": "lac-bangles",
+    "name": "Rajasthani Lac Bangles",
+    "origin_city_id": "jodhpur",
+    "materials_used": [
+      "Lac",
+      "Glass",
+      "Metal",
+      "Thread",
+      "Resin"
+    ],
+    "process_description": "The process of crafting lac bangles involves several intricate steps, starting with the preparation of lac, a natural resin extracted from the lac insect. The lac is then melted and mixed with other materials like glass, metal, or thread to create the desired color and design. The mixture is then molded into the shape of a bangle, and once set, it is polished to give it a glossy finish. The final step involves adding intricate designs and patterns, often using traditional techniques like meenakari or Kundan work.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2010,
+    "famous_artisans": [
+      "Mohammad Ali",
+      "Ramchandra",
+      "Kishore Singh"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Nai Sarak",
+        "city": "Jodhpur"
+      },
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583398466699-7f5b5f2a5e2e"
+  },
+  {
+    "id": "mojari",
+    "name": "Rajasthani Mojari",
+    "origin_city_id": "jodhpur",
+    "materials_used": [
+      "leather",
+      "thread",
+      "beads",
+      "mirror work",
+      "embroidery"
+    ],
+    "process_description": "The crafting of a Mojari begins with the selection of high-quality leather, which is then cut and shaped to form the shoe's upper and sole. The leather pieces are then stitched together using a strong thread, and the shoe is adorned with intricate embroidery, beads, and mirror work. The Mojari is then polished to give it a rich, glossy finish. Finally, the shoe is inspected for quality and packaged for sale.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2019,
+    "famous_artisans": [
+      "Ramchandra Sirvi",
+      "Mahesh Kumar"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Nai Sarak",
+        "city": "Jodhpur"
+      },
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1620561631616-5c3c2e0e4c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "kathputli-making",
+    "name": "Rajasthani Kathputli Making",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "wood",
+      "cloth",
+      "string",
+      "paint",
+      "glue"
+    ],
+    "process_description": "Kathputli making is a traditional Rajasthani craft that involves creating intricate puppets from wood, cloth, and other materials. The process begins with the selection of wood, which is then carved into the desired shape and size. The puppet is then dressed in vibrant clothes and adorned with intricate designs, before being strung together with strings to create a movable joint. The final step involves painting the puppet with bright colors and adding a touch of glue to secure the joints.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2014,
+    "famous_artisans": [
+      "Ramji Lal",
+      "Kishan Lal",
+      "Ghanshyam"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556908453-69c8c4e6f2c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "marble-carving",
+    "name": "Makrana Marble Carving",
+    "origin_city_id": "makrana",
+    "materials_used": [
+      "Makrana marble",
+      "chisels",
+      "gouges",
+      "abrasives"
+    ],
+    "process_description": "The process of marble carving begins with selecting the finest quality Makrana marble, known for its pristine white color and fine grain. Skilled artisans then carefully cut and shape the marble using chisels and gouges, before refining the surface with abrasives to achieve a high-gloss finish. The intricate designs and patterns are painstakingly carved by hand, often taking weeks or even months to complete. Finally, the finished piece is polished to perfection, revealing the stunning beauty of the marble.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2018,
+    "famous_artisans": [
+      "Mohammad Hussain",
+      "Rajendra Kumar"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Tilak Market",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bari Chaupar",
+        "city": "Udaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550547667-2a1f5e2c4f6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "stone-carving",
+    "name": "Makrana Marble Stone Carving",
+    "origin_city_id": "makrana",
+    "materials_used": [
+      "Makrana marble",
+      "Jodhpur sandstone",
+      "Kota stone"
+    ],
+    "process_description": "The intricate process of stone carving in Rajasthan begins with the selection of the finest quality marble or sandstone, which is then cut into the desired shape and size. The artisan then uses a combination of traditional tools, such as chisels, hammers, and files, to carve out the design, often inspired by ancient Indian mythology and architecture. The carved stone is then polished to a high shine, revealing the intricate details and patterns. Finally, the piece is carefully inspected and packaged for distribution to markets and shops across the region.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2016,
+    "famous_artisans": [
+      "Mohammad Hussain",
+      "Rajendra Kumar"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Nai Sadak",
+        "city": "Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1587391672727-0a7c3b2e5e2e"
+  },
+  {
+    "id": "wood-carving",
+    "name": "Rajasthani Wood Carving",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Teak wood",
+      "Rosewood",
+      "Sandalwood",
+      "Walnut wood"
+    ],
+    "process_description": "Rajasthani wood carving involves intricate designs and patterns carved onto wooden surfaces. The process begins with selecting the finest quality wood, followed by cutting and shaping it into the desired form. Skilled artisans then use various tools to carve intricate designs, often inspired by nature, mythology, and traditional Rajasthani motifs. The final product is polished and finished with a protective coating to enhance its beauty and durability.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Ram Kumar",
+      "Mohammad Hussain",
+      "Rajendra Kumar Sharma"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Nai Sadak",
+        "city": "Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556908454-39c2f6d1f4d6"
+  },
+  {
+    "id": "leather-craft",
+    "name": "Rajasthani Leather Craft",
+    "origin_city_id": "jodhpur",
+    "materials_used": [
+      "Camel leather",
+      "Sheep leather",
+      "Buffalo leather",
+      "Cotton threads",
+      "Natural dyes"
+    ],
+    "process_description": "The process of creating Rajasthani leather craft involves carefully selecting and cutting the leather, followed by intricate designing and patterning using traditional tools and techniques. The leather is then dyed using natural dyes, such as indigo, pomegranate, and turmeric, to achieve the desired colors and patterns. The final step involves stitching and embellishing the leather with cotton threads and other decorative elements. This labor-intensive process requires great skill and patience, resulting in unique and exquisite pieces of leather craft.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Mohammad Ali",
+      "Rahim Khan",
+      "Jagdish Singh"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Nai Sarak",
+        "city": "Jodhpur"
+      },
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550547667-8b69e06e2f3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "terracotta-craft",
+    "name": "Rajasthani Terracotta Craft",
+    "origin_city_id": "jodhpur",
+    "materials_used": [
+      "Terracotta clay",
+      "Water",
+      "Natural colors",
+      "Wooden molds"
+    ],
+    "process_description": "The process of creating Rajasthani Terracotta Craft begins with the collection of terracotta clay, which is then kneaded and mixed with water to achieve the right consistency. The clay is then shaped into various forms using wooden molds, and the excess clay is removed. The shaped terracotta is then dried under the sun and fired in a kiln at high temperatures to give it strength and durability. Finally, the terracotta items are painted with natural colors and sealed with a protective coating.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Kishan Lal",
+      "Ramesh Kumar"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Nai Sarak",
+        "city": "Jodhpur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550439062-1df0edc9e5dd"
+  },
+  {
+    "id": "usta-art",
+    "name": "Usta Art",
+    "origin_city_id": "bikaner",
+    "materials_used": [
+      "cotton",
+      "silk",
+      "natural dyes",
+      "gold and silver thread"
+    ],
+    "process_description": "Usta art involves intricate embroidery and appliqué work on fabrics, typically using gold and silver thread to create elaborate designs. The process begins with the selection of high-quality fabrics, followed by the creation of intricate designs and patterns using natural dyes. Skilled artisans then use a combination of embroidery and appliqué techniques to bring the designs to life, often incorporating intricate motifs and patterns. The final product is a stunning work of art that showcases the artisan's skill and attention to detail.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2009,
+    "famous_artisans": [
+      "Mohammad Hussain Usta",
+      "Rahim Usta"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Kote Gate",
+        "city": "Bikaner"
+      },
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1585436714807-24c4d2a6a5f4"
+  },
+  {
+    "id": "applique-work",
+    "name": "Rajasthani Applique Work",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "silk",
+      "cotton",
+      "embroidery threads",
+      "sequins",
+      "mirrors"
+    ],
+    "process_description": "The applique work process begins with the selection of vibrant fabrics, which are then cut into intricate designs and patterns. These cut-out pieces are carefully arranged and sewn onto a larger fabric, often using a combination of running stitch and herringbone stitch. The artisan then embellishes the design with intricate embroidery, sequins, and mirrors, adding a touch of sparkle and elegance to the final product. The finished piece is a testament to the artisan's skill and patience, with each stitch and detail meticulously crafted to create a stunning work of art.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Ramchandra Sharma",
+      "Leela Devi"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556908453-45c0737c2c3a"
+  },
+  {
+    "id": "zari-embroidery",
+    "name": "Rajasthani Zari Embroidery",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "silk threads",
+      "gold and silver zari",
+      "cotton fabric",
+      "satin",
+      "velvet"
+    ],
+    "process_description": "The intricate process of Zari embroidery involves the use of gold and silver threads to create elaborate designs on luxurious fabrics. Skilled artisans first prepare the fabric by stretching and tightening it on a wooden frame, then carefully thread their needles with the precious zari threads. With meticulous attention to detail, they weave the threads into intricate patterns, often inspired by the majestic architecture and flora of Rajasthan. The finished product is a dazzling display of craftsmanship, with the zari threads shimmering like miniature jewels in the light.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2009,
+    "famous_artisans": [
+      "Ram Chandra Sharma",
+      "Kailash Chand Sharma",
+      "Rajendra Kumar Jain"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Nai Sadak",
+        "city": "Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556908453-69c8d5e3a8b5"
+  },
+  {
+    "id": "gota-patti-work",
+    "name": "Gota Patti Work",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "silk",
+      "cotton",
+      "zari",
+      "thread",
+      "beads"
+    ],
+    "process_description": "Gota Patti work is a traditional Rajasthani craft that involves intricate appliqué work using small pieces of fabric, known as 'gota', which are cut and stitched onto a larger fabric base. The process begins with the creation of the gota, which is cut into various shapes and sizes, and then stitched onto the base fabric using a needle and thread. The artisan then embellishes the design with zari, beads, and other decorative elements, creating a stunning and intricate pattern. The finished product is a testament to the artisan's skill and patience, with each piece taking several days or even weeks to complete.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2014,
+    "famous_artisans": [
+      "Rajasthan's National Awardee, Leela Ram",
+      "Padma Shri recipient, Gita Devi"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556908453-1e3c2f5d0e2b"
+  },
+  {
+    "id": "durrie-weaving",
+    "name": "Rajasthani Durrie Weaving",
+    "origin_city_id": "jodhpur",
+    "materials_used": [
+      "Cotton",
+      "Wool",
+      "Silk",
+      "Natural dyes"
+    ],
+    "process_description": "The process of Durrie weaving begins with the preparation of the warp and weft threads, which are carefully dyed and stretched on a traditional loom. The weaver then proceeds to weave the Durrie, using a combination of simple and complex patterns to create the desired design. The weaving process can take several days to complete, depending on the complexity of the design and the skill of the weaver. Once the Durrie is complete, it is washed and dried to give it a soft, plush texture.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2011,
+    "famous_artisans": [
+      "Mohammad Rafiq",
+      "Abdul Rashid"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Nai Sarak",
+        "city": "Jodhpur"
+      },
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583398464933-393f1e2c4e2f"
+  },
+  {
+    "id": "carpet-weaving",
+    "name": "Rajasthani Carpet Weaving",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Wool",
+      "Silk",
+      "Cotton",
+      "Natural dyes"
+    ],
+    "process_description": "Rajasthani carpet weaving is a labor-intensive process that involves preparing the wool or silk yarns, dyeing them in vibrant colors, and then weaving them into intricate patterns on a loom. The weavers use a combination of traditional techniques, such as the 'asymmetric knot' and the 'symmetric knot', to create the complex designs. The carpets are often adorned with motifs inspired by nature, such as flowers, leaves, and birds, as well as geometric patterns. The entire process, from preparing the yarns to finishing the carpet, can take several months to complete.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2019,
+    "famous_artisans": [
+      "Mohammad Hussain",
+      "Rahim Khan",
+      "Gulam Mohammed"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Nai Sarak",
+        "city": "Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556547672-92c5f6b9c28e"
+  },
+  {
+    "id": "dhurrie-making",
+    "name": "Rajasthani Dhurrie Weaving",
+    "origin_city_id": "jodhpur",
+    "materials_used": [
+      "Cotton yarn",
+      "Wool",
+      "Silk",
+      "Natural dyes"
+    ],
+    "process_description": "Dhurrie making is a traditional craft that involves weaving cotton, wool, or silk yarn into vibrant, geometric patterns. The process begins with the preparation of the yarn, which is dyed in a range of colors using natural ingredients such as indigo, turmeric, and pomegranate. The dyed yarn is then woven on a simple loom, with the artisan carefully interlacing the threads to create intricate designs. The finished dhurrie is a stunning example of Rajasthani craftsmanship, with its bold colors and intricate patterns reflecting the region's rich cultural heritage.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2011,
+    "famous_artisans": [
+      "Mohammad Rafiq",
+      "Abdul Rashid",
+      "Gafur Khan"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Nai Sarak",
+        "city": "Jodhpur"
+      },
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556908453-45c6f1a9e0e2"
+  },
+  {
+    "id": "camel-leather-craft",
+    "name": "Jaisalmeri Camel Leather Craft",
+    "origin_city_id": "jaisalmer",
+    "materials_used": [
+      "Camel hide",
+      "Natural dyes",
+      "Thread",
+      "Leather finishers"
+    ],
+    "process_description": "The camel leather craft in Jaisalmer involves a meticulous process of sorting and cleaning the camel hides, followed by soaking, liming, and deliming to remove the natural oils. The hides are then treated with natural dyes, such as indigo, pomegranate, and turmeric, to achieve the desired colors and patterns. Skilled artisans then cut, shape, and stitch the leather into various products, including shoes, belts, bags, and decorative items. The final products are finished with a blend of natural oils and waxes to enhance their durability and aesthetic appeal.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Mohammad Hussain",
+      "Rahim Khan",
+      "Ali Ahmed"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Sadar Bazaar",
+        "city": "Jaisalmer"
+      },
+      {
+        "market_name": "Seema Gram Haat",
+        "city": "Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550547667-8c4f64b5c559"
+  },
+  {
+    "id": "puppetry-craft",
+    "name": "Rajasthani Kathputli Puppetry",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "wood",
+      "cloth",
+      "string",
+      "paint",
+      "mirror",
+      "sequins"
+    ],
+    "process_description": "The craft of puppetry in Rajasthan involves skilled artisans who meticulously carve wooden figures, dress them in vibrant attire, and bring them to life with strings and performances. The process begins with selecting the right wood, usually tun or khair, which is then carved into intricate figures with jointed limbs. The puppets are then painted and decorated with mirrors, sequins, and other embellishments, before being strung together to create a dynamic performance. Finally, the puppets are brought to life by skilled puppeteers who narrate stories of myth and legend, accompanied by traditional music and song.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Komal Kothari",
+      "Rajasthani Puppeteer Ghanshyam"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556908453-69c8d5c2d3e1"
+  },
+  {
+    "id": "metal-craft",
+    "name": "Rajasthani Metal Craft",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Brass",
+      "Copper",
+      "Silver",
+      "Gold"
+    ],
+    "process_description": "The intricate process of creating Rajasthani metal craft begins with the selection of high-quality metals, which are then melted and cast into desired shapes. Skilled artisans use various techniques such as engraving, etching, and hammering to create intricate designs and patterns on the metal surface. The metal is then polished to give it a shiny finish, and sometimes, precious stones are embedded to add an extra layer of beauty. Finally, the crafted item is inspected for quality and packaged for sale.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Mohammad Ali",
+      "Rajendra Kumar",
+      "Suresh Kumar"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Nai Sarak",
+        "city": "Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550547667-00a89d1216e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "brass-engraving",
+    "name": "Rajasthani Brass Engraving",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "brass",
+      "copper",
+      "zinc",
+      "silver"
+    ],
+    "process_description": "The process of creating intricate brass engravings begins with the selection of high-quality brass sheets, which are then cut and shaped according to the desired design. Skilled artisans use a combination of traditional tools, such as chisels and hammers, to engrave intricate patterns and motifs onto the brass surface. The engravings are then filled with a mixture of copper and zinc to create a beautiful, two-tone effect. Finally, the brass engravings are polished to a high shine, revealing the intricate details and textures of the craftsmanship.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2018,
+    "famous_artisans": [
+      "Ram Kumar",
+      "Lal Chand",
+      "Mohammad Yunus"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Naya Bazaar",
+        "city": "Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1552057786-74d8c4bf9d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnJhc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "silver-jewellery",
+    "name": "Rajasthani Silver Jewellery",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Silver",
+      "Gold",
+      "Precious stones",
+      "Copper"
+    ],
+    "process_description": "The process of crafting silver jewellery in Rajasthan involves several intricate steps. First, the silver is melted and moulded into the desired shape. Then, the craftsmen use various techniques such as filigree, enamelling, and stone-setting to create the intricate designs. The jewellery is then polished to give it a shiny finish. Finally, the pieces are carefully inspected for quality and packaged for sale.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2015,
+    "famous_artisans": [
+      "Mohammad Hussain",
+      "Raj Kumar Sharma",
+      "Suresh Kumar"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Nai Sarak",
+        "city": "Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930939278-3811e2f2e2b5"
+  },
+  {
+    "id": "gemstone-cutting-and-polishing",
+    "name": "Rajasthani Gemstone Cutting and Polishing",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Precious stones like emeralds, rubies, and sapphires",
+      "Semi-precious stones like quartz, amethyst, and citrine",
+      "Diamonds",
+      "Specialized cutting and polishing tools"
+    ],
+    "process_description": "The process of gemstone cutting and polishing in Rajasthan involves several intricate steps, beginning with the selection of raw gemstones, which are then cut into desired shapes and sizes using specialized tools. The cut stones are then polished using various techniques, including tumbling, pre-forming, and final polishing, to bring out their natural brilliance and luster. Skilled artisans use their expertise and attention to detail to ensure that each stone is polished to perfection, highlighting its unique characteristics and fire. The final step involves setting the polished gemstones into exquisite pieces of jewelry, which are highly prized for their beauty and craftsmanship.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Gopal Soni",
+      "Rajendra Joshi",
+      "Mahesh Chand Jain"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Sarafa Bazaar",
+        "city": "Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1552365572-2c5e9e2f8c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": "tie-and-dye-textile-art",
+    "name": "Rajasthani Bandhani",
+    "origin_city_id": "jodhpur",
+    "materials_used": [
+      "cotton fabric",
+      "silk threads",
+      "natural dyes",
+      "resin"
+    ],
+    "process_description": "The process of creating tie and dye textile art involves several intricate steps. First, the fabric is washed and dried to remove any impurities. Then, the artisan ties small knots or 'bandhan' on the fabric using threads, which creates resistance areas where the dye cannot penetrate. The fabric is then dyed in vibrant colors, and the knots are removed to reveal unique patterns. The final step involves washing and ironing the fabric to fix the colors and give it a smooth finish.",
+    "gi_tag_status": true,
+    "gi_tag_year": 2011,
+    "famous_artisans": [
+      "Komal Parmar",
+      "Ramesh Sharma"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Nai Sadak",
+        "city": "Jodhpur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578946067506-0a9f9e5e0f7e"
+  },
+  {
+    "id": "emboss-painting",
+    "name": "Rajasthani Emboss Painting",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Silver foil",
+      "Gold leaf",
+      "Natural colors",
+      "Handmade paper"
+    ],
+    "process_description": "The process of creating an emboss painting begins with preparing the base, which is typically handmade paper or a specially treated fabric. The design is then drawn onto the base using a pencil or a fine brush, after which the embossing process starts. This involves applying a mixture of glue and water to the design and then placing a thin sheet of silver or gold foil over it, which is then pressed and smoothed out using a specialized tool. The final step involves adding natural colors to the design, which are carefully blended to achieve the desired shades and hues.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Ram Kumar",
+      "Lal Chand",
+      "Mahaveer Swami"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1556906784-2c5e5e5f1e3f"
+  },
+  {
+    "id": "patchwork-craft",
+    "name": "Rajasthani Patchwork Craft",
+    "origin_city_id": "jodhpur",
+    "materials_used": [
+      "cotton fabric",
+      "silk threads",
+      "embroidery floss",
+      "mirrors",
+      "beads"
+    ],
+    "process_description": "The Rajasthani patchwork craft involves meticulously cutting and sewing together small pieces of fabric to create intricate designs and patterns. The process begins with the selection of vibrant fabrics, which are then cut into shapes and sizes according to the desired design. The pieces are then sewn together using a traditional running stitch or embroidery floss, with the addition of mirrors, beads, or other embellishments to add texture and visual interest. The finished product is a stunning example of Rajasthani craftsmanship, often used to create beautiful quilts, wall hangings, and other home decor items.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Ram Bai",
+      "Leela Devi",
+      "Kamla Bai"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Sardar Market",
+        "city": "Jodhpur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550547667-8f06515e233c"
+  },
+  {
+    "id": "handmade-paper-craft",
+    "name": "Rajasthani Handmade Paper Craft",
+    "origin_city_id": "jaipur",
+    "materials_used": [
+      "Cotton rag",
+      "Sunn hemp",
+      "Mulberry bark",
+      "Natural dyes"
+    ],
+    "process_description": "The handmade paper craft in Rajasthan involves a labor-intensive process that begins with the collection of raw materials, including cotton rag, sunn hemp, and mulberry bark. The fibers are then soaked, beaten, and mixed with water to create a pulp, which is later sieved and formed into sheets. The sheets are dried and treated with natural dyes to create unique and intricate designs. Finally, the paper is cut, folded, and shaped into various forms, such as decorative boxes, cards, and lanterns.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Kailash Chandra",
+      "Rameshwar Lal"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550439062-1df0e2f5d2c6"
+  },
+  {
+    "id": "bamboo-craft",
+    "name": "Rajasthani Bamboo Craft",
+    "origin_city_id": "jodhpur",
+    "materials_used": [
+      "Bamboo sticks",
+      "Natural dyes",
+      "Cotton threads",
+      "Wooden tools"
+    ],
+    "process_description": "The craft of shaping and weaving bamboo into beautiful and functional items is an ancient tradition in Rajasthan. Skilled artisans first select and cut the bamboo sticks, then soak and shape them into the desired forms. The shaped bamboo is then woven together using cotton threads and natural dyes to create intricate patterns and designs. Finally, the crafted items are polished and finished with a natural wax coating to give them a smooth and durable finish.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Ram Kumar",
+      "Lakshman Singh"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Nai Sadak",
+        "city": "Jodhpur"
+      },
+      {
+        "market_name": "Bapu Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1559597624-3b2b5e2f5a6c"
+  },
+  {
+    "id": "clay-pottery",
+    "name": "Rajasthani Clay Pottery",
+    "origin_city_id": "jodhpur",
+    "materials_used": [
+      "Clay",
+      "Water",
+      "Natural oxides",
+      "Quartz"
+    ],
+    "process_description": "The process of creating Rajasthani Clay Pottery begins with the collection of clay from the nearby rivers and lakes, which is then kneaded and mixed with water to achieve the perfect consistency. The clay is then shaped into the desired form using a potter's wheel or by hand, and allowed to dry under the sun. The dried pottery is then fired in a kiln at high temperatures, and later decorated with intricate designs and patterns using natural oxides and quartz. Finally, the pottery is glazed and fired again to give it a shiny and durable finish.",
+    "gi_tag_status": false,
+    "gi_tag_year": null,
+    "famous_artisans": [
+      "Kripal Singh",
+      "Gordhan Ram"
+    ],
+    "shopping_hubs": [
+      {
+        "market_name": "Nai Sarak",
+        "city": "Jodhpur"
+      },
+      {
+        "market_name": "Johari Bazaar",
+        "city": "Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1584930907575-04a2a8a7f2c7"
+  }
+]

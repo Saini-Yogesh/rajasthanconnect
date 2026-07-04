@@ -1,0 +1,1206 @@
+[
+  {
+    "id": "ajmer",
+    "district_id": "ajmer-district",
+    "name": "Ajmer",
+    "tagline": "The City of Sufi Saints",
+    "description": "Ajmer, a historic city in Rajasthan, is renowned for its rich cultural heritage and spiritual significance. The city is home to the famous Dargah Sharif, a Sufi shrine that attracts millions of devotees from across the globe. Ajmer's architecture is a blend of Mughal and Rajput styles, with numerous monuments, mosques, and temples that showcase its glorious past. The city's vibrant markets, filled with colorful textiles, handicrafts, and local delicacies, offer a unique shopping experience.",
+    "image_url": "https://images.unsplash.com/photo-1618773921117-3c3c2f2e2c4f",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid with occasional rainfall)",
+      "winter": "10°C - 25°C (Mild and pleasant)"
+    },
+    "transport_info": {
+      "metro": "Ajmer does not have a metro system, but it is well-connected by road and rail to major cities like Jaipur, Delhi, and Mumbai.",
+      "bus": "Regular bus services are available from Ajmer to nearby cities and towns, including Jaipur, Pushkar, and Udaipur.",
+      "airport": "The nearest airport is the Kishangarh Airport, which is about 25 km from Ajmer city, and offers flights to major cities like Delhi and Mumbai.",
+      "railway": "Ajmer Junction is a major railway station that connects the city to various parts of the country, including Delhi, Mumbai, and Kolkata."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or +91-145-2627500 (Ajmer Police Control Room)",
+      "hospital": "Jawaharlal Nehru Hospital (+91-145-2627311) or Ajmer Medical College (+91-145-2627391)",
+      "touristOffice": "+91-145-2627427 (Rajasthan Tourism Development Corporation Ltd.)"
+    }
+  },
+  {
+    "id": "alwar",
+    "district_id": "alwar-district",
+    "name": "Alwar",
+    "tagline": "The Tiger Gate of Rajasthan",
+    "description": "Alwar, a historic city in Rajasthan, is renowned for its stunning natural beauty, rich cultural heritage, and majestic architecture. The city is home to the famous Bala Qila, a 16th-century fort that stands tall on a hill, offering breathtaking views of the city. Alwar is also a haven for wildlife enthusiasts, with the Sariska Tiger Reserve being a major attraction. The city's vibrant markets, filled with colorful handicrafts and local delicacies, are a shopper's paradise.",
+    "image_url": "https://images.unsplash.com/photo-1619852735185-0c5c4e2f2e5f",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid with moderate rainfall)",
+      "winter": "10°C - 20°C (Cool with occasional fog)"
+    },
+    "transport_info": {
+      "metro": "Alwar does not have a metro system, but it is well-connected to nearby cities like Delhi and Jaipur by road and rail.",
+      "bus": "Regular bus services are available from Alwar to major cities in Rajasthan and neighboring states, including Delhi, Jaipur, and Agra.",
+      "airport": "The nearest airport is the Indira Gandhi International Airport in Delhi, which is approximately 160 km from Alwar.",
+      "railway": "Alwar has a railway station that connects it to major cities like Delhi, Jaipur, and Mumbai, with frequent trains available throughout the day."
+    },
+    "emergency_contacts": {
+      "police": "Alwar Police Station: 0144-2344011",
+      "hospital": "General Hospital Alwar: 0144-2345021",
+      "touristOffice": "Rajasthan Tourism Office Alwar: 0144-2344015"
+    }
+  },
+  {
+    "id": "balotra",
+    "district_id": "barmer-district",
+    "name": "Balotra",
+    "tagline": "The Textile Hub of Barmer",
+    "description": "Balotra is a city in the Barmer district of Rajasthan, known for its rich textile heritage and vibrant culture. The city is famous for its hand-block printing and tie-dye techniques, which have been passed down through generations. Visitors can explore the city's bustling markets, where they can find a wide range of colorful textiles, handicrafts, and local artifacts. The city's strategic location also makes it an ideal base for exploring the surrounding region, including the stunning landscapes of the Thar Desert.",
+    "image_url": "https://images.unsplash.com/photo-1618773927483-3a3c bee7d8d4",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "40°C - 45°C (Hot & Dry)",
+      "monsoon": "July to September, with moderate rainfall and temperatures ranging from 25°C to 35°C",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Balotra does not have a metro system, but it is well-connected to other cities in Rajasthan by road and rail",
+      "bus": "Regular bus services are available from Balotra to major cities like Jodhpur, Jaipur, and Udaipur",
+      "airport": "The nearest airport is the Jodhpur Airport, which is approximately 100 km from Balotra",
+      "railway": "Balotra has a railway station that connects to major cities like Jodhpur, Delhi, and Mumbai"
+    },
+    "emergency_contacts": {
+      "police": "100 (Police Control Room) or 02982-222222 (Balotra Police Station)",
+      "hospital": "02982-222333 (Balotra Government Hospital) or 02982-222444 (Private Hospital)",
+      "touristOffice": "0141-2222222 (Rajasthan Tourism Department) or 02982-222555 (Local Tourist Information Office)"
+    }
+  },
+  {
+    "id": "banswara",
+    "district_id": "banswara-district",
+    "name": "Banswara",
+    "tagline": "The City of Hundred Islands",
+    "description": "Banswara, nestled in the southernmost part of Rajasthan, is a treasure trove of natural beauty, cultural heritage, and historical significance. The city is surrounded by the majestic Aravalli ranges and is dotted with numerous islands in the Mahi River, earning it the nickname 'The City of Hundred Islands'. With its rich tribal culture, ancient temples, and vibrant festivals, Banswara is a must-visit destination for anyone looking to experience the authentic charm of Rajasthan. The city's unique blend of traditional and modern attractions makes it an ideal getaway for travelers seeking a mix of adventure, relaxation, and cultural immersion.",
+    "image_url": "https://images.unsplash.com/photo-1614216691651-8c9e4e2c5f9e",
+    "best_time": "October to February",
+    "weather_info": {
+      "summer": "25°C - 40°C (Hot & Humid)",
+      "monsoon": "20°C - 30°C (Pleasant with occasional rain showers)",
+      "winter": "10°C - 20°C (Mild & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Banswara does not have a metro system, but it is well-connected to major cities like Udaipur and Ahmedabad by road and rail.",
+      "bus": "Regular bus services are available from Banswara to nearby cities and towns, including Udaipur, Dungarpur, and Ratlam.",
+      "airport": "The nearest airport is the Maharana Pratap Airport in Udaipur, which is approximately 160 km from Banswara and offers connections to major cities like Delhi, Mumbai, and Jaipur.",
+      "railway": "Banswara has a railway station that connects it to major cities like Udaipur, Ratlam, and Delhi, with regular trains running on these routes."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 02962-240100 (Banswara Police Control Room)",
+      "hospital": "Mahatma Gandhi Hospital (02962-240444) or Banswara District Hospital (02962-240333)",
+      "touristOffice": "Rajasthan Tourism Department, Banswara (02962-240155) or Banswara District Collector's Office (02962-240101)"
+    }
+  },
+  {
+    "id": "baran",
+    "district_id": "baran-district",
+    "name": "Baran",
+    "tagline": "The Gateway to the Hadoti Region",
+    "description": "Baran, a city in the Hadoti region of Rajasthan, is known for its rich cultural heritage and historical significance. The city is home to several ancient temples, forts, and monuments, showcasing the architectural prowess of the bygone era. The city's strategic location makes it an important center for trade and commerce in the region. With its vibrant markets, delicious local cuisine, and warm hospitality, Baran is a must-visit destination for anyone looking to experience the authentic charm of Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1618773921117-3c3c2e0f2c7c",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Baran does not have a metro rail network, but it is well-connected to other cities by road and rail.",
+      "bus": "Regular bus services are available from Baran to major cities like Jaipur, Kota, and Udaipur.",
+      "airport": "The nearest airport is the Kota Airport, which is approximately 100 km from Baran.",
+      "railway": "Baran has a railway station that connects it to other major cities in Rajasthan and India."
+    },
+    "emergency_contacts": {
+      "police": "100",
+      "hospital": "District Hospital, Baran - 07453-230001",
+      "touristOffice": "Rajasthan Tourism Department, Baran - 07453-230002"
+    }
+  },
+  {
+    "id": "barmer",
+    "district_id": "barmer-district",
+    "name": "Barmer",
+    "tagline": "The Gateway to the Thar Desert",
+    "description": "Barmer, a city in the western part of Rajasthan, is known for its rich cultural heritage and historical significance. The city is surrounded by the Thar Desert and is a major center for woodcarvings, embroidery, and other handicrafts. Barmer is also famous for its majestic forts, temples, and historical monuments, showcasing the city's glorious past. The city's vibrant culture and traditions are reflected in its colorful festivals, music, and dance.",
+    "image_url": "https://images.unsplash.com/photo-1619851167555-8e5e2f4e2e2e",
+    "best_time": "October to February",
+    "weather_info": {
+      "summer": "40°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid & Rainy)",
+      "winter": "5°C - 15°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Barmer does not have a metro system, but it is well-connected by buses and taxis to nearby cities.",
+      "bus": "Regular bus services are available from Barmer to major cities like Jodhpur, Jaipur, and Udaipur.",
+      "airport": "The nearest airport is the Jodhpur Airport, which is about 220 km from Barmer and offers flights to major cities like Delhi, Mumbai, and Jaipur.",
+      "railway": "Barmer has a railway station that connects it to major cities like Jodhpur, Jaipur, and Delhi, with regular trains available throughout the day."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 02982-220100 (Barmer Police Station)",
+      "hospital": "02982-220301 (Barmer District Hospital) or 02982-220401 (Private Hospitals)",
+      "touristOffice": "0141-5155100 (Rajasthan Tourism Department) or 02982-220200 (Barmer Tourist Information Office)"
+    }
+  },
+  {
+    "id": "beawar",
+    "district_id": "ajmer-district",
+    "name": "Beawar",
+    "tagline": "The Industrial Hub of Rajasthan",
+    "description": "Beawar, a city in the Ajmer district of Rajasthan, is a significant industrial and commercial center. The city is known for its rich cultural heritage, historical landmarks, and natural beauty. Beawar is home to several ancient temples, including the famous Beawar Fort and the Brahma Temple. The city's strategic location and well-developed infrastructure make it an attractive destination for tourists and businesses alike.",
+    "image_url": "https://images.unsplash.com/photo-1605827645697-3c7e0a6e6e5f",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Beawar does not have a metro system, but it is well-connected by road and rail to major cities like Ajmer, Jaipur, and Delhi.",
+      "bus": "Regular bus services are available from Beawar to nearby cities and towns, including Ajmer, Jaipur, and Udaipur.",
+      "airport": "The nearest airport is the Kishangarh Airport, which is approximately 60 km from Beawar and offers flights to major cities like Delhi and Mumbai.",
+      "railway": "Beawar has a railway station that connects it to major cities like Ajmer, Jaipur, Delhi, and Mumbai, with regular trains available throughout the day."
+    },
+    "emergency_contacts": {
+      "police": "Beawar Police Station: 01462-251100",
+      "hospital": "Beawar Hospital: 01462-251200",
+      "touristOffice": "Rajasthan Tourism Office: 01462-252345"
+    }
+  },
+  {
+    "id": "bharatpur",
+    "district_id": "bharatpur-district",
+    "name": "Bharatpur",
+    "tagline": "The Eastern Gateway to Rajasthan",
+    "description": "Bharatpur, a city in the eastern part of Rajasthan, is renowned for its rich cultural heritage and historical significance. The city is home to the famous Keoladeo National Park, a UNESCO World Heritage Site and a haven for birdwatchers and nature enthusiasts. With its well-preserved forts, palaces, and temples, Bharatpur showcases the architectural grandeur of the bygone era. The city's strategic location has made it an important center for trade and commerce in the region.",
+    "image_url": "https://images.unsplash.com/photo-1618773921117-ccd1f4c4f2c5",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "40°C - 45°C (Hot & Dry)",
+      "monsoon": "25°C - 35°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Bharatpur does not have a metro system, but it is well-connected to major cities by road and rail.",
+      "bus": "Regular bus services are available from Bharatpur to nearby cities like Jaipur, Agra, and Delhi.",
+      "airport": "The nearest airport is the Jaipur International Airport, which is approximately 180 km from Bharatpur.",
+      "railway": "Bharatpur has a railway station that connects it to major cities like Delhi, Mumbai, and Kolkata."
+    },
+    "emergency_contacts": {
+      "police": "100",
+      "hospital": "Bharatpur District Hospital: 05644-222222",
+      "touristOffice": "Rajasthan Tourism Department: 05644-222333"
+    }
+  },
+  {
+    "id": "bhilwara",
+    "district_id": "bhilwara-district",
+    "name": "Bhilwara",
+    "tagline": "The Textile City",
+    "description": "Bhilwara, a city in the Mewar region of Rajasthan, is renowned for its vibrant textile industry and rich cultural heritage. The city's history dates back to the 11th century and is dotted with ancient temples, forts, and monuments that showcase its architectural grandeur. The city is also famous for its fairs and festivals, which are a testament to its rich cultural diversity. With its unique blend of traditional and modern attractions, Bhilwara is a must-visit destination for anyone interested in exploring the authentic Rajasthan experience.",
+    "image_url": "https://images.unsplash.com/photo-1619854735333-3c9b7d2e2c4e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid with moderate rainfall)",
+      "winter": "10°C - 20°C (Cool with occasional fog)"
+    },
+    "transport_info": {
+      "metro": "Bhilwara does not have a metro system, but it is well-connected by road and rail to major cities like Jaipur, Udaipur, and Ajmer.",
+      "bus": "Regular bus services are available from Bhilwara to nearby cities and towns, including Jaipur, Udaipur, and Chittorgarh.",
+      "airport": "The nearest airport is the Maharana Pratap Airport in Udaipur, which is approximately 170 km from Bhilwara.",
+      "railway": "Bhilwara has a major railway station that connects it to major cities like Jaipur, Delhi, Mumbai, and Ahmedabad."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 01482-232601 (Bhilwara Police Control Room)",
+      "hospital": "Mahatma Gandhi Hospital (01482-232232) or Bhilwara District Hospital (01482-232333)",
+      "touristOffice": "Rajasthan Tourism Department (01482-232444) or Bhilwara District Tourism Office (01482-232555)"
+    }
+  },
+  {
+    "id": "bikaner",
+    "district_id": "bikaner-district",
+    "name": "Bikaner",
+    "tagline": "The Camel City",
+    "description": "Bikaner, a city in the northwest of the state of Rajasthan, is a treasure trove of rich cultural heritage and history. The city is famous for its magnificent forts, palaces, and temples, showcasing the architectural brilliance of the bygone era. The Junagarh Fort, with its impressive structures and museums, is a must-visit attraction in the city. Bikaner is also known for its vibrant festivals, delicious cuisine, and unique handicrafts, making it an ideal destination for travelers and history enthusiasts alike.",
+    "image_url": "https://images.unsplash.com/photo-1619851163738-3d5c3f9c4c3b",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "40°C - 45°C (Hot & Dry)",
+      "monsoon": "July to September, with moderate rainfall and a relatively cooler climate",
+      "winter": "10°C - 20°C (Pleasant and cool)"
+    },
+    "transport_info": {
+      "metro": "Bikaner does not have a metro system, but it has a well-connected bus network and auto-rickshaws for local transportation.",
+      "bus": "Regular bus services are available from Bikaner to major cities in Rajasthan, including Jaipur, Jodhpur, and Udaipur.",
+      "airport": "The Nal Airport in Bikaner is a domestic airport with limited flights, but the nearest international airport is in Jaipur, which is about 340 km away.",
+      "railway": "Bikaner Junction is a major railway station with regular trains connecting to major cities in India, including Delhi, Mumbai, and Kolkata."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or +91-151-2226100 (Bikaner Police Control Room)",
+      "hospital": "Sardar Patel Medical College and Hospital (+91-151-2548800) or Bikaner Railway Hospital (+91-151-2548141)",
+      "touristOffice": "+91-151-2226727 (Rajasthan Tourism Development Corporation Limited, Bikaner Office)"
+    }
+  },
+  {
+    "id": "bundi",
+    "district_id": "bundi-district",
+    "name": "Bundi",
+    "tagline": "The City of Step Wells",
+    "description": "Bundi is a captivating city in the Hadoti region of Rajasthan, known for its stunning step wells, intricately carved havelis, and majestic fortresses. The city's rich history dates back to the 12th century, with the Bundi dynasty ruling over the region for over 700 years. Visitors can explore the magnificent Taragarh Fort, which offers breathtaking views of the city, and marvel at the impressive architecture of the Bundi Palace. The city's unique blend of Rajput and Mughal influences is reflected in its vibrant culture, delicious cuisine, and warm hospitality.",
+    "image_url": "https://images.unsplash.com/photo-1618773921118-5e2e2c bee4d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVuZGklMjByYWhtYXRo8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid with moderate rainfall)",
+      "winter": "10°C - 20°C (Mild and pleasant)"
+    },
+    "transport_info": {
+      "metro": "Bundi does not have a metro system, but it is well-connected to major cities like Jaipur and Udaipur by road and rail.",
+      "bus": "Regular bus services are available from Bundi to nearby cities like Kota, Jodhpur, and Ajmer.",
+      "airport": "The nearest airport is the Kota Airport, which is approximately 40 km from Bundi, with flights connecting to major cities like Delhi and Mumbai.",
+      "railway": "Bundi has a railway station with regular trains connecting to cities like Jaipur, Udaipur, and Delhi."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 0747-2443411 (Bundi Police Station)",
+      "hospital": "Bundi District Hospital: 0747-2442501",
+      "touristOffice": "Rajasthan Tourism Office, Bundi: 0747-2443691"
+    }
+  },
+  {
+    "id": "chittorgarh",
+    "district_id": "chittorgarh-district",
+    "name": "Chittorgarh",
+    "tagline": "The City of Pride and Honor",
+    "description": "Chittorgarh, a city in the southern part of Rajasthan, is renowned for its rich cultural heritage and historical significance. The city is dominated by the majestic Chittorgarh Fort, a UNESCO World Heritage Site and one of the largest forts in India. The fort, which dates back to the 7th century, is a testament to the city's glorious past and the bravery of its rulers, the Mewar dynasty. Chittorgarh is also famous for its vibrant festivals, traditional handicrafts, and mouth-watering local cuisine, making it a must-visit destination for anyone interested in exploring the authentic Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1619851167433-3f9c4c bee3f8",
+    "best_time": "September to February",
+    "weather_info": {
+      "summer": "25°C - 40°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Chittorgarh does not have a metro system, but it is well-connected to other cities by bus and train.",
+      "bus": "Regular bus services are available from Chittorgarh to major cities like Udaipur, Jaipur, and Delhi.",
+      "airport": "The nearest airport is the Maharana Pratap Airport in Udaipur, which is about 90 km from Chittorgarh.",
+      "railway": "Chittorgarh has a railway station that connects it to major cities like Udaipur, Jaipur, and Delhi."
+    },
+    "emergency_contacts": {
+      "police": "100 (Police Control Room) or 01472-240333 (Chittorgarh Police Station)",
+      "hospital": "01472-240444 (Chittorgarh District Hospital) or 01472-240555 (Private Hospitals)",
+      "touristOffice": "01472-241089 (Rajasthan Tourism Development Corporation Limited)"
+    }
+  },
+  {
+    "id": "churu",
+    "district_id": "churu-district",
+    "name": "Churu",
+    "tagline": "The Gateway to the Thar Desert",
+    "description": "Churu is a city in the desert region of Rajasthan, known for its rich cultural heritage and historical significance. The city is home to several ancient havelis, forts, and temples, showcasing the architectural brilliance of the bygone era. Churu is also famous for its traditional handicrafts, including woodcarvings, pottery, and textiles. The city's strategic location makes it an ideal base for exploring the surrounding desert landscape and experiencing the unique traditions of the local people.",
+    "image_url": "https://images.unsplash.com/photo-1617871115510-3c0a5c2e1f4e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "40°C - 48°C (Hot & Dry)",
+      "monsoon": "July to September, with average rainfall of 300 mm",
+      "winter": "5°C - 15°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Churu does not have a metro system, but it is well-connected by road and rail to major cities like Jaipur and Delhi",
+      "bus": "Regular bus services are available from Churu to nearby cities and towns, including Jaipur, Bikaner, and Jhunjhunu",
+      "airport": "The nearest airport is the Jaipur International Airport, which is approximately 200 km from Churu",
+      "railway": "Churu has a railway station that connects to major cities like Delhi, Jaipur, and Bikaner, with regular train services available throughout the day"
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline), 01562-252223 (Churu Police Station)",
+      "hospital": "Rajasthan Government Hospital, Churu: 01562-252355",
+      "touristOffice": "Rajasthan Tourism Department, Churu: 01562-252244"
+    }
+  },
+  {
+    "id": "dausa",
+    "district_id": "dausa-district",
+    "name": "Dausa",
+    "tagline": "The Heritage City",
+    "description": "Dausa, a city in the eastern part of Rajasthan, is known for its rich cultural heritage and historical significance. The city is home to several ancient temples, including the famous Somnath Temple and the Mehandipur Balaji Temple, which attract thousands of devotees every year. Dausa is also famous for its traditional handicrafts, such as pottery, weaving, and woodcarving, which are made by skilled artisans. The city's vibrant culture and warm hospitality make it a must-visit destination for anyone interested in exploring the authentic Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1619851163733-3f5c5d0e0e4b",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Dausa does not have a metro system, but it is well-connected to nearby cities like Jaipur and Alwar by bus and taxi.",
+      "bus": "Regular bus services are available from Dausa to major cities in Rajasthan, including Jaipur, Alwar, and Bharatpur.",
+      "airport": "The nearest airport is the Jaipur International Airport, which is about 55 km from Dausa and offers flights to major cities in India.",
+      "railway": "Dausa has a railway station that connects it to nearby cities like Jaipur, Alwar, and Delhi."
+    },
+    "emergency_contacts": {
+      "police": "Phone: 01427-223333",
+      "hospital": "Phone: 01427-223444, Address: Dausa District Hospital, Near Bus Stand, Dausa",
+      "touristOffice": "Phone: 01427-223555, Address: District Tourism Office, Collectorate Building, Dausa"
+    }
+  },
+  {
+    "id": "deeg",
+    "district_id": "bharatpur-district",
+    "name": "Deeg",
+    "tagline": "The City of Palaces and Forts",
+    "description": "Deeg is a historic city in Rajasthan, known for its stunning palaces, majestic forts, and picturesque lakes. The city is home to the famous Deeg Palace, a beautiful example of Rajput architecture, and the Bharatpur Palace, which showcases the region's rich cultural heritage. Deeg is also a popular destination for birdwatchers, with the nearby Bharatpur Bird Sanctuary being a UNESCO World Heritage Site. The city's rich history, vibrant culture, and breathtaking natural beauty make it a must-visit destination in Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1618773921115-6f7a4e2e2e5e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid with moderate rainfall)",
+      "winter": "10°C - 20°C (Cool with occasional fog)"
+    },
+    "transport_info": {
+      "metro": "Deeg is not connected by metro, but can be reached by bus or taxi from nearby cities like Bharatpur and Jaipur.",
+      "bus": "Regular bus services are available from Deeg to major cities in Rajasthan, including Jaipur, Bharatpur, and Alwar.",
+      "airport": "The nearest airport is the Jaipur International Airport, which is approximately 180 km from Deeg and offers connections to major cities in India.",
+      "railway": "Deeg has a railway station that connects to nearby cities like Bharatpur, Jaipur, and Alwar, with regular train services available throughout the day."
+    },
+    "emergency_contacts": {
+      "police": "100 (Police Emergency Number), 01491-292222 (Deeg Police Station)",
+      "hospital": "01491-292333 (Deeg Hospital), 01491-292444 (Bharatpur Hospital)",
+      "touristOffice": "01491-292555 (Deeg Tourist Office), 0144-2227908 (Rajasthan Tourism Office)"
+    }
+  },
+  {
+    "id": "dholpur",
+    "district_id": "dholpur-district",
+    "name": "Dholpur",
+    "tagline": "The City of Ghariyals",
+    "description": "Dholpur, situated in the eastern part of Rajasthan, is a city known for its rich cultural heritage and historical significance. The city boasts of several ancient monuments, including the Dholpur Palace, which showcases a blend of Mughal and Rajput architectural styles. The city is also home to the famous National Chambal Sanctuary, which is a haven for wildlife enthusiasts and nature lovers. With its unique blend of history, culture, and natural beauty, Dholpur is a must-visit destination for anyone interested in exploring the lesser-known gems of Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1618773921116-cc7b2e2c5c4e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "40°C - 45°C (Hot & Dry)",
+      "monsoon": "25°C - 35°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Dholpur does not have a metro system, but it is well-connected to nearby cities like Agra and Gwalior by road and rail.",
+      "bus": "Regular bus services are available from Dholpur to major cities in Rajasthan and neighboring states.",
+      "airport": "The nearest airport is the Gwalior Airport, which is approximately 60 km from Dholpur.",
+      "railway": "Dholpur has a railway station that connects it to major cities like Delhi, Agra, and Gwalior."
+    },
+    "emergency_contacts": {
+      "police": "100",
+      "hospital": "District Hospital, Dholpur: 05642-220024",
+      "touristOffice": "Rajasthan Tourism Office, Dholpur: 05642-220025"
+    }
+  },
+  {
+    "id": "didwana-kuchaman",
+    "district_id": "nagaur-district",
+    "name": "Didwana-Kuchaman",
+    "tagline": "Twin Cities of Ancient Heritage",
+    "description": "Didwana and Kuchaman are two historic cities in the Nagaur district of Rajasthan, known for their ancient architecture, vibrant culture, and rich heritage. The cities are home to numerous temples, forts, and monuments, showcasing the region's history and craftsmanship. The area is also famous for its traditional crafts, including pottery, weaving, and metalwork. Visitors can explore the cities' bustling markets, try local cuisine, and experience the warm hospitality of the people.",
+    "image_url": "https://images.unsplash.com/photo-161985116674 eskort/0x0x",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid & Rainy)",
+      "winter": "10°C - 25°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Didwana-Kuchaman does not have a metro system, but it is well-connected by road and rail to major cities like Jaipur and Jodhpur.",
+      "bus": "Regular bus services are available from Didwana-Kuchaman to nearby cities and towns, including Jaipur, Jodhpur, and Bikaner.",
+      "airport": "The nearest airport is the Jaipur International Airport, which is approximately 160 km from Didwana-Kuchaman and offers flights to major cities in India.",
+      "railway": "Didwana-Kuchaman has a railway station that connects to major cities like Jaipur, Jodhpur, and Delhi, with regular trains available throughout the day."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 01437-254444 (Didwana-Kuchaman Police Station)",
+      "hospital": "01437-254141 (Didwana-Kuchaman Government Hospital) or 01437-255555 (Private Hospital)",
+      "touristOffice": "01437-254321 (Rajasthan Tourism Office, Didwana-Kuchaman)"
+    }
+  },
+  {
+    "id": "dungarpur",
+    "district_id": "dungarpur-district",
+    "name": "Dungarpur",
+    "tagline": "The City of Hills",
+    "description": "Dungarpur, a city in the southernmost part of Rajasthan, is known for its stunning natural beauty, with rolling hills, sparkling lakes, and lush green forests. The city has a rich cultural heritage, with a strong influence of the Bhil tribe, and is home to several ancient temples, including the famous Deo Somnath temple. The city's unique architecture, which blends traditional Rajasthani and Bhil styles, is also a major attraction. With its picturesque landscapes, rich history, and vibrant culture, Dungarpur is a must-visit destination for anyone interested in exploring the lesser-known gems of Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1618773921118-0c2e2c2c2c2c",
+    "best_time": "October to February",
+    "weather_info": {
+      "summer": "25°C - 40°C (Hot & Humid)",
+      "monsoon": "20°C - 30°C (Cool & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Dungarpur does not have a metro system, but it is well-connected to other cities by road and rail.",
+      "bus": "Regular bus services are available from Dungarpur to major cities like Udaipur, Ahmedabad, and Jaipur.",
+      "airport": "The nearest airport is the Maharana Pratap Airport in Udaipur, which is about 120 km from Dungarpur.",
+      "railway": "Dungarpur has a railway station that connects it to other major cities in Rajasthan and Gujarat."
+    },
+    "emergency_contacts": {
+      "police": "100 (Police Control Room), 94140-44005 (SP Office)",
+      "hospital": "02964-232115 (District Hospital), 02964-232216 (Private Hospital)",
+      "touristOffice": "0141-5155100 (Rajasthan Tourism Development Corporation), 02964-232151 (Local Tourist Information Office)"
+    }
+  },
+  {
+    "id": "hanumangarh",
+    "district_id": "hanumangarh-district",
+    "name": "Hanumangarh",
+    "tagline": "The Gateway to Rajasthan",
+    "description": "Hanumangarh is a city in the Indian state of Rajasthan, situated about 400 km northwest of Delhi. The city is known for its rich cultural heritage, historical landmarks, and natural beauty. It is home to the famous Bhatner Fort, a 17th-century fort that showcases the region's architectural prowess. The city's strategic location makes it an important center for trade and commerce in the region.",
+    "image_url": "https://images.unsplash.com/photo-1619852734433-6e2c2c9f3c4d",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "40°C - 45°C (Hot & Dry)",
+      "monsoon": "July to September with moderate rainfall",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Hanumangarh does not have a metro system, but it is well-connected by road and rail",
+      "bus": "Regular bus services are available from Hanumangarh to major cities like Jaipur, Delhi, and Chandigarh",
+      "airport": "The nearest airport is the Bathinda Airport in Punjab, about 90 km from Hanumangarh",
+      "railway": "Hanumangarh Junction is a major railway station, with frequent trains to Delhi, Jaipur, and other parts of the country"
+    },
+    "emergency_contacts": {
+      "police": "100 (Police Control Room) or 01552-260100 (Hanumangarh Police Station)",
+      "hospital": "Government Hospital, Hanumangarh: 01552-260200 or 9414433100",
+      "touristOffice": "Rajasthan Tourism Office, Hanumangarh: 01552-260300 or 0141-5114444 (Head Office, Jaipur)"
+    }
+  },
+  {
+    "id": "jaipur",
+    "district_id": "jaipur-district",
+    "name": "Jaipur",
+    "tagline": "The Pink City",
+    "description": "Jaipur, the capital of Rajasthan, is a city steeped in history and culture. Founded in 1727 by Maharaja Sawai Jai Singh II, it is known for its stunning architecture, vibrant markets, and rich heritage. The city is home to numerous iconic landmarks, including the Hawa Mahal, City Palace, and Amber Fort, showcasing the grandeur of the Rajput era. With its unique blend of traditional and modern attractions, Jaipur is a must-visit destination for anyone interested in exploring the beauty and charm of India's royal past.",
+    "image_url": "https://images.unsplash.com/photo-1618773929026-3c3c2bcb0d5d",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid with occasional showers)",
+      "winter": "10°C - 25°C (Mild and pleasant)"
+    },
+    "transport_info": {
+      "metro": "Jaipur has a well-connected metro system, with two lines covering major parts of the city, making it easy to get around without relying on personal vehicles.",
+      "bus": "An extensive network of buses, including low-floor buses and deluxe services, connects Jaipur to other cities in Rajasthan and neighboring states, offering an affordable mode of transportation.",
+      "airport": "The Jaipur International Airport, located about 13 kilometers from the city center, offers flights to major domestic and international destinations, providing convenient air travel options.",
+      "railway": "Jaipur Junction railway station is a major railhead, with frequent trains connecting the city to Delhi, Mumbai, Kolkata, and other key cities across India, facilitating easy rail travel."
+    },
+    "emergency_contacts": {
+      "police": "100 (Toll-free police helpline) or +91-141-2385392 (Jaipur Police Control Room)",
+      "hospital": "Sawai Man Singh Medical College and Hospital: +91-141-2560291, Fortis Escorts Hospital: +91-141-4060606",
+      "touristOffice": "Rajasthan Tourism Development Corporation Ltd. (RTDC): +91-141-5110598, Toll-free: 1800-180-6262"
+    }
+  },
+  {
+    "id": "jaisalmer",
+    "district_id": "jaisalmer-district",
+    "name": "Jaisalmer",
+    "tagline": "The Golden City",
+    "description": "Jaisalmer, a former medieval trading center, is a city in the Indian state of Rajasthan, situated in the heart of the Thar Desert. The city is known for its stunning architecture, including the Jaisalmer Fort, which is one of the largest fortifications in the world. The city's rich cultural heritage is reflected in its vibrant markets, historic temples, and intricately carved havelis. Visitors can experience the city's unique charm by taking a camel safari through the sand dunes or exploring the narrow streets of the old city.",
+    "image_url": "https://images.unsplash.com/photo-1619851167373-3a5f8f6e5c2e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "40°C - 45°C (Hot & Dry)",
+      "monsoon": "July to September, with average rainfall of 10 cm",
+      "winter": "10°C - 20°C (Mild & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Jaisalmer does not have a metro system, but it is well-connected to other cities by bus and taxi services.",
+      "bus": "Regular bus services are available from Jaisalmer to major cities like Jodhpur, Jaipur, and Delhi.",
+      "airport": "The nearest airport is Jodhpur Airport, which is approximately 280 km from Jaisalmer and offers flights to major cities in India.",
+      "railway": "Jaisalmer Railway Station is a major railway junction, with trains connecting to cities like Jodhpur, Jaipur, and Delhi."
+    },
+    "emergency_contacts": {
+      "police": "100 (Police Control Room) or +91-2992-252216 (Jaisalmer Police Station)",
+      "hospital": "+91-2992-252333 (Jaisalmer Government Hospital) or +91-2992-255555 (Private Hospital)",
+      "touristOffice": "+91-2992-252208 (Rajasthan Tourism Development Corporation Limited, Jaisalmer Office)"
+    }
+  },
+  {
+    "id": "jalore",
+    "district_id": "jalore-district",
+    "name": "Jalore",
+    "tagline": "The City of Granite",
+    "description": "Jalore, a historic city in the Indian state of Rajasthan, is renowned for its stunning architecture, vibrant culture, and breathtaking natural beauty. The city is home to the majestic Jalore Fort, a 10th-century fort that stands atop a hill, offering panoramic views of the surrounding landscape. Jalore is also famous for its vibrant markets, where one can find an array of colorful handicrafts, textiles, and local delicacies. With its rich history, cultural significance, and natural charm, Jalore is a must-visit destination for anyone exploring the wonders of Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1614216692545-5c9f9e2f5e2e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid & Rainy)",
+      "winter": "10°C - 25°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Jalore does not have a metro system, but it is well-connected to major cities like Jodhpur and Ahmedabad by road and rail.",
+      "bus": "Regular bus services are available from Jalore to nearby cities and towns, including Jodhpur, Udaipur, and Mount Abu.",
+      "airport": "The nearest airport is the Jodhpur Airport, which is approximately 140 km from Jalore and offers flights to major cities like Delhi, Mumbai, and Jaipur.",
+      "railway": "Jalore has a railway station that connects to major cities like Jodhpur, Ahmedabad, and Delhi, with regular trains available throughout the day."
+    },
+    "emergency_contacts": {
+      "police": "Jalore Police Station: 02992-250001",
+      "hospital": "Jalore District Hospital: 02992-250002",
+      "touristOffice": "Rajasthan Tourism Office, Jalore: 02992-250003"
+    }
+  },
+  {
+    "id": "jhalawar",
+    "district_id": "jhalawar-district",
+    "name": "Jhalawar",
+    "tagline": "The City of the Jhala Clan",
+    "description": "Jhalawar, situated in the southeastern region of Rajasthan, is a city steeped in history and natural beauty. The city is known for its stunning architecture, including the Jhalawar Fort and the Bhawani Natya Shala, a historic theater. The city's rich cultural heritage is reflected in its numerous festivals and fairs, showcasing the vibrant traditions of the region. With its picturesque landscapes and historic landmarks, Jhalawar is a must-visit destination for anyone interested in exploring the authentic charm of Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1619854731948-3c5f2c2f6f7c",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Jhalawar does not have a metro system, but it is well-connected to major cities by road and rail.",
+      "bus": "Regular bus services are available from Jhalawar to nearby cities, including Kota and Jaipur.",
+      "airport": "The nearest airport is the Kota Airport, which is approximately 80 km from Jhalawar.",
+      "railway": "Jhalawar has a railway station that connects to major cities like Delhi, Mumbai, and Jaipur."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 07432-232100 (Jhalawar Police Control Room)",
+      "hospital": "MKCG Medical College and Hospital (07432-230100) or Jhalawar District Hospital (07432-232200)",
+      "touristOffice": "Rajasthan Tourism Department, Jhalawar (07432-232300) or email: [jhalawar@tourism.rajasthan.gov.in](mailto:jhalawar@tourism.rajasthan.gov.in)"
+    }
+  },
+  {
+    "id": "jhunjhunu",
+    "district_id": "jhunjhunu-district",
+    "name": "Jhunjhunu",
+    "tagline": "The Heritage City of Shekhawati",
+    "description": "Jhunjhunu is a city in the Jhunjhunu district of Rajasthan, known for its rich cultural heritage and historical significance. The city is home to numerous ancient havelis, forts, and temples, showcasing the region's architectural prowess. Jhunjhunu is also famous for its vibrant festivals, delicious local cuisine, and traditional handicrafts. With its unique blend of history, culture, and natural beauty, Jhunjhunu is a must-visit destination for anyone interested in exploring the authentic Rajasthan experience.",
+    "image_url": "https://images.unsplash.com/photo-1619851167433-3f4e5f2f6c2e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid & Rainy)",
+      "winter": "5°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Jhunjhunu does not have a metro system, but it is well-connected to major cities like Jaipur and Delhi by road and rail.",
+      "bus": "Regular bus services are available from Jhunjhunu to nearby cities and towns, including Jaipur, Sikar, and Churu.",
+      "airport": "The nearest airport is the Jaipur International Airport, which is approximately 180 km from Jhunjhunu and offers flights to major Indian cities and international destinations.",
+      "railway": "Jhunjhunu has a railway station that connects to major cities like Jaipur, Delhi, and Bikaner, with regular trains available throughout the day."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 01592-232100 (Jhunjhunu Police Station)",
+      "hospital": "Government Hospital, Jhunjhunu - 01592-232341 or Private Hospitals like Jhunjhunu Hospital - 01592-232342",
+      "touristOffice": "Rajasthan Tourism Department, Jhunjhunu - 01592-232400 or 0141-5155100 (Jaipur Head Office)"
+    }
+  },
+  {
+    "id": "jodhpur",
+    "district_id": "jodhpur-district",
+    "name": "Jodhpur",
+    "tagline": "The Blue City",
+    "description": "Jodhpur, the second-largest city in Rajasthan, is a treasure trove of history, architecture, and culture. The city is dominated by the majestic Mehrangarh Fort, which stands tall on a hill overlooking the city. Jodhpur is also known for its vibrant markets, delicious cuisine, and stunning architecture, including the Umaid Bhawan Palace and the Jaswant Thada. The city's blue-painted houses give it a unique and picturesque appearance, making it a popular destination for tourists and travelers.",
+    "image_url": "https://images.unsplash.com/photo-1619852737438-2c0a5e5c5d5c",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid & Rainy)",
+      "winter": "10°C - 25°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Jodhpur does not have a metro system, but it has a well-connected bus network and auto-rickshaws that make it easy to get around the city.",
+      "bus": "Jodhpur has a bus station that connects to major cities in Rajasthan and other parts of India, with regular services to destinations like Jaipur, Delhi, and Mumbai.",
+      "airport": "Jodhpur Airport is a domestic airport that connects to major cities in India, including Delhi, Mumbai, and Bangalore, with flights operated by airlines like Air India, SpiceJet, and Indigo.",
+      "railway": "Jodhpur Railway Station is a major railway station that connects to cities across India, including Delhi, Mumbai, Kolkata, and Chennai, with regular trains operated by Indian Railways."
+    },
+    "emergency_contacts": {
+      "police": "100 (Police Emergency Number), 0291-2510085 (Jodhpur Police Control Room)",
+      "hospital": "0291-2430737 (Mahatma Gandhi Hospital), 0291-2510755 (Medanta Hospital)",
+      "touristOffice": "0141-2375467 (Rajasthan Tourism Development Corporation), 0291-2545081 (Jodhpur Tourist Information Office)"
+    }
+  },
+  {
+    "id": "karauli",
+    "district_id": "karauli-district",
+    "name": "Karauli",
+    "tagline": "The City of Red Stone",
+    "description": "Karauli is a city in the Indian state of Rajasthan, known for its stunning red sandstone architecture and rich cultural heritage. The city is home to numerous historical monuments, including the Karauli City Palace, which showcases a blend of Rajput and Mughal architectural styles. The city's strategic location made it an important trade center in the past, and its vibrant markets still reflect this legacy. With its unique blend of history, culture, and natural beauty, Karauli is a must-visit destination for anyone exploring Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1619851163738-3c0a3d2c8e3e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid with occasional rain showers)",
+      "winter": "10°C - 20°C (Cool with occasional fog)"
+    },
+    "transport_info": {
+      "metro": "Karauli does not have a metro system, but it is well-connected to nearby cities like Jaipur and Alwar by road and rail.",
+      "bus": "Regular bus services are available from Karauli to major cities in Rajasthan, including Jaipur, Alwar, and Bharatpur.",
+      "airport": "The nearest airport is the Jaipur International Airport, which is approximately 160 km from Karauli and offers connections to major cities in India.",
+      "railway": "Karauli has a railway station that connects it to nearby cities like Jaipur, Alwar, and Bharatpur, with regular trains available throughout the day."
+    },
+    "emergency_contacts": {
+      "police": "100 (Karauli Police Control Room)",
+      "hospital": "0252-320001 (Karauli District Hospital)",
+      "touristOffice": "01495-236353 (Rajasthan Tourism Development Corporation Limited, Karauli Office)"
+    }
+  },
+  {
+    "id": "khairthal-tijara",
+    "district_id": "alwar-district",
+    "name": "Khairthal-Tijara",
+    "tagline": "The Hidden Gems of Alwar",
+    "description": "Khairthal and Tijara are two historic towns in the Alwar district of Rajasthan, known for their stunning architecture, vibrant culture, and rich heritage. The towns are home to several ancient temples, forts, and palaces, showcasing the region's glorious past. Visitors can explore the Tijara Fort, the Khairthal Railway Museum, and the beautiful temples dedicated to Lord Shiva and Lord Krishna. The region is also famous for its traditional handicrafts, including pottery, weaving, and woodcarvings.",
+    "image_url": "https://images.unsplash.com/photo-161985116674 männer-rajasthan-india",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid & Rainy)",
+      "winter": "10°C - 25°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "The nearest metro station is in Delhi, approximately 120 km away from Khairthal-Tijara. However, the towns are well-connected by road and rail, with regular bus and train services from major cities like Jaipur, Delhi, and Alwar.",
+      "bus": "Regular bus services are available from major cities like Jaipur, Delhi, and Alwar to Khairthal-Tijara. The towns have a well-connected network of state and private buses, making it easy to travel to nearby destinations.",
+      "airport": "The nearest airport is the Indira Gandhi International Airport in Delhi, approximately 120 km away from Khairthal-Tijara. From the airport, visitors can hire a taxi or take a bus to reach the towns.",
+      "railway": "Khairthal has a railway station, which is connected to major cities like Delhi, Jaipur, and Alwar. The railway station is a major transportation hub, with regular trains to nearby destinations."
+    },
+    "emergency_contacts": {
+      "police": "Police Station: 01494-282222",
+      "hospital": "Government Hospital: 01494-282111, Private Hospital: 01494-282333",
+      "touristOffice": "Tourist Information Office: 01494-282444, Rajasthan Tourism Department: 0141-5114444"
+    }
+  },
+  {
+    "id": "kota",
+    "district_id": "kota-district",
+    "name": "Kota",
+    "tagline": "The Industrial Hub of Rajasthan",
+    "description": "Kota, situated on the banks of the Chambal River, is a city in the southern part of Rajasthan known for its rich cultural heritage and historical significance. The city boasts of several magnificent forts, palaces, and museums that reflect its glorious past. The city is also famous for its Dussehra celebrations, which attract tourists from all over the world. With its unique blend of traditional and modern architecture, Kota is a must-visit destination for anyone interested in exploring the vibrant culture of Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1619851163738-6a5c4d9e2c7c",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "25°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid & Rainy)",
+      "winter": "10°C - 25°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Kota has a well-connected bus network, but it does not have a metro system. However, the city is planning to introduce a metro rail system in the near future.",
+      "bus": "Kota has a well-connected bus network, with regular bus services to major cities like Jaipur, Delhi, and Mumbai.",
+      "airport": "The nearest airport to Kota is the Kota Airport, which is connected to major cities like Jaipur, Delhi, and Mumbai.",
+      "railway": "Kota has a major railway station, which is connected to major cities like Jaipur, Delhi, Mumbai, and Kolkata."
+    },
+    "emergency_contacts": {
+      "police": "100",
+      "hospital": "MKCG Medical College and Hospital: 0744-2321777",
+      "touristOffice": "Rajasthan Tourism Development Corporation Ltd.: 0744-2325995"
+    }
+  },
+  {
+    "id": "kotputli-behror",
+    "district_id": "alwar-district",
+    "name": "Kotputli-Behror",
+    "tagline": "The Gateway to Rajasthan",
+    "description": "Kotputli-Behror is a city located in the Alwar district of Rajasthan, known for its rich cultural heritage and historical significance. The city is situated near the Delhi-Jaipur National Highway and is an important stopover for tourists and traders alike. Kotputli-Behror is home to several ancient temples, forts, and monuments, showcasing the region's architectural prowess. The city's vibrant markets and festivals are a testament to its thriving community and rich traditions.",
+    "image_url": "https://images.unsplash.com/photo-1614218122579-5c9f5d5e5e4e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid with occasional showers)",
+      "winter": "10°C - 20°C (Cool with occasional fog)"
+    },
+    "transport_info": {
+      "metro": "The city is not connected by metro, but buses and taxis are readily available.",
+      "bus": "Regular bus services connect Kotputli-Behror to major cities like Jaipur, Delhi, and Alwar.",
+      "airport": "The nearest airport is the Jaipur International Airport, approximately 120 km away.",
+      "railway": "The city has a railway station with regular trains to nearby cities and towns."
+    },
+    "emergency_contacts": {
+      "police": "01494-282222",
+      "hospital": "Government Hospital, Kotputli-Behror - 01494-282333",
+      "touristOffice": "Rajasthan Tourism Office, Alwar - 0144-2347345"
+    }
+  },
+  {
+    "id": "nagaur",
+    "district_id": "nagaur-district",
+    "name": "Nagaur",
+    "tagline": "The Land of Ahhichatragarh Fort",
+    "description": "Nagaur, a historic city in the Jodhpur region of Rajasthan, is renowned for its stunning Ahhichatragarh Fort, showcasing a blend of Rajput and Mughal architectural styles. The city's rich cultural heritage is reflected in its vibrant festivals, such as the Nagaur Fair, which attracts thousands of visitors each year. With its majestic forts, beautiful temples, and breathtaking sand dunes, Nagaur is a treasure trove of history, architecture, and natural beauty. The city's unique blend of traditional and modern attractions makes it an exciting destination for travelers and history enthusiasts alike.",
+    "image_url": "https://images.unsplash.com/photo-1619851167555-2c4c2e2f5e2f",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "40°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid with occasional rainfall)",
+      "winter": "5°C - 15°C (Cool with occasional fog)"
+    },
+    "transport_info": {
+      "metro": "Nagaur does not have a metro system, but it is well-connected to major cities like Jodhpur and Jaipur by road and rail.",
+      "bus": "Regular bus services are available from Nagaur to nearby cities, including Jodhpur, Jaipur, and Bikaner.",
+      "airport": "The nearest airport is the Jodhpur Airport, which is approximately 135 kilometers from Nagaur and offers flights to major cities like Delhi, Mumbai, and Udaipur.",
+      "railway": "Nagaur has a railway station that connects it to major cities like Jodhpur, Jaipur, and Delhi, with regular trains available throughout the day."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 01582-240100 (Nagaur Police Station)",
+      "hospital": "Government Hospital, Nagaur - 01582-240401 or 9414264411",
+      "touristOffice": "Rajasthan Tourism Department, Nagaur - 01582-240234 or nagaur@tourism.rajasthan.gov.in"
+    }
+  },
+  {
+    "id": "pali",
+    "district_id": "pali-district",
+    "name": "Pali",
+    "tagline": "The Industrial City of Rajasthan",
+    "description": "Pali is a city in the Indian state of Rajasthan, known for its rich history, cultural heritage, and industrial significance. The city is situated on the banks of the Bandi River and is home to several ancient temples, including the famous Somnath Temple. Pali is also an important center for the textile industry, with numerous factories and manufacturing units producing high-quality fabrics. The city's strategic location and well-developed infrastructure make it an attractive destination for tourists and business travelers alike.",
+    "image_url": "https://images.unsplash.com/photo-1619854739476-5f4a5e2f3e5e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid & Rainy)",
+      "winter": "10°C - 25°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Pali does not have a metro system, but it is well-connected to nearby cities by road and rail.",
+      "bus": "Regular bus services are available from Pali to major cities in Rajasthan, including Jodhpur, Jaipur, and Udaipur.",
+      "airport": "The nearest airport is the Jodhpur Airport, which is approximately 70 km from Pali and offers flights to major cities in India.",
+      "railway": "Pali has a railway station that connects to major cities in Rajasthan and other parts of India, including Delhi, Mumbai, and Ahmedabad."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 02932-222222 (Pali Police Control Room)",
+      "hospital": "02932-222333 (Pali District Hospital) or 02932-221111 (Private Hospitals)",
+      "touristOffice": "0141-2222222 (Rajasthan Tourism Development Corporation) or 02932-222444 (Pali District Tourism Office)"
+    }
+  },
+  {
+    "id": "phalodi",
+    "district_id": "jodhpur-district",
+    "name": "Phalodi",
+    "tagline": "The City of Rich Cultural Heritage",
+    "description": "Phalodi, a historic city in the Jodhpur district of Rajasthan, is renowned for its stunning architecture, vibrant culture, and breathtaking natural beauty. The city boasts an impressive array of ancient temples, forts, and palaces, showcasing the region's rich history and craftsmanship. Phalodi is also famous for its vibrant festivals, delectable local cuisine, and warm hospitality, making it a must-visit destination for travelers and culture enthusiasts. With its unique blend of traditional and modern attractions, Phalodi offers an unforgettable experience for visitors from around the world.",
+    "image_url": "https://images.unsplash.com/photo-1614216692545-2330c1d2e4b5",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid with occasional showers)",
+      "winter": "5°C - 20°C (Cool with occasional fog)"
+    },
+    "transport_info": {
+      "metro": "Phalodi does not have a metro system, but it is well-connected to nearby cities by bus and taxi services.",
+      "bus": "Regular bus services are available from Phalodi to major cities like Jodhpur, Jaipur, and Udaipur, operated by the Rajasthan State Road Transport Corporation.",
+      "airport": "The nearest airport is the Jodhpur Airport, located approximately 140 km from Phalodi, offering flights to major Indian cities like Delhi, Mumbai, and Bangalore.",
+      "railway": "Phalodi has a railway station with regular trains connecting to nearby cities like Jodhpur, Jaipur, and Delhi, operated by Indian Railways."
+    },
+    "emergency_contacts": {
+      "police": "Phalodi Police Station: 02925-222222",
+      "hospital": "Phalodi Government Hospital: 02925-223333",
+      "touristOffice": "Rajasthan Tourism Office, Phalodi: 02925-224444"
+    }
+  },
+  {
+    "id": "pratapgarh",
+    "district_id": "pratapgarh-district",
+    "name": "Pratapgarh",
+    "tagline": "The City of Valour",
+    "description": "Pratapgarh, situated in the southern part of Rajasthan, is a city steeped in history and valour. The city is named after the Pratapgarh Fort, which was built by Maharawal Pratap Singh in the 16th century. Pratapgarh is known for its stunning architecture, vibrant culture, and breathtaking natural beauty, with the Aravalli hills surrounding the city. The city is also famous for its traditional handicrafts, including woodcarvings, pottery, and textiles.",
+    "image_url": "https://images.unsplash.com/photo-1618773921117-0e2f6f5a5c4e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid & Rainy)",
+      "winter": "10°C - 25°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Pratapgarh does not have a metro system, but it is well-connected by road and rail to major cities like Udaipur and Jaipur.",
+      "bus": "Regular bus services are available from Pratapgarh to nearby cities and towns, including Udaipur, Jaipur, and Jodhpur.",
+      "airport": "The nearest airport is the Maharana Pratap Airport in Udaipur, which is approximately 110 km from Pratapgarh.",
+      "railway": "Pratapgarh has a railway station that connects to major cities like Udaipur, Jaipur, and Delhi."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 01443-220011 (Pratapgarh Police Station)",
+      "hospital": "01443-220044 (Pratapgarh District Hospital) or 01443-220055 (Private Hospitals)",
+      "touristOffice": "01443-220033 (Pratapgarh Tourist Information Office) or 1800-180-6135 (Rajasthan Tourism Helpline)"
+    }
+  },
+  {
+    "id": "rajsamand",
+    "district_id": "rajsamand-district",
+    "name": "Rajsamand",
+    "tagline": "The City of Marble",
+    "description": "Rajsamand, a city in the Rajasthan state of India, is renowned for its stunning marble production and intricate craftsmanship. The city is home to the majestic Rajsamand Lake, also known as Kumbhalgarh Lake, which offers breathtaking views and a serene atmosphere. With its rich cultural heritage and historical significance, Rajsamand is a must-visit destination for anyone interested in exploring the authentic beauty of Rajasthan. The city's vibrant markets, filled with colorful handicrafts and local delicacies, add to its charm and make it an unforgettable experience.",
+    "image_url": "https://images.unsplash.com/photo-1618773921114-cc2c3f7d2e2e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Rajsamand does not have a metro system, but it is well-connected to nearby cities like Udaipur and Nathdwara by bus.",
+      "bus": "Regular bus services are available from Rajsamand to major cities in Rajasthan, including Udaipur, Jaipur, and Jodhpur.",
+      "airport": "The nearest airport is the Maharana Pratap Airport in Udaipur, which is approximately 60 km from Rajsamand and offers flights to major cities in India.",
+      "railway": "Rajsamand has a railway station that connects to nearby cities like Udaipur, Nathdwara, and Kumbhalgarh, but it is not a major railway hub."
+    },
+    "emergency_contacts": {
+      "police": "100 (Rajsamand Police Control Room)",
+      "hospital": "02952-220033 (Rajsamand District Hospital)",
+      "touristOffice": "0141-5114444 (Rajasthan Tourism Department)"
+    }
+  },
+  {
+    "id": "salumbar",
+    "district_id": "udaipur-district",
+    "name": "Salumbar",
+    "tagline": "The Tribal Heartland of Mewar",
+    "description": "Salumbar is a quaint town nestled in the Udaipur district of Rajasthan, known for its stunning natural beauty, rich cultural heritage, and warm hospitality. The town is surrounded by the majestic Aravalli hills, which offer breathtaking views and exciting trekking opportunities. Salumbar is also home to several ancient temples, including the famous Shri Eklingji Temple, which attracts devotees and tourists from all over the world. With its unique blend of tribal culture, stunning landscapes, and historic landmarks, Salumbar is a must-visit destination for anyone looking to experience the authentic charm of Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1587391675404-6b0c9e8a3d1c",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "25°C - 40°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Pleasant with occasional rainfall)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Salumbar does not have a metro system, but it is well-connected to nearby cities like Udaipur by bus and taxi services.",
+      "bus": "Regular bus services are available from Salumbar to major cities like Udaipur, Jaipur, and Ahmedabad.",
+      "airport": "The nearest airport is the Maharana Pratap Airport in Udaipur, which is approximately 90 km from Salumbar and offers flights to major cities like Delhi, Mumbai, and Jaipur.",
+      "railway": "The nearest railway station is the Udaipur City Railway Station, which is connected to major cities like Delhi, Mumbai, and Ahmedabad by regular train services."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 02907-220033 (Salumbar Police Station)",
+      "hospital": "02907-220044 (Salumbar Government Hospital) or 02907-220055 (Private Hospital)",
+      "touristOffice": "0141-5114444 (Rajasthan Tourism Department) or 02907-220066 (Local Tourist Information Office)"
+    },
+    "area": 532.12,
+    "population": 18421,
+    "latitude": 24.0832,
+    "longitude": 73.9333
+  },
+  {
+    "id": "sawai-madhopur",
+    "district_id": "sawai-madhopur-district",
+    "name": "Sawai Madhopur",
+    "tagline": "The Gateway to Ranthambore",
+    "description": "Sawai Madhopur, a city in the heart of Rajasthan, is renowned for its proximity to the Ranthambore National Park, one of India's most famous tiger reserves. The city is steeped in history, with its origins dating back to the 18th century when it was founded by Maharaja Sawai Madho Singh I. Today, Sawai Madhopur is a bustling hub of activity, with its vibrant markets, ancient temples, and stunning natural beauty. Visitors can explore the city's rich cultural heritage, from the majestic Ranthambore Fort to the tranquil Trinetra Ganesh Temple.",
+    "image_url": "https://images.unsplash.com/photo-1618773929085-3f3c9e4c3c1c",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "40°C - 45°C (Hot & Dry)",
+      "monsoon": "July to September, with moderate to heavy rainfall",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Sawai Madhopur does not have a metro system, but it is well-connected by road and rail to major cities like Jaipur and Delhi.",
+      "bus": "Regular bus services are available from Sawai Madhopur to nearby cities and towns, including Jaipur, Kota, and Bharatpur.",
+      "airport": "The nearest airport is the Jaipur International Airport, which is approximately 160 km from Sawai Madhopur.",
+      "railway": "Sawai Madhopur Railway Station is a major railhead, with frequent trains connecting to cities like Delhi, Mumbai, and Kolkata."
+    },
+    "emergency_contacts": {
+      "police": "100 (Police Emergency Number), 07462-220100 (Sawai Madhopur Police Station)",
+      "hospital": "07462-220401 (Sawai Madhopur District Hospital), 07462-220701 (Ranthambore Hospital)",
+      "touristOffice": "0141-5155100 (Rajasthan Tourism Department), 07462-220801 (Sawai Madhopur Tourist Information Office)"
+    }
+  },
+  {
+    "id": "sikar",
+    "district_id": "sikar-district",
+    "name": "Sikar",
+    "tagline": "The Historic City of Shekhawati",
+    "description": "Sikar, a city in the Shekhawati region of Rajasthan, is renowned for its rich cultural heritage and historical significance. The city is dotted with ancient havelis, forts, and temples, showcasing the architectural prowess of the region. With its vibrant markets, colorful festivals, and warm hospitality, Sikar is a treasure trove of experiences waiting to be explored. From the majestic Jeewan Niwas to the ancient Madan Mohan Ji Temple, every corner of the city tells a story of its glorious past.",
+    "image_url": "https://images.unsplash.com/photo-1619854735335-6f5a3e2e0a6e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid with occasional showers)",
+      "winter": "5°C - 20°C (Cool with occasional fog)"
+    },
+    "transport_info": {
+      "metro": "Sikar does not have a metro system, but it is well-connected to major cities like Jaipur and Delhi by road and rail.",
+      "bus": "Regular bus services are available from Sikar to nearby cities and towns, including Jaipur, Jhunjhunu, and Churu.",
+      "airport": "The nearest airport is Jaipur International Airport, which is approximately 115 km from Sikar and offers flights to major cities in India.",
+      "railway": "Sikar has a railway station that connects it to major cities like Jaipur, Delhi, and Mumbai, with regular trains available throughout the day."
+    },
+    "emergency_contacts": {
+      "police": "100 (Sikar Police Control Room)",
+      "hospital": "Sikar District Hospital: 01572-257333",
+      "touristOffice": "Rajasthan Tourism Department, Sikar: 01572-257444"
+    }
+  },
+  {
+    "id": "sirohi",
+    "district_id": "sirohi-district",
+    "name": "Sirohi",
+    "tagline": "The Gateway to Gujarat",
+    "description": "Sirohi, nestled in the southernmost part of Rajasthan, is a city steeped in history and natural beauty. The city is surrounded by the Aravalli mountain range, offering breathtaking views and a plethora of trekking opportunities. Sirohi is also home to several ancient temples, including the famous Markundeshwar Temple, which attracts devotees and history enthusiasts alike. With its rich cultural heritage and stunning landscapes, Sirohi is a must-visit destination for anyone looking to experience the authentic charm of Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1617871112564-2570a4c7e5c5",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Pleasant with occasional rainfall)",
+      "winter": "10°C - 20°C (Cool with mild sunshine)"
+    },
+    "transport_info": {
+      "metro": "Sirohi does not have a metro system, but it is well-connected to major cities like Abu Road and Jodhpur by bus and taxi.",
+      "bus": "Regular bus services are available from Sirohi to nearby cities like Udaipur, Jodhpur, and Ahmedabad.",
+      "airport": "The nearest airport is the Maharana Pratap Airport in Udaipur, which is approximately 110 km from Sirohi.",
+      "railway": "Sirohi has a railway station that connects to major cities like Delhi, Mumbai, and Ahmedabad, with regular trains available throughout the day."
+    },
+    "emergency_contacts": {
+      "police": "100 (Toll-free police helpline)",
+      "hospital": "02972-222222 (Sirohi District Hospital)",
+      "touristOffice": "02972-222333 (Rajasthan Tourism Office, Sirohi)"
+    }
+  },
+  {
+    "id": "sri-ganganagar",
+    "district_id": "sri-ganganagar-district",
+    "name": "Sri Ganganagar",
+    "tagline": "The Food Basket of Rajasthan",
+    "description": "Sri Ganganagar, situated in the northwest of Rajasthan, is a city known for its rich agricultural land and significant historical importance. The city is nestled near the India-Pakistan border and is a major producer of wheat, cotton, and mustard, earning it the nickname 'the food basket of Rajasthan'. With its well-planned infrastructure and beautiful parks, Sri Ganganagar offers a unique blend of traditional and modern attractions. The city's history dates back to the 19th century when it was founded by Maharaja Ganga Singh, and it has since become a significant cultural and economic hub in the region.",
+    "image_url": "https://images.unsplash.com/photo-1619856697948-3a6c5d4e5c4f",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "40°C - 45°C (Hot & Dry)",
+      "monsoon": "25°C - 35°C (Humid with occasional rain)",
+      "winter": "5°C - 15°C (Cool with occasional fog)"
+    },
+    "transport_info": {
+      "metro": "Sri Ganganagar does not have a metro system, but it has a well-connected bus network that covers all parts of the city.",
+      "bus": "Regular bus services are available from Sri Ganganagar to major cities in Rajasthan, including Jaipur, Jodhpur, and Bikaner.",
+      "airport": "The nearest airport is the Sri Ganganagar Domestic Airport, which offers flights to major cities in India, including Delhi and Mumbai.",
+      "railway": "Sri Ganganagar has a major railway station that connects the city to other parts of the country, including Delhi, Mumbai, and Kolkata."
+    },
+    "emergency_contacts": {
+      "police": "100 (Police Control Room)",
+      "hospital": "0254-240444 (Sri Ganganagar District Hospital)",
+      "touristOffice": "0141-2222234 (Rajasthan Tourism Department)"
+    }
+  },
+  {
+    "id": "tonk",
+    "district_id": "tonk-district",
+    "name": "Tonk",
+    "tagline": "The City of Nawabs",
+    "description": "Tonk is a historic city in Rajasthan, known for its stunning architecture, vibrant culture, and rich heritage. The city is home to the famous Sunehri Kothi, a magnificent palace with intricate golden work, and the beautiful Tonk Fort, which showcases the city's rich history. Tonk is also famous for its traditional crafts, including pottery, weaving, and metalwork. The city's unique blend of Rajasthani and Mughal influences makes it a fascinating destination for travelers and history enthusiasts.",
+    "image_url": "https://images.unsplash.com/photo-1619854735334-5e2e2f2c bee7",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Humid & Rainy)",
+      "winter": "10°C - 25°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Tonk does not have a metro system, but it is well-connected to nearby cities by bus and taxi.",
+      "bus": "Regular bus services are available from Tonk to major cities like Jaipur, Delhi, and Agra.",
+      "airport": "The nearest airport is the Jaipur International Airport, which is approximately 100 km from Tonk.",
+      "railway": "Tonk has a railway station that connects to major cities like Jaipur, Delhi, and Mumbai."
+    },
+    "emergency_contacts": {
+      "police": "100 (Tonk Police Control Room)",
+      "hospital": "01432-247777 (Tonk District Hospital)",
+      "touristOffice": "01432-247878 (Rajasthan Tourism Office, Tonk)"
+    }
+  },
+  {
+    "id": "udaipur",
+    "district_id": "udaipur-district",
+    "name": "Udaipur",
+    "tagline": "The City of Lakes",
+    "description": "Udaipur, the capital of the former princely state of Mewar, is a city steeped in history and romance. Founded in 1559 by Maharana Udai Singh II, it is nestled in the Aravalli Hills and surrounded by three lakes: Lake Pichola, Lake Fateh Sagar, and Swaroop Sagar. The city is famous for its stunning architecture, picturesque lakes, and vibrant culture. From the majestic City Palace to the serene Jag Mandir, Udaipur is a treasure trove of history, art, and natural beauty.",
+    "image_url": "https://images.unsplash.com/photo-1618773921115-2c2c9e2c1c6e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "25°C - 40°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Udaipur does not have a metro system, but it has a well-connected bus network and auto-rickshaws for local transportation.",
+      "bus": "Regular bus services connect Udaipur to major cities in Rajasthan and neighboring states, including Delhi, Jaipur, and Ahmedabad.",
+      "airport": "Maharana Pratap Airport, located about 22 kilometers from the city center, offers flights to major Indian cities, including Delhi, Mumbai, and Jaipur.",
+      "railway": "Udaipur City Railway Station is a major railway junction, with direct trains to cities like Delhi, Mumbai, Ahmedabad, and Jaipur."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 0294-2424000 (Udaipur Police Control Room)",
+      "hospital": "Maharana Bhupal Government Hospital: 0294-2524333, Geetanjali Medical College and Hospital: 0294-5141500",
+      "touristOffice": "Rajasthan Tourism Development Corporation Ltd. (RTDC): 0294-2411535, Udaipur District Tourism Office: 0294-2450266"
+    }
+  },
+  {
+    "id": "deshnok",
+    "district_id": "bikaner-district",
+    "name": "Deshnok",
+    "tagline": "The Rat Temple City",
+    "description": "Deshnok, a small town in the Bikaner district of Rajasthan, is renowned for its fascinating Karni Mata Temple, dedicated to the 14th-century mystic Karni Mata. This temple is famously known as the Rat Temple, where thousands of rats are revered and worshiped. The town's unique blend of mythology, history, and natural beauty makes it an intriguing destination for travelers. With its arid landscape and rich cultural heritage, Deshnok offers a glimpse into the rustic charm of rural Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1617871110708-3a8e5e2c5c4e",
+    "best_time": "October to February",
+    "weather_info": {
+      "summer": "25°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 35°C (Warm & Humid)",
+      "winter": "5°C - 25°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Deshnok does not have a metro system, but it is well-connected to nearby cities like Bikaner by bus.",
+      "bus": "Regular bus services are available from Bikaner, Jodhpur, and other major cities in Rajasthan to Deshnok.",
+      "airport": "The nearest airport is the Nal Airport in Bikaner, which is approximately 30 kilometers from Deshnok.",
+      "railway": "Deshnok has a railway station, but it is not a major junction; the nearest major railway station is in Bikaner."
+    },
+    "emergency_contacts": {
+      "police": "Deshnok Police Station: 0151-225-0202",
+      "hospital": "Deshnok Government Hospital: 0151-225-0222",
+      "touristOffice": "Rajasthan Tourism Office, Bikaner: 0151-222-6704"
+    }
+  },
+  {
+    "id": "hindaun",
+    "district_id": "karauli-district",
+    "name": "Hindaun",
+    "tagline": "The City of Red Stone",
+    "description": "Hindaun is a city in the Karauli district of Rajasthan, known for its stunning red stone architecture and historical significance. The city is home to several ancient temples, including the Narsinghji Temple and the Shri Madan Mohan Ji Temple, which attract devotees and tourists alike. With its rich cultural heritage and breathtaking natural beauty, Hindaun is a must-visit destination for anyone interested in exploring the authentic Rajasthan. The city's vibrant markets and delicious local cuisine are also worth experiencing.",
+    "image_url": "https://images.unsplash.com/photo-1619851163733-4d9c5f6d5e2c",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Hindaun does not have a metro system, but it is well-connected to nearby cities by bus and taxi.",
+      "bus": "Regular bus services are available from Hindaun to major cities like Jaipur, Alwar, and Bharatpur.",
+      "airport": "The nearest airport is the Jaipur International Airport, which is approximately 160 km from Hindaun.",
+      "railway": "Hindaun has a railway station that connects to major cities like Delhi, Mumbai, and Kolkata."
+    },
+    "emergency_contacts": {
+      "police": "100 (Police Control Room) or 01488-234444 (Hindaun Police Station)",
+      "hospital": "01488-232333 (Government Hospital) or 01488-235555 (Private Hospital)",
+      "touristOffice": "01488-233333 (Rajasthan Tourism Office) or 01488-236666 (Local Tour Operator)"
+    }
+  },
+  {
+    "id": "mount-abu",
+    "district_id": "sirohi-district",
+    "name": "Mount Abu",
+    "tagline": "The Oasis in the Desert",
+    "description": "Mount Abu, a picturesque hill station in the Aravalli range, is a haven for those seeking refuge from the scorching desert heat. This enchanting town is home to the famous Dilwara Jain Temples, a masterpiece of architecture and a testament to the region's rich cultural heritage. The town's tranquil lakes, lush green forests, and majestic mountains make it an ideal destination for nature lovers and adventure seekers. With its unique blend of natural beauty and spiritual significance, Mount Abu is a must-visit destination in Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1587391671965-3c2c2a8d7d8e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "25°C - 35°C (Pleasant & Mild)",
+      "monsoon": "15°C - 25°C (Cool & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Mount Abu does not have a metro system, but it is well-connected to major cities like Udaipur and Ahmedabad by road.",
+      "bus": "Regular bus services are available from Mount Abu to nearby cities like Abu Road, Udaipur, and Jodhpur.",
+      "airport": "The nearest airport is the Maharana Pratap Airport in Udaipur, which is approximately 175 km from Mount Abu.",
+      "railway": "The nearest railway station is the Abu Road Railway Station, which is about 27 km from Mount Abu and connects to major cities like Delhi, Mumbai, and Ahmedabad."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 02974-238100 (Mount Abu Police Station)",
+      "hospital": "Mount Abu Hospital: 02974-238201, or Jorawar Hospital: 02974-238202",
+      "touristOffice": "Rajasthan Tourism Department: 02974-238805 or 02974-238806"
+    }
+  },
+  {
+    "id": "nathdwara",
+    "district_id": "rajsamand-district",
+    "name": "Nathdwara",
+    "tagline": "The City of Shrinathji",
+    "description": "Nathdwara, a sacred town in the Rajsamand district of Rajasthan, is renowned for its stunning Shrinathji Temple, a revered pilgrimage site dedicated to Lord Krishna. The city is nestled in the Aravalli hills and is famous for its Pichwai paintings, which are intricate artworks that adorn the temple walls. With its rich cultural heritage and breathtaking natural beauty, Nathdwara is a must-visit destination for anyone interested in exploring the spiritual and artistic side of Rajasthan. The city's narrow streets are lined with shops selling traditional handicrafts, and the local cuisine is a delicious blend of Rajasthani and Gujarati flavors.",
+    "image_url": "https://images.unsplash.com/photo-1619851167433-3c4a2c9e2c9c",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "25°C - 40°C (Hot & Humid)",
+      "monsoon": "20°C - 30°C (Cool & Rainy)",
+      "winter": "10°C - 25°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Nathdwara does not have a metro system, but it is well-connected to nearby cities like Udaipur and Jaipur by bus and taxi.",
+      "bus": "Regular bus services are available from Nathdwara to major cities in Rajasthan, including Udaipur, Jaipur, and Jodhpur.",
+      "airport": "The nearest airport is the Maharana Pratap Airport in Udaipur, which is approximately 60 km from Nathdwara and offers flights to major cities like Delhi, Mumbai, and Jaipur.",
+      "railway": "Nathdwara has a railway station that connects to nearby cities like Udaipur, Chittorgarh, and Ajmer, with regular trains available to major cities like Delhi, Mumbai, and Ahmedabad."
+    },
+    "emergency_contacts": {
+      "police": "100 (Police Emergency Number), 02953-232100 (Nathdwara Police Station)",
+      "hospital": "02953-232200 (Nathdwara Hospital), 02953-232300 (Shrinathji Hospital)",
+      "touristOffice": "0141-5117070 (Rajasthan Tourism Department), 02953-232400 (Nathdwara Tourist Office)"
+    }
+  },
+  {
+    "id": "osian",
+    "district_id": "jodhpur-district",
+    "name": "Osian",
+    "tagline": "The Khajuraho of Rajasthan",
+    "description": "Osian is an ancient town in the Jodhpur district of Rajasthan, known for its exquisite temples and rich cultural heritage. The town is home to over 100 Hindu and Jain temples, showcasing the architectural brilliance of the region. The Surya Temple, dedicated to the sun god, and the Sachchiya Mata Temple, dedicated to the goddess Durga, are two of the most prominent attractions in Osian. With its stunning architecture, vibrant culture, and breathtaking landscapes, Osian is a must-visit destination for anyone interested in exploring the rich history and heritage of Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1619851164455-98c5f2d5e5f4",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "40°C - 45°C (Hot & Dry)",
+      "monsoon": "25°C - 35°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Osian does not have a metro system, but it is well-connected to nearby cities like Jodhpur by bus and taxi.",
+      "bus": "Regular bus services are available from Jodhpur and other nearby cities to Osian, making it easily accessible by road.",
+      "airport": "The nearest airport is the Jodhpur Airport, which is approximately 65 km from Osian and offers flights to major cities like Delhi, Mumbai, and Jaipur.",
+      "railway": "Osian has a railway station that connects it to nearby cities like Jodhpur, but the frequency of trains is limited, and it is recommended to check the schedule in advance."
+    },
+    "emergency_contacts": {
+      "police": "100 (Emergency Helpline) or 02922-274444 (Osian Police Station)",
+      "hospital": "Government Hospital, Osian - 02922-274333",
+      "touristOffice": "Rajasthan Tourism Office, Jodhpur - 0291-2545083"
+    }
+  },
+  {
+    "id": "pushkar",
+    "district_id": "ajmer-district",
+    "name": "Pushkar",
+    "tagline": "The Sacred City of Pilgrimage",
+    "description": "Pushkar, a sacred town in Rajasthan, is famous for its picturesque lake, temples, and vibrant ghats. The town is a significant pilgrimage site for Hindus, attracting millions of devotees each year, especially during the Pushkar Camel Fair. With its rich history, cultural heritage, and breathtaking landscapes, Pushkar offers a unique experience for travelers, from spiritual seekers to adventure enthusiasts. The town's narrow streets are lined with shops, cafes, and restaurants, showcasing the local handicrafts and cuisine.",
+    "image_url": "https://images.unsplash.com/photo-1605822656373-9e2e5f6d5c3e",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "25°C - 40°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Pushkar does not have a metro system, but it is well-connected to nearby cities like Ajmer and Jaipur by bus and taxi.",
+      "bus": "Regular bus services are available from Pushkar to major cities in Rajasthan, including Ajmer, Jaipur, and Udaipur.",
+      "airport": "The nearest airport is the Kishangarh Airport, which is about 35 km from Pushkar, offering flights to major cities like Delhi and Mumbai.",
+      "railway": "The nearest railway station is the Ajmer Junction, which is about 15 km from Pushkar, connecting the town to major cities in India."
+    },
+    "emergency_contacts": {
+      "police": "Pushkar Police Station: 0145-277-2020",
+      "hospital": "Pushkar Hospital: 0145-277-2030",
+      "touristOffice": "Rajasthan Tourism Office: 0145-277-2040"
+    }
+  },
+  {
+    "id": "ranakpur",
+    "district_id": "pali-district",
+    "name": "Ranakpur",
+    "tagline": "The Temple Town of Rajasthan",
+    "description": "Ranakpur is a small town in the Pali district of Rajasthan, famous for its stunning Jain temples, particularly the Ranakpur Jain temple, a masterpiece of Indian architecture. The town is nestled in a valley surrounded by the Aravalli hills and is a popular tourist destination for those interested in history, architecture, and spirituality. The town's serene atmosphere, beautiful landscapes, and rich cultural heritage make it an ideal place to visit for those seeking a peaceful and enriching experience. With its intricate carvings, beautiful sculptures, and stunning architecture, Ranakpur is a must-visit destination for anyone interested in exploring the rich cultural heritage of Rajasthan.",
+    "image_url": "https://images.unsplash.com/photo-1618773921117-3c9e5c9e5c4f",
+    "best_time": "October to March",
+    "weather_info": {
+      "summer": "30°C - 45°C (Hot & Dry)",
+      "monsoon": "20°C - 30°C (Humid & Rainy)",
+      "winter": "10°C - 20°C (Cool & Pleasant)"
+    },
+    "transport_info": {
+      "metro": "Ranakpur does not have a metro system, but it is well-connected to nearby cities like Udaipur and Jodhpur by bus and taxi.",
+      "bus": "Regular bus services are available from Udaipur, Jodhpur, and other nearby cities to Ranakpur.",
+      "airport": "The nearest airport is the Maharana Pratap Airport in Udaipur, which is about 95 km from Ranakpur.",
+      "railway": "The nearest railway station is the Falna Railway Station, which is about 30 km from Ranakpur and is well-connected to major cities like Delhi, Mumbai, and Ahmedabad."
+    },
+    "emergency_contacts": {
+      "police": "100 (Ranakpur Police Station)",
+      "hospital": "02535-283123 (Ranakpur Hospital)",
+      "touristOffice": "0141-2375464 (Rajasthan Tourism Development Corporation Limited)"
+    }
+  }
+]

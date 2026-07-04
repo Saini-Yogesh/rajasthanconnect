@@ -1,0 +1,3797 @@
+[
+  {
+    "id": "dal-baati-churma",
+    "title": "Dal Baati Churma",
+    "origin": "Jodhpur",
+    "history": "Dal Baati Churma is a traditional Rajasthani dish that has its roots in the Marwar region of Rajasthan. The dish is believed to have originated in the royal kitchens of the Marwar kingdom, where it was served as a staple food to the royal family and their guests. The dish is a combination of three main components - dal (lentil curry), baati (wheat bread), and churma (sweet dessert). The history of Dal Baati Churma is also closely tied to the traditional Rajasthani cuisine, which is known for its rich and flavorful dishes made with locally sourced ingredients.",
+    "ingredients": [
+      "Wheat flour",
+      "Lentils",
+      "Ghee",
+      "Sugar",
+      "Cardamom",
+      "Cinnamon",
+      "Nutmeg",
+      "Milk",
+      "Yogurt"
+    ],
+    "recipe": [
+      "Preheat the oven to 400°F (200°C).",
+      "Mix together wheat flour, ghee, and water to make a dough for the baati.",
+      "Roll out the dough into small balls and bake in the oven for 20-25 minutes.",
+      "Soak the lentils in water for at least 4 hours. Drain and boil them in water until they are tender.",
+      "Heat ghee in a pan and add cumin seeds, coriander seeds, and asafoetida. Let them sizzle for a few seconds.",
+      "Add the boiled lentils, salt, and spices to the pan and stir well.",
+      "For the churma, mix together wheat flour, ghee, and sugar. Add milk and yogurt to make a smooth dough.",
+      "Roll out the dough into small balls and deep-fry them in ghee until they are golden brown.",
+      "Soak the fried balls in a sugar syrup made with sugar, water, and cardamom."
+    ],
+    "price_range": "INR 150 - 350 per serving",
+    "nutritional_value": "Dal Baati Churma is a rich and heavy dish, high in calories and carbohydrates. The baati is made with wheat flour and ghee, which provides a good source of complex carbohydrates and healthy fats. The dal is a good source of protein and fiber, while the churma is high in sugar and calories.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Raksha Bandhan"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-9a2c8b0f3f4c",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "gatte-ki-sabzi",
+    "title": "Gatte Ki Sabzi",
+    "origin": "Hadoti Region, Rajasthan",
+    "history": "Gatte Ki Sabzi, a traditional Rajasthani dish, has its roots in the Hadoti region of Rajasthan. The dish is believed to have originated during the reign of the Rajput kings, who would often host grand feasts for their guests. The name 'Gatte' is derived from the Rajasthani word for 'dumplings', which are made from gram flour and cooked in a flavorful yogurt-based curry. Over time, the dish has evolved and is now a staple in many Rajasthani households, often served during special occasions and festivals.",
+    "ingredients": [
+      "Gram flour",
+      "Yogurt",
+      "Ghee",
+      "Onions",
+      "Garlic",
+      "Ginger",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Turmeric",
+      "Red chili powder",
+      "Salt",
+      "Water"
+    ],
+    "recipe": [
+      "To make the gatte, mix gram flour, salt, and ghee in a bowl. Gradually add water to form a dough.",
+      "Knead the dough for 5-7 minutes until it becomes smooth and pliable.",
+      "Divide the dough into small portions and shape each portion into a cylindrical dumpling.",
+      "Heat oil in a pan and fry the dumplings until they are golden brown.",
+      "To make the sabzi, heat ghee in a pan and add cumin seeds, coriander seeds, and onions. Saute until the onions are translucent.",
+      "Add garlic, ginger, turmeric, and red chili powder to the pan and saute for another minute.",
+      "Add yogurt to the pan and stir well. Bring the mixture to a boil and then reduce the heat to a simmer.",
+      "Add the fried dumplings to the sabzi and cook for 10-15 minutes or until they are fully coated in the curry."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Gatte Ki Sabzi is a nutrient-rich dish, high in protein and fiber due to the gram flour and yogurt. The dish is also rich in healthy fats from the ghee and oil used in cooking. However, it can be heavy and rich due to the use of yogurt and ghee, making it a satisfying and filling meal.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "12 Mile, Tonk Road"
+      },
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550439062-1df0e2f7c5a2",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "kota"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "ker-sangri",
+    "title": "Ker Sangri",
+    "origin": "Jaisalmer",
+    "history": "Ker Sangri is a traditional Rajasthani dish that originated in the Jaisalmer region. The name 'Ker' refers to a type of wild berry that grows in the desert, while 'Sangri' is a type of wild bean. This dish has been a staple in the region for centuries, particularly among the local tribes and villagers. It is often served during special occasions and festivals, and is considered a delicacy in Rajasthani cuisine.",
+    "ingredients": [
+      "Ker berries",
+      "Sangri beans",
+      "Onions",
+      "Garlic",
+      "Ginger",
+      "Chilies",
+      "Spices",
+      "Ghee"
+    ],
+    "recipe": [
+      "Soak the Sangri beans overnight and boil them until they are tender.",
+      "Heat ghee in a pan and sauté the onions, garlic, and ginger until they are golden brown.",
+      "Add the boiled Sangri beans, Ker berries, and spices to the pan and stir well.",
+      "Cook for about 10-15 minutes, or until the flavors have melded together and the mixture is dry.",
+      "Serve hot, garnished with fresh coriander leaves."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Ker Sangri is a nutrient-rich dish, high in protein, fiber, and antioxidants. The Ker berries are rich in vitamins and minerals, while the Sangri beans provide a good source of protein and fiber.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "The Desert Haveli",
+        "city": "Jaisalmer",
+        "address": "Amar Sagar Pol"
+      },
+      {
+        "name": "Surya Garh",
+        "city": "Jodhpur",
+        "address": "Village Khimel"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1624211691065-8c8e1e2e5e5a",
+    "related_city_ids": [
+      "jaisalmer",
+      "jodhpur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "laal-maas",
+    "title": "Laal Maas",
+    "origin": "Jodhpur",
+    "history": "Laal Maas, which translates to 'red meat', is a traditional Rajasthani dish that originated in the royal kitchens of Jodhpur. The dish has a rich history and is said to have been a favorite of the Maharajas of Jodhpur. It is believed to have been created by the royal chefs to showcase the rich flavors and spices of the region. The dish is a staple of Rajasthani cuisine and is often served at special occasions and festivals.",
+    "ingredients": [
+      "Mutton or lamb",
+      "Red chilies",
+      "Garlic",
+      "Ginger",
+      "Onions",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Turmeric",
+      "Red chili powder",
+      "Ghee or oil"
+    ],
+    "recipe": [
+      "Heat oil in a pan and add cumin seeds and coriander seeds",
+      "Add onions, garlic, and ginger and sauté until the onions are brown",
+      "Add the mutton or lamb and cook until it is browned",
+      "Add the red chilies, turmeric, and red chili powder and cook for a few minutes",
+      "Add water and bring to a boil, then reduce the heat and simmer until the meat is tender",
+      "Season with salt and serve hot"
+    ],
+    "price_range": "INR 250 - 400 per serving",
+    "nutritional_value": "Laal Maas is a rich and spicy dish that is high in protein and fat. It is a heavy dish that is best served with rice or roti to balance out the flavors.",
+    "festivals_served": [
+      "Diwali",
+      "Navratri",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22nd Milestone, Tonk Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578133675394-5f6f2f6a8c2a",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "navratri",
+      "holi"
+    ]
+  },
+  {
+    "id": "safed-maas",
+    "title": "Safed Maas",
+    "origin": "Jodhpur",
+    "history": "Safed Maas, which translates to 'white meat', is a traditional Rajasthani dish that has been a staple of the royal cuisine of Jodhpur. The dish is believed to have originated in the kitchens of the Jodhpur royal family, where it was served as a delicacy to special guests. The recipe has been passed down through generations, with each family adding their own unique twist to the original recipe. Today, Safed Maas is a popular dish in many restaurants across Rajasthan, and is often served on special occasions such as weddings and festivals.",
+    "ingredients": [
+      "Mutton or lamb",
+      "Yogurt",
+      "Ghee",
+      "Garam masala",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Turmeric",
+      "Red chili powder",
+      "Salt",
+      "Green chilies",
+      "Fresh cilantro"
+    ],
+    "recipe": [
+      "Heat ghee in a large pan over medium heat",
+      "Add cumin seeds and coriander seeds, and let them sizzle for a few seconds",
+      "Add the mutton or lamb pieces, and cook until they are browned on all sides",
+      "Add the yogurt, garam masala, turmeric, red chili powder, and salt, and mix well",
+      "Add green chilies and fresh cilantro, and stir well",
+      "Reduce heat to low, and let the dish simmer for at least an hour, or until the meat is tender",
+      "Serve hot, garnished with fresh cilantro and a dollop of yogurt"
+    ],
+    "price_range": "INR 250 - 400 per serving",
+    "nutritional_value": "Safed Maas is a rich and heavy dish, high in protein and fat, making it a satisfying and filling meal. The yogurt and ghee add a creamy texture, while the spices provide a boost of flavor and antioxidants.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Eid al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "The Royal Retreat",
+        "city": "Jodhpur",
+        "address": "Sardar Market"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578935336766-6b0c5e2e2c2a",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "jungli-maas",
+    "title": "Jungli Maas",
+    "origin": "Jodhpur",
+    "history": "Jungli Maas, which translates to 'wild meat', is a traditional Rajasthani dish that originated in the royal kitchens of Jodhpur. It is believed to have been created by the royal chefs to cater to the hunting parties of the Maharajas, who would often go on shikar (hunting) expeditions in the jungles surrounding Jodhpur. The dish is a testament to the rich culinary heritage of Rajasthan and is still prepared with great fervor and enthusiasm in many households across the state. According to local folklore, the recipe for Jungli Maas was passed down through generations of royal chefs, who would carefully select the finest ingredients and spices to create a dish that was both flavorful and nutritious.",
+    "ingredients": [
+      "Mutton or wild boar meat",
+      "Onions",
+      "Garlic",
+      "Ginger",
+      "Chilies",
+      "Coriander",
+      "Turmeric",
+      "Red chili powder",
+      "Garam masala",
+      "Salt",
+      "Mustard oil"
+    ],
+    "recipe": [
+      "Heat mustard oil in a pan over medium heat",
+      "Add onions, garlic, and ginger, and sauté until the onions are translucent",
+      "Add the mutton or wild boar meat and cook until it is browned on all sides",
+      "Add the chilies, coriander, turmeric, red chili powder, and garam masala, and stir well",
+      "Add salt to taste, and cook for an additional 10-15 minutes, or until the meat is tender",
+      "Serve hot with roti or rice"
+    ],
+    "price_range": "INR 250 - 400 per serving",
+    "nutritional_value": "Jungli Maas is a rich and flavorful dish that is high in protein and calories, making it a nutritious option for those looking for a hearty meal. The use of mustard oil and spices adds to the dish's nutritional value, while the mutton or wild boar meat provides a good source of iron and other essential minerals.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "The Royal Retreat",
+        "city": "Jodhpur",
+        "address": "Mandore Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550439062-1df4c91fd2f9",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "panchmel-dal",
+    "title": "Panchmel Dal",
+    "origin": "Jaipur, Rajasthan",
+    "history": "Panchmel Dal, which translates to 'five-grain lentil', is a traditional Rajasthani dish that has been a staple in the region for centuries. The dish is believed to have originated in the royal kitchens of Jaipur, where it was served to the Maharajas and their guests. The combination of five different lentils - chana dal, moong dal, urad dal, masoor dal, and toor dal - makes this dish a rich source of protein and fiber. According to local folklore, Panchmel Dal was created by the royal chefs to provide a nutritious and filling meal to the soldiers and travelers who passed through the region.",
+    "ingredients": [
+      "Chana dal",
+      "Moong dal",
+      "Urad dal",
+      "Masoor dal",
+      "Toor dal",
+      "Onions",
+      "Garlic",
+      "Ginger",
+      "Tomatoes",
+      "Spices (turmeric, cumin, coriander, garam masala)",
+      "Ghee or oil"
+    ],
+    "recipe": [
+      "Rinse the five different lentils and soak them in water for at least 30 minutes.",
+      "Heat oil or ghee in a large pan and sauté the onions, garlic, and ginger until they are lightly browned.",
+      "Add the tomatoes and spices, and cook for another 5-7 minutes.",
+      "Add the soaked and drained lentils to the pan, along with 4-5 cups of water.",
+      "Bring the mixture to a boil, then reduce the heat and let it simmer for 20-25 minutes, or until the lentils are tender.",
+      "Season with salt and serve hot, garnished with fresh cilantro or scallions."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Panchmel Dal is a nutrient-rich dish, high in protein, fiber, and complex carbohydrates. It is also relatively low in calories and fat, making it a healthy and filling option for people of all ages.",
+    "festivals_served": [
+      "Diwali",
+      "Navratri",
+      "Holi",
+      "Eid-al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Tonk Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1574128776116-8e240e86e8d0",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "navratri",
+      "holi",
+      "eid-al-fitr"
+    ]
+  },
+  {
+    "id": "rajasthani-kadhi",
+    "title": "Rajasthani Kadhi",
+    "origin": "Marwar Region",
+    "history": "Rajasthani Kadhi is a traditional yogurt-based dish that has its roots in the Marwar region of Rajasthan. The history of Kadhi dates back to the time of the Rajputana kingdoms, where it was served as a refreshing and nourishing meal to the royal families. The dish was initially made with yogurt, gram flour, and spices, and was served with rice or roti. Over time, the recipe has evolved, and various variations of Kadhi have emerged, with different regions adding their own unique twist to the dish.",
+    "ingredients": [
+      "Yogurt",
+      "Gram flour",
+      "Ghee",
+      "Cilantro",
+      "Green chilies",
+      "Ginger",
+      "Garlic",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Turmeric",
+      "Red chili powder",
+      "Salt"
+    ],
+    "recipe": [
+      "In a large bowl, whisk together the yogurt, gram flour, and a pinch of salt until smooth.",
+      "Heat ghee in a pan over medium heat, add cumin seeds, coriander seeds, and let them sizzle for a few seconds.",
+      "Add the green chilies, ginger, and garlic to the pan and sauté until the ginger and garlic are lightly browned.",
+      "Add the turmeric, red chili powder, and salt to the pan and stir well.",
+      "Gradually add the yogurt mixture to the pan, stirring continuously to avoid lumps.",
+      "Bring the mixture to a boil, then reduce the heat to low and simmer for 10-15 minutes or until the Kadhi thickens.",
+      "Garnish with cilantro and serve hot with rice or roti."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Rajasthani Kadhi is a nutritious and filling dish, rich in protein, calcium, and fiber. The yogurt provides probiotics, while the gram flour adds a boost of protein and fiber. The dish is also low in calories and fat, making it an excellent option for those looking for a healthy and satisfying meal.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Jaipur"
+      },
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578133671117-3a1a1f76f5c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "bajre-ki-khichdi",
+    "title": "Bajre Ki Khichdi",
+    "origin": "Jodhpur",
+    "history": "Bajre Ki Khichdi, a traditional Rajasthani dish, has its roots in the state's rural landscape where millet was a staple crop. The history of this comforting meal dates back to the times when farmers would prepare it as a nourishing breakfast before heading out to their fields. Over time, its popularity spread across the region, and it became an integral part of local cuisine, often served during winters for its warming properties. This simple, wholesome dish is a testament to the resourcefulness and culinary ingenuity of Rajasthan's people.",
+    "ingredients": [
+      "Bajra (millet)",
+      "Moong dal (split green gram)",
+      "Onions",
+      "Garlic",
+      "Ginger",
+      "Tomatoes",
+      "Spices (turmeric, cumin seeds, coriander seeds, red chili powder, garam masala)",
+      "Ghee or oil",
+      "Salt",
+      "Water"
+    ],
+    "recipe": [
+      "Rinse the bajra and moong dal, then soak them in water for at least 30 minutes.",
+      "Heat ghee or oil in a large pan over medium heat. Add cumin seeds and let them sizzle.",
+      "Add chopped onions, garlic, and ginger. Sauté until the onions are translucent.",
+      "Add the tomatoes and cook until they are soft.",
+      "Add the turmeric, coriander seeds, red chili powder, and garam masala. Stir well.",
+      "Add the soaked and drained bajra and moong dal to the pan. Stir to combine with the spices.",
+      "Add water to the pan, ensuring that the mixture is well covered. Bring to a boil.",
+      "Reduce the heat to low, cover the pan, and let the khichdi simmer until the bajra and dal are cooked and the mixture has a porridge-like consistency.",
+      "Season with salt to taste. Serve hot."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Bajre Ki Khichdi is a nutrient-rich, comforting meal. Bajra is high in fiber, protein, and various minerals like iron and calcium, making this dish particularly beneficial for digestive health and energy levels. The addition of moong dal enhances its protein content, contributing to muscle health and satisfaction.",
+    "festivals_served": [
+      "Makar Sankranti",
+      "Navratri",
+      "Diwali"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "12 Mile, Tonk Road"
+      },
+      {
+        "name": "The Royal Treat",
+        "city": "Jodhpur",
+        "address": "High Court Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1617871110705-4a4f2a5c0e2f",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "makar-sankranti",
+      "navratri",
+      "diwali"
+    ]
+  },
+  {
+    "id": "rabodi-ki-sabzi",
+    "title": "Rabodi Ki Sabzi",
+    "origin": "Jodhpur",
+    "history": "Rabodi Ki Sabzi is a traditional Rajasthani dish that originated in the Marwar region, specifically in the city of Jodhpur. The dish is named after the main ingredient, 'rabodi', which is a type of dried leafy green. According to local folklore, this dish was created by the local women of Jodhpur as a way to utilize the abundant rabodi leaves that grew in the surrounding areas. Over time, the recipe has been passed down through generations and has become a staple in Rajasthani cuisine, often served during special occasions and festivals.",
+    "ingredients": [
+      "Rabodi leaves",
+      "Onions",
+      "Garlic",
+      "Ginger",
+      "Green chilies",
+      "Turmeric",
+      "Red chili powder",
+      "Coriander powder",
+      "Garam masala",
+      "Salt",
+      "Oil"
+    ],
+    "recipe": [
+      "Start by cleaning and washing the rabodi leaves, then chop them finely and set aside.",
+      "Heat oil in a pan over medium heat, then add the onions, garlic, and ginger, and sauté until the onions are translucent.",
+      "Add the green chilies, turmeric, red chili powder, coriander powder, and garam masala, and stir well.",
+      "Add the chopped rabodi leaves and stir-fry for about 10-15 minutes, or until the leaves are tender and the mixture is dry.",
+      "Season with salt to taste, then serve hot with roti or rice."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Rabodi Ki Sabzi is a nutrient-rich dish, high in fiber and antioxidants from the rabodi leaves, and also contains a good amount of protein from the onions and garlic.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "Kalinga Restaurant",
+        "city": "Jodhpur",
+        "address": "Jodhpur Railway Station Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1552566623-3a9c9d8e3a55",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "papad-ki-sabzi",
+    "title": "Papad Ki Sabzi",
+    "origin": "Jodhpur",
+    "history": "Papad Ki Sabzi is a traditional Rajasthani dish that originated in the city of Jodhpur. The dish has a rich history and is often served at special occasions and festivals. According to local folklore, the dish was created by the royal chefs of the Jodhpur kingdom as a way to utilize leftover papads. Over time, the dish gained popularity and is now a staple in many Rajasthani households.",
+    "ingredients": [
+      "Papads",
+      "Onions",
+      "Tomatoes",
+      "Chili peppers",
+      "Ginger",
+      "Garlic",
+      "Cumin seeds",
+      "Coriander powder",
+      "Turmeric",
+      "Red chili powder",
+      "Salt",
+      "Ghee"
+    ],
+    "recipe": [
+      "Heat ghee in a pan and add cumin seeds",
+      "Add chopped onions, ginger, and garlic and sauté until the onions are translucent",
+      "Add chopped tomatoes and chili peppers and cook until the tomatoes are soft",
+      "Add coriander powder, turmeric, red chili powder, and salt and mix well",
+      "Add papads to the pan and stir well to combine with the spice mixture",
+      "Reduce heat and simmer for 10-15 minutes or until the papads are soft and the flavors have melded together",
+      "Serve hot garnished with chopped cilantro"
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Papad Ki Sabzi is a relatively light and easy to digest dish, making it a great option for those looking for a low-calorie meal. The dish is high in fiber and protein and is a good source of vitamins and minerals.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Near Durgapura"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1559597627-3a8b3e2a5c7a",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "mangodi-ki-sabzi",
+    "title": "Mangodi Ki Sabzi",
+    "origin": "Jodhpur",
+    "history": "Mangodi Ki Sabzi is a traditional Rajasthani dish that has been a staple in the state's cuisine for centuries. The dish is believed to have originated in the Marwar region, where it was prepared by the local women as a nutritious and flavorful meal for their families. The word 'mangodi' refers to the sun-dried lentil dumplings that are the main ingredient of the dish, while 'sabzi' means vegetable. According to local folklore, Mangodi Ki Sabzi was a favorite dish of the Maharajas of Jodhpur, who would often serve it to their guests as a symbol of hospitality.",
+    "ingredients": [
+      "Mangodi (sun-dried lentil dumplings)",
+      "Onions",
+      "Tomatoes",
+      "Garlic",
+      "Ginger",
+      "Green chilies",
+      "Turmeric",
+      "Red chili powder",
+      "Garam masala",
+      "Coriander powder",
+      "Salt",
+      "Oil"
+    ],
+    "recipe": [
+      "Soak the mangodi in water for at least 30 minutes before cooking.",
+      "Heat oil in a pan and sauté the onions, garlic, and ginger until they are lightly browned.",
+      "Add the tomatoes, green chilies, turmeric, red chili powder, garam masala, and coriander powder to the pan and cook for 5-7 minutes.",
+      "Add the soaked mangodi to the pan and stir well to combine with the spice mixture.",
+      "Add salt to taste and cook for an additional 10-15 minutes, or until the mangodi is tender and the sauce has thickened.",
+      "Serve hot with roti or rice."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Mangodi Ki Sabzi is a nutrient-rich dish that is high in protein, fiber, and vitamins. The mangodi provides a good source of plant-based protein, while the vegetables add fiber, vitamins, and minerals to the dish. The dish is also relatively low in calories and fat, making it a healthy option for those looking for a balanced meal.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Jaipur"
+      },
+      {
+        "name": "Lakshmi Mishtan Bhandar",
+        "city": "Jodhpur",
+        "address": "Nai Sarak, Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578935336716-972e0c5e2f6d",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "govind-gatte",
+    "title": "Govind Gatte",
+    "origin": "Alwar, Rajasthan",
+    "history": "Govind Gatte is a traditional Rajasthani dish that has its roots in the royal kitchens of Alwar. The dish is named after the Govind deity, who is revered in the region. According to local folklore, the dish was created by the royal chefs to serve as a nutritious and flavorful meal for the rulers and their guests. Over time, the recipe has been passed down through generations and has become a staple in Rajasthani cuisine.",
+    "ingredients": [
+      "Gram flour",
+      "Yogurt",
+      "Ghee",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Turmeric",
+      "Red chili powder",
+      "Salt",
+      "Water"
+    ],
+    "recipe": [
+      "In a large mixing bowl, combine gram flour, yogurt, ghee, cumin seeds, coriander seeds, turmeric, red chili powder, and salt.",
+      "Gradually add water to the mixture and knead it into a smooth dough.",
+      "Divide the dough into small portions and shape each portion into a cylindrical shape.",
+      "Steam the cylindrical shapes for about 15-20 minutes or until they are cooked through.",
+      "Serve the Govind Gatte hot with a dollop of ghee and a sprinkle of coriander leaves."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Govind Gatte is a nutritious and filling dish that is high in protein and fiber. The gram flour provides a good source of protein, while the yogurt adds a touch of creaminess and helps to aid digestion. The dish is also relatively low in calories, making it a great option for those looking for a healthy and satisfying meal.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Lakshmi Restaurant",
+        "city": "Alwar",
+        "address": "Ashok Circle, Alwar"
+      },
+      {
+        "name": "Rajasthani Rasoi",
+        "city": "Jaipur",
+        "address": "Bapu Bazaar, Jaipur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578935337415-3a6a4f2c2a4f",
+    "related_city_ids": [
+      "alwar",
+      "jaipur",
+      "jodhpur"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "methi-bajra-puri",
+    "title": "Methi Bajra Puri",
+    "origin": "Jodhpur",
+    "history": "Methi Bajra Puri is a traditional Rajasthani dish that has been a staple in the state's cuisine for centuries. The dish is believed to have originated in the Marwar region, where bajra (pearl millet) was a common crop. The addition of methi (fenugreek leaves) to the puri dough gives the dish a unique flavor and aroma. According to local folklore, Methi Bajra Puri was a favorite of the royal family of Jodhpur, who would often serve it at special occasions and festivals.",
+    "ingredients": [
+      "Bajra flour",
+      "Methi leaves",
+      "Ghee",
+      "Salt",
+      "Water",
+      "Spices (cumin seeds, coriander seeds, etc.)"
+    ],
+    "recipe": [
+      "Start by mixing together bajra flour, methi leaves, salt, and spices in a large bowl.",
+      "Gradually add water to the mixture and knead until a smooth dough forms.",
+      "Divide the dough into small balls and roll out each ball into a thin puri.",
+      "Heat ghee in a deep frying pan and fry the puris until they are golden brown and puffed up.",
+      "Serve the Methi Bajra Puri hot with a dollop of ghee and a side of chutney or sabzi."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Methi Bajra Puri is a nutritious and filling dish, rich in fiber, protein, and minerals. The bajra flour provides a good source of iron, while the methi leaves add a boost of vitamins and antioxidants.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22nd Milestone, Tonk Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-9c8b9cbe9c57",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "bajre-ki-roti",
+    "title": "Bajre Ki Roti",
+    "origin": "Jodhpur",
+    "history": "Bajre Ki Roti, a traditional flatbread from Rajasthan, has its roots in the state's rural landscape. It is made from pearl millet flour, which is rich in nutrients and has been a staple crop in the region for centuries. The dish is often associated with the rural folk of Rajasthan, who would prepare it as a simple yet nourishing meal. According to local folklore, Bajre Ki Roti was a favorite among the Rajasthani warriors, who would carry it with them on long journeys due to its high energy content and long shelf life.",
+    "ingredients": [
+      "Pearl millet flour",
+      "Water",
+      "Salt",
+      "Ghee or oil"
+    ],
+    "recipe": [
+      "In a large mixing bowl, combine 2 cups of pearl millet flour and 1/2 teaspoon of salt.",
+      "Gradually add water to the flour mixture and knead until a soft dough forms.",
+      "Divide the dough into small balls and roll out each ball into a thin circle.",
+      "Heat a non-stick skillet or tava over medium heat and cook the roti for 1-2 minutes on each side, until it's golden brown and puffed up."
+    ],
+    "price_range": "INR 50 - 150 per serving",
+    "nutritional_value": "Bajre Ki Roti is a rich source of protein, fiber, and minerals like iron and calcium. It is also high in energy, making it an ideal meal for people with active lifestyles.",
+    "festivals_served": [
+      "Makar Sankranti",
+      "Navratri",
+      "Diwali"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "12 Mile, Tonk Road"
+      },
+      {
+        "name": "The Rajput Room",
+        "city": "Jodhpur",
+        "address": "Mandore Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578935136854-0c2e2f2f3e5a",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "makar-sankranti",
+      "navratri",
+      "diwali"
+    ]
+  },
+  {
+    "id": "missi-roti",
+    "title": "Missi Roti",
+    "origin": "Jodhpur",
+    "history": "Missi Roti is a traditional flatbread originating from the Jodhpur region of Rajasthan. The dish has its roots in the local cuisine, where it was prepared as a staple food for the rural population. The name 'Missi Roti' is derived from the Rajasthani word 'missi,' which refers to a mixture of flours, and 'roti,' meaning flatbread. This delicious bread has been a part of Rajasthani cuisine for centuries and is often served with various curries and vegetables.",
+    "ingredients": [
+      "Whole wheat flour",
+      "Gram flour",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Chili peppers",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Salt",
+      "Ghee or oil"
+    ],
+    "recipe": [
+      "In a large mixing bowl, combine whole wheat flour, gram flour, and salt.",
+      "Add finely chopped onion, garlic, ginger, and chili peppers to the flour mixture.",
+      "Heat a little oil in a pan and add cumin seeds and coriander seeds. Let them sizzle for a few seconds.",
+      "Add the tempered spices to the flour mixture and mix well.",
+      "Gradually add water to the mixture and knead it into a soft dough.",
+      "Divide the dough into small portions and roll out each portion into a thin circle.",
+      "Heat a non-stick pan or tava over medium heat and cook the roti until it's golden brown on both sides."
+    ],
+    "price_range": "INR 50 - 150 per serving",
+    "nutritional_value": "Missi Roti is a nutrient-rich flatbread, high in fiber and protein due to the use of whole wheat flour and gram flour. It is also a good source of vitamins and minerals like iron, calcium, and potassium.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "The Royal Retreat",
+        "city": "Jodhpur",
+        "address": "Mandore Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1572530448644-2e2c3e3a5e2c",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "khoba-roti",
+    "title": "Khoba Roti",
+    "origin": "Jodhpur",
+    "history": "Khoba Roti is a traditional Rajasthani bread that originated in the Jodhpur region. The word 'Khoba' literally translates to 'indent' or 'hollow', which refers to the unique indentation in the center of the roti. This bread has been a staple in Rajasthani cuisine for centuries, particularly in the Marwar region. According to local folklore, Khoba Roti was first prepared by the royal chefs of the Jodhpur kingdom as a specialty bread for the royal family.",
+    "ingredients": [
+      "Whole wheat flour",
+      "Ghee or oil",
+      "Water",
+      "Salt",
+      "Carom seeds"
+    ],
+    "recipe": [
+      "In a large mixing bowl, combine 2 cups of whole wheat flour, 1/2 teaspoon of salt, and 1/4 teaspoon of carom seeds.",
+      "Gradually add water to the flour mixture and knead until a soft dough forms.",
+      "Divide the dough into 6-8 equal portions and shape each portion into a ball.",
+      "Roll out each ball into a thin circle, about 6-7 inches in diameter.",
+      "Heat a non-stick skillet or tava over medium heat and cook the roti for 1-2 minutes on each side.",
+      "Using your fingers, create an indentation in the center of the roti, taking care not to tear the bread.",
+      "Brush the roti with ghee or oil and serve hot with your favorite curry or dal."
+    ],
+    "price_range": "INR 50 - 150 per serving",
+    "nutritional_value": "Khoba Roti is a nutritious and filling bread, rich in fiber and protein. It is an excellent source of complex carbohydrates, making it a great option for those looking for a healthy and wholesome meal.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Hotel Ajit Bhawan, Circuit House Road"
+      },
+      {
+        "name": "The Royal Retreat",
+        "city": "Jodhpur",
+        "address": "5th Residency Road, Near Police Line"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-9a7c6b2c9d7e",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "tikkad",
+    "title": "Tikkad",
+    "origin": "Alwar, Rajasthan",
+    "history": "Tikkad is a traditional Rajasthani sweet dish that originated in the city of Alwar. The history of Tikkad dates back to the time of the Maharajas, when it was served as a royal dessert. According to local folklore, Tikkad was created by the royal chefs of Alwar to satisfy the sweet tooth of the Maharaja. The dish was initially made with the finest ingredients available in the region, including gram flour, sugar, and ghee.",
+    "ingredients": [
+      "Gram flour",
+      "Sugar",
+      "Ghee",
+      "Cardamom powder",
+      "Chopped nuts"
+    ],
+    "recipe": [
+      "In a large mixing bowl, combine gram flour, sugar, and cardamom powder.",
+      "Add ghee to the mixture and knead until a smooth dough forms.",
+      "Divide the dough into small balls and flatten them slightly into patties.",
+      "Heat a non-stick pan over medium heat and cook the patties until they are golden brown on both sides.",
+      "Serve Tikkad warm, garnished with chopped nuts."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Tikkad is a rich and sweet dessert, high in calories and sugar. It is a good source of carbohydrates and protein, but should be consumed in moderation due to its high calorie content.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Lakshmi Hotel",
+        "city": "Alwar",
+        "address": "Station Road"
+      },
+      {
+        "name": "Hari Om Dhaba",
+        "city": "Bharatpur",
+        "address": "Jaipur-Agra Highway"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1622445861545-5c dee4f4f4f4",
+    "related_city_ids": [
+      "alwar",
+      "bharatpur",
+      "jaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "makai-ra-dhokla",
+    "title": "Makai Ra Dhokla",
+    "origin": "Jodhpur",
+    "history": "Makai Ra Dhokla is a traditional Rajasthani dish that has its roots in the royal kitchens of Jodhpur. The dish is believed to have been created by the royal chefs of the Maharaja of Jodhpur, who were known for their innovative and delicious creations. The name 'Makai Ra Dhokla' literally translates to 'corn dhokla', which is a type of steamed cake made from corn flour, gram flour, and spices. Over time, the dish has become a staple in Rajasthani cuisine and is often served at special occasions and festivals.",
+    "ingredients": [
+      "Corn flour",
+      "Gram flour",
+      "Yogurt",
+      "Ghee",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Turmeric",
+      "Red chili powder",
+      "Salt",
+      "Water"
+    ],
+    "recipe": [
+      "In a large mixing bowl, combine corn flour, gram flour, and spices.",
+      "Add yogurt and ghee to the mixture and mix well.",
+      "Gradually add water to the mixture and knead it into a smooth dough.",
+      "Divide the dough into small portions and shape them into patties.",
+      "Steam the patties in a steamer for 10-15 minutes or until they are cooked through.",
+      "Serve the dhoklas hot with a dollop of ghee and a sprinkle of coriander leaves."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Makai Ra Dhokla is a nutritious and wholesome dish that is rich in complex carbohydrates, protein, and fiber. The corn flour provides a good source of vitamin B and minerals like iron and zinc, while the gram flour adds protein and fiber to the dish. The yogurt and ghee add a touch of creaminess and richness to the dhoklas, making them a satisfying and filling snack.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "The Royal Retreat",
+        "city": "Jodhpur",
+        "address": "Umaid Bhawan Palace"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833873-3a7c4e2d4f3c",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "jaisalmer"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "besan-chilla",
+    "title": "Besan Chilla",
+    "origin": "Jaipur",
+    "history": "Besan Chilla, a savory pancake made from gram flour, has its roots in the traditional Rajasthani cuisine. The dish is believed to have originated in the royal kitchens of Jaipur, where it was served as a snack to the royal family. Over time, it has become a staple street food in Rajasthan, with vendors selling it in almost every corner of the state. The dish is often associated with the festive season, particularly during the Navratri celebrations, where it is served as a prasad to the devotees.",
+    "ingredients": [
+      "Gram flour (besan)",
+      "Onions",
+      "Tomatoes",
+      "Green chilies",
+      "Cilantro",
+      "Spices (turmeric, red chili powder, garam masala)",
+      "Salt",
+      "Water",
+      "Oil"
+    ],
+    "recipe": [
+      "In a large bowl, whisk together gram flour, onions, tomatoes, green chilies, cilantro, spices, and salt.",
+      "Gradually add water to the mixture and whisk until smooth.",
+      "Heat a non-stick pan or tava over medium heat.",
+      "Pour a small amount of oil on the pan and spread it evenly.",
+      "Using a ladle, pour the batter onto the pan and spread it evenly to form a round shape.",
+      "Cook the chilla for 2-3 minutes or until the bottom is golden brown.",
+      "Flip the chilla and cook for another 2-3 minutes or until the other side is also golden brown.",
+      "Serve the besan chilla hot with a dollop of chutney or raita."
+    ],
+    "price_range": "INR 50 - 150 per serving",
+    "nutritional_value": "Besan chilla is a nutrient-rich dish, high in protein and fiber. The gram flour used in the dish is a good source of protein, while the vegetables add fiber and vitamins. The dish is also relatively low in calories, making it a healthy snack option.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "Tonk Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578931239288-0c9f4b1f2c6f",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "mirchi-vada",
+    "title": "Mirchi Vada",
+    "origin": "Jodhpur",
+    "history": "Mirchi Vada, a popular street food in Rajasthan, has its roots in the royal kitchens of Jodhpur. The dish is believed to have been created by the chefs of the Maharaja of Jodhpur, who experimented with local ingredients to create a unique and flavorful snack. Over time, Mirchi Vada gained popularity across the state and is now a staple at most street food stalls and restaurants. Its history is a testament to the innovative spirit of Rajasthani cuisine, which has always been known for its bold flavors and spices.",
+    "ingredients": [
+      "Green chilies",
+      "Gram flour",
+      "Onions",
+      "Potatoes",
+      "Spices",
+      "Herbs"
+    ],
+    "recipe": [
+      "Start by boiling and mashing the potatoes, then mix with chopped onions, spices, and herbs.",
+      "Slit the green chilies and remove the seeds, then fill with the potato mixture.",
+      "Dip the stuffed chilies in a gram flour batter and deep-fry until golden brown.",
+      "Serve hot with a side of chutney or raita."
+    ],
+    "price_range": "INR 50 - 150 per serving",
+    "nutritional_value": "Mirchi Vada is a moderately heavy snack, rich in carbohydrates and fiber from the green chilies and potatoes. It is also a good source of protein from the gram flour and spices.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Shri Mishrilal Hotel",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      },
+      {
+        "name": "On The Rocks",
+        "city": "Jaipur",
+        "address": "Ajmer Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1572535562435-6c5b5c7d9c4a",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "pyaaz-kachori",
+    "title": "Pyaaz Kachori",
+    "origin": "Jodhpur",
+    "history": "Pyaaz Kachori, a delectable and crunchy snack, has its roots in the royal kitchens of Jodhpur, Rajasthan. The dish is believed to have been created by the chefs of the Maharajas of Jodhpur, who experimented with various ingredients to create a unique and flavorful snack. Over time, Pyaaz Kachori has become a staple in Rajasthani cuisine, with its popularity spreading across the state and beyond. The dish is often served as a snack or appetizer, and its rich flavor and aroma have made it a favorite among locals and tourists alike.",
+    "ingredients": [
+      "Refined flour",
+      "Onions",
+      "Potatoes",
+      "Spices",
+      "Ghee"
+    ],
+    "recipe": [
+      "To make the dough, combine refined flour, ghee, and water in a bowl and knead until smooth.",
+      "For the filling, heat oil in a pan and sauté onions, potatoes, and spices until the mixture is golden brown.",
+      "Divide the dough into small balls and roll out each ball into a thin circle.",
+      "Place a spoonful of the onion-potato mixture in the center of each circle and fold the dough over to form a kachori.",
+      "Deep-fry the kachoris until they are golden brown and crispy."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Pyaaz Kachori is a rich and heavy snack, high in calories and fat due to the use of ghee and refined flour. However, it is also a good source of carbohydrates and fiber from the onions and potatoes.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Lakshmi Mishthan Bhandar",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      },
+      {
+        "name": "Shri Mishrilal Hotel",
+        "city": "Jodhpur",
+        "address": "Johari Bazaar"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1574128784865-ecfca84b7e7a",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "mawa-kachori",
+    "title": "Mawa Kachori",
+    "origin": "Jodhpur",
+    "history": "Mawa Kachori is a traditional Rajasthani sweet dish that originated in the city of Jodhpur. The history of Mawa Kachori dates back to the royal kitchens of the Marwar kingdom, where it was served as a sweet treat to the royal family and their guests. The dish is believed to have been created by the royal chefs, who experimented with different ingredients to create a unique and delicious sweet dish. Over time, Mawa Kachori became a popular sweet dish throughout Rajasthan, and is now enjoyed by people all over the state during special occasions and festivals.",
+    "ingredients": [
+      "Mawa (dried milk)",
+      "Refined flour",
+      "Ghee",
+      "Sugar",
+      "Cardamom powder",
+      "Chopped nuts (almonds, pistachios)"
+    ],
+    "recipe": [
+      "To make the dough, mix together refined flour, ghee, and water to form a smooth and pliable dough.",
+      "To make the filling, mix together mawa, sugar, cardamom powder, and chopped nuts.",
+      "Roll out the dough into small circles, and place a spoonful of the filling in the center of each circle.",
+      "Fold the dough over the filling to form a ball, and press the edges together to seal the kachori.",
+      "Deep-fry the kachoris in hot oil until they are golden brown and crispy.",
+      "Drain the kachoris on paper towels, and serve warm or at room temperature."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Mawa Kachori is a rich and sweet dish, high in calories and sugar. It is a heavy dessert, and is best consumed in moderation.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Raksha Bandhan"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Kanha Sweets",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1587391672734-5a6a8f2e2e3c",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri",
+      "raksha-bandhan"
+    ]
+  },
+  {
+    "id": "dal-kachori",
+    "title": "Dal Kachori",
+    "origin": "Jodhpur",
+    "history": "Dal Kachori is a popular breakfast dish originating from the city of Jodhpur in Rajasthan. The dish has a rich history, dating back to the royal kitchens of the Marwar region, where it was served as a snack to the royal family. Over time, the recipe has been passed down through generations and has become a staple in Rajasthani cuisine. The dish is often associated with the vibrant streets of Jodhpur, where it is sold by street vendors and local eateries.",
+    "ingredients": [
+      "Split moong dal",
+      "Refined flour",
+      "Ghee",
+      "Spices",
+      "Asafoetida",
+      "Cilantro"
+    ],
+    "recipe": [
+      "Soak the split moong dal in water for at least 4 hours",
+      "Grind the dal into a coarse paste using a grinder or food processor",
+      "In a large mixing bowl, combine the ground dal, refined flour, ghee, spices, asafoetida, and cilantro",
+      "Knead the mixture into a smooth dough",
+      "Divide the dough into small balls and flatten each ball into a disk shape",
+      "Heat oil in a deep frying pan and fry the kachoris until they are golden brown",
+      "Serve the dal kachoris hot with a dollop of chutney or a sprinkle of spices"
+    ],
+    "price_range": "INR 50 - 150 per serving",
+    "nutritional_value": "Dal Kachori is a nutrient-rich dish, high in protein and fiber due to the presence of moong dal. The dish is also relatively low in calories, making it a popular choice for health-conscious individuals. However, the frying process adds a significant amount of calories, so it is essential to consume the dish in moderation.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Lakshmi Mishtan Bhandar",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      },
+      {
+        "name": "Shri Mishrilal Hotel",
+        "city": "Jodhpur",
+        "address": "Johari Bazaar"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578935336766-6b0c5c2e2b4e",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "kachra-mircha",
+    "title": "Kachra Mircha",
+    "origin": "Jodhpur",
+    "history": "Kachra Mircha, a traditional Rajasthani dish, has its roots in the royal kitchens of Jodhpur. The name 'Kachra' translates to 'scrap' or 'leftover', and 'Mircha' means 'chilli', which refers to the use of leftover vegetables and green chillies in its preparation. This dish has been a staple in Rajasthani cuisine for centuries, often served as a side dish to complement the rich and spicy flavors of other local delicacies. Its historical significance lies in its resourcefulness, as it was created to minimize food waste and make the most of available ingredients.",
+    "ingredients": [
+      "Leftover vegetables (e.g. cauliflower, carrots, potatoes)",
+      "Green chillies",
+      "Onions",
+      "Garlic",
+      "Ginger",
+      "Cumin seeds",
+      "Coriander powder",
+      "Turmeric",
+      "Red chilli powder",
+      "Salt",
+      "Oil"
+    ],
+    "recipe": [
+      "Heat oil in a pan over medium heat and add cumin seeds.",
+      "Add chopped onions, garlic, and ginger, and sauté until the onions are translucent.",
+      "Add the leftover vegetables, green chillies, coriander powder, turmeric, red chilli powder, and salt. Mix well.",
+      "Cook for 10-15 minutes, stirring occasionally, until the vegetables are tender and the flavors have melded together.",
+      "Serve hot, garnished with chopped fresh coriander."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Kachra Mircha is a relatively light and nutritious dish, high in fiber and vitamins from the variety of vegetables used. The green chillies add a boost of vitamin C, while the spices provide antioxidant properties.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Near Reliance Fresh"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1624213315941-9c9f2f2e2a1e",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "bajra-vada",
+    "title": "Bajra Vada",
+    "origin": "Jodhpur",
+    "history": "Bajra Vada, a traditional Rajasthani snack, has its roots in the state's rural areas where pearl millet or bajra is a staple crop. The dish is believed to have originated as a convenient and nutritious food option for farmers and travelers. Over time, it has become an integral part of the local cuisine, often served during special occasions and festivals. The history of Bajra Vada is also closely tied to the region's cultural heritage, with the snack being an essential component of traditional Rajasthani hospitality.",
+    "ingredients": [
+      "Pearl millet (bajra) flour",
+      "Onions",
+      "Potatoes",
+      "Green chilies",
+      "Ginger",
+      "Garlic",
+      "Cilantro",
+      "Spices (cumin seeds, coriander seeds, turmeric, red chili powder)",
+      "Salt",
+      "Oil for frying"
+    ],
+    "recipe": [
+      "Soak the pearl millet flour in water for about 30 minutes.",
+      "Grind the soaked flour into a coarse paste using a grinder or food processor.",
+      "Heat oil in a pan and sauté the onions, potatoes, green chilies, ginger, and garlic until they are lightly browned.",
+      "Add the sautéed mixture to the pearl millet paste and mix well.",
+      "Add the spices, salt, and cilantro to the mixture and mix again.",
+      "Using your hands, shape the mixture into small vadas or patties.",
+      "Heat oil in a deep frying pan and fry the vadas until they are golden brown and crispy.",
+      "Serve the Bajra Vadas hot with a dollop of chutney or raita."
+    ],
+    "price_range": "INR 50 - 150 per serving",
+    "nutritional_value": "Bajra Vada is a nutrient-rich snack, high in fiber, protein, and various minerals like iron, calcium, and potassium. The pearl millet flour provides a good source of complex carbohydrates, while the spices and herbs add to the snack's antioxidant and anti-inflammatory properties.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "12 Mile, Tonk Road"
+      },
+      {
+        "name": "The Rajput Room",
+        "city": "Jodhpur",
+        "address": "Umaid Bhawan Palace"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833878-9a7c3f9d7b4e",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "bikaneri-bhujia",
+    "title": "Bikaneri Bhujia",
+    "origin": "Bikaner",
+    "history": "Bikaneri Bhujia is a popular snack originating from the city of Bikaner in Rajasthan, India. The dish has a rich history dating back to the 19th century when it was first prepared by the Halwai community, a group of skilled cooks and confectioners. Over time, Bikaneri Bhujia gained popularity across the region and is now a staple snack in many parts of Rajasthan. Its unique flavor and crunchy texture have made it a favorite among locals and tourists alike.",
+    "ingredients": [
+      "Gram flour",
+      "Moong dal",
+      "Onions",
+      "Potatoes",
+      "Spices",
+      "Oil"
+    ],
+    "recipe": [
+      "Soak moong dal for 2-3 hours and grind into a coarse paste",
+      "Mix the paste with gram flour, onions, potatoes, and spices",
+      "Knead the mixture into a dough and shape into small cylindrical pieces",
+      "Deep fry the pieces in oil until golden brown and crispy",
+      "Season with additional spices and serve hot"
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Bikaneri Bhujia is a high-calorie snack due to its deep-fried nature, but it is also rich in protein and fiber from the moong dal and gram flour.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Bikaner",
+        "address": "Kote Gate"
+      },
+      {
+        "name": "Chappan Bhog",
+        "city": "Jaipur",
+        "address": "Sindhi Camp"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550439062-609e8535ffbe",
+    "related_city_ids": [
+      "bikaner",
+      "jaipur",
+      "jodhpur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "sev-tamatar",
+    "title": "Sev Tamatar",
+    "origin": "Jodhpur",
+    "history": "Sev Tamatar, a popular Rajasthani dish, has its roots in the royal kitchens of Jodhpur. The dish is believed to have been created by the chefs of the Maharaja of Jodhpur, who wanted to create a unique and flavorful curry using the readily available ingredients of the region. Over time, Sev Tamatar has become a staple in Rajasthani cuisine, often served at special occasions and festivals. The dish is a testament to the rich culinary heritage of Rajasthan, where local ingredients are transformed into delicious and aromatic curries.",
+    "ingredients": [
+      "Sev (gram flour noodles)",
+      "Tomatoes",
+      "Onions",
+      "Garlic",
+      "Ginger",
+      "Green chilies",
+      "Cumin seeds",
+      "Coriander powder",
+      "Turmeric powder",
+      "Red chili powder",
+      "Salt",
+      "Ghee (clarified butter)"
+    ],
+    "recipe": [
+      "Heat ghee in a pan and add cumin seeds. Let them sizzle for a few seconds.",
+      "Add chopped onions, garlic, and ginger, and sauté until the onions are translucent.",
+      "Add chopped tomatoes, green chilies, coriander powder, turmeric powder, and red chili powder. Cook until the tomatoes are soft and the mixture is fragrant.",
+      "Add sev (gram flour noodles) to the pan and stir well to combine with the tomato mixture.",
+      "Season with salt to taste, and serve hot garnished with chopped fresh cilantro."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Sev Tamatar is a moderately rich and flavorful dish, high in carbohydrates and fiber due to the presence of gram flour noodles. It is also a good source of vitamins and minerals from the tomatoes and onions.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Near Airport"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578915612576-2b5e6e6f2d9a",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "aloo-pyaz-sabzi",
+    "title": "Aloo Pyaz Sabzi",
+    "origin": "Jodhpur",
+    "history": "Aloo Pyaz Sabzi, a humble yet flavorful dish, has its roots in the traditional Rajasthani cuisine. The history of this dish dates back to the time when potatoes and onions were introduced to India by the Portuguese. Over time, the locals adapted these ingredients into their own recipes, blending them with indigenous spices and cooking techniques. This dish is often served during special occasions and festivals, and its preparation is a testament to the resourcefulness and culinary ingenuity of the people of Rajasthan.",
+    "ingredients": [
+      "2 large potatoes",
+      "1 large onion",
+      "2 cloves of garlic",
+      "1 teaspoon cumin seeds",
+      "1 teaspoon coriander powder",
+      "1/2 teaspoon turmeric powder",
+      "1/2 teaspoon red chili powder",
+      "Salt, to taste",
+      "2 tablespoons mustard oil"
+    ],
+    "recipe": [
+      "Heat oil in a pan over medium heat.",
+      "Add cumin seeds and let them sizzle for a few seconds.",
+      "Add chopped onions and sauté until they are translucent.",
+      "Add minced garlic and sauté for another minute.",
+      "Add diced potatoes, coriander powder, turmeric powder, red chili powder, and salt. Mix well.",
+      "Cook for about 20-25 minutes, or until the potatoes are tender, stirring occasionally."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Aloo Pyaz Sabzi is a nutrient-rich dish, high in complex carbohydrates, fiber, and essential minerals like potassium and iron. The dish is also relatively low in calories and fat, making it a healthy and satisfying option for those looking for a balanced meal.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "12 Mile, Tonk Road"
+      },
+      {
+        "name": "The Royal Treat",
+        "city": "Jodhpur",
+        "address": "High Court Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578916353944-4b0f5ae8f5c4",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "rajasthani-pulao",
+    "title": "Rajasthani Pulao",
+    "origin": "Jodhpur",
+    "history": "Rajasthani Pulao is a traditional dish from the royal state of Rajasthan, with its origins dating back to the Mughal era. The dish is believed to have been created by the royal chefs of the Mewar kingdom, who experimented with local ingredients and spices to create a unique flavor profile. Over time, the recipe has been passed down through generations, with each region in Rajasthan adding its own twist to the dish. Today, Rajasthani Pulao is a staple at weddings, festivals, and special occasions across the state.",
+    "ingredients": [
+      "Basmati rice",
+      "Ghee",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Turmeric",
+      "Red chili powder",
+      "Salt",
+      "Carrots",
+      "Peas",
+      "Cauliflower",
+      "Onions",
+      "Garlic",
+      "Ginger"
+    ],
+    "recipe": [
+      "Heat ghee in a large pan over medium heat",
+      "Add cumin seeds, coriander seeds, and let them sizzle for a few seconds",
+      "Add onions, garlic, and ginger, and sauté until the onions are translucent",
+      "Add carrots, peas, and cauliflower, and cook until the vegetables are tender",
+      "Add turmeric, red chili powder, and salt, and stir well",
+      "Add basmati rice and stir-fry for 2-3 minutes",
+      "Add water to the pan and bring to a boil",
+      "Reduce heat to low, cover the pan, and simmer for 15-20 minutes or until the rice is cooked"
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Rajasthani Pulao is a rich and flavorful dish, high in carbohydrates and moderate in protein and fiber. The dish is also relatively high in calories, due to the use of ghee and basmati rice.",
+    "festivals_served": [
+      "Diwali",
+      "Navratri",
+      "Holi",
+      "Eid-al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "12 Mile, Tonk Road"
+      },
+      {
+        "name": "The Royal Treat",
+        "city": "Jodhpur",
+        "address": "Umaid Bhawan Palace"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578935334331-4a2f9e4f2c5c",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "navratri",
+      "holi",
+      "eid-al-fitr"
+    ]
+  },
+  {
+    "id": "khichda",
+    "title": "Khichda",
+    "origin": "Jodhpur",
+    "history": "Khichda is a traditional Rajasthani dish that originated in the city of Jodhpur. It is a hearty and comforting meal made with a mixture of split red lentils and broken wheat, typically served during the winter months. The dish has a rich history and is often served at special occasions such as weddings and festivals. According to local folklore, Khichda was a favorite dish of the Maharajas of Jodhpur, who would often serve it to their guests as a symbol of hospitality.",
+    "ingredients": [
+      "Split red lentils",
+      "Broken wheat",
+      "Ghee",
+      "Onions",
+      "Garlic",
+      "Ginger",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Turmeric",
+      "Red chili powder",
+      "Salt"
+    ],
+    "recipe": [
+      "Rinse the split red lentils and broken wheat, and soak them in water for at least 30 minutes.",
+      "Heat ghee in a large pan over medium heat, and add cumin seeds and coriander seeds.",
+      "Add onions, garlic, and ginger, and sauté until the onions are translucent.",
+      "Add the soaked lentils and wheat, and stir well.",
+      "Add turmeric, red chili powder, and salt, and stir well.",
+      "Add water to the pan, and bring to a boil.",
+      "Reduce the heat to low, and simmer for at least 30 minutes, or until the lentils and wheat are cooked.",
+      "Serve hot, garnished with fresh cilantro."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Khichda is a nutritious and filling dish, high in protein and fiber. It is also relatively low in calories, making it a great option for those looking for a healthy meal.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Fort Road"
+      },
+      {
+        "name": "The Royal Dining Hall",
+        "city": "Jodhpur",
+        "address": "Umaid Bhawan Palace"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578133671810-9e5e5a3c6e5a",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "jaisalmer"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "bajra-raab",
+    "title": "Bajra Raab",
+    "origin": "Jaisalmer",
+    "history": "Bajra Raab is a traditional Rajasthani dish that originated in the Jaisalmer region. It is a thick, creamy, and sweet dessert made from bajra (pearl millet) flour, ghee, and sugar. The dish has a rich history and is often served during special occasions and festivals. According to local folklore, Bajra Raab was first prepared by the royal chefs of Jaisalmer to serve as a nutritious and filling dessert to the soldiers and travelers who passed through the city.",
+    "ingredients": [
+      "Bajra flour",
+      "Ghee",
+      "Sugar",
+      "Milk",
+      "Cardamom powder",
+      "Nuts (almonds, pistachios)"
+    ],
+    "recipe": [
+      "Roast the bajra flour in a pan until it turns golden brown",
+      "Add ghee and sugar to the pan and stir until the mixture is well combined",
+      "Gradually add milk to the pan, stirring continuously to avoid lumps",
+      "Bring the mixture to a boil, then reduce the heat and simmer for 10-15 minutes",
+      "Add cardamom powder and nuts to the mixture and stir well",
+      "Serve the Bajra Raab hot or cold, garnished with nuts and dried fruits"
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Bajra Raab is a rich and heavy dessert, high in calories and carbohydrates. It is a good source of protein, fiber, and minerals like iron and calcium. The dish is also rich in antioxidants and has anti-inflammatory properties.",
+    "festivals_served": [
+      "Diwali",
+      "Navratri",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "The Desert Haveli",
+        "city": "Jaisalmer",
+        "address": "Amar Sagar Pol"
+      },
+      {
+        "name": "The Royal Desert Camp",
+        "city": "Jaisalmer",
+        "address": "Sam Sand Dunes"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1589543814444-8b8b9e2e1f4c",
+    "related_city_ids": [
+      "jaisalmer",
+      "jodhpur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "navratri",
+      "holi"
+    ]
+  },
+  {
+    "id": "lapsi",
+    "title": "Lapsi",
+    "origin": "Jodhpur",
+    "history": "Lapsi is a traditional sweet dish from the Jodhpur region of Rajasthan, often served at special occasions and festivals. The history of Lapsi dates back to the royal kitchens of the Marwar kingdom, where it was prepared as a sweet offering to the gods. The dish is believed to have been created by the royal chefs of the kingdom, who experimented with local ingredients to create a unique and delicious sweet treat. Over time, Lapsi has become an integral part of Rajasthani cuisine and is loved by people all over the state.",
+    "ingredients": [
+      "Broken wheat",
+      "Ghee",
+      "Sugar",
+      "Cardamom powder",
+      "Raisins",
+      "Almonds"
+    ],
+    "recipe": [
+      "Heat ghee in a large pan over medium heat",
+      "Add broken wheat and roast until it turns golden brown",
+      "Add sugar, cardamom powder, raisins, and almonds to the pan",
+      "Stir well and cook for 5-7 minutes or until the mixture is well combined",
+      "Serve hot or cold, garnished with chopped nuts and dried fruits"
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Lapsi is a rich and heavy sweet dish, high in calories and sugar content. It is a good source of carbohydrates and fiber, but should be consumed in moderation due to its high calorie count.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "Kesar Da Dhaba",
+        "city": "Jodhpur",
+        "address": "Mandore Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1572530448644-5e3e2c9c9c4e",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "jaisalmer"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "ghevar",
+    "title": "Ghevar",
+    "origin": "Jaipur",
+    "history": "Ghevar is a traditional Rajasthani sweet dish that originated in the city of Jaipur. It is believed to have been created by the royal chefs of the Maharaja of Jaipur, who experimented with various ingredients to create a unique and delicious dessert. The dish is typically prepared during the Teej festival, which is celebrated to mark the onset of the monsoon season. Ghevar is also an essential part of the wedding ceremonies in Rajasthan, where it is served as a symbol of good luck and prosperity.",
+    "ingredients": [
+      "All-purpose flour",
+      "Ghee",
+      "Sugar",
+      "Milk",
+      "Yogurt",
+      "Cardamom powder",
+      "Saffron threads"
+    ],
+    "recipe": [
+      "Start by mixing together the flour, ghee, and sugar in a large bowl.",
+      "Gradually add the milk and yogurt to the mixture, stirring continuously to avoid lumps.",
+      "Add the cardamom powder and saffron threads to the mixture and stir well.",
+      "Heat a deep frying pan with oil and pour the mixture into it, spreading it evenly to form a circular shape.",
+      "Cook the ghevar over medium heat, stirring occasionally, until it is golden brown and crispy.",
+      "Remove the ghevar from the oil and place it on a paper towel to drain excess oil.",
+      "Serve the ghevar warm, garnished with chopped nuts and dried fruits."
+    ],
+    "price_range": "INR 150 - 350 per serving",
+    "nutritional_value": "Ghevar is a rich and calorie-dense dessert, high in sugar and ghee. It is a good source of carbohydrates and provides a quick burst of energy. However, it is not suitable for people with diabetes or those who are on a low-calorie diet.",
+    "festivals_served": [
+      "Teej",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Kanha Sweets",
+        "city": "Udaipur",
+        "address": "City Palace Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-9a7c6a2c7f4e",
+    "related_city_ids": [
+      "jaipur",
+      "udaipur",
+      "jodhpur"
+    ],
+    "related_festival_ids": [
+      "teej",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "malpua",
+    "title": "Malpua",
+    "origin": "Pushkar, Rajasthan",
+    "history": "Malpua is a traditional Rajasthani sweet dish that has been a part of the state's culinary heritage for centuries. The origins of Malpua can be traced back to the ancient city of Pushkar, where it was served as a prasad to the gods at the famous Brahma Temple. According to local folklore, Malpua was a favorite of the Mughal emperors, who would often visit Pushkar to pay their respects to the deity. Over time, the recipe for Malpua has been refined and perfected, with each region in Rajasthan adding its own unique twist to the dish.",
+    "ingredients": [
+      "All-purpose flour",
+      "Semolina",
+      "Milk",
+      "Sugar",
+      "Ghee",
+      "Cardamom powder",
+      "Fennel seeds",
+      "Raisins"
+    ],
+    "recipe": [
+      "In a large mixing bowl, combine the all-purpose flour, semolina, and a pinch of salt.",
+      "Gradually add the milk to the dry ingredients and mix until a smooth batter forms.",
+      "Add the sugar, ghee, cardamom powder, fennel seeds, and raisins to the batter and mix well.",
+      "Heat a non-stick pan or griddle over medium heat and pour a small amount of the batter onto it.",
+      "Cook the Malpua for 2-3 minutes on each side, until it is golden brown and crispy.",
+      "Serve the Malpua hot with a dollop of whipped cream or a sprinkle of powdered sugar."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Malpua is a rich and calorie-dense sweet dish, high in sugar and ghee. However, it is also a good source of carbohydrates and protein, making it a satisfying and filling treat.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Eid-al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Sawai Ram Singh Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578133671810-9bcf221e2c4a",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur",
+      "ajmer"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri",
+      "eid-al-fitr"
+    ]
+  },
+  {
+    "id": "balushahi",
+    "title": "Balushahi",
+    "origin": "Jodhpur",
+    "history": "Balushahi is a traditional sweet dish that originated in the city of Jodhpur, Rajasthan. It is believed to have been created by the royal chefs of the Jodhpur kingdom, who were known for their innovative and delicious culinary creations. The name 'Balushahi' is derived from the Persian word 'balush,' which means 'flaky' or 'layered,' and 'shahi,' which means 'royal.' Over time, Balushahi has become a popular sweet dish throughout Rajasthan and is often served at special occasions and festivals.",
+    "ingredients": [
+      "Maida flour",
+      "Ghee",
+      "Sugar",
+      "Yogurt",
+      "Cardamom powder",
+      "Saffron threads"
+    ],
+    "recipe": [
+      "In a large mixing bowl, combine maida flour, ghee, and yogurt to form a smooth dough.",
+      "Knead the dough for 10-15 minutes until it becomes soft and pliable.",
+      "Cover the dough with a damp cloth and let it rest for 30 minutes.",
+      "Divide the dough into small balls and roll each ball into a thin circle.",
+      "Heat oil in a deep frying pan and fry the dough circles until they are golden brown.",
+      "Soak the fried dough circles in a sugar syrup flavored with cardamom powder and saffron threads."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Balushahi is a rich and sweet dish, high in calories and sugar. It is a good source of carbohydrates and provides a quick burst of energy.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Jodhpur Sweet House",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-9a7c3a5c4a5f",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "mohanthal",
+    "title": "Mohanthal",
+    "origin": "Jodhpur",
+    "history": "Mohanthal is a traditional Rajasthani sweet dish that has its roots in the royal kitchens of Jodhpur. The name 'Mohanthal' literally translates to 'pleasing to the Lord', and it is said to have been a favorite of the Maharajas of Jodhpur. This rich and decadent sweet is made with gram flour, ghee, and sugar, and is often served at special occasions and festivals. According to local folklore, Mohanthal was first prepared by the royal chefs of Jodhpur to please the Lord Krishna, and since then, it has become an integral part of Rajasthani cuisine.",
+    "ingredients": [
+      "Gram flour",
+      "Ghee",
+      "Sugar",
+      "Milk",
+      "Cardamom powder",
+      "Nuts and dried fruits"
+    ],
+    "recipe": [
+      "Roast the gram flour in ghee until it turns golden brown",
+      "Add sugar, milk, and cardamom powder to the roasted gram flour and mix well",
+      "Cook the mixture over low heat, stirring constantly, until it thickens",
+      "Add nuts and dried fruits to the mixture and stir well",
+      "Serve the Mohanthal warm or at room temperature"
+    ],
+    "price_range": "INR 200 - 400 per serving",
+    "nutritional_value": "Mohanthal is a rich and heavy sweet dish, high in calories and sugar. It is a good source of protein and fiber, but should be consumed in moderation due to its high calorie content.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Ganesh Chaturthi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Jodhpur Sweets",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-9ec5f2e5a99c",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "jaisalmer"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri",
+      "ganesh-chaturthi"
+    ]
+  },
+  {
+    "id": "besan-chakki",
+    "title": "Besan Chakki",
+    "origin": "Jodhpur",
+    "history": "Besan Chakki is a traditional Rajasthani sweet dish that originated in the city of Jodhpur. The name 'Besan Chakki' literally translates to 'gram flour wheel' in Hindi, which refers to the round shape of the sweet. According to local folklore, Besan Chakki was first prepared by the royal chefs of the Jodhpur kingdom as a special dessert for the Maharaja. Over time, it became a popular sweet dish throughout Rajasthan, often served at special occasions and festivals.",
+    "ingredients": [
+      "Gram flour",
+      "Ghee",
+      "Sugar",
+      "Milk",
+      "Cardamom powder",
+      "Chopped nuts"
+    ],
+    "recipe": [
+      "Roast the gram flour in a pan until it turns golden brown",
+      "Add ghee, sugar, and milk to the pan and stir well",
+      "Cook the mixture until it thickens and forms a smooth dough",
+      "Add cardamom powder and chopped nuts to the dough and mix well",
+      "Shape the dough into round wheels and serve"
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Besan Chakki is a rich and heavy sweet dish, high in calories and sugar. It is a good source of protein and fiber due to the gram flour, but should be consumed in moderation.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Mishri Lal Hotel",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      },
+      {
+        "name": "Shri Mishrilal Hotel",
+        "city": "Jodhpur",
+        "address": "Johari Bazaar"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-9c8c543e5d6c",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "feeni",
+    "title": "Feeni",
+    "origin": "Jodhpur",
+    "history": "Feeni is a traditional sweet delicacy from the city of Jodhpur in Rajasthan, often served on special occasions and festivals. The history of Feeni dates back to the royal era, where it was served as a dessert to the kings and nobles. According to local folklore, Feeni was created by the royal chefs to satisfy the sweet tooth of the monarchs. Over time, Feeni has become an integral part of Jodhpur's culinary culture, with its unique taste and texture making it a favorite among locals and tourists alike.",
+    "ingredients": [
+      "Maida",
+      "Ghee",
+      "Sugar",
+      "Milk",
+      "Cardamom powder",
+      "Chopped nuts"
+    ],
+    "recipe": [
+      "Start by mixing maida, ghee, and sugar in a large bowl to form a smooth dough.",
+      "Knead the dough for about 10 minutes until it becomes soft and pliable.",
+      "Divide the dough into small balls and roll each ball into a thin sheet.",
+      "Heat ghee in a deep frying pan and fry the sheets until they are golden brown.",
+      "Soak the fried sheets in a mixture of milk, sugar, and cardamom powder.",
+      "Garnish with chopped nuts and serve hot."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Feeni is a rich and sweet dessert, high in calories and sugar content. It is a heavy dessert, often served in small portions due to its richness.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Mishri Lal Hotel",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      },
+      {
+        "name": "Shri Mishrilal Hotel",
+        "city": "Jodhpur",
+        "address": "Johari Bazaar"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578935337415-3a3077f6f2c6",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "imarti",
+    "title": "Imarti",
+    "origin": "Jodhpur",
+    "history": "Imarti, a sweet delicacy from Rajasthan, has its roots in the Mughal era. It is believed to have been created by the royal chefs of the Mughal Empire, who experimented with different ingredients to create a unique dessert. The name 'Imarti' is derived from the Urdu word 'Imartia', meaning 'a delicate, lacy sweet'. Over time, Imarti has become an integral part of Rajasthani cuisine, often served at special occasions and festivals.",
+    "ingredients": [
+      "Refined flour",
+      "Ghee",
+      "Sugar syrup",
+      "Cardamom powder",
+      "Rose water",
+      "Food coloring"
+    ],
+    "recipe": [
+      "Mix refined flour, ghee, and water to form a smooth dough",
+      "Knead the dough for 10-15 minutes until it becomes soft and pliable",
+      "Divide the dough into small portions and shape each portion into a thin, lacy strip",
+      "Deep-fry the strips in hot oil until they are golden brown and crispy",
+      "Soak the fried strips in sugar syrup flavored with cardamom powder and rose water",
+      "Garnish with chopped nuts and dried fruits"
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Imarti is a rich and sweet dessert, high in calories and sugar content. It is best consumed in moderation as an occasional treat.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Eid-al-Fitr",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Jodhpur Sweets",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-9a7b5a41f2c1",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "eid-al-fitr",
+      "navratri"
+    ]
+  },
+  {
+    "id": "mishri-mawa",
+    "title": "Mishri Mawa",
+    "origin": "Jaipur",
+    "history": "Mishri Mawa is a traditional Rajasthani sweet dish that has its roots in the royal kitchens of Jaipur. The name 'Mishri' refers to the large crystals of sugar used in its preparation, while 'Mawa' is the Hindi term for milk solids. This sweet delight has been a staple at Rajasthani festivals and celebrations for centuries, particularly during the festive season of Diwali. According to local folklore, Mishri Mawa was a favorite of the Maharajas of Jaipur, who would often serve it to their guests as a symbol of hospitality and generosity.",
+    "ingredients": [
+      "Milk solids (Mawa)",
+      "Sugar crystals (Mishri)",
+      "Ghee (clarified butter)",
+      "Cardamom powder",
+      "Pistachios",
+      "Almonds"
+    ],
+    "recipe": [
+      "Begin by heating the milk solids in a pan over low heat, stirring constantly, until they turn golden brown.",
+      "Add the sugar crystals to the pan and stir well, allowing them to dissolve completely.",
+      "Add the ghee, cardamom powder, pistachios, and almonds to the pan, stirring well to combine.",
+      "Continue cooking the mixture over low heat, stirring constantly, until it thickens and turns into a smooth, creamy paste.",
+      "Remove the pan from the heat and allow the mixture to cool slightly before serving."
+    ],
+    "price_range": "INR 200 - 400 per serving",
+    "nutritional_value": "Mishri Mawa is a rich and calorie-dense sweet dish, high in sugar and fat content. It is a heavy dessert that is best consumed in moderation, particularly for those with dietary restrictions.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Eid-al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Kanha Sweets",
+        "city": "Udaipur",
+        "address": "City Palace Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-9a7c3a1c9174",
+    "related_city_ids": [
+      "jaipur",
+      "udaipur",
+      "jodhpur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "gond-ke-ladoo",
+    "title": "Gond Ke Ladoo",
+    "origin": "Jodhpur",
+    "history": "Gond Ke Ladoo is a traditional Rajasthani sweet dish that has been a staple in the state's cuisine for centuries. The dish is believed to have originated in the Marwar region, where it was prepared as a nutritious snack for travelers and traders. The use of gond, a natural gum extracted from the bark of the acacia tree, gives the ladoos their unique texture and binding properties. According to local folklore, Gond Ke Ladoo was a favorite of the royal family of Jodhpur, who would often serve it at special occasions and festivals.",
+    "ingredients": [
+      "Gond",
+      "Wheat flour",
+      "Ghee",
+      "Sugar",
+      "Cardamom powder",
+      "Almonds",
+      "Pistachios"
+    ],
+    "recipe": [
+      "Roast the gond in a pan over low heat until it is lightly browned and fragrant.",
+      "Grind the roasted gond into a fine powder using a mortar and pestle.",
+      "In a large mixing bowl, combine the wheat flour, ghee, sugar, cardamom powder, and ground gond.",
+      "Mix the ingredients together until they form a smooth dough.",
+      "Divide the dough into small portions and shape each portion into a ball.",
+      "Flatten each ball slightly into a disk shape.",
+      "Garnish with chopped almonds and pistachios.",
+      "Serve the Gond Ke Ladoo at room temperature or store them in an airtight container for up to a week."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Gond Ke Ladoo is a rich and nutritious sweet dish that is high in calories and protein. The gond provides a natural source of fiber and binding properties, while the wheat flour and sugar add carbohydrates and energy. The almonds and pistachios provide a boost of healthy fats and antioxidants.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Eid-al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Lakshmi Mishthan Bhandar",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      },
+      {
+        "name": "Jodhpur Sweets",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578935136854-0c45a1e2f2d2",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "til-papdi",
+    "title": "Til Papdi",
+    "origin": "Jodhpur",
+    "history": "Til Papdi, a traditional Rajasthani sweet, has its roots in the royal kitchens of Jodhpur. The dish is believed to have been created by the royal chefs of the Maharajas of Marwar, who experimented with the locally available sesame seeds to create a unique and delicious sweet. The name 'Til Papdi' literally translates to 'sesame seed flatbread' in Hindi, which aptly describes the dish. Over time, Til Papdi has become an integral part of Rajasthani cuisine and is often served during special occasions and festivals.",
+    "ingredients": [
+      "Sesame seeds",
+      "Jaggery",
+      "Ghee",
+      "Wheat flour",
+      "Cardamom powder",
+      "Salt"
+    ],
+    "recipe": [
+      "Roast the sesame seeds in a pan until they are lightly browned and fragrant.",
+      "In a separate pan, melt the ghee and add the jaggery. Cook until the jaggery dissolves and the mixture turns golden brown.",
+      "Add the wheat flour to the jaggery mixture and cook for a few minutes, stirring constantly.",
+      "Add the roasted sesame seeds, cardamom powder, and salt to the mixture and stir well.",
+      "Roll out the mixture into a flatbread shape and cut into desired shapes."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Til Papdi is a rich and heavy sweet, high in calories and sugar content. It is a good source of protein and fiber due to the presence of sesame seeds.",
+    "festivals_served": [
+      "Makar Sankranti",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Lakshmi Mishtan Bhandar",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      },
+      {
+        "name": "Jodhpur Sweets",
+        "city": "Jodhpur",
+        "address": "Sardar Market"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1624560072666-3f4f6f4f4f4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "makar-sankranti",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "moong-dal-halwa",
+    "title": "Moong Dal Halwa",
+    "origin": "Jodhpur",
+    "history": "Moong Dal Halwa is a traditional Rajasthani dessert that has its roots in the royal kitchens of Jodhpur. This rich and creamy sweet dish is made from split green gram, also known as moong dal, and is often served at special occasions and festivals. The history of Moong Dal Halwa dates back to the Mughal era, when it was served as a dessert to the royal family. Over time, it has become an integral part of Rajasthani cuisine and is now enjoyed by people all over the state.",
+    "ingredients": [
+      "Split green gram (moong dal)",
+      "Ghee",
+      "Milk",
+      "Sugar",
+      "Cardamom powder",
+      "Nuts (almonds, pistachios, etc.)"
+    ],
+    "recipe": [
+      "Soak the moong dal in water for at least 4 hours",
+      "Drain the water and grind the dal into a fine paste",
+      "Heat ghee in a pan and add the dal paste, stirring continuously",
+      "Add milk, sugar, and cardamom powder, and cook until the mixture thickens",
+      "Garnish with nuts and serve hot"
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Moong Dal Halwa is a rich and heavy dessert, high in calories and protein. It is a good source of fiber, vitamins, and minerals, but should be consumed in moderation due to its high sugar content.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Eid"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Lakshmi Mishthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Near Durgapura"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578931239288-94a8e2f7c5d4",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "jaisalmer"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "milk-cake",
+    "title": "Milk Cake",
+    "origin": "Alwar, Rajasthan",
+    "history": "Milk Cake, also known as Alwar Ka Mawa Cake, has its roots in the city of Alwar in Rajasthan. The history of this dessert dates back to the 19th century when it was first prepared by the Kalakand makers of Alwar. Over time, it gained popularity across the region and is now a staple in many Rajasthani households and restaurants. The cake is a testament to the rich culinary heritage of Rajasthan, with its unique blend of traditional ingredients and cooking techniques.",
+    "ingredients": [
+      "Milk",
+      "Sugar",
+      "Ghee",
+      "Cardamom powder",
+      "Pistachios",
+      "Almonds"
+    ],
+    "recipe": [
+      "Begin by boiling 1 liter of milk in a large saucepan until it thickens and reduces to half its original quantity.",
+      "Add 1 cup of sugar to the milk and stir until it dissolves completely.",
+      "Add 1/4 teaspoon of cardamom powder and mix well.",
+      "Remove the saucepan from the heat and let it cool slightly.",
+      "Add 1 tablespoon of ghee to the mixture and stir until it is fully incorporated.",
+      "Pour the mixture into a greased cake pan and refrigerate for at least 2 hours.",
+      "Garnish with chopped pistachios and almonds before serving."
+    ],
+    "price_range": "INR 200 - 400 per serving",
+    "nutritional_value": "Milk Cake is a rich and calorie-dense dessert, high in protein and fat from the milk and ghee. It is also high in sugar, making it a treat that should be consumed in moderation.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Sarafa Bazaar",
+        "city": "Alwar",
+        "address": "Sarafa Bazaar"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517492378644-5d96e6c583eb",
+    "related_city_ids": [
+      "alwar",
+      "jaipur",
+      "jodhpur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "kalakand",
+    "title": "Kalakand",
+    "origin": "Alwar, Rajasthan",
+    "history": "Kalakand is a traditional Indian sweet dish that originated in Alwar, Rajasthan. The name 'Kalakand' literally translates to 'black sweet' in Hindi, which refers to the sweet's dark brown color. According to local folklore, Kalakand was first prepared in the 19th century by the royal chefs of the Alwar kingdom. The dish quickly gained popularity across the region and is now a staple at many Rajasthani festivals and celebrations.",
+    "ingredients": [
+      "Milk",
+      "Sugar",
+      "Ghee",
+      "Cardamom powder",
+      "Pistachio",
+      "Almond"
+    ],
+    "recipe": [
+      "Boil 1 liter of milk in a large pan until it thickens and reduces to half its original quantity.",
+      "Add 1 cup of sugar to the milk and stir until the sugar dissolves completely.",
+      "Add 1/2 teaspoon of cardamom powder and 1/4 teaspoon of salt to the mixture and stir well.",
+      "Reduce the heat to low and simmer the mixture for 10-15 minutes, stirring occasionally, until it thickens and turns dark brown in color.",
+      "Remove the pan from the heat and let it cool slightly.",
+      "Add 1 tablespoon of ghee to the mixture and stir well.",
+      "Garnish with chopped pistachio and almond before serving."
+    ],
+    "price_range": "INR 200 - 400 per serving",
+    "nutritional_value": "Kalakand is a rich and heavy sweet dish, high in calories and sugar content. It is a good source of protein and calcium due to the presence of milk, but should be consumed in moderation as part of a balanced diet.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Eid-al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Kanha Sweets",
+        "city": "Alwar",
+        "address": "Saraf Bazaar"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1587732741617-4e2f9e3c7d35",
+    "related_city_ids": [
+      "alwar",
+      "jaipur",
+      "jodhpur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "churma-ladoo",
+    "title": "Churma Ladoo",
+    "origin": "Jodhpur",
+    "history": "Churma Ladoo is a traditional Rajasthani sweet dish that has its roots in the royal kitchens of Jodhpur. The word 'churma' literally means 'crushed' or 'powdered', which refers to the process of crushing wheat flour to create a fine powder. This sweet delight is often served as a dessert or a snack, and its popularity can be attributed to its rich flavor and texture. According to local folklore, Churma Ladoo was a favorite of the Maharajas of Jodhpur, who would often serve it to their guests as a symbol of hospitality.",
+    "ingredients": [
+      "Wheat flour",
+      "Ghee",
+      "Sugar",
+      "Cardamom powder",
+      "Almonds",
+      "Pistachios"
+    ],
+    "recipe": [
+      "Begin by roasting wheat flour in a pan until it turns golden brown.",
+      "Allow the flour to cool, then crush it into a fine powder using a mortar and pestle or a food processor.",
+      "In a separate pan, heat ghee and add sugar, cardamom powder, almonds, and pistachios.",
+      "Mix the crushed wheat flour with the ghee and sugar mixture, and shape into small ladoos.",
+      "Serve the Churma Ladoo at room temperature or chilled."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Churma Ladoo is a rich and heavy sweet dish, high in calories and sugar. It is a good source of carbohydrates and fiber, but should be consumed in moderation due to its high calorie content.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Tunnel Road"
+      },
+      {
+        "name": "Kesar Da Dhaba",
+        "city": "Jodhpur",
+        "address": "High Court Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578935334331-4a2c bee7-4f9c-46b4-94f2-8e2f9f9f9f9f",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "jaisalmer"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "paneer-ghevar",
+    "title": "Paneer Ghevar",
+    "origin": "Jaipur",
+    "history": "Paneer Ghevar is a traditional Rajasthani dessert that originated in the city of Jaipur. It is believed to have been created by the royal chefs of the Maharaja of Jaipur, who were known for their innovative and exquisite culinary creations. The dish is a variation of the traditional Ghevar, which is a sweet dish made from flour, sugar, and ghee. The addition of paneer, a type of Indian cheese, gives the dish a unique flavor and texture. Over time, Paneer Ghevar has become a popular dessert throughout Rajasthan and is often served at special occasions and festivals.",
+    "ingredients": [
+      "Paneer (Indian cheese)",
+      "Ghee (clarified butter)",
+      "All-purpose flour",
+      "Sugar",
+      "Cardamom powder",
+      "Saffron threads",
+      "Milk",
+      "Rose water"
+    ],
+    "recipe": [
+      "To make the Ghevar, combine flour, ghee, and sugar in a large mixing bowl.",
+      "Gradually add milk to the mixture and knead until a smooth dough forms.",
+      "Roll out the dough into thin sheets and cut into desired shapes.",
+      "Deep-fry the Ghevar sheets until golden brown and crispy.",
+      "To make the paneer filling, crumble the paneer and mix with cardamom powder, saffron threads, and rose water.",
+      "Assemble the Paneer Ghevar by placing a layer of Ghevar sheets on a serving plate, followed by a layer of paneer filling, and repeating the process until all ingredients are used up."
+    ],
+    "price_range": "INR 200 - 400 per serving",
+    "nutritional_value": "Rich and heavy, high in calories and sugar, but also a good source of protein and calcium from the paneer.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Raksha Bandhan"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Near Durgapura"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578935337221-8e2a4a5a5a5a",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri",
+      "raksha-bandhan"
+    ]
+  },
+  {
+    "id": "boondi-ladoo",
+    "title": "Boondi Ladoo",
+    "origin": "Jaipur",
+    "history": "Boondi Ladoo is a traditional Rajasthani sweet dish that has its roots in the royal kitchens of Jaipur. The name 'Boondi' literally translates to 'droplets' in Hindi, which refers to the small, round balls of gram flour that are deep-fried and then soaked in a sweet syrup. This sweet dish is often served at special occasions and festivals, and its preparation is considered an art form in Rajasthan. According to local folklore, Boondi Ladoo was a favorite of the Maharajas of Jaipur, who would often serve it to their guests as a symbol of hospitality and generosity.",
+    "ingredients": [
+      "Gram flour",
+      "Ghee",
+      "Sugar",
+      "Water",
+      "Cardamom powder",
+      "Saffron threads",
+      "Chopped nuts"
+    ],
+    "recipe": [
+      "Start by preparing the boondi mixture by mixing gram flour, ghee, and water to form a smooth batter.",
+      "Heat oil in a deep frying pan and drop the batter into the oil using a piping bag or a spoon to form small, round balls.",
+      "Fry the boondi until they are golden brown and then soak them in a sweet syrup made with sugar, water, and cardamom powder.",
+      "Add saffron threads and chopped nuts to the syrup for extra flavor and texture.",
+      "Serve the Boondi Ladoo at room temperature or chilled, garnished with additional chopped nuts and saffron threads if desired."
+    ],
+    "price_range": "INR 200 - 400 per serving",
+    "nutritional_value": "Boondi Ladoo is a rich and calorie-dense sweet dish, high in sugar and fat from the ghee and oil used in its preparation. However, it is also a good source of protein and fiber from the gram flour and nuts.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Eid-al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Kanha Sweets",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833875-9c2b2c6f5c4a",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "motichoor-ladoo",
+    "title": "Motichoor Ladoo",
+    "origin": "Jodhpur",
+    "history": "Motichoor Ladoo, a traditional Rajasthani sweet, has its roots in the royal kitchens of Jodhpur. This sweet delicacy is believed to have been created by the royal chefs of the Marwar kingdom, who experimented with gram flour, sugar, and ghee to create a unique and delicious dessert. The name 'Motichoor' literally translates to 'crushed pearls', which refers to the small, round boondis made from gram flour that are soaked in sugar syrup and then shaped into ladoos. Over time, Motichoor Ladoo has become an integral part of Rajasthani cuisine and is often served at special occasions and festivals.",
+    "ingredients": [
+      "Gram flour",
+      "Sugar",
+      "Ghee",
+      "Cardamom powder",
+      "Saffron threads",
+      "Pistachios",
+      "Almonds"
+    ],
+    "recipe": [
+      "Start by making the boondis: mix gram flour, water, and a pinch of salt to form a smooth batter.",
+      "Heat oil in a deep frying pan and drop the batter into the oil using a piping bag or a spoon to form small, round boondis.",
+      "Soak the boondis in sugar syrup flavored with cardamom powder and saffron threads.",
+      "Shape the soaked boondis into ladoos and garnish with chopped pistachios and almonds."
+    ],
+    "price_range": "INR 150 - 300 per serving",
+    "nutritional_value": "Motichoor Ladoo is a rich and calorie-dense sweet, high in sugar and ghee, making it a heavy and indulgent treat.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Raksha Bandhan"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Kanha Sweets",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-9a7c6a1c8f4e",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri",
+      "raksha-bandhan"
+    ]
+  },
+  {
+    "id": "dilkhushal",
+    "title": "Dilkhushal",
+    "origin": "Jodhpur",
+    "history": "Dilkhushal is a traditional sweet dish from the city of Jodhpur in Rajasthan, known for its rich and creamy texture. The name 'Dilkhushal' literally translates to 'heart's desire' in Hindi, reflecting the dish's popularity and beloved status among locals. According to folklore, Dilkhushal was first prepared in the royal kitchens of the Jodhpur kingdom, where it was served as a dessert to the Maharaja and his guests. Over time, the recipe has been passed down through generations and is now a staple at many festivals and celebrations in the region.",
+    "ingredients": [
+      "Milk",
+      "Sugar",
+      "Ghee",
+      "Cardamom powder",
+      "Pistachios",
+      "Almonds"
+    ],
+    "recipe": [
+      "Begin by boiling 1 liter of milk in a large saucepan until it reduces to half its original quantity.",
+      "Add 1 cup of sugar and stir until it dissolves completely.",
+      "Add 2 tablespoons of ghee and 1 teaspoon of cardamom powder, and stir well.",
+      "Remove the saucepan from the heat and let it cool slightly.",
+      "Stir in 1/4 cup of chopped pistachios and almonds.",
+      "Pour the mixture into individual serving cups and refrigerate until chilled."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Dilkhushal is a rich and creamy dessert, high in calories and sugar. It is a good source of protein and calcium from the milk, but should be consumed in moderation due to its high calorie content.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal, 5th Residency Road"
+      },
+      {
+        "name": "The Royal Dining Hall",
+        "city": "Jodhpur",
+        "address": "Umaid Bhawan Palace, Circuit House Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578908723014-4f2c6f2f2c4e",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "gujiya",
+    "title": "Gujiya",
+    "origin": "Jaipur",
+    "history": "Gujiya is a traditional Rajasthani sweet dish that has been a part of the state's culinary heritage for centuries. The dish is believed to have originated in the royal kitchens of Jaipur, where it was served as a sweet treat to the royal family and their guests. According to local folklore, Gujiya was created by the royal chefs as a sweet offering to the gods during the festival of Holi. Over time, the dish has evolved and is now a staple in Rajasthani cuisine, particularly during the festival of Holi and Diwali.",
+    "ingredients": [
+      "Maida flour",
+      "Ghee",
+      "Sugar",
+      "Khoya",
+      "Dry fruits",
+      "Cardamom powder"
+    ],
+    "recipe": [
+      "To make the dough, combine maida flour, ghee, and water in a bowl and knead until smooth.",
+      "Divide the dough into small balls and roll out each ball into a thin circle.",
+      "Place a spoonful of khoya mixture in the center of each circle and fold the dough over to form a half-moon shape.",
+      "Seal the edges by pressing them together with a fork.",
+      "Deep-fry the gujiyas until golden brown and soak them in sugar syrup."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Gujiya is a rich and sweet dish, high in calories and sugar. It is a heavy dessert, typically served in small portions due to its richness.",
+    "festivals_served": [
+      "Holi",
+      "Diwali"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "Tonk Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-081dfd8c8f4c",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "holi",
+      "diwali"
+    ]
+  },
+  {
+    "id": "badam-halwa",
+    "title": "Badam Halwa",
+    "origin": "Jaipur",
+    "history": "Badam Halwa, a rich and creamy almond pudding, has its roots in the royal kitchens of Rajasthan. This dessert was a staple at the Jaipur royal court, where it was served to kings and nobles on special occasions. The dish is believed to have been inspired by the Mughal cuisine, which was popular in India during the 16th century. Over time, Badam Halwa has become a beloved dessert throughout Rajasthan, often served at weddings, festivals, and other celebrations.",
+    "ingredients": [
+      "Almonds",
+      "Milk",
+      "Sugar",
+      "Ghee",
+      "Cardamom",
+      "Saffron"
+    ],
+    "recipe": [
+      "Soak 1 cup of almonds in water overnight and peel them the next morning.",
+      "Grind the almonds into a fine paste using a grinder or food processor.",
+      "In a large saucepan, combine 2 cups of milk, 1 cup of sugar, and 1/4 teaspoon of cardamom powder. Heat the mixture over medium heat, stirring constantly, until the sugar dissolves.",
+      "Add the almond paste to the saucepan and cook for 10-15 minutes, stirring constantly, until the mixture thickens.",
+      "Remove the saucepan from the heat and stir in 1 tablespoon of ghee and a few strands of saffron."
+    ],
+    "price_range": "INR 200 - 400 per serving",
+    "nutritional_value": "Badam Halwa is a rich and calorie-dense dessert, high in protein and healthy fats from the almonds and ghee. It is also a good source of fiber and vitamins.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Eid-al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Near Durgapura"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578942704145-5a6a6c34f2c4",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "masala-chaas",
+    "title": "Masala Chaas",
+    "origin": "Jodhpur",
+    "history": "Masala Chaas, also known as spiced buttermilk, has its roots in the traditional Rajasthani cuisine. It is believed to have originated in the royal kitchens of Jodhpur, where it was served as a refreshing drink to the kings and nobles. The drink was initially made with just buttermilk, cumin, and salt, but over time, various spices and herbs were added to give it a unique flavor. Today, Masala Chaas is a staple drink in every Rajasthani household, especially during the summer months when it helps to beat the heat.",
+    "ingredients": [
+      "buttermilk",
+      "cumin seeds",
+      "coriander seeds",
+      "ginger",
+      "green chilies",
+      "mint leaves",
+      "salt",
+      "black pepper"
+    ],
+    "recipe": [
+      "In a large bowl, whisk together buttermilk, cumin seeds, coriander seeds, grated ginger, and green chilies.",
+      "Add salt and black pepper to taste.",
+      "Chill the mixture in the refrigerator for at least 30 minutes.",
+      "Just before serving, garnish with fresh mint leaves and serve chilled."
+    ],
+    "price_range": "INR 50 - 100 per serving",
+    "nutritional_value": "Masala Chaas is a low-calorie, high-protein drink that is rich in probiotics and helps in digestion. It is also a good source of calcium, vitamins, and minerals.",
+    "festivals_served": [
+      "Holi",
+      "Diwali",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Jaipur"
+      },
+      {
+        "name": "The Royal Treat",
+        "city": "Jodhpur",
+        "address": "High Court Road, Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-9a7c42f8c9a2",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "holi",
+      "diwali",
+      "navratri"
+    ]
+  },
+  {
+    "id": "kesar-lassi",
+    "title": "Kesar Lassi",
+    "origin": "Jodhpur",
+    "history": "Kesar Lassi, also known as Saffron Lassi, has its roots in the royal kitchens of Jodhpur, where it was served as a refreshing drink to the kings and nobles. The dish is believed to have originated during the reign of the Rathore dynasty, when saffron was a highly prized spice. Over time, Kesar Lassi became an integral part of Rajasthani cuisine, often served during special occasions and festivals. Its rich, creamy texture and subtle saffron flavor have made it a favorite among locals and tourists alike.",
+    "ingredients": [
+      "yogurt",
+      "saffron threads",
+      "sugar",
+      "cardamom powder",
+      "ice cubes"
+    ],
+    "recipe": [
+      "Soak saffron threads in a tablespoon of hot water for 10-15 minutes to release their flavor and color.",
+      "In a large bowl, whisk together yogurt, sugar, and cardamom powder until smooth.",
+      "Add the soaked saffron threads and their liquid to the yogurt mixture and stir well.",
+      "Chill the mixture in the refrigerator for at least 30 minutes.",
+      "Serve the Kesar Lassi chilled, garnished with a sprinkle of cardamom powder and a few saffron threads."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Kesar Lassi is a rich and creamy drink, high in protein and calcium from the yogurt. The saffron adds a subtle, aromatic flavor without adding significant calories. However, the sugar content can make it a relatively high-calorie drink, making it a treat to be enjoyed in moderation.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Lakshmi Mishthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Ajmer Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1574128784346-56ae6f5f2a7f",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "makhaniya-lassi",
+    "title": "Makhaniya Lassi",
+    "origin": "Jodhpur",
+    "history": "Makhaniya Lassi, a traditional Rajasthani beverage, has its roots in the royal kitchens of Jodhpur. The name 'Makhaniya' literally translates to 'buttery' in the local dialect, which refers to the generous amount of butter and cream used in its preparation. This rich and creamy drink has been a staple in Rajasthani cuisine for centuries, often served as a refreshing accompaniment to spicy meals. According to local folklore, Makhaniya Lassi was a favorite of the Maharajas of Jodhpur, who would often serve it to their guests as a symbol of hospitality and luxury.",
+    "ingredients": [
+      "yogurt",
+      "butter",
+      "cream",
+      "sugar",
+      "cardamom",
+      "saffron"
+    ],
+    "recipe": [
+      "In a large mixing bowl, combine 1 cup of yogurt, 2 tablespoons of butter, and 1 tablespoon of cream. Mix well until the butter is fully incorporated into the yogurt.",
+      "Add 1 tablespoon of sugar, 1/4 teaspoon of cardamom powder, and a few strands of saffron to the mixture. Mix well.",
+      "Chill the mixture in the refrigerator for at least 30 minutes to allow the flavors to meld together.",
+      "Serve the Makhaniya Lassi chilled, garnished with a sprinkle of cardamom powder and a few strands of saffron."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Makhaniya Lassi is a rich and creamy beverage, high in calories and fat due to the generous amount of butter and cream used in its preparation. However, it is also a good source of protein and calcium, thanks to the yogurt and milk used in its preparation.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Hotel Ajit Bhawan, Circuit House Road"
+      },
+      {
+        "name": "The Royal Dining Hall",
+        "city": "Jodhpur",
+        "address": "Umaid Bhawan Palace, Circuit House Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578931239288-94a8c5f6a6f5",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "jaisalmer"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "jaljeera",
+    "title": "Jaljeera",
+    "origin": "Jodhpur",
+    "history": "Jaljeera is a popular beverage in Rajasthan, originating from the city of Jodhpur. The drink has a rich history, dating back to the Mughal era when it was served as a refreshing drink to royalty and nobility. Over time, Jaljeera has become an integral part of Rajasthani cuisine, often served as a palate cleanser between meals or as a refreshing drink during the hot summer months. Its unique blend of spices and herbs has made it a staple in many Rajasthani households.",
+    "ingredients": [
+      "Tamarind",
+      "Mint leaves",
+      "Ginger",
+      "Green chili",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Asafoetida",
+      "Salt",
+      "Lime juice",
+      "Water"
+    ],
+    "recipe": [
+      "Soak tamarind in water for at least 30 minutes",
+      "Grind the soaked tamarind, mint leaves, ginger, green chili, cumin seeds, coriander seeds, and asafoetida into a fine paste",
+      "Strain the paste through a fine-mesh sieve to remove any solids",
+      "Add salt, lime juice, and water to the strained paste and mix well",
+      "Chill the mixture in the refrigerator for at least 30 minutes before serving"
+    ],
+    "price_range": "INR 50 - 100 per serving",
+    "nutritional_value": "Jaljeera is a low-calorie, refreshing drink rich in antioxidants and fiber, making it an excellent choice for those looking for a healthy beverage option.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22nd Milestone, Tonk Road"
+      },
+      {
+        "name": "Umaid Bhawan Palace",
+        "city": "Jodhpur",
+        "address": "Umaid Bhawan Palace Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1587731811119-3e2f2e2f5f2f",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "rab",
+    "title": "Rab",
+    "origin": "Jaisalmer",
+    "history": "Rab is a traditional Rajasthani dish that originated in the Jaisalmer region. It is a sweet and savory dessert made from bajra (pearl millet) flour, ghee, and sugar. The dish has a rich history and is often served during special occasions and festivals. According to local folklore, Rab was first prepared by the royal chefs of Jaisalmer to serve as a nutritious and filling dessert for the soldiers and travelers who passed through the city.",
+    "ingredients": [
+      "Bajra flour",
+      "Ghee",
+      "Sugar",
+      "Cardamom powder",
+      "Nuts (optional)"
+    ],
+    "recipe": [
+      "Roast the bajra flour in a pan until it turns golden brown",
+      "Add ghee and sugar to the pan and mix well",
+      "Add cardamom powder and nuts (if using) to the mixture",
+      "Cook the mixture for 10-15 minutes, stirring constantly, until it thickens and turns into a smooth paste",
+      "Serve the Rab hot, garnished with nuts and cardamom powder"
+    ],
+    "price_range": "INR 100 - 200 per serving",
+    "nutritional_value": "Rab is a rich and heavy dessert, high in calories and carbohydrates. It is a good source of fiber and protein, but should be consumed in moderation due to its high sugar content.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "The Desert Haveli",
+        "city": "Jaisalmer",
+        "address": "Amar Sagar Pol"
+      },
+      {
+        "name": "Surya Mahal",
+        "city": "Jodhpur",
+        "address": "Sardar Market"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1624560472665-aea5f6e2c0c1",
+    "related_city_ids": [
+      "jaisalmer",
+      "jodhpur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "kairi-ki-launji",
+    "title": "Kairi Ki Launji",
+    "origin": "Hadoti Region, Rajasthan",
+    "history": "Kairi Ki Launji, a traditional Rajasthani dish, has its roots in the Hadoti region of the state. The word 'Kairi' translates to 'raw mango' and 'Launji' means 'pickle' or 'relish'. This sweet and tangy side dish has been a staple in Rajasthani cuisine for centuries, often served during the summer months when raw mangoes are in abundance. The dish is believed to have originated as a way to preserve raw mangoes, which were then used to add flavor to various meals throughout the year.",
+    "ingredients": [
+      "Raw mangoes",
+      "Mustard oil",
+      "Fenugreek seeds",
+      "Asafoetida",
+      "Turmeric powder",
+      "Red chili powder",
+      "Salt",
+      "Jaggery",
+      "Ginger",
+      "Green chilies"
+    ],
+    "recipe": [
+      "Wash and chop the raw mangoes into small pieces.",
+      "Heat mustard oil in a pan and add fenugreek seeds, asafoetida, and ginger.",
+      "Add the chopped raw mangoes, turmeric powder, red chili powder, and salt to the pan.",
+      "Cook the mixture until the mangoes are tender, then add jaggery and green chilies.",
+      "Stir well and let the mixture simmer for a few minutes before serving."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Kairi Ki Launji is a nutrient-rich dish, high in fiber, vitamins, and minerals. The raw mangoes provide a good source of vitamin C, while the spices add antioxidants and anti-inflammatory properties.",
+    "festivals_served": [
+      "Holi",
+      "Navratri",
+      "Diwali"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "12 Miles, Tonk Road"
+      },
+      {
+        "name": "Lakshmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-9a7c7bfb42e2",
+    "related_city_ids": [
+      "jaipur",
+      "kota",
+      "jodhpur"
+    ],
+    "related_festival_ids": [
+      "holi",
+      "navratri",
+      "diwali"
+    ]
+  },
+  {
+    "id": "kachri-ki-chutney",
+    "title": "Kachri Ki Chutney",
+    "origin": "Jodhpur",
+    "history": "Kachri Ki Chutney is a traditional condiment from the Jodhpur region of Rajasthan, often served as a side dish to complement the flavors of various local delicacies. The history of this chutney dates back to the royal kitchens of the Marwar kingdom, where it was prepared using wild citrus fruits, known as kachri, that grew abundantly in the arid regions of Rajasthan. Over time, the recipe has been passed down through generations, with each family adding its own unique twist to the original recipe. Today, Kachri Ki Chutney is a staple condiment in many Rajasthani households, particularly during the summer months when the kachri fruits are in season.",
+    "ingredients": [
+      "Kachri fruits",
+      "Green chilies",
+      "Garlic",
+      "Ginger",
+      "Cilantro",
+      "Salt",
+      "Lemon juice"
+    ],
+    "recipe": [
+      "Begin by washing and chopping the kachri fruits into small pieces.",
+      "In a blender, combine the chopped kachri fruits, green chilies, garlic, ginger, cilantro, salt, and lemon juice.",
+      "Blend the mixture into a smooth paste, adding a little water if necessary.",
+      "Heat a small amount of oil in a pan and add the blended paste, stirring constantly for about 5 minutes.",
+      "Remove the chutney from heat and let it cool before serving."
+    ],
+    "price_range": "INR 50 - 100 per serving",
+    "nutritional_value": "Kachri Ki Chutney is a nutrient-rich condiment, high in vitamin C and antioxidants, with a tangy and slightly sour taste.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "The Royal Heritage",
+        "city": "Jodhpur",
+        "address": "Sardar Market"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1550439062-609e9df7a789",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "lasun-ki-chutney",
+    "title": "Lasun Ki Chutney",
+    "origin": "Jodhpur",
+    "history": "Lasun Ki Chutney, a quintessential condiment in Rajasthani cuisine, has its roots in the ancient traditions of the Marwar region. The dish is believed to have originated in the royal kitchens of Jodhpur, where it was served as a accompaniment to various meals. Over time, the recipe has been passed down through generations, with each family adding its own unique twist to the original recipe. Today, Lasun Ki Chutney is a staple in every Rajasthani household, and its pungent flavor is synonymous with the bold and vibrant culture of the state.",
+    "ingredients": [
+      "250 grams of garlic",
+      "100 grams of green chilies",
+      "50 grams of ginger",
+      "1 tablespoon of lemon juice",
+      "1 tablespoon of mustard oil",
+      "Salt, to taste"
+    ],
+    "recipe": [
+      "Peel and chop the garlic, green chilies, and ginger into small pieces.",
+      "Heat the mustard oil in a pan over medium heat.",
+      "Add the chopped garlic, green chilies, and ginger to the pan and sauté until they are lightly browned.",
+      "Remove the pan from the heat and let it cool.",
+      "Once the mixture has cooled, add the lemon juice and salt to taste.",
+      "Grind the mixture into a smooth paste using a grinder or mortar and pestle.",
+      "Serve the chutney with traditional Rajasthani dishes like dal baati churma or with snacks like mathri or namkeen."
+    ],
+    "price_range": "INR 50 - 100 per serving",
+    "nutritional_value": "Lasun Ki Chutney is a rich and pungent condiment, high in antioxidants and fiber. The garlic and green chilies provide a boost of vitamins and minerals, while the ginger adds a touch of warmth and digestion-friendly properties.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Tunnel Road"
+      },
+      {
+        "name": "The Royal Retreat",
+        "city": "Jaisalmer",
+        "address": "Sam Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1574128785423-4e2c7e5d99d5",
+    "related_city_ids": [
+      "jodhpur",
+      "jaisalmer",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "bajra-khich",
+    "title": "Bajra Khich",
+    "origin": "Jodhpur",
+    "history": "Bajra Khich, a traditional Rajasthani dish, has its roots in the state's agricultural heritage. Bajra, or pearl millet, is a staple crop in Rajasthan, and the khichadi made from it is a testament to the resourcefulness of the local people. The dish is often served during the winter months, when bajra is freshly harvested, and is believed to have medicinal properties that help keep the body warm. According to local folklore, Bajra Khich was a favorite of the royal family of Jodhpur, who would often serve it at special occasions and festivals.",
+    "ingredients": [
+      "Bajra (pearl millet)",
+      "Moong dal (split green gram)",
+      "Ghee (clarified butter)",
+      "Onions",
+      "Garlic",
+      "Ginger",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Turmeric",
+      "Red chili powder",
+      "Salt"
+    ],
+    "recipe": [
+      "Rinse the bajra and moong dal, and soak them in water for at least 4 hours.",
+      "Drain the water and cook the bajra and moong dal in a pressure cooker with 4 cups of water, until 3-4 whistles.",
+      "Heat ghee in a pan, and add cumin seeds, coriander seeds, onions, garlic, and ginger. Saute until the onions are translucent.",
+      "Add turmeric, red chili powder, and salt to the pan, and stir well.",
+      "Add the cooked bajra and moong dal to the pan, and stir well to combine.",
+      "Serve hot, garnished with fresh coriander leaves."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Bajra Khich is a nutrient-rich dish, high in protein, fiber, and minerals like iron and calcium. The bajra provides a good source of complex carbohydrates, while the moong dal adds protein and fiber. The dish is also relatively low in calories, making it a healthy option for those looking for a wholesome meal.",
+    "festivals_served": [
+      "Makar Sankranti",
+      "Navratri",
+      "Diwali"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Jaipur"
+      },
+      {
+        "name": "The Royal Treat",
+        "city": "Jodhpur",
+        "address": "Old City, Jodhpur"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578916334449-4c9f9e5c9f4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "related_city_ids": [
+      "jaipur",
+      "jodhpur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "makar-sankranti",
+      "navratri",
+      "diwali"
+    ]
+  },
+  {
+    "id": "methi-gatta",
+    "title": "Methi Gatta",
+    "origin": "Jodhpur",
+    "history": "Methi Gatta is a traditional Rajasthani dish that originated in the city of Jodhpur. The name 'Methi Gatta' is derived from the Hindi words 'methi' meaning fenugreek and 'gatta' meaning dumpling. This dish has been a staple in Rajasthani cuisine for centuries and is often served during special occasions and festivals. According to local folklore, Methi Gatta was first prepared by the royal chefs of the Jodhpur kingdom as a nutritious and flavorful meal for the soldiers.",
+    "ingredients": [
+      "fenugreek leaves",
+      "gram flour",
+      "yogurt",
+      "spices",
+      "ghee"
+    ],
+    "recipe": [
+      "Start by preparing the dumpling mixture by mixing together fenugreek leaves, gram flour, and spices.",
+      "Gradually add yogurt to the mixture and knead until a smooth dough forms.",
+      "Divide the dough into small portions and shape into dumplings.",
+      "Heat ghee in a pan and fry the dumplings until golden brown.",
+      "Serve the Methi Gatta hot with a side of chutney or raita."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Methi Gatta is a nutrient-rich dish that is high in protein, fiber, and vitamins. The fenugreek leaves provide a rich source of antioxidants and have been known to have numerous health benefits.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "The Royal Retreat",
+        "city": "Jodhpur",
+        "address": "Sardar Market"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394833879-889e0a9e2a8c",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "jaisalmer"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "dahi-mirchi",
+    "title": "Dahi Mirchi",
+    "origin": "Jodhpur",
+    "history": "Dahi Mirchi, a popular Rajasthani side dish, has its roots in the royal kitchens of Jodhpur. The dish is believed to have been created by the royal chefs of the Maharajas of Marwar, who experimented with various ingredients to create a unique and flavorful accompaniment to their meals. Over time, Dahi Mirchi has become an integral part of Rajasthani cuisine, often served at special occasions and festivals. Its preparation is a testament to the resourcefulness and creativity of the people of Rajasthan, who have managed to transform a simple ingredient like green chilies into a delicious and iconic dish.",
+    "ingredients": [
+      "Green chilies",
+      "Yogurt",
+      "Gram flour",
+      "Mustard oil",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Asafoetida",
+      "Salt",
+      "Turmeric powder",
+      "Red chili powder"
+    ],
+    "recipe": [
+      "Slit the green chilies lengthwise and remove the seeds and membranes.",
+      "In a bowl, mix together the yogurt, gram flour, mustard oil, cumin seeds, coriander seeds, asafoetida, salt, turmeric powder, and red chili powder.",
+      "Stuff each green chili with the yogurt mixture, making sure to fill them generously.",
+      "Heat some oil in a pan and fry the stuffed chilies until they are golden brown.",
+      "Serve the Dahi Mirchi hot, garnished with fresh cilantro and a dollop of yogurt."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Dahi Mirchi is a moderately spicy and rich dish, high in protein and calcium due to the presence of yogurt. The green chilies add a burst of vitamins and antioxidants, making it a nutritious and flavorful accompaniment to meals.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Eid al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Tunnel Road"
+      },
+      {
+        "name": "The Royal Retreat",
+        "city": "Jaisalmer",
+        "address": "Sam Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1559597624-ff7f8f5d5a4c",
+    "related_city_ids": [
+      "jodhpur",
+      "jaisalmer",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "chane-ka-sogra",
+    "title": "Chane Ka Sogra",
+    "origin": "Jodhpur",
+    "history": "Chane Ka Sogra is a traditional Rajasthani dish that originated in the Marwar region, specifically in Jodhpur. The name 'Sogra' is derived from the local dialect, meaning 'a type of flatbread'. This dish has been a staple in Rajasthani cuisine for centuries, often served during special occasions and festivals. According to local folklore, Chane Ka Sogra was a favorite of the Maharajas of Jodhpur, who would often serve it to their guests as a symbol of hospitality. The dish is also believed to have been created by the local cooks of Jodhpur, who experimented with different ingredients to create a unique and flavorful flatbread.",
+    "ingredients": [
+      "Bengal gram flour",
+      "Chickpea flour",
+      "Onions",
+      "Tomatoes",
+      "Green chilies",
+      "Ginger",
+      "Garlic",
+      "Cumin seeds",
+      "Coriander powder",
+      "Turmeric powder",
+      "Red chili powder",
+      "Salt",
+      "Ghee"
+    ],
+    "recipe": [
+      "In a large mixing bowl, combine Bengal gram flour, chickpea flour, and salt.",
+      "Gradually add water to the mixture and knead it into a smooth dough.",
+      "Cover the dough with a damp cloth and let it rest for 30 minutes.",
+      "Heat oil in a pan and sauté onions, tomatoes, green chilies, ginger, and garlic until they are soft and fragrant.",
+      "Add cumin seeds, coriander powder, turmeric powder, and red chili powder to the pan and stir well.",
+      "Divide the dough into small portions and roll out each portion into a thin circle.",
+      "Place a portion of the sautéed mixture in the center of each circle and fold the dough over to form a triangle or a square shape.",
+      "Heat a non-stick pan or griddle over medium heat and cook the Sogra until it is golden brown and crispy on both sides.",
+      "Serve hot with a dollop of ghee and a side of chutney or raita."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Chane Ka Sogra is a nutrient-rich dish, high in protein and fiber due to the use of Bengal gram flour and chickpea flour. It is also a good source of complex carbohydrates, vitamins, and minerals. However, it can be high in calories due to the use of ghee, so it should be consumed in moderation.",
+    "festivals_served": [
+      "Diwali",
+      "Navratri",
+      "Holi",
+      "Eid-al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Lakshmi Mishthan Bhandar",
+        "city": "Jodhpur",
+        "address": "Nai Sarak"
+      },
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Hotel Ajit Bhawan"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1626762185865-4e5a2a2d5f4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "navratri",
+      "holi",
+      "eid-al-fitr"
+    ]
+  },
+  {
+    "id": "bajra-sogra",
+    "title": "Bajra Sogra",
+    "origin": "Jodhpur",
+    "history": "Bajra Sogra is a traditional Rajasthani sweet dish that has its roots in the royal kitchens of Jodhpur. The name 'Bajra' refers to the type of millet used in its preparation, while 'Sogra' is a term used to describe the sweet, syrupy liquid that the millet is soaked in. This dish has been a staple at Rajasthani festivals and celebrations for centuries, particularly during the winter months when bajra is in season. According to local folklore, Bajra Sogra was a favorite of the Maharajas of Jodhpur, who would often serve it to their guests as a symbol of hospitality and generosity.",
+    "ingredients": [
+      "Bajra (millet)",
+      "Ghee (clarified butter)",
+      "Sugar",
+      "Cardamom",
+      "Almonds",
+      "Pistachios"
+    ],
+    "recipe": [
+      "Rinse the bajra and soak it in water for at least 4 hours.",
+      "Drain the water and cook the bajra in a large pot with ghee and sugar until it is soft and fragrant.",
+      "Add cardamom, almonds, and pistachios to the pot and stir well.",
+      "Reduce heat and simmer the mixture for 10-15 minutes, stirring occasionally, until the liquid has thickened and the bajra is fully coated.",
+      "Serve hot, garnished with additional nuts and cardamom if desired."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Bajra Sogra is a nutrient-rich dish that is high in fiber, protein, and healthy fats. The bajra provides a good source of complex carbohydrates, while the nuts and seeds add crunch and a boost of vitamins and minerals.",
+    "festivals_served": [
+      "Diwali",
+      "Navratri",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22nd Milestone, Tonk Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578133671817-9f57c6e76f3a",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "navratri",
+      "holi"
+    ]
+  },
+  {
+    "id": "moong-mogar",
+    "title": "Moong Mogar",
+    "origin": "Jodhpur",
+    "history": "Moong Mogar is a traditional Rajasthani dish that has its roots in the royal kitchens of Jodhpur. The name 'Moong Mogar' literally translates to 'moong bean and mogar flower' in English, where 'moong' refers to the green gram or moong bean, and 'mogar' refers to the fragrant jasmine flower. This dish is often served during special occasions and festivals, and its preparation is a labor of love that requires great skill and patience. According to local folklore, Moong Mogar was a favorite dish of the Maharajas of Jodhpur, who would often serve it to their guests as a symbol of hospitality and generosity.",
+    "ingredients": [
+      "Moong beans",
+      "Mogar flowers",
+      "Ghee",
+      "Cumin seeds",
+      "Coriander seeds",
+      "Turmeric",
+      "Red chili powder",
+      "Salt",
+      "Sugar",
+      "Lemon juice"
+    ],
+    "recipe": [
+      "Soak the moong beans in water for at least 4 hours, then drain and set aside.",
+      "Heat ghee in a pan and add cumin seeds, coriander seeds, turmeric, and red chili powder. Let the spices sizzle for a few seconds.",
+      "Add the soaked moong beans to the pan and stir well to coat with the spice mixture.",
+      "Add mogar flowers to the pan and stir gently to combine.",
+      "Add salt, sugar, and lemon juice to the pan and stir well to combine.",
+      "Reduce heat to low and simmer the mixture for at least 30 minutes, stirring occasionally, until the moong beans are tender and the mixture is dry.",
+      "Serve Moong Mogar hot, garnished with additional mogar flowers and a dollop of ghee."
+    ],
+    "price_range": "INR 200 - 400 per serving",
+    "nutritional_value": "Moong Mogar is a nutrient-rich dish that is high in protein, fiber, and vitamins. The moong beans provide a good source of plant-based protein, while the mogar flowers add a boost of antioxidants and fragrance to the dish. This dish is also relatively low in calories and fat, making it a healthy and satisfying option for special occasions.",
+    "festivals_served": [
+      "Navratri",
+      "Diwali",
+      "Holi"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "The Royal Dining Hall",
+        "city": "Jodhpur",
+        "address": "Umaid Bhawan Palace"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1624560072666-3f2f2c2c2c2c",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "bikaner"
+    ],
+    "related_festival_ids": [
+      "navratri",
+      "diwali",
+      "holi"
+    ]
+  },
+  {
+    "id": "meetha-chawal",
+    "title": "Meetha Chawal",
+    "origin": "Jodhpur",
+    "history": "Meetha Chawal, also known as sweet rice, has its roots in the royal kitchens of Jodhpur, where it was served as a dessert to the Maharajas. The dish is believed to have been created by the royal chefs, who experimented with different ingredients to create a unique and flavorful dessert. Over time, Meetha Chawal became a staple at Rajasthani weddings and festivals, where it is still served today as a symbol of prosperity and good fortune. The dish is also associated with the Hindu festival of Diwali, where it is exchanged as a gift among friends and family.",
+    "ingredients": [
+      "Basmati rice",
+      "Ghee",
+      "Sugar",
+      "Cardamom",
+      "Raisins",
+      "Almonds",
+      "Pistachios",
+      "Saffron"
+    ],
+    "recipe": [
+      "Heat ghee in a large pan over medium heat",
+      "Add cardamom, raisins, almonds, and pistachios, and sauté for 2-3 minutes",
+      "Add basmati rice and stir well to coat with ghee and mix with the nuts and spices",
+      "Add sugar, saffron, and 2 cups of water to the pan, and bring to a boil",
+      "Reduce heat to low, cover, and simmer for 15-20 minutes, or until the rice is cooked and the liquid has been absorbed"
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Meetha Chawal is a rich and calorie-dense dessert, high in carbohydrates and sugar, but also a good source of fiber, protein, and healthy fats from the nuts and ghee",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Eid-al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Near Airport"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1574128775394-7cf7c14b5e7c",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "bajra-churma",
+    "title": "Bajra Churma",
+    "origin": "Jodhpur",
+    "history": "Bajra Churma is a traditional Rajasthani sweet dish that has its roots in the royal kitchens of Jodhpur. The dish is believed to have been created by the royal chefs of the Maharajas of Jodhpur, who experimented with local ingredients to create a unique and delicious dessert. Bajra Churma is made from millet flour, which is abundant in Rajasthan, and is often served at special occasions and festivals. The dish is also considered a staple of Rajasthani cuisine and is often served as a dessert or snack.",
+    "ingredients": [
+      "Bajra (millet) flour",
+      "Ghee",
+      "Sugar",
+      "Cardamom powder",
+      "Almonds",
+      "Pistachios"
+    ],
+    "recipe": [
+      "Roast the bajra flour in a pan until it is lightly browned and fragrant.",
+      "Add ghee to the pan and stir until the flour is well coated.",
+      "Add sugar, cardamom powder, almonds, and pistachios to the pan and stir well.",
+      "Cook the mixture for a few minutes until it is well combined and the sugar has dissolved.",
+      "Remove the pan from the heat and let the mixture cool.",
+      "Once the mixture has cooled, shape it into small balls or laddus."
+    ],
+    "price_range": "INR 100 - 250 per serving",
+    "nutritional_value": "Bajra Churma is a rich and heavy dessert that is high in calories and sugar. However, it is also a good source of fiber and protein due to the use of millet flour.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri"
+    ],
+    "best_restaurants": [
+      {
+        "name": "On The Rocks",
+        "city": "Jodhpur",
+        "address": "Taj Hari Mahal"
+      },
+      {
+        "name": "The Royal Retreat",
+        "city": "Jodhpur",
+        "address": "Umaid Bhawan Palace"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578935136854-0c2e2c5b2e5e",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "jaisalmer"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  },
+  {
+    "id": "mawa-malpua",
+    "title": "Mawa Malpua",
+    "origin": "Jodhpur",
+    "history": "Mawa Malpua is a traditional Rajasthani sweet dish that has its roots in the royal kitchens of Jodhpur. The dish is believed to have been created by the royal chefs of the Marwar kingdom, who experimented with different ingredients to create a unique and delicious dessert. Over time, Mawa Malpua became a staple at special occasions and festivals in Rajasthan, where it is still widely prepared and enjoyed today. The dish is often served at weddings, festivals, and other celebrations, where it is considered a symbol of hospitality and generosity.",
+    "ingredients": [
+      "Mawa (khoya)",
+      "All-purpose flour",
+      "Sugar",
+      "Ghee",
+      "Cardamom powder",
+      "Raisins",
+      "Chopped nuts"
+    ],
+    "recipe": [
+      "In a large mixing bowl, combine mawa, all-purpose flour, and sugar.",
+      "Add ghee, cardamom powder, raisins, and chopped nuts to the mixture and mix well.",
+      "Gradually add water to the mixture to form a smooth batter.",
+      "Heat a non-stick pan or griddle over medium heat and pour a small amount of batter onto it.",
+      "Cook the malpua for 2-3 minutes on each side, until it is golden brown and crispy.",
+      "Serve the Mawa Malpua hot, garnished with chopped nuts and raisins."
+    ],
+    "price_range": "INR 150 - 350 per serving",
+    "nutritional_value": "Mawa Malpua is a rich and calorie-dense dessert, high in sugar and ghee. It is a good source of carbohydrates and protein, but should be consumed in moderation due to its high calorie content.",
+    "festivals_served": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Eid-al-Fitr"
+    ],
+    "best_restaurants": [
+      {
+        "name": "Laxmi Misthan Bhandar (LMB)",
+        "city": "Jaipur",
+        "address": "Johari Bazaar"
+      },
+      {
+        "name": "Chokhi Dhani",
+        "city": "Jaipur",
+        "address": "22 Godam Circle, Ajmer Road"
+      }
+    ],
+    "image_url": "https://images.unsplash.com/photo-1578935337411-08c9c2f3c97f",
+    "related_city_ids": [
+      "jodhpur",
+      "jaipur",
+      "udaipur"
+    ],
+    "related_festival_ids": [
+      "diwali",
+      "holi",
+      "navratri"
+    ]
+  }
+]

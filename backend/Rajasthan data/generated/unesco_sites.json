@@ -1,0 +1,120 @@
+[
+  {
+    "id": "jantar-mantar-jaipur",
+    "name": "The Jantar Mantar, Jaipur",
+    "inscription_year": 2010,
+    "unesco_criteria": "Criteria (iii)(iv)",
+    "description": "The Jantar Mantar in Jaipur is an astronomical observation site built in the early 18th century and is one of the best-preserved historical observatories in India. It features the world's largest stone sundial, as well as other instruments for tracking the movements of celestial bodies. This site is universally outstanding for its representation of the astronomical knowledge and architectural innovations of the region's historical period. The Jantar Mantar is a testament to the ingenuity and precision of Indian astronomers and craftsmen during the Mughal era.",
+    "places_included_ids": [],
+    "protection_status": "Archaeological Survey of India (ASI)",
+    "image_url": "https://images.unsplash.com/photo-1612357466821-7e0a5e2e5f4c"
+  },
+  {
+    "id": "keoladeo-national-park-bharatpur",
+    "name": "Keoladeo National Park, Bharatpur",
+    "inscription_year": 1985,
+    "unesco_criteria": "Criteria (x)",
+    "description": "Keoladeo National Park, also known as Bharatpur Bird Sanctuary, is one of the most significant bird sanctuaries in the world. Located in the eastern part of Rajasthan, the park is a man-made wetland that was created in the 18th century. With over 230 species of birds, including the rare Siberian crane, the park is a haven for ornithologists and nature lovers alike. The park's unique ecosystem, which includes grasslands, woodlands, and wetlands, supports a wide variety of flora and fauna, making it a universally outstanding example of a wetland ecosystem.",
+    "places_included_ids": [],
+    "protection_status": "Rajasthan Forest Department, Government of Rajasthan",
+    "image_url": "https://images.unsplash.com/photo-1619856697648-3c8e2e3e2e2e"
+  },
+  {
+    "id": "chittorgarh-fort",
+    "name": "Hill Forts of Rajasthan: Chittorgarh Fort",
+    "inscription_year": 2013,
+    "unesco_criteria": "Criteria (ii)(iii)",
+    "description": "Chittorgarh Fort, situated on a hilltop in the Chittorgarh district of Rajasthan, is one of the largest and most historic forts in India, with a rich history dating back to the 7th century. The fort has been the site of numerous battles and has been ruled by various dynasties, including the Mewar dynasty, and is known for its impressive architecture, including the Vijay Stambh and Kirti Stambh towers. This fort is a testament to the power and grandeur of the Rajput kingdoms and is an outstanding example of Rajasthani architecture and culture. The fort's historical significance, architectural grandeur, and cultural importance make it a universally outstanding site.",
+    "places_included_ids": [
+      "chittorgarh-fort"
+    ],
+    "protection_status": "Archaeological Survey of India (ASI)",
+    "image_url": "https://images.unsplash.com/photo-1618773921115-5c3e2e2f7e2e"
+  },
+  {
+    "id": "kumbhalgarh-fort",
+    "name": "Kumbhalgarh Fort",
+    "inscription_year": 2013,
+    "unesco_criteria": "Criteria (ii)(iii)",
+    "description": "Kumbhalgarh Fort, situated in the Aravalli Hills of Rajasthan, is a majestic and historically significant fort that dates back to the 15th century. It was built by Rana Kumbha, the ruler of Mewar, and is known for its impressive architecture, which includes a 36-kilometer-long wall that encircles the fort, making it one of the longest walls in the world. The fort is a testament to the engineering and architectural skills of the people of Mewar and is a reflection of the region's rich cultural heritage. With its stunning location, impressive architecture, and rich history, Kumbhalgarh Fort is a universally outstanding site that attracts visitors from all over the world.",
+    "places_included_ids": [
+      "kumbhalgarh-wildlife-sanctuary"
+    ],
+    "protection_status": "Archaeological Survey of India (ASI)",
+    "image_url": "https://images.unsplash.com/photo-1618773921115-1c2c2f2c6f4c"
+  },
+  {
+    "id": "jaisalmer-fort",
+    "name": "Jaisalmer Fort",
+    "inscription_year": 2013,
+    "unesco_criteria": "Criteria (ii)(iii)",
+    "description": "Jaisalmer Fort, situated in the heart of the Thar Desert, is a majestic sandstone structure that has stood the test of time, exemplifying the rich cultural heritage of Rajasthan. This 12th-century fort, built by Rawal Jaisal, is a testament to the ingenuity and craftsmanship of the medieval Indian architects. The fort's intricate stone carvings, imposing battlements, and majestic palaces make it a universally outstanding example of a fortified city, showcasing the unique blend of Rajput and Islamic architectural styles. Its inscription as a UNESCO World Heritage Site recognizes its importance as a cultural and historical treasure of India.",
+    "places_included_ids": [],
+    "protection_status": "Archaeological Survey of India (ASI)",
+    "image_url": "https://images.unsplash.com/photo-1619851167433-5c2e7e2e0e5c"
+  },
+  {
+    "id": "amber-fort",
+    "name": "Amber Fort",
+    "inscription_year": 2013,
+    "unesco_criteria": "Criteria (ii)(iii)",
+    "description": "Amber Fort, situated atop a hill in the midst of a picturesque valley, is a testament to the architectural prowess of the Kachwaha dynasty. This majestic fort, built in the 16th century, boasts an intriguing blend of Rajput and Mughal styles, with its intricate carvings, ornate frescoes, and majestic palaces. The fort's strategic location allowed it to control the trade routes between Delhi and the Deccan region, making it a crucial stronghold for the rulers of Amber. With its rich history, stunning architecture, and breathtaking views of the surrounding landscape, Amber Fort is an outstanding example of India's cultural heritage.",
+    "places_included_ids": [
+      "amber-fort"
+    ],
+    "protection_status": "Archaeological Survey of India (ASI)",
+    "image_url": "https://images.unsplash.com/photo-1618768762028-2c3c4c4c4c4c"
+  },
+  {
+    "id": "ranthambore-fort",
+    "name": "Hill Forts of Rajasthan: Ranthambore Fort",
+    "inscription_year": 2013,
+    "unesco_criteria": "Criteria (ii)(iii)",
+    "description": "Ranthambore Fort, situated in the Sawai Madhopur district of Rajasthan, is a testament to the region's rich cultural and historical heritage. This imposing fort, built in the 10th century, is one of the six hill forts of Rajasthan that were collectively designated as a UNESCO World Heritage Site in 2013. Perched atop a hill, the fort offers breathtaking views of the surrounding landscape and is home to numerous temples, including the famous Trinetra Ganesh Temple. The fort's strategic location and impressive architecture make it a universally outstanding example of Rajasthani engineering and craftsmanship.",
+    "places_included_ids": [
+      "ranthambore-national-park"
+    ],
+    "protection_status": "Archaeological Survey of India (ASI)",
+    "image_url": "https://images.unsplash.com/photo-1619851167433-4d2c9c3e2e2e"
+  },
+  {
+    "id": "gagron-fort",
+    "name": "Gagron Fort",
+    "inscription_year": 2013,
+    "unesco_criteria": "Criteria (ii)(iii)",
+    "description": "Gagron Fort, situated in Jhalawar, Rajasthan, is an exemplary representation of the region's rich cultural heritage. This historic fort, nestled on a narrow strip of land at the confluence of the Ahu and Kali Sindh rivers, showcases the architectural prowess of the medieval period. The fort's unique blend of Rajput and Mughal styles, along with its strategic location, makes it a universally outstanding site. With its impressive structures, including the temple of Shri Durga, the fort is a testament to the region's historical significance and cultural diversity.",
+    "places_included_ids": [],
+    "protection_status": "Archaeological Survey of India (ASI)",
+    "image_url": "https://images.unsplash.com/photo-1621404017144-8e2c9b4a3f3c"
+  },
+  {
+    "id": "hill-forts-of-rajasthan-unesco-group",
+    "name": "Hill Forts of Rajasthan",
+    "inscription_year": 2013,
+    "unesco_criteria": "Criteria (ii)(iii)",
+    "description": "The Hill Forts of Rajasthan, a UNESCO World Heritage Site, comprise six majestic forts in the state of Rajasthan, India. These forts, including Amber Fort, Chittorgarh Fort, Gagron Fort, Jaisalmer Fort, Kumbhalgarh Fort, and Ranthambore Fort, are a testament to the region's rich history, architectural grandeur, and cultural significance. Built by various Rajput kingdoms between the 5th and 18th centuries, these forts showcase the unique blend of Rajput and Mughal architectural styles, with intricate carvings, imposing walls, and stunning views of the surrounding landscape. The Hill Forts of Rajasthan are not only a reflection of the region's glorious past but also a symbol of its resilience and cultural heritage.",
+    "places_included_ids": [
+      "amber-fort",
+      "chittorgarh-fort",
+      "gagron-fort",
+      "jaisalmer-fort",
+      "kumbhalgarh-fort",
+      "ranthambore-fort"
+    ],
+    "protection_status": "Archaeological Survey of India (ASI)",
+    "image_url": "https://images.unsplash.com/photo-1619024575311-5c3f6f4e5f1c"
+  },
+  {
+    "id": "jaipur-walled-city",
+    "name": "The Walled City of Jaipur",
+    "inscription_year": 2019,
+    "unesco_criteria": "Criteria (ii)(iv)(vi)",
+    "description": "The Jaipur Walled City, a testament to the rich cultural heritage of Rajasthan, is a masterpiece of medieval town planning, showcasing a blend of Mughal, Rajput, and Hindu architectural styles. Founded in 1727 by Maharaja Sawai Jai Singh II, the city's design reflects the principles of Vastu Shastra and Shilpa Shastra, with its grid-like pattern and ornate buildings. The city's historic core is home to numerous iconic landmarks, including the Hawa Mahal, City Palace, and Jantar Mantar, an astronomical observatory. The Jaipur Walled City's unique cultural landscape, with its vibrant bazaars, temples, and havelis, makes it a universally outstanding example of a planned city from the 18th century.",
+    "places_included_ids": [
+      "hawa-mahal",
+      "city-palace-jaipur"
+    ],
+    "protection_status": "Archaeological Survey of India (ASI) and Jaipur Municipal Corporation",
+    "image_url": "https://images.unsplash.com/photo-1619851164456-ecb3e5e5c4f4"
+  }
+]
