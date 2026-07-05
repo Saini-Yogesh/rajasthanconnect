@@ -43,7 +43,7 @@ export default function Feedback() {
       const json = await res.json();
 
       if (!res.ok) {
-        setErrorMsg(json.error || "Something went wrong. Please try again.");
+        setErrorMsg(json.message || json.error || "Something went wrong. Please try again.");
         setStatus("error");
         return;
       }
