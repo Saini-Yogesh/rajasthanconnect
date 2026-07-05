@@ -30,10 +30,6 @@ export const submitFeedback = async (req, res) => {
     const publicKey = process.env.EMAILJS_FEEDBACK_PUBLIC_KEY;
 
     if (!serviceId || !templateId || !publicKey) {
-      // EmailJS not configured — still return success (log it server-side)
-      console.log(`[Feedback] ${sentAt} | ${feedbackType} | From: ${senderName} <${senderEmail}>`);
-      console.log(`[Feedback] Subject: ${feedbackSubject}`);
-      console.log(`[Feedback] Message: ${message.trim()}`);
       return res.status(201).json({ ok: true, note: "Received (email not configured)" });
     }
 
@@ -64,14 +60,11 @@ export const submitFeedback = async (req, res) => {
     });
 
     if (!emailResponse.ok) {
-      const errText = await emailResponse.text();
-      console.error("EmailJS error:", emailResponse.status, errText);
       return res.status(500).json({ error: "Failed to send email. Please try again later." });
     }
 
     res.status(201).json({ ok: true });
   } catch (err) {
-    console.error("Feedback error:", err);
-    res.status(500).json({ error: "Server error. Please try again later." });
+    res.status(500).json({ error: "Internal Server Error. Please try again later." });
   }
 };
