@@ -43,6 +43,7 @@ const FOOTER_LINKS = [
       { to: "/planner", label: "AI Trip Planner" },
       { to: "/ai-assistant", label: "Ask AI Guide" },
       { to: "/directory?register=true", label: "Register Business" },
+      { to: "/feedback", label: "Share Feedback" },
     ],
   },
 ];

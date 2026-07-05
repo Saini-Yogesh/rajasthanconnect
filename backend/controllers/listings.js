@@ -98,9 +98,9 @@ export const createListing = async (req, res) => {
 
     // Send email using EmailJS if configured
     try {
-      const serviceId = process.env.EMAILJS_SERVICE_ID;
-      const templateId = process.env.EMAILJS_TEMPLATE_ID;
-      const publicKey = process.env.EMAILJS_PUBLIC_KEY;
+      const serviceId = process.env.EMAILJS_LISTING_SERVICE_ID;
+      const templateId = process.env.EMAILJS_LISTING_TEMPLATE_ID;
+      const publicKey = process.env.EMAILJS_LISTING_PUBLIC_KEY;
 
       if (serviceId && templateId && publicKey) {
         const requestBody = {
@@ -115,8 +115,8 @@ export const createListing = async (req, res) => {
             description,
           },
         };
-        if (process.env.EMAILJS_PRIVATE_KEY) {
-          requestBody.accessToken = process.env.EMAILJS_PRIVATE_KEY;
+        if (process.env.EMAILJS_LISTING_PRIVATE_KEY) {
+          requestBody.accessToken = process.env.EMAILJS_LISTING_PRIVATE_KEY;
         }
         await fetch("https://api.emailjs.com/api/v1.0/email/send", {
           method: "POST",

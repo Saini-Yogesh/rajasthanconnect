@@ -48,6 +48,7 @@ import {
 } from "../controllers/unique_experiences.js";
 import { getListings, createListing } from "../controllers/listings.js";
 import { getReviews, createReview } from "../controllers/reviews.js";
+import { submitFeedback } from "../controllers/feedback.js";
 
 // Legacy Adapters
 import { getCulture, getCultureById } from "../controllers/culture.js";
@@ -134,6 +135,9 @@ router.post("/listings", createListing);
 // Reviews
 router.get("/reviews/:itemId/:itemType", getReviews);
 router.post("/reviews", createReview);
+
+// Feedback
+router.post("/feedback", submitFeedback);
 
 // Legacy Adapters to preserve frontend compatibility
 router.get("/culture", getCulture);

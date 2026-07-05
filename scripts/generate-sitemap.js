@@ -35,6 +35,7 @@ const STATIC_ROUTES = [
   { path: "/directory", priority: "0.9", changefreq: "daily" },
   { path: "/planner", priority: "0.8", changefreq: "monthly" },
   { path: "/ai-assistant", priority: "0.8", changefreq: "monthly" },
+  { path: "/feedback", priority: "0.7", changefreq: "monthly" },
 ];
 
 const DYNAMIC_ROUTES = [

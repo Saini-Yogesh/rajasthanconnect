@@ -1,0 +1,317 @@
+/* ─── Feedback Page ─────────────────────────────────────────────────────────── */
+
+/* Hero */
+.feedbackHero {
+  position: relative;
+  background: linear-gradient(135deg, var(--color-secondary) 0%, #1e1b4b 50%, #3b0764 100%);
+  padding: 72px 4% 64px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.feedbackHeroInner {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.feedbackHeroIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(194, 65, 12, 0.2);
+  border: 1.5px solid rgba(194, 65, 12, 0.4);
+  color: #fb923c;
+  margin-bottom: 20px;
+}
+
+.feedbackHeroTitle {
+  font-family: var(--font-serif);
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.feedbackHeroSubtitle {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.65;
+}
+
+.feedbackHeroPattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(194, 65, 12, 0.12) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(124, 58, 237, 0.1) 0%, transparent 40%);
+  pointer-events: none;
+}
+
+/* ─── Container & Single Card ────────────────────────────────────────────────── */
+.feedbackContainer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 52px 4% 80px;
+}
+
+.feedbackCard {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 40px 44px;
+  box-shadow: var(--shadow-md);
+}
+
+/* ─── Form ───────────────────────────────────────────────────────────────────── */
+.feedbackForm {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.feedbackRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.feedbackField {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.feedbackLabel {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text-dark);
+}
+
+.feedbackOptional {
+  font-weight: 400;
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+}
+
+.feedbackRequired {
+  color: var(--color-primary);
+}
+
+.feedbackInput,
+.feedbackTextarea {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg-light);
+  color: var(--color-text-dark);
+  font-size: 0.9rem;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.feedbackInput:focus,
+.feedbackTextarea:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(194, 65, 12, 0.1);
+  background: #fff;
+}
+
+.feedbackInput::placeholder,
+.feedbackTextarea::placeholder {
+  color: #a8a29e;
+}
+
+.feedbackTextarea {
+  resize: vertical;
+  min-height: 130px;
+  line-height: 1.6;
+}
+
+.feedbackCharCount {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  text-align: right;
+  margin-top: -4px;
+}
+
+/* ─── Feedback Type Pills ────────────────────────────────────────────────────── */
+.feedbackTypeGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.feedbackTypeBtn {
+  padding: 7px 14px;
+  border: 1.5px solid var(--color-border);
+  border-radius: 100px;
+  background: var(--color-bg-light);
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.feedbackTypeBtn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: #fff7f0;
+}
+
+.feedbackTypeBtnActive {
+  background: var(--type-color, var(--color-primary));
+  border-color: var(--type-color, var(--color-primary));
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ─── Star Rating ────────────────────────────────────────────────────────────── */
+.feedbackStars {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.feedbackStar {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #d6d3d1;
+  padding: 2px;
+  transition: color var(--transition-fast), transform var(--transition-fast);
+  line-height: 1;
+}
+
+.feedbackStar:hover,
+.feedbackStarActive {
+  color: #f59e0b;
+}
+
+.feedbackStar:hover {
+  transform: scale(1.2);
+}
+
+.feedbackRatingLabel {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #f59e0b;
+  margin-left: 6px;
+}
+
+/* ─── Error ──────────────────────────────────────────────────────────────────── */
+.feedbackError {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: var(--radius-sm);
+  color: #dc2626;
+  font-size: 0.875rem;
+}
+
+/* ─── Submit Button ──────────────────────────────────────────────────────────── */
+.feedbackBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 28px;
+  background: var(--color-primary);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.feedbackBtn:hover:not(:disabled) {
+  background: var(--color-primary-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(194, 65, 12, 0.3);
+}
+
+.feedbackBtn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.feedbackBtnSubmit {
+  align-self: flex-start;
+  min-width: 160px;
+}
+
+.feedbackSpinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+/* ─── Success ────────────────────────────────────────────────────────────────── */
+.feedbackSuccess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 48px 24px;
+  gap: 16px;
+}
+
+.feedbackSuccessIcon {
+  color: #16a34a;
+  animation: fadeIn 0.4s ease;
+}
+
+.feedbackSuccess h2 {
+  font-family: var(--font-serif);
+  font-size: 1.9rem;
+  color: var(--color-secondary);
+}
+
+.feedbackSuccess p {
+  color: var(--color-text-muted);
+  max-width: 420px;
+  line-height: 1.65;
+  font-size: 0.95rem;
+}
+
+/* ─── Responsive ─────────────────────────────────────────────────────────────── */
+@media (max-width: 700px) {
+  .feedbackCard {
+    padding: 28px 20px;
+  }
+
+  .feedbackRow {
+    grid-template-columns: 1fr;
+  }
+
+  .feedbackHeroTitle {
+    font-size: 1.8rem;
+  }
+
+  .feedbackContainer {
+    padding: 36px 4% 60px;
+  }
+}
+
+@media (max-width: 420px) {
+  .feedbackTypeBtn {
+    font-size: 0.76rem;
+    padding: 6px 10px;
+  }
+}

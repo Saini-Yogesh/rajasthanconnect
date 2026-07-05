@@ -43,6 +43,7 @@ import UnescoSiteDetail from "./pages/UnescoSiteDetail/UnescoSiteDetail";
 import DistrictsList from "./pages/DistrictsList/DistrictsList";
 import DynastiesList from "./pages/DynastiesList/DynastiesList";
 import HistoricalEventsList from "./pages/HistoricalEventsList/HistoricalEventsList";
+import Feedback from "./pages/Feedback/Feedback";
 
 // ─── Scroll to top on route change ───────────────────────────────────────────
 function ScrollToTop() {
@@ -134,6 +135,7 @@ export default function App() {
           <Route path="/directory"       element={<Page><DirectoryListings /></Page>} />
           <Route path="/planner"         element={<Page><TripPlanner /></Page>} />
           <Route path="/ai-assistant"    element={<Page><AiAssistant /></Page>} />
+          <Route path="/feedback"        element={<Page><Feedback /></Page>} />
 
           {/* ── 404 ───────────────────────────────────── */}
           <Route path="*" element={<Page><NotFound /></Page>} />
