@@ -66,7 +66,7 @@ export const submitFeedback = async (req, res) => {
     if (!emailResponse.ok) {
       const errText = await emailResponse.text();
       console.error("EmailJS error:", emailResponse.status, errText);
-      return res.status(502).json({ error: "Failed to send email. Please try again later." });
+      return res.status(500).json({ error: "Failed to send email. Please try again later." });
     }
 
     res.status(201).json({ ok: true });
