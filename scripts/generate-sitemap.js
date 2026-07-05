@@ -33,6 +33,7 @@ const STATIC_ROUTES = [
   { path: "/unesco-sites", priority: "0.8", changefreq: "monthly" },
   { path: "/royal-weddings", priority: "0.7", changefreq: "monthly" },
   { path: "/directory", priority: "0.9", changefreq: "daily" },
+  { path: "/directory/register", priority: "0.8", changefreq: "monthly" },
   { path: "/planner", priority: "0.8", changefreq: "monthly" },
   { path: "/ai-assistant", priority: "0.8", changefreq: "monthly" },
   { path: "/feedback", priority: "0.7", changefreq: "monthly" },
@@ -52,6 +53,8 @@ const DYNAMIC_ROUTES = [
   { file: "unesco_sites.json", prefix: "/unesco-sites", priority: "0.8", changefreq: "monthly" },
   { file: "royal_wedding_venues.json", prefix: "/royal-weddings", priority: "0.6", changefreq: "monthly" },
   { file: "history_rulers.json", prefix: "/rulers", priority: "0.7", changefreq: "monthly" },
+  { file: "directory_listings.json", prefix: "/directory", priority: "0.7", changefreq: "weekly" },
+  { file: "districts.json", prefix: "/districts", priority: "0.7", changefreq: "weekly" },
 ];
 
 function loadIds(filename) {
