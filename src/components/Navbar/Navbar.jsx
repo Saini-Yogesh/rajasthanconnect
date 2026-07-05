@@ -136,7 +136,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="logo" onClick={() => setMobileOpen(false)}>
           <Compass className="logoIcon" size={30} color="var(--color-primary)" />
-          <span>
+          <span className="logoText">
             Rajasthan<span className="logoSpan">Connect</span>
           </span>
         </Link>

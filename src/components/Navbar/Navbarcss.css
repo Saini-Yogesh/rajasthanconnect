@@ -33,7 +33,19 @@
   font-weight: 700;
   color: var(--color-secondary);
   white-space: nowrap;
+  flex-shrink: 1;
+  min-width: 0;
+  text-decoration: none;
+}
+
+.logoIcon {
   flex-shrink: 0;
+}
+
+.logoText {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .logoSpan {
@@ -372,5 +384,32 @@
 
 @media (max-width: 1100px) {
   .navLinks { display: none; }
-  .mobileMenuBtn { display: block; }
+  .mobileMenuBtn { display: block; flex-shrink: 0; }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0 12px;
+    height: 64px;
+  }
+
+  .navbarScrolled {
+    height: 56px;
+  }
+
+  .logo {
+    font-size: 1.05rem;
+    gap: 7px;
+    max-width: calc(100% - 48px);
+  }
+
+  .logoIcon {
+    width: 26px;
+    height: 26px;
+  }
+
+  .mobileMenu {
+    top: 64px;
+    max-height: calc(100vh - 64px);
+  }
 }

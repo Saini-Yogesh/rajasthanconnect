@@ -107,9 +107,9 @@ CREATE TABLE dynasties (
     established_century VARCHAR(100),
     golden_era TEXT,
     history_summary TEXT NOT NULL,
-    emblem_url TEXT,
     capital_city_ids TEXT[], -- Array of city slugs e.g. ['jaipur', 'amber']
     patronage_arts TEXT[], -- list of arts supported by dynasty
+    image_url TEXT,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );

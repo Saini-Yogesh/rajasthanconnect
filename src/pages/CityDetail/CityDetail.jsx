@@ -5,6 +5,7 @@ import { fetchJson } from '../../config/api.js';
 import './CityDetail.css';
 import useSEO from '../../hooks/useSEO';
 import { buildCitySEO } from '../../utils/seo';
+import { rulerLinkLabel } from '../../utils/display';
 
 export default function CityDetail() {
   const { id } = useParams();
@@ -174,8 +175,8 @@ export default function CityDetail() {
                       <h4>👑 Kings & Dynasties</h4>
                       <div className="connectionLinks">
                         {relatedRulers.map(r => (
-                          <Link to="/history-culture" className="connectionLink" key={r.id}>
-                            {r.name} ({r.dynasty})
+                          <Link to={`/rulers/${r.id}`} className="connectionLink" key={r.id}>
+                            {rulerLinkLabel(r)}
                           </Link>
                         ))}
                       </div>

@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { uniqueValues } from "../../../utils/arrays";
+import { cultureTopicKey, cultureTopicLink } from "../../../utils/culture";
 
 export default function ArtsPanel({ cultureTopics }) {
   return (
     <div className="panelArts">
       <div className="artsGrid">
         {cultureTopics.map((topic) => (
-          <div className="artCard" key={topic.id}>
+          <div className="artCard" key={cultureTopicKey(topic)}>
             <div 
               className="artImg" 
               style={{ backgroundImage: `url(${topic.image_url || 'https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&w=500&q=80'})` }}
@@ -59,7 +60,7 @@ export default function ArtsPanel({ cultureTopics }) {
                   )}
                 </div>
               )}
-              <Link to={`/culture/${topic.id}`} className="btnExploreCulture">
+              <Link to={cultureTopicLink(topic)} className="btnExploreCulture">
                 Read Detailed Guide →
               </Link>
             </div>

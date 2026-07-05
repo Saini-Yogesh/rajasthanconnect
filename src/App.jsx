@@ -46,10 +46,14 @@ import HistoricalEventsList from "./pages/HistoricalEventsList/HistoricalEventsL
 
 // ─── Scroll to top on route change ───────────────────────────────────────────
 function ScrollToTop() {
-  const { pathname } = useLocation();
+  const { pathname, search } = useLocation();
   useEffect(() => {
+    const params = new URLSearchParams(search);
+    if (pathname === "/directory" && params.get("register") === "true") {
+      return;
+    }
     window.scrollTo(0, 0);
-  }, [pathname]);
+  }, [pathname, search]);
   return null;
 }
 

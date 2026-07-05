@@ -1,0 +1,213 @@
+{
+  "groq": {
+    "model": "llama-3.3-70b-versatile",
+    "temperature": 0.25,
+    "jsonMode": true,
+    "delayMs": 2000,
+    "maxRetries": 5
+  },
+  "rateLimit": {
+    "maxRetries": 8,
+    "baseDelayMs": 3000,
+    "maxDelayMs": 120000,
+    "groqCapWaitMs": 45000,
+    "searchDelayMs": 1200
+  },
+  "providers": {
+    "pexels": {
+      "apiKeyEnv": "PEXELS_API_KEY",
+      "orientation": "landscape",
+      "perPage": 5
+    }
+  },
+  "promptTuning": {
+    "region": "Rajasthan, India",
+    "photographyStyle": "authentic documentary travel photography, natural light",
+    "mustInclude": ["culturally accurate", "recognizable subject", "no text overlay"],
+    "mustAvoid": [
+      "generic unrelated stock",
+      "western wedding",
+      "modern city skyline unless the city is modern",
+      "watermarks",
+      "cartoon or illustration unless folk art category"
+    ]
+  },
+  "systemPrompt": "You are an expert photo researcher for Rajasthan Connect, a Rajasthan tourism encyclopedia. Given entity metadata, output a JSON object with optimized Pexels image search terms. Queries must be specific to Rajasthan culture, places, food, crafts, or history. Never return markdown — only valid JSON.",
+  "userPromptTemplate": "Entity type: {{category}}\nName: {{name}}\nID: {{id}}\n{{#if city}}City/Region: {{city}}\n{{/if}}Context:\n{{context}}\n\nReturn JSON with these keys:\n- pexels_query (string, 4-8 words, optimized for Pexels search)\n- alt_text (string, concise accessible description)\n- visual_focus (string, what the photo must clearly show)\n- negative_keywords (array of strings to avoid in results)\n- confidence (number 0-1, how confident you are this entity has findable stock imagery)\n\nRules: Always tie queries to Rajasthan/India when relevant. For forts use fort name + city. For food use dish name + rajasthani. For crafts use craft name + artisan context.",
+  "datasets": [
+    {
+      "key": "cities",
+      "file": "cities.json",
+      "category": "Rajasthan city",
+      "idField": "id",
+      "nameField": "name",
+      "contextFields": ["tagline", "description"],
+      "imageFields": ["image_url"],
+      "hints": "city landmark, fort, palace, or desert streetscape"
+    },
+    {
+      "key": "places",
+      "file": "places.json",
+      "category": "heritage place or monument",
+      "idField": "id",
+      "nameField": "title",
+      "contextFields": ["category", "overview", "architecture_style"],
+      "imageFields": ["image_urls"],
+      "cityField": "city_id",
+      "hints": "specific monument architecture, UNESCO heritage"
+    },
+    {
+      "key": "foods",
+      "file": "foods.json",
+      "category": "Rajasthani food dish",
+      "idField": "id",
+      "nameField": "title",
+      "contextFields": ["origin", "history", "description"],
+      "imageFields": ["image_url"],
+      "hints": "traditional rajasthani cuisine plated authentically"
+    },
+    {
+      "key": "festivals",
+      "file": "festivals.json",
+      "category": "Rajasthan festival",
+      "idField": "id",
+      "nameField": "title",
+      "contextFields": ["importance", "description", "location"],
+      "imageFields": ["image_urls"],
+      "hints": "festival celebration crowd, camel fair, colors, desert"
+    },
+    {
+      "key": "handicrafts",
+      "file": "handicrafts.json",
+      "category": "Rajasthan handicraft",
+      "idField": "id",
+      "nameField": "name",
+      "contextFields": ["process_description", "materials_used"],
+      "imageFields": ["image_url"],
+      "cityField": "origin_city_id",
+      "hints": "artisan hands, craft workshop, blue pottery, block print"
+    },
+    {
+      "key": "folk_arts",
+      "file": "folk_arts.json",
+      "category": "Rajasthan folk art or dance",
+      "idField": "id",
+      "nameField": "name",
+      "contextFields": ["category", "history_origin", "performance_details"],
+      "imageFields": ["image_url"],
+      "cityField": "origin_region",
+      "hints": "ghoomar dance, kathputli, live performance"
+    },
+    {
+      "key": "folk_music",
+      "file": "folk_music_instruments.json",
+      "category": "Rajasthan folk music or instrument",
+      "idField": "id",
+      "nameField": "name",
+      "contextFields": ["community", "origin_history", "description"],
+      "imageFields": ["image_url"],
+      "hints": "manganiyar musician, desert folk instrument"
+    },
+    {
+      "key": "attire",
+      "file": "attire.json",
+      "category": "Rajasthan traditional attire",
+      "idField": "id",
+      "nameField": "name",
+      "contextFields": ["worn_by", "cultural_significance", "wearing_style_occasions"],
+      "imageFields": ["image_url"],
+      "hints": "rajasthani dress, pagri, ghagra choli, bandhani"
+    },
+    {
+      "key": "communities",
+      "file": "communities_tribes.json",
+      "category": "Rajasthan community or tribe",
+      "idField": "id",
+      "nameField": "name",
+      "contextFields": ["region", "description", "lifestyle_history"],
+      "imageFields": ["image_url"],
+      "hints": "traditional community life, desert village, respectful portrait"
+    },
+    {
+      "key": "unesco",
+      "file": "unesco_sites.json",
+      "category": "UNESCO World Heritage site in Rajasthan",
+      "idField": "id",
+      "nameField": "name",
+      "contextFields": ["description", "city", "location"],
+      "imageFields": ["image_url"],
+      "hints": "UNESCO monument, fort, observatory"
+    },
+    {
+      "key": "experiences",
+      "file": "unique_experiences.json",
+      "category": "Rajasthan travel experience",
+      "idField": "id",
+      "nameField": "title",
+      "contextFields": ["description", "city", "location"],
+      "imageFields": ["image_url"],
+      "hints": "camel safari, hot air balloon, palace stay"
+    },
+    {
+      "key": "royal_weddings",
+      "file": "royal_wedding_venues.json",
+      "category": "royal wedding venue palace",
+      "idField": "id",
+      "nameField": "name",
+      "contextFields": ["description", "city", "location"],
+      "imageFields": ["image_urls"],
+      "hints": "heritage palace, lake palace, luxury venue"
+    },
+    {
+      "key": "rulers",
+      "file": "history_rulers.json",
+      "category": "Rajput ruler historical figure",
+      "idField": "id",
+      "nameField": "name",
+      "contextFields": ["dynasty_id", "reign_period", "biography"],
+      "imageFields": ["image_url"],
+      "hints": "rajput warrior, palace portrait, historical painting style — no modern person"
+    },
+    {
+      "key": "historical_events",
+      "file": "historical_events.json",
+      "category": "historical event in Rajasthan",
+      "idField": "id",
+      "nameField": "title",
+      "contextFields": ["description", "location", "year"],
+      "imageFields": ["image_url"],
+      "hints": "battlefield, fort, historical reenactment, monument"
+    },
+    {
+      "key": "dynasties",
+      "file": "dynasties.json",
+      "category": "Rajput dynasty",
+      "idField": "id",
+      "nameField": "name",
+      "contextFields": ["description", "capital", "famous_rulers"],
+      "imageFields": ["image_url"],
+      "hints": "rajput dynasty, fort capital, royal emblem"
+    },
+    {
+      "key": "districts",
+      "file": "districts.json",
+      "category": "Rajasthan district",
+      "idField": "id",
+      "nameField": "name",
+      "contextFields": ["description", "region"],
+      "imageFields": ["image_url"],
+      "hints": "district landscape, desert, hills, or town"
+    },
+    {
+      "key": "directory",
+      "file": "directory_listings.json",
+      "category": "Rajasthan business directory listing",
+      "idField": "id",
+      "nameField": "title",
+      "contextFields": ["category", "subcategory", "description", "pricing"],
+      "imageFields": ["image_url"],
+      "cityField": "city_id",
+      "hints": "heritage hotel, rajasthani restaurant, handicraft shop, tour guide — match category"
+    }
+  ]
+}

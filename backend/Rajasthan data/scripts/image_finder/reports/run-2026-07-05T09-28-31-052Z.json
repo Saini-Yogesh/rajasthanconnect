@@ -1,0 +1,134 @@
+{
+  "options": {
+    "dataset": null,
+    "all": true,
+    "limit": null,
+    "dryRun": false,
+    "force": false,
+    "verify": false,
+    "skipGroq": false,
+    "retryFailed": false,
+    "help": false
+  },
+  "summary": [
+    {
+      "dataset": "cities",
+      "file": "cities.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "places",
+      "file": "places.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "foods",
+      "file": "foods.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "festivals",
+      "file": "festivals.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "handicrafts",
+      "file": "handicrafts.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "folk_arts",
+      "file": "folk_arts.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "folk_music",
+      "file": "folk_music_instruments.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "attire",
+      "file": "attire.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "communities",
+      "file": "communities_tribes.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "unesco",
+      "file": "unesco_sites.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "experiences",
+      "file": "unique_experiences.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "royal_weddings",
+      "file": "royal_wedding_venues.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "rulers",
+      "file": "history_rulers.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "historical_events",
+      "file": "historical_events.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "dynasties",
+      "file": "dynasties.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "districts",
+      "file": "districts.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    },
+    {
+      "dataset": "directory",
+      "file": "directory_listings.json",
+      "processed": 0,
+      "updated": 0,
+      "results": []
+    }
+  ]
+}

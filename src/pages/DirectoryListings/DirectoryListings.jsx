@@ -63,13 +63,21 @@ export default function DirectoryListings() {
   }, [cityFilter, categoryFilter]);
 
   useEffect(() => {
-    if (registerQuery === "true") {
+    if (registerQuery !== "true") return;
+
+    const scrollToForm = () => {
       const formSection = document.getElementById("registrationFormSection");
-      if (formSection) {
-        formSection.scrollIntoView({ behavior: "smooth" });
-      }
-    }
-  }, [registerQuery]);
+      if (!formSection) return;
+      const navOffset = 96;
+      const top =
+        formSection.getBoundingClientRect().top + window.scrollY - navOffset;
+      window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+    };
+
+    if (loading) return;
+    const timer = setTimeout(scrollToForm, 200);
+    return () => clearTimeout(timer);
+  }, [registerQuery, loading]);
 
   const handleSubmit = (e) => {
     e.preventDefault();

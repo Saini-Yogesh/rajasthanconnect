@@ -5,6 +5,7 @@ import { fetchJson } from "../../config/api.js";
 import "./FestivalDetail.css";
 import useSEO from "../../hooks/useSEO";
 import { buildFestivalSEO } from "../../utils/seo";
+import { cultureTopicKey, cultureTopicLink } from "../../utils/culture";
 
 export default function FestivalDetail() {
   const { id } = useParams();
@@ -164,9 +165,9 @@ export default function FestivalDetail() {
                       <div className="festConnList">
                         {relatedCulture.map((c) => (
                           <Link
-                            to="/history-culture"
+                            to={cultureTopicLink(c)}
                             className="festConnLink"
-                            key={c.id}
+                            key={cultureTopicKey(c)}
                           >
                             {c.title} ({c.category})
                           </Link>

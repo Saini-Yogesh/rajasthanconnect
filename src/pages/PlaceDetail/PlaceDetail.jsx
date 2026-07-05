@@ -5,6 +5,7 @@ import { API_BASE_URL, fetchJson } from '../../config/api.js';
 import './PlaceDetail.css';
 import useSEO from '../../hooks/useSEO';
 import { buildPlaceSEO } from '../../utils/seo';
+import { cultureTopicKey, cultureTopicLink } from '../../utils/culture';
 
 export default function PlaceDetail() {
   const { id } = useParams();
@@ -249,7 +250,7 @@ export default function PlaceDetail() {
                       <span className="connectionLabel">🎨 Traditional Arts & Crafts:</span>
                       <div className="connectionVal">
                         {relatedCulture.map(c => (
-                          <Link to="/history-culture" className="connectionLink" key={c.id}>
+                          <Link to={cultureTopicLink(c)} className="connectionLink" key={cultureTopicKey(c)}>
                             {c.title} ({c.category})
                           </Link>
                         ))}

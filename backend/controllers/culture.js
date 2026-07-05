@@ -3,6 +3,7 @@ import { supabase } from "../config/db.js";
 // Helper to map folk arts to legacy culture topic format
 const mapFolkArt = (item) => ({
   id: item.id,
+  sourceType: "folk-art",
   category: item.category || "Performance Art",
   title: item.name,
   description: item.history_origin,
@@ -19,6 +20,7 @@ const mapFolkArt = (item) => ({
 // Helper to map handicrafts to legacy culture topic format
 const mapHandicraft = (item) => ({
   id: item.id,
+  sourceType: "handicraft",
   category: "Crafts",
   title: item.name,
   description: item.process_description,
@@ -35,6 +37,7 @@ const mapHandicraft = (item) => ({
 // Helper to map attire to legacy culture topic format
 const mapAttire = (item) => ({
   id: item.id,
+  sourceType: "attire",
   category: "Clothing & Attire",
   title: item.name,
   description: item.cultural_significance,

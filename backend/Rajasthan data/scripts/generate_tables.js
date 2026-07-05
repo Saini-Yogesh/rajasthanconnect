@@ -312,12 +312,12 @@ const TABLES = {
         "Rulers and periods considered the golden era, e.g. 'Reigns of Rana Kumbha and Rana Sanga'",
       history_summary:
         "Detailed historical chronicle of the dynasty (3-4 sentences)",
-      emblem_url:
-        "High-quality Unsplash image representing the royal emblem, weapons, or standard of the clan",
       capital_city_ids:
         "Array of city slugs historically serving as capitals, e.g. ['udaipur', 'chittorgarh']",
       patronage_arts:
         "Array of string descriptions of arts and architectures supported by the dynasty",
+      image_url:
+        "High-quality Unsplash image representing the royal emblem, weapons, or standard of the clan",
     },
   },
 
