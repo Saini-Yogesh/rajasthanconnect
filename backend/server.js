@@ -117,8 +117,8 @@ const rateLimiter = (limitWindowMs, maxRequests) => {
 // Apply rate limiter specifically to AI endpoints to safeguard Groq API quotas
 app.use("/api/ai", rateLimiter(60000, 15), aiRouter);
 
-// Apply cache middleware to API endpoints (caches GET requests for 1 week)
-app.use("/api", cache(604800), apiRouter);
+// Apply cache middleware to API endpoints (caches GET requests for 1 day)
+app.use("/api", cache(86400), apiRouter);
 
 app.get("/health", (req, res) => {
   res.json({
