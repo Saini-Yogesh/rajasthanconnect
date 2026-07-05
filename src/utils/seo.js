@@ -567,7 +567,7 @@ export const LIST_SEO = {
       "list hotel Rajasthan",
       "Rajasthan Connect directory"
     ),
-    url: buildUrl("/directory?register=true"),
+    url: buildUrl("/directory/register"),
   },
 
   notFound: {
@@ -1062,6 +1062,47 @@ export function buildUnescoSEO(item, id) {
         { name, url },
       ]),
       landmarkSchema({ name, description: item.description, url, city })
+    ),
+  };
+}
+
+export function buildDistrictSEO(district, id) {
+  if (!district) {
+    return {
+      title: "Rajasthan District Guide",
+      description: "Explore districts in Rajasthan — history, climate, cities & heritage sites.",
+      keywords: buildKeywords("Rajasthan districts", "Rajasthan tourism"),
+      url: buildUrl(`/districts/${id}`),
+    };
+  }
+  const name = district.name;
+  const url = buildUrl(`/districts/${id}`);
+  const division = district.division ? ` in the ${district.division}. ` : "";
+  const desc = truncateDesc(
+    `${name} District Rajasthan travel guide ${YEAR} — ${division}${district.history || district.description || ""} History, climate, major cities, and heritage sites.`
+  );
+  return {
+    title: `${name} District Rajasthan — History & Travel Guide`,
+    description: desc,
+    keywords: buildKeywords(
+      `${name} district`,
+      `${name} Rajasthan`,
+      `${name} history`,
+      `visit ${name}`,
+      `${name} headquarter`,
+      `${name} division`,
+      `${name} climate`,
+      `cities in ${name}`
+    ),
+    image: district.image_url || district.imageUrl,
+    url,
+    schema: graph(
+      breadcrumbSchema([
+        { name: "Home", url: SITE.url },
+        { name: "Districts", url: buildUrl("/districts") },
+        { name, url },
+      ]),
+      touristDestinationSchema({ name: `${name} District, Rajasthan`, description: district.history || district.description, url, image: district.image_url })
     ),
   };
 }

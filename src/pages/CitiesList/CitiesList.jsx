@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Search, MapPin, Compass } from "lucide-react";
+import { Search, MapPin } from "lucide-react";
 import { API_BASE_URL } from "../../config/api.js";
 import "./CitiesList.css";
 import useSEO from "../../hooks/useSEO";
 import { LIST_SEO } from "../../utils/seo";
 import { matchesSearch } from "../../utils/search";
+import InfiniteGrid from "../../components/ui/InfiniteGrid/InfiniteGrid";
 
 export default function CitiesList() {
   useSEO(LIST_SEO.cities);
@@ -53,50 +54,42 @@ export default function CitiesList() {
       </header>
 
       <section className="citiesGridSection">
-        {loading ? (
-          <div className="loadingContainer">
-            <Compass className="loadingSpinner" size={48} />
-            <p>Gathering the scrolls of kingdoms...</p>
-          </div>
-        ) : filteredCities.length > 0 ? (
-          <div className="citiesGrid">
-            {filteredCities.map((city) => (
-              <div className="cityCard" key={city.id}>
-                <div
-                  className="cityCardImage"
-                  style={{
-                    backgroundImage: `url(${city.imageUrl || city.image_url || "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80"})`,
-                  }}
-                >
-                  <div className="cityCardOverlay"></div>
-                  <div className="cityCardTagline">{city.tagline}</div>
-                </div>
-                <div className="cityCardBody">
-                  <h3>{city.name}</h3>
-                  <p className="cityDesc">{city.description}</p>
-
-                  <div className="cityCardMeta">
-                    <span className="bestSeason">
-                      <MapPin size={14} /> <strong>Best Time:</strong>{" "}
-                      {city.bestTime || city.best_time}
-                    </span>
-                  </div>
-
-                  <Link to={`/cities/${city.id}`} className="btnCityExplore">
-                    Enter Portal
-                  </Link>
-                </div>
+        <InfiniteGrid
+          items={filteredCities}
+          loading={loading}
+          loadingMsg="Gathering the scrolls of kingdoms..."
+          emptyTitle="No cities found"
+          emptyMsg="No cities found matching your search. Try searching for 'Jaipur' or 'Lakes'."
+          columns="3"
+          renderItem={(city) => (
+            <div className="cityCard" style={{ height: "100%" }}>
+              <div
+                className="cityCardImage"
+                style={{
+                  backgroundImage: `url(${city.imageUrl || city.image_url || "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80"})`,
+                }}
+              >
+                <div className="cityCardOverlay"></div>
+                <div className="cityCardTagline">{city.tagline}</div>
               </div>
-            ))}
-          </div>
-        ) : (
-          <div className="noResults">
-            <p>
-              No cities found matching your search. Try searching for "Jaipur"
-              or "Lakes".
-            </p>
-          </div>
-        )}
+              <div className="cityCardBody">
+                <h3>{city.name}</h3>
+                <p className="cityDesc">{city.description}</p>
+
+                <div className="cityCardMeta">
+                  <span className="bestSeason">
+                    <MapPin size={14} /> <strong>Best Time:</strong>{" "}
+                    {city.bestTime || city.best_time}
+                  </span>
+                </div>
+
+                <Link to={`/cities/${city.id}`} className="btnCityExplore">
+                  Enter Portal
+                </Link>
+              </div>
+            </div>
+          )}
+        />
       </section>
     </div>
   );

@@ -25,6 +25,31 @@
   line-height: 1.6;
 }
 
+.btnRegisterHeader {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 20px;
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.btnRegisterHeader:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.listingCardContainerLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 /* Controls */
 .directoryControls {
   padding: 30px 4% 10px 4%;

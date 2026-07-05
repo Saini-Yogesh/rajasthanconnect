@@ -218,7 +218,7 @@ export default function Navbar() {
             Ask AI
           </Link>
 
-          <Link to="/directory?register=true" className="ctaButton">
+          <Link to="/directory/register" className="ctaButton">
             Register Business
           </Link>
         </div>
@@ -302,7 +302,7 @@ export default function Navbar() {
             <MessageCircle size={14} aria-hidden="true" /> Ask AI
           </Link>
           <Link
-            to="/directory?register=true"
+            to="/directory/register"
             className="ctaButton mobileCta"
             onClick={() => setMobileOpen(false)}
           >

@@ -19,6 +19,8 @@ import RulerDetail from "./pages/RulerDetail/RulerDetail";
 import TripPlanner from "./pages/TripPlanner/TripPlanner";
 import AiAssistant from "./pages/AiAssistant/AiAssistant";
 import DirectoryListings from "./pages/DirectoryListings/DirectoryListings";
+import ListingDetail from "./pages/ListingDetail/ListingDetail";
+import DirectoryRegister from "./pages/DirectoryRegister/DirectoryRegister";
 import NotFound from "./pages/NotFound/NotFound";
 
 // ─── New pages ────────────────────────────────────────────────────────────────
@@ -41,20 +43,19 @@ import RoyalWeddingDetail from "./pages/RoyalWeddingDetail/RoyalWeddingDetail";
 import UnescoSitesList from "./pages/UnescoSitesList/UnescoSitesList";
 import UnescoSiteDetail from "./pages/UnescoSiteDetail/UnescoSiteDetail";
 import DistrictsList from "./pages/DistrictsList/DistrictsList";
+import DistrictDetail from "./pages/DistrictDetail/DistrictDetail";
 import DynastiesList from "./pages/DynastiesList/DynastiesList";
 import HistoricalEventsList from "./pages/HistoricalEventsList/HistoricalEventsList";
 import Feedback from "./pages/Feedback/Feedback";
 
 // ─── Scroll to top on route change ───────────────────────────────────────────
 function ScrollToTop() {
-  const { pathname, search } = useLocation();
+  const { pathname } = useLocation();
   useEffect(() => {
-    const params = new URLSearchParams(search);
-    if (pathname === "/directory" && params.get("register") === "true") {
-      return;
+    if (pathname === "/directory") {
+      window.scrollTo(0, 0);
     }
-    window.scrollTo(0, 0);
-  }, [pathname, search]);
+  }, [pathname]);
   return null;
 }
 
@@ -80,6 +81,7 @@ export default function App() {
           <Route path="/places"          element={<Page><PlacesList /></Page>} />
           <Route path="/places/:id"      element={<Page><PlaceDetail /></Page>} />
           <Route path="/districts"       element={<Page><DistrictsList /></Page>} />
+          <Route path="/districts/:id"   element={<Page><DistrictDetail /></Page>} />
 
           {/* ── Cuisine ───────────────────────────────── */}
           <Route path="/foods"           element={<Page><FoodsList /></Page>} />
@@ -132,8 +134,10 @@ export default function App() {
           <Route path="/unesco-sites/:id" element={<Page><UnescoSiteDetail /></Page>} />
 
           {/* ── Services ──────────────────────────────── */}
-          <Route path="/directory"       element={<Page><DirectoryListings /></Page>} />
-          <Route path="/planner"         element={<Page><TripPlanner /></Page>} />
+          <Route path="/directory"          element={<Page><DirectoryListings /></Page>} />
+          <Route path="/directory/register" element={<Page><DirectoryRegister /></Page>} />
+          <Route path="/directory/:id"      element={<Page><ListingDetail /></Page>} />
+          <Route path="/planner"            element={<Page><TripPlanner /></Page>} />
           <Route path="/ai-assistant"    element={<Page><AiAssistant /></Page>} />
           <Route path="/feedback"        element={<Page><Feedback /></Page>} />
 

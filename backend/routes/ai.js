@@ -9,13 +9,33 @@ const RATE_LIMIT_REPLY = `⏳ **The AI guide is briefly resting** (API rate limi
 router.post("/plan-trip", async (req, res) => {
   try {
     const { days, budget, startingCity, interests } = req.body;
-    if (!days || !startingCity) {
-      return res.status(400).json({ error: "Missing days or startingCity parameters" });
+
+    // Validate days
+    if (days === undefined || days === null || days === "") {
+      return res.status(400).json({ error: "Missing duration (days) parameter." });
+    }
+    const daysNum = Number(days);
+    if (!Number.isInteger(daysNum) || daysNum < 1 || daysNum > 7) {
+      return res.status(400).json({ error: "Trip duration must be a whole number between 1 and 7 days." });
+    }
+
+    // Validate budget
+    if (budget === undefined || budget === null || budget === "") {
+      return res.status(400).json({ error: "Missing budget parameter." });
+    }
+    const budgetNum = Number(budget);
+    if (!Number.isInteger(budgetNum) || budgetNum < 1000) {
+      return res.status(400).json({ error: "Budget must be a whole number of at least 1,000 INR." });
+    }
+
+    // Validate startingCity
+    if (!startingCity || typeof startingCity !== "string" || startingCity.trim() === "") {
+      return res.status(400).json({ error: "Missing or invalid startingCity parameter." });
     }
 
     const itinerary = await generateItinerary({
-      days,
-      budget,
+      days: daysNum,
+      budget: budgetNum,
       startingCity,
       interests,
     });

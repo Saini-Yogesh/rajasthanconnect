@@ -133,3 +133,26 @@ export const createListing = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+/**
+ * Get a specific listing by ID
+ */
+export const getListingById = async (req, res) => {
+  try {
+    const { data, error } = await supabase
+      .from("directory_listings")
+      .select("*")
+      .eq("id", req.params.id)
+      .single();
+
+    if (error) {
+      if (error.code === "PGRST116") {
+        return res.status(404).json({ error: "Listing not found" });
+      }
+      throw error;
+    }
+    res.json(data);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+};

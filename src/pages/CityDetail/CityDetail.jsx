@@ -260,7 +260,7 @@ export default function CityDetail() {
             {listings.length > 0 ? (
               <div className="guidesGrid">
                 {listings.map(list => (
-                  <div className="listingCompactCard" key={list.id}>
+                  <Link to={`/directory/${list.id}`} className="listingCompactCard" key={list.id} style={{ textDecoration: 'none', color: 'inherit' }}>
                     <div className="listingText">
                       <div className="badgeRow">
                         <span className="listCat">{list.category}</span>
@@ -276,13 +276,13 @@ export default function CityDetail() {
                         {list.whatsapp && <span>💬 WhatsApp: {list.whatsapp}</span>}
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             ) : (
               <div className="noGuidesLogged">
                 <p>No verified guides or hotels listed for this city. Use the Directory to register one.</p>
-                <Link to="/directory?register=true" className="btnRegisterDirect">Register Business</Link>
+                <Link to="/directory/register" className="btnRegisterDirect">Register Business</Link>
               </div>
             )}
           </div>

@@ -28,6 +28,28 @@ export default function TripPlanner() {
 
   const handleGenerate = (e) => {
     e.preventDefault();
+    
+    // Frontend validation
+    if (days === "") {
+      setPlannerError("Please enter a duration (1-7 days).");
+      return;
+    }
+    const daysNum = Number(days);
+    if (!Number.isInteger(daysNum) || daysNum < 1 || daysNum > 7) {
+      setPlannerError("Please enter a valid whole number of days between 1 and 7.");
+      return;
+    }
+
+    if (budget === "") {
+      setPlannerError("Please enter a budget.");
+      return;
+    }
+    const budgetNum = Number(budget);
+    if (!Number.isInteger(budgetNum) || budgetNum < 1000) {
+      setPlannerError("Please enter a valid budget of at least 1,000 INR.");
+      return;
+    }
+
     setLoading(true);
     setItinerary(null);
     setPlannerError("");
@@ -37,15 +59,15 @@ export default function TripPlanner() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         startingCity,
-        days,
-        budget,
+        days: daysNum,
+        budget: budgetNum,
         interests: selectedInterests
       })
     })
       .then(res => res.json())
       .then(data => {
         if (data.error || !data.days) {
-          setPlannerError("Could not generate itinerary right now. Please try again in a moment.");
+          setPlannerError(data.error || "Could not generate itinerary right now. Please try again in a moment.");
           return;
         }
         setItinerary(data);
@@ -93,8 +115,24 @@ export default function TripPlanner() {
                       type="number" 
                       min="1" 
                       max="7" 
+                      placeholder="3"
                       value={days} 
-                      onChange={(e) => setDays(Number(e.target.value))}
+                      onChange={(e) => {
+                        const val = e.target.value;
+                        if (val === '') {
+                          setDays('');
+                        } else {
+                          const parsed = parseInt(val, 10);
+                          if (!isNaN(parsed)) {
+                            setDays(parsed);
+                          }
+                        }
+                      }}
+                      onKeyDown={(e) => {
+                        if (e.key === '.' || e.key === 'e' || e.key === 'E' || e.key === '+' || e.key === '-') {
+                          e.preventDefault();
+                        }
+                      }}
                     />
                   </div>
 
@@ -103,8 +141,24 @@ export default function TripPlanner() {
                     <input 
                       type="number" 
                       min="1000" 
+                      placeholder="15000"
                       value={budget} 
-                      onChange={(e) => setBudget(Number(e.target.value))}
+                      onChange={(e) => {
+                        const val = e.target.value;
+                        if (val === '') {
+                          setBudget('');
+                        } else {
+                          const parsed = parseInt(val, 10);
+                          if (!isNaN(parsed)) {
+                            setBudget(parsed);
+                          }
+                        }
+                      }}
+                      onKeyDown={(e) => {
+                        if (e.key === '.' || e.key === 'e' || e.key === 'E' || e.key === '+' || e.key === '-') {
+                          e.preventDefault();
+                        }
+                      }}
                     />
                   </div>
                 </div>

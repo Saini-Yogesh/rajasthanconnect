@@ -3,7 +3,7 @@ import EmptyState from "../EmptyState/EmptyState";
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 import "./InfiniteGrid.css";
 
-const PAGE_SIZE = 12;
+const PAGE_SIZE = 9;
 
 /**
  * Grid that renders items with "Load More" infinite scroll pattern.

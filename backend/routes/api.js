@@ -46,7 +46,7 @@ import {
   getUniqueExperiences,
   getUniqueExperienceById,
 } from "../controllers/unique_experiences.js";
-import { getListings, createListing } from "../controllers/listings.js";
+import { getListings, createListing, getListingById } from "../controllers/listings.js";
 import { getReviews, createReview } from "../controllers/reviews.js";
 import { submitFeedback } from "../controllers/feedback.js";
 
@@ -130,6 +130,7 @@ router.get("/unique-experiences/:id", getUniqueExperienceById);
 
 // Listings
 router.get("/listings", getListings);
+router.get("/listings/:id", getListingById);
 router.post("/listings", createListing);
 
 // Reviews
