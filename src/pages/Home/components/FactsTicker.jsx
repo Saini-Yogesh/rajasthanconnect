@@ -89,39 +89,112 @@ export default function FactsTicker({
   setActiveFact,
   setIsFactTickerHovered,
 }) {
+  const [touchStart, setTouchStart] = React.useState(null);
+  const [touchEnd, setTouchEnd] = React.useState(null);
+
+  const minSwipeDistance = 50;
+
+  // Keyboard navigation
+  React.useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (
+        document.activeElement.tagName === "INPUT" ||
+        document.activeElement.tagName === "TEXTAREA" ||
+        document.activeElement.isContentEditable
+      ) {
+        return;
+      }
+      if (e.key === "ArrowLeft") {
+        setActiveFact((prev) => (prev - 1 + FUN_FACTS.length) % FUN_FACTS.length);
+      } else if (e.key === "ArrowRight") {
+        setActiveFact((prev) => (prev + 1) % FUN_FACTS.length);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [setActiveFact]);
+
+  // Swipe handlers
+  const handleTouchStart = (e) => {
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchMove = (e) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+
+    if (isLeftSwipe) {
+      setActiveFact((prev) => (prev + 1) % FUN_FACTS.length);
+    } else if (isRightSwipe) {
+      setActiveFact((prev) => (prev - 1 + FUN_FACTS.length) % FUN_FACTS.length);
+    }
+
+    setTouchStart(null);
+    setTouchEnd(null);
+  };
+
   return (
     <div
       className="factsTickerBar"
       onMouseEnter={() => setIsFactTickerHovered(true)}
       onMouseLeave={() => setIsFactTickerHovered(false)}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
     >
-      <div className="tickerLabel">
-        <Zap size={14} /> WOW FACT
-      </div>
+      <button
+        type="button"
+        onClick={(e) => {
+          e.stopPropagation();
+          setActiveFact((prev) => (prev - 1 + FUN_FACTS.length) % FUN_FACTS.length);
+        }}
+        aria-label="Previous fact"
+        className="tickerArrowBtn left"
+      >
+        &larr;
+      </button>
+
       <div className="tickerContent">
-        <span className="tickerEmoji">{FUN_FACTS[activeFact]?.emoji}</span>
-        <span className="tickerText">{FUN_FACTS[activeFact]?.fact}</span>
+        <div className="tickerLabel">
+          <Zap size={14} /> WOW FACT
+        </div>
+        <div className="tickerTextContainer">
+          <span className="tickerEmoji">{FUN_FACTS[activeFact]?.emoji}</span>
+          <span className="tickerText">{FUN_FACTS[activeFact]?.fact}</span>
+        </div>
       </div>
-      <div className="tickerControls">
-        <button
-          type="button"
-          onClick={() => setActiveFact((prev) => (prev - 1 + FUN_FACTS.length) % FUN_FACTS.length)}
-          aria-label="Previous fact"
-          className="tickerArrowBtn"
-        >
-          &larr;
-        </button>
-        <span className="tickerProgress" aria-live="polite">
-          {activeFact + 1} / {FUN_FACTS.length}
-        </span>
-        <button
-          type="button"
-          onClick={() => setActiveFact((prev) => (prev + 1) % FUN_FACTS.length)}
-          aria-label="Next fact"
-          className="tickerArrowBtn"
-        >
-          &rarr;
-        </button>
+
+      <button
+        type="button"
+        onClick={(e) => {
+          e.stopPropagation();
+          setActiveFact((prev) => (prev + 1) % FUN_FACTS.length);
+        }}
+        aria-label="Next fact"
+        className="tickerArrowBtn right"
+      >
+        &rarr;
+      </button>
+
+      <div className="tickerDots">
+        {FUN_FACTS.map((_, idx) => (
+          <button
+            key={idx}
+            className={`tickerDot ${idx === activeFact ? "active" : ""}`}
+            onClick={(e) => {
+              e.stopPropagation();
+              setActiveFact(idx);
+            }}
+            aria-label={`Go to fact ${idx + 1}`}
+          />
+        ))}
       </div>
     </div>
   );
