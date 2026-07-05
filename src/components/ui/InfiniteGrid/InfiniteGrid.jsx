@@ -3,8 +3,6 @@ import EmptyState from "../EmptyState/EmptyState";
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 import "./InfiniteGrid.css";
 
-const PAGE_SIZE = 9;
-
 /**
  * Grid that renders items with "Load More" infinite scroll pattern.
  * All data is passed in — no network calls. Just progressive reveal.
@@ -27,12 +25,16 @@ export default function InfiniteGrid({
   emptyMsg,
   emptyAction,
   columns = "3",
+  disablePagination = false,
 }) {
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const cols = parseInt(columns, 10) || 3;
+  const pageSize = cols * 3;
+
+  const [visibleCount, setVisibleCount] = useState(pageSize);
 
   useEffect(() => {
-    setVisibleCount(PAGE_SIZE);
-  }, [items]);
+    setVisibleCount(pageSize);
+  }, [items, pageSize]);
 
   const uniqueItems = useMemo(() => {
     const seen = new Set();
@@ -45,8 +47,8 @@ export default function InfiniteGrid({
   }, [items]);
 
   const loadMore = useCallback(() => {
-    setVisibleCount((prev) => prev + PAGE_SIZE);
-  }, []);
+    setVisibleCount((prev) => prev + pageSize);
+  }, [pageSize]);
 
   if (loading) {
     return <LoadingSpinner message={loadingMsg} />;
@@ -62,8 +64,8 @@ export default function InfiniteGrid({
     );
   }
 
-  const visible = uniqueItems.slice(0, visibleCount);
-  const hasMore = visibleCount < uniqueItems.length;
+  const visible = disablePagination ? uniqueItems : uniqueItems.slice(0, visibleCount);
+  const hasMore = !disablePagination && (visibleCount < uniqueItems.length);
 
   return (
     <div className="infiniteGrid">

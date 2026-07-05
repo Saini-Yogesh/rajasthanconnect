@@ -29,7 +29,11 @@ export default function FestivalRhythm() {
           </div>
         </div>
 
-        <SectionHeader title="The Festival Calendar Never Rests" subtitle={tagline} />
+        <SectionHeader
+          id="festival-rhythm-heading"
+          title="The Festival Calendar Never Rests"
+          subtitle={tagline}
+        />
 
         <div className="festivalRhythmGrid">
           {highlights.map((item) => (

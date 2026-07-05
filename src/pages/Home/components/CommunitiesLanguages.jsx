@@ -10,6 +10,7 @@ export default function CommunitiesLanguages() {
     <section className="homeSection homeSection--cream commLangSection" aria-labelledby="comm-lang-heading">
       <div className="homeSectionInner">
         <SectionHeader
+          id="comm-lang-heading"
           title="A Tapestry of Peoples & Tongues"
           subtitle="Rajasthan is not one culture — it is dozens of communities, each with its own dress, dialect, music, and memory."
         />

@@ -77,11 +77,12 @@
 .rajasthanQuoteDots {
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 16px; /* Increased gap to prevent touch target overlap */
   margin-top: 28px;
 }
 
 .rajasthanQuoteDot {
+  position: relative; /* Establish positioning context for absolute touch area */
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -90,6 +91,17 @@
   background: rgba(255, 255, 255, 0.25);
   cursor: pointer;
   transition: all 0.3s ease;
+}
+
+/* Expand touch target to 44px by 44px */
+.rajasthanQuoteDot::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
 }
 
 .rajasthanQuoteDot.active {

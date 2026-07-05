@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { uniqueValues } from "../../../utils/arrays";
 import { cultureTopicKey, cultureTopicLink } from "../../../utils/culture";
 
+const PAGE_SIZE = 4;
+
 export default function ArtsPanel({ cultureTopics }) {
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+
+  const visibleTopics = cultureTopics.slice(0, visibleCount);
+  const hasMore = visibleCount < cultureTopics.length;
+
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => prev + PAGE_SIZE);
+  };
   return (
     <div className="panelArts">
       <div className="artsGrid">
-        {cultureTopics.map((topic) => (
+        {visibleTopics.map((topic) => (
           <div className="artCard" key={cultureTopicKey(topic)}>
             <div 
               className="artImg" 
@@ -67,6 +77,27 @@ export default function ArtsPanel({ cultureTopics }) {
           </div>
         ))}
       </div>
+
+      {hasMore && (
+        <div className="loadMoreWrapper" style={{ textAlign: "center", marginTop: "32px" }}>
+          <button 
+            className="loadMoreBtn" 
+            onClick={handleLoadMore}
+            style={{
+              background: "var(--color-primary)",
+              color: "#fff",
+              border: "none",
+              padding: "12px 24px",
+              borderRadius: "var(--radius-md)",
+              fontWeight: "600",
+              cursor: "pointer",
+              transition: "all var(--transition-fast)"
+            }}
+          >
+            Load More Topics ({cultureTopics.length - visibleCount} remaining)
+          </button>
+        </div>
+      )}
     </div>
   );
 }

@@ -32,6 +32,7 @@ export default function RajasthanIntro() {
     <section className="homeSection homeSection--white rajasthanIntroSection" aria-labelledby="rajasthan-intro-heading">
       <div className="homeSectionInner">
         <SectionHeader
+          id="rajasthan-intro-heading"
           title="Land of Contrasts"
           subtitle="342,239 sq km of desert, forest, wetland, and walled cities — where every district speaks a different dialect and cooks a different feast."
         />

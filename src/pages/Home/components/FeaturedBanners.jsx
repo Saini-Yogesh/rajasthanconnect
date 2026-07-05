@@ -6,9 +6,10 @@ import "./FeaturedBanners.css";
 
 export default function FeaturedBanners() {
   return (
-    <section className="homeSection homeSection--cream highlightSections--continued">
+    <section className="homeSection homeSection--cream highlightSections--continued" aria-labelledby="taste-celebrate-heading">
       <div className="homeSectionInner">
         <SectionHeader
+          id="taste-celebrate-heading"
           title="Taste & Celebrate"
           subtitle="Jump straight into Rajasthan's royal kitchen and its world-famous festival calendar."
         />

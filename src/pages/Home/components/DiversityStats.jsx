@@ -30,6 +30,7 @@ export default function DiversityStats() {
     <section className="homeSection homeSection--cream diversityStatsSection" aria-labelledby="diversity-stats-heading">
       <div className="homeSectionInner">
         <SectionHeader
+          id="diversity-stats-heading"
           title="Rajasthan at a Glance"
           subtitle="India's largest state by area — a living encyclopedia of forts, flavours, festivals, and folk traditions."
         />

@@ -48,6 +48,7 @@ export default function DistrictsList() {
             emptyTitle="No districts found"
             emptyMsg="No districts match your search. Try adjusting filters."
             columns="3"
+            disablePagination={true}
             renderItem={(district) => (
               <Link
                 to={`/districts/${district.id}`}

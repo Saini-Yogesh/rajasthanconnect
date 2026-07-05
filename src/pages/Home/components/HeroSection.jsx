@@ -5,6 +5,19 @@ import { Sparkles } from "lucide-react";
 export default function HeroSection({ greeting }) {
   return (
     <header className="heroBanner">
+      <img
+        src="https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=75&fm=webp"
+        srcSet="
+          https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=75&fm=webp 600w,
+          https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=75&fm=webp 1200w,
+          https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1600&q=75&fm=webp 1600w
+        "
+        sizes="100vw"
+        alt="Royal Palace of Rajasthan"
+        className="heroBackgroundImage"
+        fetchPriority="high"
+        loading="eager"
+      />
       <div className="heroOverlay"></div>
       <div className="heroContent">
         <span className="heroPre">{greeting}</span>

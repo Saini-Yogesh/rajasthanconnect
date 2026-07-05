@@ -8,7 +8,7 @@ import "./SectionHeader.css";
  * @param {string} [align] - "left" | "center" (default)
  * @param {string} [variant] - "light" (default) | "dark"
  */
-export default function SectionHeader({ title, subtitle, align = "center", variant = "light" }) {
+export default function SectionHeader({ id, title, subtitle, align = "center", variant = "light" }) {
   return (
     <div className={`sectionHeader sectionHeader--${align} sectionHeader--${variant}`}>
       <div className="sectionHeaderOrnament" aria-hidden="true">
@@ -16,7 +16,7 @@ export default function SectionHeader({ title, subtitle, align = "center", varia
         <span className="ornamentDiamond">◆</span>
         <span className="ornamentLine" />
       </div>
-      <h2 className="sectionHeaderTitle">{title}</h2>
+      <h2 id={id} className="sectionHeaderTitle">{title}</h2>
       {subtitle && <p className="sectionHeaderSubtitle">{subtitle}</p>}
     </div>
   );

@@ -43,9 +43,10 @@ const CULTURAL_HIGHLIGHTS = [
 
 export default function LivingCulture() {
   return (
-    <section className="homeSection homeSection--white culturalSection">
+    <section className="homeSection homeSection--white culturalSection" aria-labelledby="living-culture-heading">
       <div className="homeSectionInner">
         <SectionHeader
+          id="living-culture-heading"
           title="Living Culture of Rajasthan"
           subtitle="Ancient traditions that are still alive — passed from master to student for over a thousand years."
         />

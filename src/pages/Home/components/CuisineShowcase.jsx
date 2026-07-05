@@ -10,6 +10,7 @@ export default function CuisineShowcase() {
     <section className="homeSection homeSection--white cuisineShowcaseSection" aria-labelledby="cuisine-showcase-heading">
       <div className="homeSectionInner">
         <SectionHeader
+          id="cuisine-showcase-heading"
           title="Royal Cuisine of the Desert"
           subtitle="70+ documented dishes — from warrior feasts cooked over cow-dung fires to palace sweets soaked in saffron rabri."
         />

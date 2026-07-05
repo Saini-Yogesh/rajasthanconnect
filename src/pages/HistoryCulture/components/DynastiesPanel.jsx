@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { uniqueValues } from "../../../utils/arrays";
 
+const PAGE_SIZE = 3;
+
 export default function DynastiesPanel({ rulers }) {
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+
+  const visibleRulers = rulers.slice(0, visibleCount);
+  const hasMore = visibleCount < rulers.length;
+
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => prev + PAGE_SIZE);
+  };
   return (
     <div className="panelDynasties">
       <div className="introNotes">
@@ -15,7 +25,7 @@ export default function DynastiesPanel({ rulers }) {
       </div>
 
       <div className="rulersGrid">
-        {rulers.map((ruler) => (
+        {visibleRulers.map((ruler) => (
           <div className="rulerCard" key={ruler.id}>
             <div 
               className="rulerImg" 
@@ -86,6 +96,27 @@ export default function DynastiesPanel({ rulers }) {
           </div>
         ))}
       </div>
+
+      {hasMore && (
+        <div className="loadMoreWrapper" style={{ textAlign: "center", marginTop: "32px" }}>
+          <button 
+            className="loadMoreBtn" 
+            onClick={handleLoadMore}
+            style={{
+              background: "var(--color-primary)",
+              color: "#fff",
+              border: "none",
+              padding: "12px 24px",
+              borderRadius: "var(--radius-md)",
+              fontWeight: "600",
+              cursor: "pointer",
+              transition: "all var(--transition-fast)"
+            }}
+          >
+            Load More Rulers ({rulers.length - visibleCount} remaining)
+          </button>
+        </div>
+      )}
     </div>
   );
 }

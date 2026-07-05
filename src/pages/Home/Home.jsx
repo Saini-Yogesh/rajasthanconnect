@@ -1,25 +1,29 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense, lazy } from "react";
 import useSEO from "../../hooks/useSEO";
 import { LIST_SEO } from "../../utils/seo";
+import LazySection from "../../components/ui/LazySection/LazySection";
 import "./Home.css";
 import "./homeTheme.css";
 
+// ─── Statically imported top-of-fold components ───────────────────────────────
 import HeroSection from "./components/HeroSection";
 import FactsTicker from "./components/FactsTicker";
 import DiversityStats from "./components/DiversityStats";
 import RajasthanIntro from "./components/RajasthanIntro";
 import SectionHeader from "../../components/ui/SectionHeader/SectionHeader";
-import InteractiveMap from "./components/InteractiveMap";
-import TriviaQuiz from "./components/TriviaQuiz";
-import RajasthanQuotes from "./components/RajasthanQuotes";
-import PortalGrid from "./components/PortalGrid";
-import CommunitiesLanguages from "./components/CommunitiesLanguages";
-import FeaturedBanners from "./components/FeaturedBanners";
-import CuisineShowcase from "./components/CuisineShowcase";
-import LivingCulture from "./components/LivingCulture";
-import FestivalRhythm from "./components/FestivalRhythm";
-import FestivalsFasting from "./components/FestivalsFasting";
-import AiCallout from "./components/AiCallout";
+
+// ─── Lazily loaded below-the-fold components ──────────────────────────────────
+const InteractiveMap = lazy(() => import("./components/InteractiveMap"));
+const TriviaQuiz = lazy(() => import("./components/TriviaQuiz"));
+const RajasthanQuotes = lazy(() => import("./components/RajasthanQuotes"));
+const PortalGrid = lazy(() => import("./components/PortalGrid"));
+const CommunitiesLanguages = lazy(() => import("./components/CommunitiesLanguages"));
+const FeaturedBanners = lazy(() => import("./components/FeaturedBanners"));
+const CuisineShowcase = lazy(() => import("./components/CuisineShowcase"));
+const LivingCulture = lazy(() => import("./components/LivingCulture"));
+const FestivalRhythm = lazy(() => import("./components/FestivalRhythm"));
+const FestivalsFasting = lazy(() => import("./components/FestivalsFasting"));
+const AiCallout = lazy(() => import("./components/AiCallout"));
 
 export default function Home() {
   useSEO(LIST_SEO.home);
@@ -77,47 +81,88 @@ export default function Home() {
 
       <RajasthanIntro />
 
-      <section className="homeSection homeSection--cream interactiveHubSection">
-        <div className="homeSectionInner">
-          <SectionHeader
-            title="Discover Rajasthan Interactively"
-            subtitle="Hover the map to explore royal cities, then test your knowledge with trivia and our daily quiz."
-          />
-          <div className="hubGrid">
-            <InteractiveMap
-              hoveredCity={hoveredCity}
-              setHoveredCity={setHoveredCity}
-            />
-            <TriviaQuiz
-              activeTrivia={activeTrivia}
-              setActiveTrivia={setActiveTrivia}
-              setIsTriviaHovered={setIsTriviaHovered}
-              quizAnswered={quizAnswered}
-              handleQuizAnswer={handleQuizAnswer}
-              selectedOption={selectedOption}
-              resetQuiz={resetQuiz}
-            />
-          </div>
-        </div>
-      </section>
+      <LazySection placeholderHeight="500px">
+        <Suspense fallback={<div style={{ height: "500px" }} />}>
+          <section className="homeSection homeSection--cream interactiveHubSection" aria-labelledby="interactive-hub-heading">
+            <div className="homeSectionInner">
+              <SectionHeader
+                id="interactive-hub-heading"
+                title="Discover Rajasthan Interactively"
+                subtitle="Hover the map to explore royal cities, then test your knowledge with trivia and our daily quiz."
+              />
+              <div className="hubGrid">
+                <InteractiveMap
+                  hoveredCity={hoveredCity}
+                  setHoveredCity={setHoveredCity}
+                />
+                <TriviaQuiz
+                  activeTrivia={activeTrivia}
+                  setActiveTrivia={setActiveTrivia}
+                  setIsTriviaHovered={setIsTriviaHovered}
+                  quizAnswered={quizAnswered}
+                  handleQuizAnswer={handleQuizAnswer}
+                  selectedOption={selectedOption}
+                  resetQuiz={resetQuiz}
+                />
+              </div>
+            </div>
+          </section>
+        </Suspense>
+      </LazySection>
 
-      <RajasthanQuotes />
+      <LazySection placeholderHeight="250px">
+        <Suspense fallback={<div style={{ height: "250px" }} />}>
+          <RajasthanQuotes />
+        </Suspense>
+      </LazySection>
 
-      <PortalGrid />
+      <LazySection placeholderHeight="450px">
+        <Suspense fallback={<div style={{ height: "450px" }} />}>
+          <PortalGrid />
+        </Suspense>
+      </LazySection>
 
-      <CommunitiesLanguages />
+      <LazySection placeholderHeight="400px">
+        <Suspense fallback={<div style={{ height: "400px" }} />}>
+          <CommunitiesLanguages />
+        </Suspense>
+      </LazySection>
 
-      <FeaturedBanners />
+      <LazySection placeholderHeight="350px">
+        <Suspense fallback={<div style={{ height: "350px" }} />}>
+          <FeaturedBanners />
+        </Suspense>
+      </LazySection>
 
-      <CuisineShowcase />
+      <LazySection placeholderHeight="450px">
+        <Suspense fallback={<div style={{ height: "450px" }} />}>
+          <CuisineShowcase />
+        </Suspense>
+      </LazySection>
 
-      <LivingCulture />
+      <LazySection placeholderHeight="450px">
+        <Suspense fallback={<div style={{ height: "450px" }} />}>
+          <LivingCulture />
+        </Suspense>
+      </LazySection>
 
-      <FestivalRhythm />
+      <LazySection placeholderHeight="400px">
+        <Suspense fallback={<div style={{ height: "400px" }} />}>
+          <FestivalRhythm />
+        </Suspense>
+      </LazySection>
 
-      <FestivalsFasting />
+      <LazySection placeholderHeight="500px">
+        <Suspense fallback={<div style={{ height: "500px" }} />}>
+          <FestivalsFasting />
+        </Suspense>
+      </LazySection>
 
-      <AiCallout />
+      <LazySection placeholderHeight="200px">
+        <Suspense fallback={<div style={{ height: "200px" }} />}>
+          <AiCallout />
+        </Suspense>
+      </LazySection>
     </div>
   );
 }

@@ -80,9 +80,10 @@ const FESTIVALS_DATA = [
 
 export default function FestivalsFasting() {
   return (
-    <section className="homeSection homeSection--warm festivalsSection">
+    <section className="homeSection homeSection--warm festivalsSection" aria-labelledby="festivals-fasting-heading">
       <div className="homeSectionInner">
         <SectionHeader
+          id="festivals-fasting-heading"
           title="Festivals & Sacred Fasting"
           subtitle="Every month brings a new reason to celebrate in Rajasthan — from camel races to moonlit fasting vigils."
         />

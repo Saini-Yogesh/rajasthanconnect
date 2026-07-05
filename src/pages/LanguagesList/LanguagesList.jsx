@@ -44,6 +44,7 @@ export default function LanguagesList() {
             emptyTitle="No languages found"
             emptyMsg="Try a different search."
             columns="3"
+            disablePagination={true}
             renderItem={(lang) => (
               <div className="languageCard" style={{ height: "100%" }}>
                 <div className="langCardTop">

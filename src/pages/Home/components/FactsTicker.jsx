@@ -102,15 +102,26 @@ export default function FactsTicker({
         <span className="tickerEmoji">{FUN_FACTS[activeFact]?.emoji}</span>
         <span className="tickerText">{FUN_FACTS[activeFact]?.fact}</span>
       </div>
-      <div className="tickerDots">
-        {FUN_FACTS.map((_, i) => (
-          <button
-            key={i}
-            className={`tickerDot ${i === activeFact ? "active" : ""}`}
-            onClick={() => setActiveFact(i)}
-            aria-label={`Show fact ${i + 1}`}
-          />
-        ))}
+      <div className="tickerControls">
+        <button
+          type="button"
+          onClick={() => setActiveFact((prev) => (prev - 1 + FUN_FACTS.length) % FUN_FACTS.length)}
+          aria-label="Previous fact"
+          className="tickerArrowBtn"
+        >
+          &larr;
+        </button>
+        <span className="tickerProgress" aria-live="polite">
+          {activeFact + 1} / {FUN_FACTS.length}
+        </span>
+        <button
+          type="button"
+          onClick={() => setActiveFact((prev) => (prev + 1) % FUN_FACTS.length)}
+          aria-label="Next fact"
+          className="tickerArrowBtn"
+        >
+          &rarr;
+        </button>
       </div>
     </div>
   );

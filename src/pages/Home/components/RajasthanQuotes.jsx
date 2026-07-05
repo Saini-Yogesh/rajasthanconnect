@@ -28,6 +28,7 @@ export default function RajasthanQuotes() {
     >
       <div className="homeSectionInner">
         <SectionHeader
+          id="rajasthan-quotes-heading"
           title="Voices of the Desert"
           subtitle="Proverbs, greetings, and wisdom passed down through Rajput courts and village firesides."
         />

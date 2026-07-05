@@ -5,9 +5,10 @@ import SectionHeader from "../../../components/ui/SectionHeader/SectionHeader";
 
 export default function PortalGrid() {
   return (
-    <section className="homeSection homeSection--white portalGridSection">
+    <section className="homeSection homeSection--white portalGridSection" aria-labelledby="portal-grid-heading">
       <div className="homeSectionInner">
         <SectionHeader
+          id="portal-grid-heading"
           title="Encyclopedia Chapters"
           subtitle="Select a portal below to dive deep into the land of kings."
         />
