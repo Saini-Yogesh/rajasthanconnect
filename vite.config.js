@@ -8,13 +8,18 @@ export default defineConfig({
     // Split vendor chunks to reduce initial JS bundle size (fixes 299 KiB unused JS warning)
     rollupOptions: {
       output: {
-        manualChunks: {
-          // Core React runtime — rarely changes, gets long-term cached
-          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          // UI icon library — separate chunk since it's large
-          'ui-vendor': ['lucide-react'],
-          // Analytics — async, non-critical
-          'analytics': ['@vercel/analytics'],
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('react') || id.includes('react-dom') || id.includes('react-router-dom')) {
+              return 'react-vendor';
+            }
+            if (id.includes('lucide-react')) {
+              return 'ui-vendor';
+            }
+            if (id.includes('@vercel/analytics')) {
+              return 'analytics';
+            }
+          }
         },
       },
     },

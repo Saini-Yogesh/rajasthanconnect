@@ -1,6 +1,5 @@
 /**
  * Optional Google Analytics 4 — set VITE_GA_MEASUREMENT_ID in Vercel env vars.
- * AdSense is loaded from index.html (publisher ID is public by design).
  */
 
 const GA_ID = import.meta.env.VITE_GA_MEASUREMENT_ID;

@@ -113,13 +113,6 @@ Copy `backend/.env.example` → `backend/.env` locally. On your host, set the sa
    (Auto-generated on every build — includes 500+ city/place/food/festival URLs.)
 5. Use **URL Inspection** → Request Indexing for homepage and top city pages.
 
-### 4. Google AdSense
-
-- Publisher ID `ca-pub-7648174652418610` is in `index.html`.
-- **`public/ads.txt`** and **`public/app-ads.txt`** are configured for crawler verification.
-- In AdSense → Sites → add `rajasthanconnect.in` and verify `ads.txt` is found at:
-  `https://www.rajasthanconnect.in/ads.txt`
-
 ### 5. Google Analytics (optional)
 
 1. Create a GA4 property at [analytics.google.com](https://analytics.google.com).
