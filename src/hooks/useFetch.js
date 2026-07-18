@@ -10,7 +10,7 @@ import { API_BASE_URL } from "../config/api.js";
  * @param {object} [options] - { immediate: bool, pageSize: number }
  */
 export function useFetch(endpoint, params = {}, options = {}) {
-  const { immediate = true } = options;
+  const { immediate = true, requireArray = true } = options;
 
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(immediate);
@@ -35,7 +35,7 @@ export function useFetch(endpoint, params = {}, options = {}) {
       if (!res.ok) {
         throw new Error(json.error || `API error ${res.status}`);
       }
-      if (!Array.isArray(json)) {
+      if (requireArray && !Array.isArray(json)) {
         throw new Error(json.error || "Invalid API response");
       }
       setData(json);
@@ -44,7 +44,7 @@ export function useFetch(endpoint, params = {}, options = {}) {
     } finally {
       setLoading(false);
     }
-  }, [endpoint]);
+  }, [endpoint, requireArray]);
 
   useEffect(() => {
     if (immediate) fetchData();
@@ -59,5 +59,5 @@ export function useFetch(endpoint, params = {}, options = {}) {
  * @param {string|number} id
  */
 export function useFetchById(endpoint, id) {
-  return useFetch(id ? `${endpoint}/${id}` : null, {}, { immediate: !!id });
+  return useFetch(id ? `${endpoint}/${id}` : null, {}, { immediate: !!id, requireArray: false });
 }
