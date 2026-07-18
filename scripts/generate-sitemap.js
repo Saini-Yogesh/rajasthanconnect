@@ -52,6 +52,7 @@ const DYNAMIC_ROUTES = [
   { file: "unique_experiences.json", prefix: "/experiences", priority: "0.7", changefreq: "monthly" },
   { file: "unesco_sites.json", prefix: "/unesco-sites", priority: "0.8", changefreq: "monthly" },
   { file: "royal_wedding_venues.json", prefix: "/royal-weddings", priority: "0.6", changefreq: "monthly" },
+  // ✅ FIX: Added rulers route — was missing, causing ruler pages not to be indexed
   { file: "history_rulers.json", prefix: "/rulers", priority: "0.7", changefreq: "monthly" },
   { file: "directory_listings.json", prefix: "/directory", priority: "0.7", changefreq: "weekly" },
   { file: "districts.json", prefix: "/districts", priority: "0.7", changefreq: "weekly" },

@@ -307,7 +307,10 @@
   background: rgba(255, 255, 255, 0.25);
   border: none;
   cursor: pointer;
-  padding: 0;
+  /* Touch target: visually 6px but tap area ≥ 24px (Google accessibility requirement) */
+  padding: 9px;
+  margin: 0;
+  box-sizing: content-box;
   transition: all 0.2s ease;
 }
 

@@ -434,37 +434,6 @@
     ]
   },
   {
-    "id": "ajayaraja-ii",
-    "dynasty_id": "chauhan",
-    "name": "Ajayaraja II",
-    "reign_period": "1110 - 1135 AD",
-    "biography": "Ajayaraja II, a ruler of the Chahamana dynasty, is renowned for his valiant efforts in defending his kingdom against the invading forces of the Ghaznavids. His reign marked a significant period in the history of Rajasthan, with notable administrative and cultural achievements. Ajayaraja II was a patron of the arts and architecture, and his court was known for its scholars, poets, and musicians. He also oversaw the construction of several temples, including the famous Ajayameru temple, which still stands today as a testament to his legacy. Despite facing numerous challenges, Ajayaraja II remained a just and fair ruler, beloved by his people.",
-    "battles": [
-      {
-        "name": "Battle of Nagaur",
-        "description": "Ajayaraja II led his army to victory against the Ghaznavid forces, securing a crucial win for the Chahamana dynasty.",
-        "outcome": "Victory"
-      }
-    ],
-    "achievements": [
-      "Defended the kingdom against Ghaznavid invasions",
-      "Patronized the arts and architecture",
-      "Constructed several temples, including the Ajayameru temple",
-      "Promoted trade and commerce in the region"
-    ],
-    "predecessor": "Prithviraja I",
-    "successor": "Arnoraja",
-    "monuments_built": [
-      "nagaur-fort"
-    ],
-    "image_url": "https://images.pexels.com/photos/34637450/pexels-photo-34637450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "related_city_ids": [
-      "ajmer",
-      "nagaur",
-      "jaipur"
-    ]
-  },
-  {
     "id": "rawal-jaisal",
     "dynasty_id": "bhati",
     "name": "Rawal Jaisal",
@@ -879,38 +848,6 @@
     "image_url": "https://images.pexels.com/photos/32744492/pexels-photo-32744492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "related_city_ids": [
       "chittorgarh"
-    ]
-  },
-  {
-    "id": "rana-hammir-singh",
-    "dynasty_id": "sisodia",
-    "name": "Rana Hammir Singh",
-    "reign_period": "1326 - 1378 AD",
-    "biography": "Rana Hammir Singh, a notable ruler of the Chahamana dynasty, is renowned for his bravery and strategic prowess in defending Mewar against the Tughlaq dynasty's invasions. His reign marked a significant period in the history of Mewar, characterized by the resurgence of the kingdom's power and influence. Hammir Singh's military campaigns and administrative reforms contributed to the prosperity and stability of the region. He is also credited with promoting the arts and architecture, as evident from the construction of several notable monuments during his reign. His legacy has endured, symbolizing the rich cultural heritage and martial spirit of the people of Mewar.",
-    "battles": [
-      {
-        "name": "Battle of Bakrol",
-        "description": "A decisive victory against the Tughlaq forces, showcasing Hammir Singh's military acumen and the bravery of the Mewar army.",
-        "outcome": "Victory"
-      }
-    ],
-    "achievements": [
-      "Successfully defended Mewar against the Tughlaq invasions",
-      "Implemented administrative reforms to enhance the kingdom's prosperity",
-      "Promoted the arts and architecture, leading to the construction of notable monuments",
-      "Strengthened the Mewar army, enhancing its military prowess"
-    ],
-    "predecessor": "Ari Singh",
-    "successor": "Kshetra Singh",
-    "monuments_built": [
-      "chittorgarh-fort",
-      "kumbhalgarh-fort"
-    ],
-    "image_url": "https://images.pexels.com/photos/35144533/pexels-photo-35144533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "related_city_ids": [
-      "chittorgarh",
-      "rajsamand",
-      "udaipur"
     ]
   },
   {

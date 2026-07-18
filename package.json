@@ -9,7 +9,9 @@
     "client": "vite",
     "server": "npm run dev --prefix backend",
     "generate:sitemap": "node scripts/generate-sitemap.js",
-    "build": "npm run generate:sitemap && vite build",
+    "sitemap:patch": "node scripts/patch-sitemap.mjs",
+    "db:sync": "node backend/config/db-sync.js",
+    "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
     "start:api": "npm start --prefix backend"

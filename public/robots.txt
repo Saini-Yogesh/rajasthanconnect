@@ -2,9 +2,26 @@
 User-agent: *
 Allow: /
 
+# Block known spam/bot-injected URL patterns found in Google Search Console
+# These are not real routes — they return 404 and waste crawl budget
+Disallow: /wqk
+Disallow: /uimzf
+Disallow: /uimzf-*
+Disallow: /sup.ve
+Disallow: /qhqzf
+Disallow: /*?bgn=
+Disallow: /api/
+Disallow: /health
+
 # Google Search
 User-agent: Googlebot
 Allow: /
+Disallow: /wqk
+Disallow: /uimzf*
+Disallow: /sup.ve
+Disallow: /qhqzf
+Disallow: /*?bgn=
+Disallow: /api/
 
 # Google Ads crawlers
 User-agent: AdsBot-Google

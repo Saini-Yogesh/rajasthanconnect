@@ -588,6 +588,7 @@ export function buildCitySEO(city, id) {
       description: "Explore cities in Rajasthan — forts, food, festivals, local guides & travel tips.",
       keywords: buildKeywords("Rajasthan cities", "Rajasthan tourism"),
       url: buildUrl(`/cities/${id}`),
+      robots: "noindex, follow",
     };
   }
   const name = city.name;
@@ -631,6 +632,7 @@ export function buildPlaceSEO(place, id) {
       description: "Forts, palaces & monuments in Rajasthan — timings, history & travel tips.",
       keywords: buildKeywords("Rajasthan places", "Rajasthan forts"),
       url: buildUrl(`/places/${id}`),
+      robots: "noindex, follow",
     };
   }
   const title = place.title;
@@ -674,6 +676,7 @@ export function buildFoodSEO(food, id) {
       description: "Authentic Rajasthani recipes, history & where to eat traditional dishes.",
       keywords: buildKeywords("Rajasthani food", "Rajasthani recipes"),
       url: buildUrl(`/foods/${id}`),
+      robots: "noindex, follow",
     };
   }
   const title = food.title;
@@ -714,6 +717,7 @@ export function buildFestivalSEO(festival, id) {
       description: "Festival dates, significance, dress codes & travel tips for Rajasthan.",
       keywords: buildKeywords("Rajasthan festivals"),
       url: buildUrl(`/festivals/${id}`),
+      robots: "noindex, follow",
     };
   }
   const title = festival.title;
@@ -754,6 +758,7 @@ export function buildCultureSEO(topic, id) {
       description: "Traditional music, attire, crafts & folk arts of Rajasthan.",
       keywords: buildKeywords("Rajasthan culture"),
       url: buildUrl(`/culture/${id}`),
+      robots: "noindex, follow",
     };
   }
   const title = topic.title;
@@ -786,6 +791,7 @@ export function buildRulerSEO(ruler, id) {
       description: "Biographies of Rajput kings and rulers of Rajasthan.",
       keywords: buildKeywords("Rajasthan rulers", "Rajput kings"),
       url: buildUrl(`/rulers/${id}`),
+      robots: "noindex, follow",
     };
   }
   const name = ruler.name;
@@ -818,6 +824,7 @@ export function buildHandicraftSEO(craft, id) {
       description: "Traditional artisan crafts of Rajasthan.",
       keywords: buildKeywords("Rajasthan handicrafts"),
       url: buildUrl(`/handicrafts/${id}`),
+      robots: "noindex, follow",
     };
   }
   const name = craft.name;
@@ -850,6 +857,7 @@ export function buildFolkArtSEO(art, id) {
       description: "Ghoomar, Kathputli, Phad & folk performing arts of Rajasthan.",
       keywords: buildKeywords("Rajasthan folk arts"),
       url: buildUrl(`/folk-arts/${id}`),
+      robots: "noindex, follow",
     };
   }
   const name = art.name;
@@ -882,6 +890,7 @@ export function buildFolkMusicSEO(item, id) {
       description: "Manganiyar, Langa & desert music traditions of Rajasthan.",
       keywords: buildKeywords("Rajasthan folk music"),
       url: buildUrl(`/folk-music/${id}`),
+      robots: "noindex, follow",
     };
   }
   const name = item.name;
@@ -914,6 +923,7 @@ export function buildAttireSEO(item, id) {
       description: "Pagri, Ghagra Choli & royal dress of Rajasthan.",
       keywords: buildKeywords("Rajasthan attire"),
       url: buildUrl(`/attire/${id}`),
+      robots: "noindex, follow",
     };
   }
   const name = item.name;
@@ -945,6 +955,7 @@ export function buildCommunitySEO(item, id) {
       description: "Communities and tribes of Rajasthan — traditions & culture.",
       keywords: buildKeywords("Rajasthan communities"),
       url: buildUrl(`/communities/${id}`),
+      robots: "noindex, follow",
     };
   }
   const name = item.name;
@@ -977,6 +988,7 @@ export function buildExperienceSEO(item, id) {
       description: "Unique experiences in Rajasthan — safaris, balloons & palace stays.",
       keywords: buildKeywords("Rajasthan experiences"),
       url: buildUrl(`/experiences/${id}`),
+      robots: "noindex, follow",
     };
   }
   const title = item.title;
@@ -1009,6 +1021,7 @@ export function buildRoyalWeddingSEO(item, id) {
       description: "Palace and heritage wedding venues in Rajasthan.",
       keywords: buildKeywords("royal wedding Rajasthan"),
       url: buildUrl(`/royal-weddings/${id}`),
+      robots: "noindex, follow",
     };
   }
   const name = item.name;
@@ -1041,6 +1054,7 @@ export function buildUnescoSEO(item, id) {
       description: "UNESCO World Heritage sites in Rajasthan.",
       keywords: buildKeywords("UNESCO Rajasthan"),
       url: buildUrl(`/unesco-sites/${id}`),
+      robots: "noindex, follow",
     };
   }
   const name = item.name;
@@ -1073,6 +1087,7 @@ export function buildDistrictSEO(district, id) {
       description: "Explore districts in Rajasthan — history, climate, cities & heritage sites.",
       keywords: buildKeywords("Rajasthan districts", "Rajasthan tourism"),
       url: buildUrl(`/districts/${id}`),
+      robots: "noindex, follow",
     };
   }
   const name = district.name;
