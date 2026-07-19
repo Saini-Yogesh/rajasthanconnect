@@ -5,7 +5,11 @@ import { supabase } from "../config/db.js";
  */
 export const getRoyalWeddingVenues = async (req, res) => {
   try {
-    let query = supabase.from("royal_wedding_venues").select("*").order("name", { ascending: true });
+    let query = supabase
+      .from("royal_wedding_venues")
+      .select("*")
+      .order("priority", { ascending: false })
+      .order("name", { ascending: true });
 
     if (req.query.city_id) {
       query = query.eq("city_id", req.query.city_id);

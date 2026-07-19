@@ -43,6 +43,8 @@ app.use(
 
       const isAllowed =
         allowedOrigins.includes(origin) ||
+        /^http:\/\/localhost(:\d+)?$/.test(origin) ||
+        /^http:\/\/127\.0\.0\.1(:\d+)?$/.test(origin) ||
         /^https:\/\/rajasthanconnect-.*\.vercel\.app$/.test(origin);
 
       if (isAllowed) {

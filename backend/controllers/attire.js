@@ -5,7 +5,11 @@ import { supabase } from "../config/db.js";
  */
 export const getAttire = async (req, res) => {
   try {
-    let query = supabase.from("attire").select("*").order("name", { ascending: true });
+    let query = supabase
+      .from("attire")
+      .select("*")
+      .order("priority", { ascending: false })
+      .order("name", { ascending: true });
 
     if (req.query.worn_by) {
       query = query.eq("worn_by", req.query.worn_by);

@@ -8,6 +8,7 @@ export const getHistory = async (req, res) => {
     const { data, error } = await supabase
       .from("history_rulers")
       .select("*")
+      .order("priority", { ascending: false })
       .order("name", { ascending: true });
 
     if (error) throw error;

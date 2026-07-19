@@ -8,6 +8,7 @@ const mapFolkArt = (item) => ({
   title: item.name,
   description: item.history_origin,
   image_url: item.image_url,
+  priority: item.priority || 0,
   details: {
     origin: item.origin_region,
     instruments: item.instruments_used?.join(", ") || "None",
@@ -25,6 +26,7 @@ const mapHandicraft = (item) => ({
   title: item.name,
   description: item.process_description,
   image_url: item.image_url,
+  priority: item.priority || 0,
   details: {
     materials: item.materials_used?.join(", ") || "Various",
     gi_tag: item.gi_tag_status ? `Yes (${item.gi_tag_year || 'Active'})` : "No",
@@ -42,6 +44,7 @@ const mapAttire = (item) => ({
   title: item.name,
   description: item.cultural_significance,
   image_url: item.image_url,
+  priority: item.priority || 0,
   details: {
     worn_by: item.worn_by,
     fabrics: item.material_fabrics?.join(", ") || "Traditional",
@@ -57,9 +60,9 @@ const mapAttire = (item) => ({
 export const getCulture = async (req, res) => {
   try {
     const [artsRes, craftsRes, attireRes] = await Promise.all([
-      supabase.from("folk_arts").select("*"),
-      supabase.from("handicrafts").select("*"),
-      supabase.from("attire").select("*")
+      supabase.from("folk_arts").select("*").order("priority", { ascending: false }).order("name", { ascending: true }),
+      supabase.from("handicrafts").select("*").order("priority", { ascending: false }).order("name", { ascending: true }),
+      supabase.from("attire").select("*").order("priority", { ascending: false }).order("name", { ascending: true })
     ]);
 
     if (artsRes.error) throw artsRes.error;
@@ -71,6 +74,15 @@ export const getCulture = async (req, res) => {
     const mappedAttire = (attireRes.data || []).map(mapAttire);
 
     const combined = [...mappedArts, ...mappedCrafts, ...mappedAttire];
+    
+    // Sort combined list by priority descending, then title alphabetically
+    combined.sort((a, b) => {
+      if (b.priority !== a.priority) {
+        return b.priority - a.priority;
+      }
+      return a.title.localeCompare(b.title);
+    });
+
     res.json(combined);
   } catch (err) {
     res.status(500).json({ error: err.message });

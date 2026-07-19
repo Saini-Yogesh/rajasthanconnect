@@ -42,6 +42,7 @@ CREATE TABLE districts (
     climate TEXT,
     map_coordinates JSONB, -- { "lat": 26.9124, "lng": 75.7873 }
     image_url TEXT,
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -57,6 +58,7 @@ CREATE TABLE cities (
     weather_info JSONB, -- { "summer": "...", "monsoon": "...", "winter": "..." }
     transport_info JSONB, -- { "metro": "...", "bus": "...", "airport": "...", "railway": "..." }
     emergency_contacts JSONB, -- { "police": "...", "hospital": "...", "touristOffice": "..." }
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -90,6 +92,7 @@ CREATE TABLE places (
     related_food_ids TEXT[], -- Links to foods (cuisines)
     related_festival_ids TEXT[], -- Links to festivals
     related_culture_ids TEXT[], -- Links to folk arts or attire (culture_topics/folk_arts)
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -110,6 +113,7 @@ CREATE TABLE dynasties (
     capital_city_ids TEXT[], -- Array of city slugs e.g. ['jaipur', 'amber']
     patronage_arts TEXT[], -- list of arts supported by dynasty
     image_url TEXT,
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -127,6 +131,7 @@ CREATE TABLE history_rulers (
     monuments_built TEXT[], -- Array of place IDs
     image_url TEXT,
     related_city_ids TEXT[], -- Array of city IDs
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -143,6 +148,7 @@ CREATE TABLE historical_events (
     key_figures_ruler_ids TEXT[], -- Rulers involved
     historical_narrative TEXT, -- Detailed historical background
     image_url TEXT,
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -166,6 +172,7 @@ CREATE TABLE foods (
     image_url TEXT,
     related_city_ids TEXT[], -- Links to cities
     related_festival_ids TEXT[], -- Links to festivals
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -187,6 +194,7 @@ CREATE TABLE festivals (
     related_city_ids TEXT[], -- Links to cities
     related_food_ids TEXT[], -- Links to foods
     related_culture_ids TEXT[], -- Links to culture/folk arts
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -203,6 +211,7 @@ CREATE TABLE folk_arts (
     key_exponents TEXT[], -- Famous artists
     image_url TEXT,
     related_city_ids TEXT[], -- Where it is most prominent
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -217,6 +226,7 @@ CREATE TABLE folk_music_instruments (
     famous_artists TEXT[],
     audio_sample_url TEXT,
     image_url TEXT,
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -232,6 +242,7 @@ CREATE TABLE handicrafts (
     famous_artisans TEXT[],
     shopping_hubs JSONB, -- array of { "market_name": "...", "city": "..." }
     image_url TEXT,
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -245,6 +256,7 @@ CREATE TABLE attire (
     wearing_style_occasions TEXT, -- When and how it is worn
     related_communities TEXT[], -- Tribes/communities that wear this style
     image_url TEXT,
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -257,6 +269,7 @@ CREATE TABLE languages (
     vocabulary_samples JSONB, -- list of { "phrase": "...", "meaning": "...", "context": "..." }
     literary_history TEXT NOT NULL,
     associated_communities TEXT[], -- Tribes/clans speaking this dialect
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -275,6 +288,7 @@ CREATE TABLE communities_tribes (
     beliefs_practices TEXT[], -- Unique social or environmental customs (e.g. Bishnois protecting blackbucks)
     famous_personalities TEXT[],
     image_url TEXT,
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -287,6 +301,7 @@ CREATE TABLE cultural_etiquette (
     explanation TEXT NOT NULL,
     dos TEXT[],
     donts TEXT[],
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -300,6 +315,7 @@ CREATE TABLE unesco_sites (
     places_included_ids TEXT[], -- Array of place IDs e.g. ['amber-fort', 'chittorgarh-fort']
     protection_status TEXT,
     image_url TEXT,
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -320,6 +336,7 @@ CREATE TABLE royal_wedding_venues (
     pricing_range TEXT, -- pricing estimates e.g. 'Luxe / Budget Range'
     contact_details JSONB, -- { "email": "...", "phone": "..." }
     image_urls TEXT[],
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -335,6 +352,7 @@ CREATE TABLE unique_experiences (
     pricing_estimate TEXT, -- e.g., 'INR 1500 - 3000 per person'
     safety_tips TEXT[],
     image_url TEXT,
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -353,6 +371,7 @@ CREATE TABLE directory_listings (
     pricing TEXT,
     image_url TEXT,
     is_verified BOOLEAN DEFAULT FALSE,
+    priority INT DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );

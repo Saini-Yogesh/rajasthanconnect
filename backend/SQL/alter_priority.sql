@@ -1,0 +1,24 @@
+-- ========================================================
+-- ADD PRIORITY COLUMN TO TABLES (NON-DESTRUCTIVE MIGRATION)
+-- Copy and run this script in the Supabase SQL Editor.
+-- ========================================================
+
+ALTER TABLE districts ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE cities ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE places ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE dynasties ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE history_rulers ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE historical_events ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE foods ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE festivals ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE folk_arts ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE folk_music_instruments ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE handicrafts ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE attire ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE languages ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE communities_tribes ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE cultural_etiquette ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE unesco_sites ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE royal_wedding_venues ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE unique_experiences ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;
+ALTER TABLE directory_listings ADD COLUMN IF NOT EXISTS priority INT DEFAULT 0;

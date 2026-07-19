@@ -8,6 +8,7 @@ export const getLanguages = async (req, res) => {
     const { data, error } = await supabase
       .from("languages")
       .select("*")
+      .order("priority", { ascending: false })
       .order("name", { ascending: true });
 
     if (error) throw error;

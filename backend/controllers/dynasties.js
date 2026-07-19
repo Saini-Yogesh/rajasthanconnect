@@ -8,6 +8,7 @@ export const getDynasties = async (req, res) => {
     const { data, error } = await supabase
       .from("dynasties")
       .select("*")
+      .order("priority", { ascending: false })
       .order("name", { ascending: true });
 
     if (error) throw error;

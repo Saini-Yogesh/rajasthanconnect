@@ -5,7 +5,11 @@ import { supabase } from "../config/db.js";
  */
 export const getUniqueExperiences = async (req, res) => {
   try {
-    let query = supabase.from("unique_experiences").select("*").order("title", { ascending: true });
+    let query = supabase
+      .from("unique_experiences")
+      .select("*")
+      .order("priority", { ascending: false })
+      .order("title", { ascending: true });
 
     if (req.query.city_id) {
       query = query.eq("city_id", req.query.city_id);

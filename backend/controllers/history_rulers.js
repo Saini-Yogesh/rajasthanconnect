@@ -5,7 +5,11 @@ import { supabase } from "../config/db.js";
  */
 export const getHistoryRulers = async (req, res) => {
   try {
-    let query = supabase.from("history_rulers").select("*").order("name", { ascending: true });
+    let query = supabase
+      .from("history_rulers")
+      .select("*")
+      .order("priority", { ascending: false })
+      .order("name", { ascending: true });
 
     if (req.query.dynasty_id) {
       query = query.eq("dynasty_id", req.query.dynasty_id);

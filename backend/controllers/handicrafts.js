@@ -5,7 +5,11 @@ import { supabase } from "../config/db.js";
  */
 export const getHandicrafts = async (req, res) => {
   try {
-    let query = supabase.from("handicrafts").select("*").order("name", { ascending: true });
+    let query = supabase
+      .from("handicrafts")
+      .select("*")
+      .order("priority", { ascending: false })
+      .order("name", { ascending: true });
 
     if (req.query.origin_city_id) {
       query = query.eq("origin_city_id", req.query.origin_city_id);

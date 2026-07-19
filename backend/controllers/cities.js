@@ -8,6 +8,7 @@ export const getCities = async (req, res) => {
     let query = supabase
       .from("cities")
       .select("*")
+      .order("priority", { ascending: false })
       .order("name", { ascending: true });
 
     if (req.query.district_id) {

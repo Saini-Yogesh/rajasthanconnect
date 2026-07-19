@@ -5,7 +5,11 @@ import { supabase } from "../config/db.js";
  */
 export const getCulturalEtiquette = async (req, res) => {
   try {
-    let query = supabase.from("cultural_etiquette").select("*").order("title", { ascending: true });
+    let query = supabase
+      .from("cultural_etiquette")
+      .select("*")
+      .order("priority", { ascending: false })
+      .order("title", { ascending: true });
 
     if (req.query.category) {
       query = query.eq("category", req.query.category);

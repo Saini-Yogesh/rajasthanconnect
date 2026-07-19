@@ -8,6 +8,7 @@ export const getUnescoSites = async (req, res) => {
     const { data, error } = await supabase
       .from("unesco_sites")
       .select("*")
+      .order("priority", { ascending: false })
       .order("name", { ascending: true });
 
     if (error) throw error;

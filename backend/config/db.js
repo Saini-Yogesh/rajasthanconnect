@@ -15,7 +15,7 @@ export const supabase = {
       _select: '*',
       _wheres: [],
       _neqs: [],
-      _orderBy: null,
+      _orderBy: [],
       _limit: null,
       _maybeSingle: false,
       _insertData: null,
@@ -37,7 +37,7 @@ export const supabase = {
       },
 
       order(column, options = {}) {
-        this._orderBy = { column, ascending: options.ascending !== false };
+        this._orderBy.push({ column, ascending: options.ascending !== false });
         return this;
       },
 
@@ -145,8 +145,9 @@ export const supabase = {
               queryStr += ` WHERE ${conditions.join(' AND ')}`;
             }
 
-            if (this._orderBy) {
-              queryStr += ` ORDER BY "${this._orderBy.column}" ${this._orderBy.ascending ? 'ASC' : 'DESC'}`;
+            if (this._orderBy.length > 0) {
+              const orderClauses = this._orderBy.map(o => `"${o.column}" ${o.ascending ? 'ASC' : 'DESC'}`);
+              queryStr += ` ORDER BY ${orderClauses.join(', ')}`;
             }
 
             if (this._limit !== null) {

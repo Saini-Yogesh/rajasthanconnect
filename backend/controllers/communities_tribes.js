@@ -8,6 +8,7 @@ export const getCommunitiesTribes = async (req, res) => {
     const { data, error } = await supabase
       .from("communities_tribes")
       .select("*")
+      .order("priority", { ascending: false })
       .order("name", { ascending: true });
 
     if (error) throw error;

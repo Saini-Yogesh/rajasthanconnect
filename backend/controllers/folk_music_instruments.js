@@ -5,7 +5,11 @@ import { supabase } from "../config/db.js";
  */
 export const getFolkMusicInstruments = async (req, res) => {
   try {
-    let query = supabase.from("folk_music_instruments").select("*").order("name", { ascending: true });
+    let query = supabase
+      .from("folk_music_instruments")
+      .select("*")
+      .order("priority", { ascending: false })
+      .order("name", { ascending: true });
 
     if (req.query.category) {
       query = query.eq("category", req.query.category);

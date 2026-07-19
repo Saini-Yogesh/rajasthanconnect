@@ -44,7 +44,11 @@ export const validateListingData = (data) => {
 export const getListings = async (req, res) => {
   try {
     const { cityId, category } = req.query;
-    let query = supabase.from("directory_listings").select("*");
+    let query = supabase
+      .from("directory_listings")
+      .select("*")
+      .order("priority", { ascending: false })
+      .order("title", { ascending: true });
 
     if (cityId) {
       query = query.eq("city_id", cityId.toLowerCase());

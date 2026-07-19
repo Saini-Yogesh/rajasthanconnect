@@ -8,6 +8,7 @@ export const getDistricts = async (req, res) => {
     const { data, error } = await supabase
       .from("districts")
       .select("*")
+      .order("priority", { ascending: false })
       .order("name", { ascending: true });
 
     if (error) throw error;

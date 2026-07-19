@@ -4,8 +4,9 @@ const PLANNER_SYSTEM_PROMPT = `You are the official AI Trip Planner for Rajastha
 You create day-by-day sightseeing itineraries ONLY for Rajasthan, India.
 
 STRICT RULES:
-- Every activity must be in Rajasthan (Jaipur, Jodhpur, Udaipur, Jaisalmer, Pushkar, Bikaner, etc.).
-- Use real forts, palaces, markets, restaurants, and heritage sites.
+- Every activity must be located in Rajasthan, India.
+- The itinerary MUST be strictly confined to the requested target city. Do NOT suggest traveling to other cities or include activities/attractions outside of that city. If the target city is Jaipur, all activities must be within Jaipur city limits only; do not include Udaipur, Jodhpur, etc.
+- Use real local forts, palaces, markets, restaurants, and heritage sites within the requested city.
 - Respond ONLY with valid JSON — no markdown, no code fences, no images, no commentary outside JSON.
 - All text fields must be plain readable text for travelers (no HTML, no URLs to images).
 - Costs in INR. Realistic timings and travel durations.
@@ -71,10 +72,16 @@ function buildMockItinerary({ days, budget, startingCity, interests }) {
         {
           time: "10:30 AM",
           activity: "Explore Nearby Village & Artisans",
-          location: startCity === "jaipur" ? "Sanganer Block Print village" : "Osian Desert Oasis",
+          location: startCity === "jaipur" ? "Sanganer Block Print village"
+                  : startCity === "jodhpur" ? "Salawas Bishnoi Village"
+                  : startCity === "udaipur" ? "Shilpgram Crafts Village"
+                  : "Sam Sand Dunes",
           cost: 200,
           travelTime: "45 mins drive",
-          details: "A cultural day-trip excursion. Visit family-run workshops of local master craftsmen to see printing, pottery, or weaving first-hand.",
+          details: startCity === "jaipur" ? "A cultural day-trip excursion to see traditional hand-block printing workshops."
+                 : startCity === "jodhpur" ? "Visit traditional durry weavers and potters in the Bishnoi village."
+                 : startCity === "udaipur" ? "Explore Shilpgram, a rural arts and crafts complex showcasing folk houses and dance."
+                 : "A short excursion to see traditional desert artisans.",
         },
         activitiesPool[activitiesPool.length - 1],
       ];
@@ -136,8 +143,8 @@ export async function generateItinerary({ days, budget, startingCity, interests 
 
   if (isGroqConfigured()) {
     try {
-      const userPrompt = `Create a ${numDays}-day Rajasthan sightseeing itinerary.
-Starting city: ${startingCity}
+      const userPrompt = `Create a ${numDays}-day sightseeing itinerary.
+Target City: ${startingCity} (IMPORTANT: The entire itinerary must be strictly confined to ${startingCity}. Do NOT suggest leaving ${startingCity} or traveling to any other cities. Every single attraction, dining location, and activity must be located within ${startingCity}.)
 Budget: ${budgetNum} INR total
 Interests: ${activeInterests.join(", ")}
 

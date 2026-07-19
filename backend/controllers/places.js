@@ -5,7 +5,11 @@ import { supabase } from "../config/db.js";
  */
 export const getPlaces = async (req, res) => {
   try {
-    let query = supabase.from("places").select("*").order("title", { ascending: true });
+    let query = supabase
+      .from("places")
+      .select("*")
+      .order("priority", { ascending: false })
+      .order("title", { ascending: true });
 
     if (req.query.city_id) {
       query = query.eq("city_id", req.query.city_id);
